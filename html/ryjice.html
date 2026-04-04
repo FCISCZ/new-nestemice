@@ -1,0 +1,307 @@
+<html>
+
+<head>
+<meta content="Microsoft FrontPage 5.0" name="GENERATOR">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Nestemice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Fox" grup="FCis">
+<style>.menu1 a:link { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:visited { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:hover { font-weight: bold; font-size: 11px; color: #ff0000; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+a:link       { color: #0000ff; font-family: verdana, arial, helvetica }
+a:visited    { color: #0000ff; font-family: verdana, arial, helvetica }
+a:hover      { color: #ff0000; font-family: verdana, arial, helvetica }
+</style>
+
+<SCRIPT>
+
+var isHTMLPageLoaded = false;
+var isNS     = false;
+var isIE     = false;
+var flagMore = false;
+var flagOver = false;
+var flag1    = false;
+var flagWhichLayerActive = 0;
+var t1       = 0;
+var menuCount = 6;
+var leftMenuCount = 6;
+var flagNSStopShowingMenus = false;
+
+SubMenu = new Array();
+
+if (parseInt(navigator.appVersion) >= 4) {
+	if (navigator.appName == "Netscape") isNS = true;
+	else if(navigator.appName == "Microsoft Internet Explorer")	isIE = true;
+}
+
+
+function menuOver(MenuID,e){
+   if(flagNSStopShowingMenus) return
+   flagWhichLayerActive = MenuID;
+   flagOver = true;
+   clearTimeout(t1);
+   if(isNS){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) SubMenu[i].visibility = 'show';
+         else SubMenu[i].visibility = 'hide';
+      }
+   }
+   if(isIE){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) {
+            if(SubMenu[i].style.pixelLeft != -500) return
+            show(SubMenu[i]);
+         }
+           else hide(SubMenu[i]);
+      }
+   }
+}
+
+function menuOut(MenuID1,e){
+   flagOver = false;
+   clearTimeout(t1)
+   if(isNS) t1 = setTimeout("SubMenu[" + MenuID1 + "].visibility = 'hide'",200);
+   if(isIE) t1 = setTimeout("hide(SubMenu[" + MenuID1 + "])",200);
+}
+
+function hide(MenuObject){
+   MenuObject.style.pixelLeft = -500;
+}
+
+function show(MenuObject){
+   MenuObject.style.pixelLeft = MenuObject.origLeft;
+   MenuObject.style.visibility = 'visible';
+}
+
+function submenuOver(e){
+   clearTimeout(t1);
+   if(isNS) SubMenu[flagWhichLayerActive].routeEvent(e);
+   if(isIE) SubMenu[flagWhichLayerActive].style.visibility = 'visible';
+}
+
+function submenuOut(e){
+   if(isNS && flag1){flag1=false;return}
+   if(isNS && flagOver){flagOver = false;return}
+   if(isNS){
+      SubMenu[flagWhichLayerActive].visibility = 'hide';
+      SubMenu[flagWhichLayerActive].routeEvent(e);
+   }
+   if(isIE){
+      if(SubMenu[flagWhichLayerActive].contains(event.toElement)) return;
+      if(event.toElement == document.all.nav0) return;
+      hide(SubMenu[flagWhichLayerActive]);
+   }
+}
+
+</SCRIPT>
+
+
+
+
+     
+       
+<SCRIPT language=javascript1.2>
+
+
+textToWrite = "";
+if(isNS) textToWrite += "<DIV id=NETSCAPE_BUG_PREVENTION style='POSITION:absolute;TOP:0px;LEFT:0px;WIDTH:10px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#FFFFFF;layer-background-color:#FFFFFF;VISIBILITY:hidden'></DIV>";
+textToWrite += "<DIV id=lyrSubMenu1 class=popupMenus style='POSITION:absolute; TOP:117px;LEFT:146px;WIDTH:130px;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#000099;layer-background-color:#009933'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="strucna.html">STRU&#268;NÁ HISTORIE</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="h_sport.html">HISTORIE SPORTU</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=95><A href="kroniky.html">KRONIKY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu2 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:240px;WIDTH:120px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="vesmir.html">VESMÍRNÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="letecky.html">LETECKÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="infomapa.html">INFOMAPA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="okoli.html">MAPA OKOLÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="samosprava.html">SAMOSPRÁVA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu3 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:376px;WIDTH:94px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="zub.html">ZUB &#268;ASU</A></TD></TR>"   
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="foto.html">FOTO</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu4 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:114px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.panelak-net.cz>PANELAK-NET.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.nestemice.cz>NESTEMICE.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.seti.cz>SETI.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="nas.html">O NÁS</A></TD></TR>"      
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="kniha.html">CO JE NEW</A></TD></TR>"          
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu5 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:92px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="http://213.192.28.131/html/zivot.html">ŽIVOT V OBCI</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="sport.html">SPORT</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="pocasi.html">PO&#268;ASÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="doprava.html">DOPRAVA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="anketa.html">ANKETY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu6 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:85px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:fox@nestemice.cz>Mail FOX</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:sonic@nestemice.cz>Mail SONIC</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:spita@nestemice.cz>Mail SPITA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>";
+
+document.write(textToWrite)
+
+if(isNS){
+   for(j=0;j<menuCount;j++){
+      eval("SubMenu[j] = document.lyrSubMenu" + (j + 1));
+      SubMenu[j].captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+      for(i=0;i<SubMenu[j].document.links.length;i++) SubMenu[j].document.links[i].onmouseover = overLink;
+   }
+}
+if(isIE) {
+   for(i=0; i<menuCount; i++) {
+      eval("SubMenu[i] = document.all.lyrSubMenu" + (i + 1));
+      SubMenu[i].style.pixelLeft = -500;
+   }
+}
+
+for(i=0; i<menuCount; i++){
+   SubMenu[i].onmouseover = submenuOver;
+   SubMenu[i].onmouseout  = submenuOut;
+}
+
+SubMenu[0].origLeft = 239
+SubMenu[1].origLeft = 339
+SubMenu[2].origLeft = 439
+SubMenu[3].origLeft = 539
+SubMenu[4].origLeft = 139
+SubMenu[5].origLeft = 639
+
+
+
+</SCRIPT>
+
+
+
+
+</head>
+
+<body background="../grafika/podklad.jpg" topmargin="0" leftmargin="0">
+
+<table border="0" cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Logo.jpg" width="450" height="90"><EMBED src="../grafika/banner.swf" width="200" height="90"></td>
+  </tr>
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Lista.gif" usemap="#Map" width="620" height="27"></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<map name="Map">
+<area id="nav0" onmouseover="menuOver(0,event)" onmouseout="menuOut(0,event)" shape="RECT" coords="173, 0, 270, 26">
+<area onmouseover="menuOver(1,event)" onmouseout="menuOut(1,event)" shape="RECT" coords="271, 0, 371, 26">
+<area onmouseover="menuOver(2,event)" onmouseout="menuOut(2,event)" shape="RECT" coords="373, 0, 476, 26">
+<area onmouseover="menuOver(3,event)" onmouseout="menuOut(3,event)" shape="RECT" coords="475, 0, 569, 26">
+<area shape="RECT" coords="69, 0, 172, 26" onmouseover="menuOver(4,event)" onmouseout="menuOut(4,event)" shape="RECT" coords="210,0,322,26">
+<area onmouseover="menuOver(5,event)" onmouseout="menuOut(5,event)" shape="RECT" coords="570, 0, 619, 26">
+<area href="mailto:info@nestemice.cz" shape="rect" coords="2, 0, 35, 26" alt="Timto pošlete mail všem tv&#367;rc&#367;m.">
+<area href="../index.html" shape="rect" coords="35, 0, 69, 26" alt="Na úvodní stránku."></map>
+
+
+<obsah!!!!!!!!!!!!!!!!!!!!!!!>
+
+
+
+<table border="0"  cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td>&nbsp;
+      <table border="3"  align="center" width="600">
+        <tr>
+          <td width="100%">
+          <p align="center"><b><font size="6">OBEC RYJICE</font></b></p>
+          <p>&nbsp;</p>
+          <p class="MsoNormal" align="center">Obec Ryjice, malebné údolí&nbsp; 
+          Nešt&#283;mického, jindy&nbsp; též&nbsp; Ryjického&nbsp; potoka, ze&nbsp; severu&nbsp; chrán&#283;ného&nbsp; 
+          v&#283;trem&nbsp; vysokých kopc&#367; a k jihu otev&#345;eného blahodárnému slunci, od 
+          nepam&#283;ti lákalo k budování lidských sídliš&#357;. A tak se Ryjice, jako 
+          jedna z&nbsp; mála obcí&nbsp; na&nbsp; ústecku, mohou pochlubit&nbsp; písemnou zmínkou již 
+          od roku 1186 a to v latinském jazyce jako</p>
+          <p class="MsoNormal" align="center">&quot;VILAS RIGICI&quot;. Bylo to&nbsp; patrn&#283; v&nbsp; 
+          souvislosti s tím, že byly roku 1169 spolu s&nbsp; nedalekými Povrly a 
+          Roztoky v&#283;novány králem Vladislavem I. &#345;ádu Johanit&#367; (v roce 1186 byla 
+          zmi&#328;ována jako jejich zboží). Druhou&nbsp; možností&nbsp; z&#367;stává zmínka v 
+          písemnostech o tom, že&nbsp; obec&nbsp; darovali M&#283;šek a Hroznata z Peruce &#345;ádu 
+          Johanit&#367;, ale až o deset let pozd&#283;-</p>
+          <p class="MsoNormal" align="center">ji, tedy v&nbsp; roce 1179. Po&nbsp; roce 
+          1400 byly&nbsp; Ryjice za&#269;len&#283;ny k&nbsp; panství hradu&nbsp; Blansko. M&#367;žeme 
+          p&#345;edpokládat, že šlo o kruhovou&nbsp; slovanskou&nbsp; osadu, tvo&#345;enou&nbsp; n&#283;kolika 
+          z &#269;ásti zahloubenými&nbsp; chýšemi a otev&#345;eným&nbsp; ohništ&#283;m. Rozrodem pak 
+          postupn&#283;&nbsp; vznikla p&#345;ípoto&#269;ní&nbsp; protáhlá ves. Její poloha&nbsp; neskýtala 
+          vhodné p&#367;dní podmínky pro rozsáhlejší polní</p>
+          <p class="MsoNormal" align="center">hospodá&#345;ství&nbsp; a tak své&nbsp; 
+          opodstatn&#283;ní nachází&nbsp; domn&#283;nka, že základem pozd&#283;jší vsi bylo n&#283;kolik 
+          domká&#345;ských a zahradnických usedlostí. Obyvatelé se živili p&#345;evážn&#283; 
+          prací v lese, výrobou smoly a také jako lodníci na&nbsp; blízkém Labi.</p>
+          <p class="MsoNormal" align="center">
+          <img border="0" src="../grafika/ryjice1.jpg" align="left" width="350" height="230">Na 
+          konci 16. století&nbsp; byly&nbsp; postaveny&nbsp; ve st&#345;ední &#269;ásti domy &#269;p. 11, &#269;p. 
+          12, &#269;p. 13, mlýn&nbsp; &#269;p. 25 v&nbsp; Zadních&nbsp; Ryjicích a rychta &#269;p. 31. Ostatní 
+          domy tu&nbsp; byly&nbsp; postaveny až po t&#345;icetileté válce, mlýn &#269;p. 8 v roce 
+          1848. Po t&#345;icetileté válce se zde rozší&#345;ilo také&nbsp; p&#283;stování lnu a 
+          ovocná&#345;ství. S tém&#283;&#345; idylickým charakterem Ryjického potoka, hluboko 
+          za&#345;íznutého do&nbsp; p&#345;íkrých strání, ost&#345;e&nbsp; kontrastuje fakt, že &#269;asto&nbsp; 
+          p&#345;inášel zkázu&nbsp; v podob&#283;&nbsp; samovolných&nbsp; sesuv&#367; podmá&#269;ené</p>
+          <p class="MsoNormal" align="center">p&#367;dy. Po velkých&nbsp; deštích v roce 
+          1770&nbsp; došlo k tak&nbsp; výrazným sesuv&#367;m&nbsp; p&#367;dy, že bylo rozhodnuto potok 
+          regulovat.</p>
+          <p class="MsoNormal" align="center">Krom&#283; n&#283;kolika&nbsp; menších jez&#367; a&nbsp; 
+          stup&#328;&#367;&nbsp; brzdících prudký&nbsp; spád byl v obci&nbsp; vybudován 15 m vysoký, v 
+          korun&#283; 40 m dlouhý a&nbsp; u paty 9 m silný jez, aby zadržoval pohyb kamení 
+          a zpomalil proud tekoucí vody. V letech 1850-80 se obec stala osadou&nbsp; 
+          vsi Mirkov, od roku 1880-1980 se&nbsp; však stala znovu obcí. V novodobých 
+          d&#283;jinách významnou roli pro rozvoj obce sehrála její&nbsp; geografická&nbsp; 
+          poloha. Tato lokalita je doslova omývána vzdušnými proudy 
+          severozápadních</p>
+          <p class="MsoNormal" align="center">v&#283;tr&#367;, p&#345;inášejících vlhký&nbsp; mo&#345;ský 
+          vzduch. Toho v roce 1895 využil spolek pro stavbu d&#283;lnické<img border="0" src="../grafika/ryjice2.jpg" align="right" width="350" height="218"> 
+          lé&#269;ebny v Ryjicích s názvem &quot;Sanatorium pro plicn&#283; choré&quot; a v roce 
+          1902, za finan&#269;ní podpory Heleny Petschkové byl otev&#345;en první pavilon 
+          nazývaný HELLENENHEIM, v tomto&nbsp; roce se&nbsp; byla také rozší&#345;ena&nbsp; kapacita 
+          z 26 na 50 l&#367;žek. V roce 1906 se do</p>
+          <p class="MsoNormal" align="center">projektu&nbsp; zapojila&nbsp; hornická 
+          Úst&#345;ední&nbsp; bratrská pokladna&nbsp; v Most&#283;, a v Ryjicích&nbsp; postupn&#283; vznikla 
+          rozsáhlá lé&#269;ebna s kapacitou&nbsp; 160&nbsp; l&#367;žek. Ta&nbsp; pak&nbsp; sehrála&nbsp; d&#367;ležitou&nbsp; 
+          roli v boji se záke&#345;nou tuberkulózou i po II. sv&#283;tové válce. Dnes je 
+          areál zcela&nbsp; zrekonstruován a využíván jako lé&#269;ebna dlouhodob&#283; 
+          nemocných (LDN), náleží do&nbsp; správy Masarykovy nemocnice Ústí nad Labem 
+          a areál budov je státem chrán&#283;nou kulturní památkou. V prostorách&nbsp; 
+          lé&#269;ebny se nachází 43m hluboká artézská studna s vodou teplou 12°C, 
+          tedy asi o 4°C teplejší, než dodávají okolní studny. Po roce 1945 se 
+          samostatné Ryjice staly v roce 1980 sou&#269;ástí Nešt&#283;mic a spolu s nimi v 
+          roce 1986 dokonce &#269;ástí Ústí nad Labem.</p>
+          <p class="MsoNormal" align="center">V rámci demokratizace spole&#269;nosti 
+          se v roce 1990 op&#283;t osamostatnily.</p>
+          <p class="MsoNormal" align="center">Oficiální www stránky.</p>
+          <p>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>

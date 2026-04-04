@@ -1,0 +1,306 @@
+<html>
+
+<head>
+<meta content="Microsoft FrontPage 5.0" name="GENERATOR">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Nestemice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Fox" grup="FCis">
+<style>.menu1 a:link { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:visited { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:hover { font-weight: bold; font-size: 11px; color: #ff0000; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+a:link       { color: #0000ff; font-family: verdana, arial, helvetica }
+a:visited    { color: #0000ff; font-family: verdana, arial, helvetica }
+a:hover      { color: #ff0000; font-family: verdana, arial, helvetica }
+</style>
+
+<SCRIPT>
+
+var isHTMLPageLoaded = false;
+var isNS     = false;
+var isIE     = false;
+var flagMore = false;
+var flagOver = false;
+var flag1    = false;
+var flagWhichLayerActive = 0;
+var t1       = 0;
+var menuCount = 6;
+var leftMenuCount = 6;
+var flagNSStopShowingMenus = false;
+
+SubMenu = new Array();
+
+if (parseInt(navigator.appVersion) >= 4) {
+	if (navigator.appName == "Netscape") isNS = true;
+	else if(navigator.appName == "Microsoft Internet Explorer")	isIE = true;
+}
+
+
+function menuOver(MenuID,e){
+   if(flagNSStopShowingMenus) return
+   flagWhichLayerActive = MenuID;
+   flagOver = true;
+   clearTimeout(t1);
+   if(isNS){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) SubMenu[i].visibility = 'show';
+         else SubMenu[i].visibility = 'hide';
+      }
+   }
+   if(isIE){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) {
+            if(SubMenu[i].style.pixelLeft != -500) return
+            show(SubMenu[i]);
+         }
+           else hide(SubMenu[i]);
+      }
+   }
+}
+
+function menuOut(MenuID1,e){
+   flagOver = false;
+   clearTimeout(t1)
+   if(isNS) t1 = setTimeout("SubMenu[" + MenuID1 + "].visibility = 'hide'",200);
+   if(isIE) t1 = setTimeout("hide(SubMenu[" + MenuID1 + "])",200);
+}
+
+function hide(MenuObject){
+   MenuObject.style.pixelLeft = -500;
+}
+
+function show(MenuObject){
+   MenuObject.style.pixelLeft = MenuObject.origLeft;
+   MenuObject.style.visibility = 'visible';
+}
+
+function submenuOver(e){
+   clearTimeout(t1);
+   if(isNS) SubMenu[flagWhichLayerActive].routeEvent(e);
+   if(isIE) SubMenu[flagWhichLayerActive].style.visibility = 'visible';
+}
+
+function submenuOut(e){
+   if(isNS && flag1){flag1=false;return}
+   if(isNS && flagOver){flagOver = false;return}
+   if(isNS){
+      SubMenu[flagWhichLayerActive].visibility = 'hide';
+      SubMenu[flagWhichLayerActive].routeEvent(e);
+   }
+   if(isIE){
+      if(SubMenu[flagWhichLayerActive].contains(event.toElement)) return;
+      if(event.toElement == document.all.nav0) return;
+      hide(SubMenu[flagWhichLayerActive]);
+   }
+}
+
+</SCRIPT>
+
+
+
+
+     
+       
+<SCRIPT language=javascript1.2>
+
+
+textToWrite = "";
+if(isNS) textToWrite += "<DIV id=NETSCAPE_BUG_PREVENTION style='POSITION:absolute;TOP:0px;LEFT:0px;WIDTH:10px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#FFFFFF;layer-background-color:#FFFFFF;VISIBILITY:hidden'></DIV>";
+textToWrite += "<DIV id=lyrSubMenu1 class=popupMenus style='POSITION:absolute; TOP:117px;LEFT:146px;WIDTH:130px;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#000099;layer-background-color:#009933'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="strucna.html">STRU&#268;NÁ HISTORIE</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="h_sport.html">HISTORIE SPORTU</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=95><A href="kroniky.html">KRONIKY</A></TD></TR>"
+  
+
+
+   + "</TABLE>"
+   + "</DIV>"
+   + "<DIV id=lyrSubMenu2 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:240px;WIDTH:120px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="vesmir.html">VESMÍRNÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="letecky.html">LETECKÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="infomapa.html">INFOMAPA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="okoli.html">MAPA OKOLÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="samosprava.html">SAMOSPRÁVA</A></TD></TR>"
+
+   + "</TABLE>"
+   + "</DIV>"
+   + "<DIV id=lyrSubMenu3 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:376px;WIDTH:94px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="zub.html">ZUB &#268;ASU</A></TD></TR>"   
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="foto.html">FOTO</A></TD></TR>"
+   
+
+   + "</TABLE>"
+   + "</DIV>"
+   + "<DIV id=lyrSubMenu4 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:114px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.panelak-net.cz>PANELAK-NET.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.nestemice.cz>NESTEMICE.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.seti.cz>SETI.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="nas.html">O NÁS</A></TD></TR>"      
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="kniha.html">CO JE NEW</A></TD></TR>"      
+
+      
+   + "</TABLE>"
+   + "</DIV>"
+   + "<DIV id=lyrSubMenu5 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:92px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="http://213.192.28.131/html/zivot.html">ŽIVOT V OBCI</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="sport.html">SPORT</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="pocasi.html">PO&#268;ASÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="doprava.html">DOPRAVA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="anketa.html">ANKETY</A></TD></TR>"
+
+
+   + "</TABLE>"
+   + "</DIV>"
+   + "<DIV id=lyrSubMenu6 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:85px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:fox@nestemice.cz>Mail FOX</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:sonic@nestemice.cz>Mail SONIC</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:spita@nestemice.cz>Mail SPITA</A></TD></TR>"
+
+
+   + "</TABLE>"
+   + "</DIV>";
+
+document.write(textToWrite)
+
+if(isNS){
+   for(j=0;j<menuCount;j++){
+      eval("SubMenu[j] = document.lyrSubMenu" + (j + 1));
+      SubMenu[j].captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+      for(i=0;i<SubMenu[j].document.links.length;i++) SubMenu[j].document.links[i].onmouseover = overLink;
+   }
+}
+if(isIE) {
+   for(i=0; i<menuCount; i++) {
+      eval("SubMenu[i] = document.all.lyrSubMenu" + (i + 1));
+      SubMenu[i].style.pixelLeft = -500;
+   }
+}
+
+for(i=0; i<menuCount; i++){
+   SubMenu[i].onmouseover = submenuOver;
+   SubMenu[i].onmouseout  = submenuOut;
+}
+
+SubMenu[0].origLeft = 239
+SubMenu[1].origLeft = 339
+SubMenu[2].origLeft = 439
+SubMenu[3].origLeft = 539
+SubMenu[4].origLeft = 139
+SubMenu[5].origLeft = 639
+
+
+
+</SCRIPT>
+
+
+
+
+</head>
+
+<body background="../grafika/podklad.jpg" topmargin="0" leftmargin="0">
+
+<table border="0" cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Logo.jpg" width="450" height="90"><EMBED src="../grafika/banner.swf" width="200" height="90"></td>
+  </tr>
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Lista.gif" usemap="#Map" width="620" height="27"></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<map name="Map">
+<area id="nav0" onmouseover="menuOver(0,event)" onmouseout="menuOut(0,event)" shape="RECT" coords="173, 0, 270, 26">
+<area onmouseover="menuOver(1,event)" onmouseout="menuOut(1,event)" shape="RECT" coords="271, 0, 371, 26">
+<area onmouseover="menuOver(2,event)" onmouseout="menuOut(2,event)" shape="RECT" coords="373, 0, 476, 26">
+<area onmouseover="menuOver(3,event)" onmouseout="menuOut(3,event)" shape="RECT" coords="475, 0, 569, 26">
+<area shape="RECT" coords="69, 0, 172, 26" onmouseover="menuOver(4,event)" onmouseout="menuOut(4,event)" shape="RECT" coords="210,0,322,26">
+<area onmouseover="menuOver(5,event)" onmouseout="menuOut(5,event)" shape="RECT" coords="570, 0, 619, 26">
+<area href="mailto:info@nestemice.cz" shape="rect" coords="2, 0, 35, 26" alt="Timto pošlete mail všem tv&#367;rc&#367;m.">
+<area href="../index.html" shape="rect" coords="35, 0, 69, 26" alt="Na úvodní stránku."></map>
+
+
+<obsah!!!!!!!!!!!!!!!!!!!!!!!>
+
+
+
+<table border="0"  cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td>&nbsp;
+      <table border="3"  align="center" width="600">
+        <tr>
+          <td width="100%">
+            <h1 align="center"><font size="6"><b>Jak se vozili naši d&#283;dové</b></font></h1>
+            <p class="MsoNormal" align="center">
+            <img border="0" src="../grafika/mhd1.jpg" align="left" width="322" height="358">Pravidelnou m&#283;stskou dopravu zavedlo m&#283;sto
+            Ústí nad Labem v&nbsp;roce 1899. Prvního &#269;ervence toho roku
+            byla uvedena do provozu elektrická pouli&#269;ní dráha o&nbsp;rozchodu
+            1000&nbsp;mm. Tramvaje vedly z&nbsp;historického centra do Krásného
+            B&#345;ezna, do P&#345;edlic, k&nbsp;dnešní poliklinice a&nbsp;na
+            Špitálské nám&#283;stí. Pozd&#283;ji byla sí&#357; rozší&#345;ena
+            o další trat&#283;. Do&nbsp;Nešt&#283;mic se za&#269;alo jezdit až
+            v&nbsp;roce 1915. Byl to spoj &#269;.5 a jezdil z&nbsp;Bukova, p&#345;es
+            hlavní poštu. Cena se pohybovala podle délky jízdy, nebo-li pásma.
+            Nejkratší pásmo stálo korunu,delší korunu dvacet, korunu
+            &#269;ty&#345;icet atd. Nejdražší jízda stála n&#283;co kolem t&#345;í
+            korun. Výhodu m&#283;ly ob&#269;ané m&#283;sta,jelikož ti m&#283;li
+            slevu na jízdné, nap&#345;íklad místo koruny platili šedesát
+            dva halé&#345;&#367;, ale museli si koupit deset jízdenek
+            najednou. V&nbsp;letech 1912 až 1964 vozily tramvaje krom&#283;
+            <img border="0" src="../grafika/mhd2.jpg" align="right" width="322" height="228">cestujících i&nbsp;další suroviny, poštu, pr&#367;myslové
+            suroviny a uhlí. To lepší uhlí se vozilo na p&#345;ekladišt&#283;
+            v&nbsp;Nešt&#283;micích, kde se dále nakládalo do železni&#269;ních
+            vagón&#367;, nebo p&#345;ímo do vle&#269;ných &#269;lun&#367;.Všeobecná
+            tendence k omezování tramvajové dopravy v padesátých a šedesátých
+            letech se ale nevyhnula ani Ústí, a tak byly všechny ústecké
+            tramvajové trat&#283; b&#283;hem let 1954 až 1970 postupn&#283;
+            zrušeny a nahrazeny autobusovými linkami. V&nbsp;jubilejním 70. výro&#269;í
+            m&#283;stské elektrické dráhy zbyl tramvajím již jen hlavní
+            tah 
+            <img border="0" src="../grafika/mhd3.jpg" align="left" width="402" height="269">z&nbsp;Trmic do Nešt&#283;mic (linka &#269;.3<span style="mso-spacerun: yes">&nbsp;
+            </span>Trmice-Nešt&#283;mice) a n&#283;kolik krátkých úsek&#367;.
+            Na linku &#269;íslo 3 vyjela poslední souprava v&nbsp;sobotu 31.
+            ledna 1970. M&#283;stské autobusy však vyjely poprvé už 9. 11.
+            1929. Brzy obsluhovaly nejen vlastní m&#283;sto, ale také pom&#283;rn&#283;
+            vzdálené obce jako Adolfov, Jílové apod. Tyto mezim&#283;stské
+            linky p&#345;evzala po skon&#269;ení II. sv&#283;tové války
+            &#268;SAD.</p>
+            <p class="MsoNormal" align="center">Elektrická trakce byla obnovena až na sklonku
+            80. let. V pr&#367;b&#283;hu sedmdesátých a osmdesátých<img border="0" src="../grafika/mhd4.jpg" align="right" width="202" height="182"> let
+            vzniklo v okrajových &#269;ástech m&#283;sta mnoho sídliš&#357;,
+            což si vynutilo zavedení mnoha nových autobusových linek. Ty však
+            nesta&#269;ily rostoucí poptávce, a proto bylo rozhodnuto o
+            zavedení ekologi&#269;t&#283;jších trolejbus&#367;, které by
+            nejzatížen&#283;jší autobusové linky postupn&#283; nahradily. Nešt&#283;mice bylo jedno z&nbsp;posledních míst, kde byla
+            zavedena trolejbusová doprava a bylo to 28.&nbsp;8.&nbsp;1995. V&nbsp;dnešní
+            dob&#283; se m&#367;žete dostat do Nešt&#283;mic n&#283;kolika
+            pravidelnými spoji. Jsou to linky 51( jede na Skalku), 57 (jede do
+            Mojží&#345;e) , 58 (jede oklikou p&#345;es Krásné B&#345;ezno a
+            kon&#269;í též na Skalce),19 (rychlý spoj do m&#283;sta, kolem p&#345;ístavu
+            a také kolem známé Mati&#269;ní ulice a kon&#269;ící v Ryjicích)
+            a 101 (no&#269;ní spoj).<img border="0" src="../grafika/mhd6.jpg" align="right" width="202" height="184">
+            <img border="0" src="../grafika/mhd5.jpg" align="left" width="202" height="182">Ceny MHD zde neuvádím,protože se každou
+            chvíli m&#283;ní a tyto informace nech&#357; si každý kdo má zájem
+            získá na pat&#345;i&#269;ných stránkách &#269;i ú&#345;adech.
+            Krom&#283; MHD lze využít také taxi služby. Myslím si, že po
+            dohod&#283; s&nbsp;&#345;idi&#269;em je možné se dostat “taxíkem“
+            z&nbsp;centra do Nešt&#283;mic za rovných sto korun &#269;eských.</p>
+            <p align="center"><a href="doprava1.html">Jízdní &#345;ád Nešt&#283;mic.</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>

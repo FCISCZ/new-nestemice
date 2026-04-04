@@ -1,0 +1,331 @@
+<html>
+
+<head>
+<meta content="Microsoft FrontPage 5.0" name="GENERATOR">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Nestemice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Fox" grup="FCis">
+<style>.menu1 a:link { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:visited { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:hover { font-weight: bold; font-size: 11px; color: #ff0000; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+a:link       { color: #0000ff; font-family: verdana, arial, helvetica }
+a:visited    { color: #0000ff; font-family: verdana, arial, helvetica }
+a:hover      { color: #ff0000; font-family: verdana, arial, helvetica }
+</style>
+
+<SCRIPT>
+
+var isHTMLPageLoaded = false;
+var isNS     = false;
+var isIE     = false;
+var flagMore = false;
+var flagOver = false;
+var flag1    = false;
+var flagWhichLayerActive = 0;
+var t1       = 0;
+var menuCount = 6;
+var leftMenuCount = 6;
+var flagNSStopShowingMenus = false;
+
+SubMenu = new Array();
+
+if (parseInt(navigator.appVersion) >= 4) {
+	if (navigator.appName == "Netscape") isNS = true;
+	else if(navigator.appName == "Microsoft Internet Explorer")	isIE = true;
+}
+
+
+function menuOver(MenuID,e){
+   if(flagNSStopShowingMenus) return
+   flagWhichLayerActive = MenuID;
+   flagOver = true;
+   clearTimeout(t1);
+   if(isNS){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) SubMenu[i].visibility = 'show';
+         else SubMenu[i].visibility = 'hide';
+      }
+   }
+   if(isIE){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) {
+            if(SubMenu[i].style.pixelLeft != -500) return
+            show(SubMenu[i]);
+         }
+           else hide(SubMenu[i]);
+      }
+   }
+}
+
+function menuOut(MenuID1,e){
+   flagOver = false;
+   clearTimeout(t1)
+   if(isNS) t1 = setTimeout("SubMenu[" + MenuID1 + "].visibility = 'hide'",200);
+   if(isIE) t1 = setTimeout("hide(SubMenu[" + MenuID1 + "])",200);
+}
+
+function hide(MenuObject){
+   MenuObject.style.pixelLeft = -500;
+}
+
+function show(MenuObject){
+   MenuObject.style.pixelLeft = MenuObject.origLeft;
+   MenuObject.style.visibility = 'visible';
+}
+
+function submenuOver(e){
+   clearTimeout(t1);
+   if(isNS) SubMenu[flagWhichLayerActive].routeEvent(e);
+   if(isIE) SubMenu[flagWhichLayerActive].style.visibility = 'visible';
+}
+
+function submenuOut(e){
+   if(isNS && flag1){flag1=false;return}
+   if(isNS && flagOver){flagOver = false;return}
+   if(isNS){
+      SubMenu[flagWhichLayerActive].visibility = 'hide';
+      SubMenu[flagWhichLayerActive].routeEvent(e);
+   }
+   if(isIE){
+      if(SubMenu[flagWhichLayerActive].contains(event.toElement)) return;
+      if(event.toElement == document.all.nav0) return;
+      hide(SubMenu[flagWhichLayerActive]);
+   }
+}
+
+</SCRIPT>
+
+
+
+
+     
+       
+<SCRIPT language=javascript1.2>
+
+
+textToWrite = "";
+if(isNS) textToWrite += "<DIV id=NETSCAPE_BUG_PREVENTION style='POSITION:absolute;TOP:0px;LEFT:0px;WIDTH:10px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#FFFFFF;layer-background-color:#FFFFFF;VISIBILITY:hidden'></DIV>";
+textToWrite += "<DIV id=lyrSubMenu1 class=popupMenus style='POSITION:absolute; TOP:117px;LEFT:146px;WIDTH:130px;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#000099;layer-background-color:#009933'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="strucna.html">STRU&#268;NÁ HISTORIE</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="h_sport.html">HISTORIE SPORTU</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=95><A href="kroniky.html">KRONIKY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu2 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:240px;WIDTH:120px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="vesmir.html">VESMÍRNÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="letecky.html">LETECKÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="infomapa.html">INFOMAPA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="okoli.html">MAPA OKOLÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="samosprava.html">SAMOSPRÁVA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu3 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:376px;WIDTH:94px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="zub.html">ZUB &#268;ASU</A></TD></TR>"   
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="foto.html">FOTO</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu4 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:114px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.panelak-net.cz>PANELAK-NET.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.nestemice.cz>NESTEMICE.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.seti.cz>SETI.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="nas.html">O NÁS</A></TD></TR>"      
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="kniha.html">CO JE NEW</A></TD></TR>"          
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu5 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:92px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="http://213.192.28.131/html/zivot.html">ŽIVOT V OBCI</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="sport.html">SPORT</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="pocasi.html">PO&#268;ASÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="doprava.html">DOPRAVA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="anketa.html">ANKETY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu6 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:85px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:fox@nestemice.cz>Mail FOX</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:sonic@nestemice.cz>Mail SONIC</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:spita@nestemice.cz>Mail SPITA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>";
+
+document.write(textToWrite)
+
+if(isNS){
+   for(j=0;j<menuCount;j++){
+      eval("SubMenu[j] = document.lyrSubMenu" + (j + 1));
+      SubMenu[j].captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+      for(i=0;i<SubMenu[j].document.links.length;i++) SubMenu[j].document.links[i].onmouseover = overLink;
+   }
+}
+if(isIE) {
+   for(i=0; i<menuCount; i++) {
+      eval("SubMenu[i] = document.all.lyrSubMenu" + (i + 1));
+      SubMenu[i].style.pixelLeft = -500;
+   }
+}
+
+for(i=0; i<menuCount; i++){
+   SubMenu[i].onmouseover = submenuOver;
+   SubMenu[i].onmouseout  = submenuOut;
+}
+
+SubMenu[0].origLeft = 239
+SubMenu[1].origLeft = 339
+SubMenu[2].origLeft = 439
+SubMenu[3].origLeft = 539
+SubMenu[4].origLeft = 139
+SubMenu[5].origLeft = 639
+
+
+
+</SCRIPT>
+
+
+
+
+</head>
+
+<body background="../grafika/podklad.jpg" topmargin="0" leftmargin="0">
+
+<table border="0" cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Logo.jpg" width="450" height="90"><EMBED src="../grafika/banner.swf" width="200" height="90"></td>
+  </tr>
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Lista.gif" usemap="#Map" width="620" height="27"></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<map name="Map">
+<area id="nav0" onmouseover="menuOver(0,event)" onmouseout="menuOut(0,event)" shape="RECT" coords="173, 0, 270, 26">
+<area onmouseover="menuOver(1,event)" onmouseout="menuOut(1,event)" shape="RECT" coords="271, 0, 371, 26">
+<area onmouseover="menuOver(2,event)" onmouseout="menuOut(2,event)" shape="RECT" coords="373, 0, 476, 26">
+<area onmouseover="menuOver(3,event)" onmouseout="menuOut(3,event)" shape="RECT" coords="475, 0, 569, 26">
+<area shape="RECT" coords="69, 0, 172, 26" onmouseover="menuOver(4,event)" onmouseout="menuOut(4,event)" shape="RECT" coords="210,0,322,26">
+<area onmouseover="menuOver(5,event)" onmouseout="menuOut(5,event)" shape="RECT" coords="570, 0, 619, 26">
+<area href="mailto:info@nestemice.cz" shape="rect" coords="2, 0, 35, 26" alt="Timto pošlete mail všem tv&#367;rc&#367;m.">
+<area href="../index.html" shape="rect" coords="35, 0, 69, 26" alt="Na úvodní stránku."></map>
+
+
+<obsah!!!!!!!!!!!!!!!!!!!!!!!>
+
+
+
+<table border="0"  cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td>&nbsp;
+      <table border="3"  align="center" width="600">
+        <tr>
+          <td width="100%">
+          <p align="center"><b><font size="6">NOVODOBÁ HISTORIE</font></b></p>
+          <p>&nbsp;</p>
+          <p class="MsoNormal" align="center">Podklady pro zaznamenání &#269;innosti 
+          v&nbsp;letech 1950-1957 nejsou žádné. Pouze podle pam&#283;ti kroniká&#345;e 
+          poznamenává, že v&nbsp;roce 1954 vystoupilo I.mužstvo na protest ze 
+          sout&#283;že, protože z&nbsp;d&#367;vod&#367; n&#283;jaké reorganizace nepostoupilo i když 
+          postoupit m&#283;li. Po odstoupení všech hrá&#269;&#367; se hrála jen p&#345;átelská 
+          utkání. První mužstvo representoval dorost. Postupn&#283; se však všichni 
+          hrá&#269;i vrátili a znova se oddíl p&#345;ihlásil do sout&#283;že. V&nbsp;roce 1956 
+          mužstvo vyhrálo svou t&#345;ídu a postoupilo do I.A t&#345;ídy. Mužstvo v&nbsp;I.A 
+          t&#345;íd&#283; vydrželo do roku 1961, kdy odstupovali starší hrá&#269;i. Tento rok 
+          sestoupili&nbsp; z&nbsp;posledního místa do okresního p&#345;eboru. Také došlo ke 
+          druhé zm&#283;n&#283; názvu klubu – ze Sokola se stala Jiskra, která se 
+          v&nbsp;okresním p&#345;eboru trápila celých p&#283;t sezón. Až na ja&#345;e roku 1967 se 
+          op&#283;t nešt&#283;mickým fotbalist&#367;m poda&#345;ilo prorazit do I.A t&#345;ídy.&nbsp; </p>
+          <p class="MsoNormal" align="center">V&nbsp;té dob&#283; odešli n&#283;kte&#345;í starší 
+          hrá&#269;i a mužstvo bylo dopln&#283;no mladými hrá&#269;i.</p>
+          <p class="MsoNormal" align="center">V&nbsp;roce 1968 na po&#269;est 50. výro&#269;í 
+          založení klubu si výbor oddílu i hrá&#269;i dali za cíl vrátit se znova do 
+          I.A t&#345;ídy. Tato snaha byla korunována a od podzimu roku 1968 mužstvo 
+          znova startovalo v&nbsp;I.A t&#345;íd&#283;. V&nbsp;tomto roce se také konal jubilejní 
+          ples, který se konal 13. ledna. V&nbsp;b&#345;eznu tohoto roku byla svolána 
+          slavnostní &#269;lenská ch&#367;ze oddílu v&nbsp;sále místního kina. Na sch&#367;zi byli 
+          odm&#283;n&#283;ni za svou &#269;innost jak sou&#269;asní aktivní hrá&#269;i a funkcioná&#345;i, tak 
+          i mnoho bývalých hrá&#269;&#367;, funkcioná&#345;&#367; v&#269;etn&#283; nejstarších &#269;len&#367;. Na 
+          sch&#367;zi bylo také rozhodnuto vrátit se znovu k&nbsp;názvu &#268;eský Lev 
+          Nešt&#283;mice.</p>
+          <p class="MsoNormal" align="center">&nbsp;</p>
+          <p class="MsoNormal" align="center">&nbsp;&nbsp;&nbsp;
+          <img border="0" src="../grafika/slavie1926.jpg" align="left" width="300" height="185">V&nbsp;p&#345;íprav&#283; 
+          na podzimní &#269;ást 1. ligy je v&nbsp;Ústí nad Labem na soust&#345;ed&#283;ní ligové 
+          mužstvo pražské Slávie. Vedení oddílu &#268;L se poda&#345;ilo zajistit sehrání 
+          p&#345;átelského utkání na h&#345;išti &#268;L Nešt&#283;mice s&nbsp;jejich kompletním 
+          mužstvem. Naposledy hrála pražská Slávie v&nbsp;Nešt&#283;micích v&nbsp;roce 1926 
+          s&nbsp;výsledkem 2:3. Dne 6.8. 1974 po 48 letech došlo tedy k&nbsp;op&#283;tnému 
+          utkání s&nbsp;výsledkem 1:5 (0:2). Na obrázcích jsou mužstva Slávie 
+          v&nbsp;letech 1926 a 1974.</p>
+          <p class="MsoNormal" align="center">
+          <img border="0" src="../grafika/slavie1974.jpg" align="right" width="300" height="203"></p>
+          <p class="MsoNormal" align="center">&nbsp;&nbsp;&nbsp; Vrchol p&#345;išel v&nbsp;sezón&#283; 
+          1977/1978, kdy fotbalisté Nešt&#283;mic skon&#269;ili v&nbsp;I.A t&#345;íd&#283; na prvním 
+          míst&#283; a poprvé v&nbsp;historii klubu se probojovali do krajského p&#345;eboru. 
+          V&nbsp;severo&#269;eském krajském p&#345;eboru se Nešt&#283;mice držely &#269;ty&#345;i sezóny, ale 
+          na ja&#345;e v&nbsp;roce 1982 p&#345;išel výkonnostní pád z&nbsp;této elitní sout&#283;že do 
+          I.A t&#345;ídy. T&#345;i roky se &#268;eský Lev usilovn&#283; snažil o návrat mezi 
+          severo&#269;eskou elitu, což se mu poda&#345;ilo v&nbsp;sezón&#283; 1984/1985, kdy se stal 
+          suveréním vít&#283;zem krajské sout&#283;že ( bývalá I.A t&#345;ída) </p>
+          <p class="MsoNormal" align="center"><u>Kádr mužstva:</u> trenér: 
+          Jaroslav Zabloudil st.</p>
+          <p class="MsoNormal" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; branká&#345;i: 
+          Bláha, Temeschinko</p>
+          <p class="MsoNormal" style="margin-left:35.4pt" align="center">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hrá&#269;i: Šašek, Štorc, Do&#269;kal, Havlí&#269;ek, Jirkovský, J. 
+          Ptá&#269;ek, Beránek, Pištora, Taussig, Koste&#269;ka, Jakl, Jan&#269;ar, Louda, P. 
+          Strnad, Z. Trubák, Janda, C. Trubák, Šafrata, Makal, Horváth, Smola&#345; 
+          ml., Zabloudil ml.&nbsp; </p>
+          <p class="MsoNormal" align="center">Mistrovská sezóna 1986/1987 byla 
+          významná ješt&#283; jedním d&#367;vodem a to je otev&#345;ením centrálního travnatého 
+          h&#345;išt&#283;. Bylo to 27. dubna 1986. U této p&#345;íležitosti se zde uskute&#269;nil 
+          bohatý program, který sledoval p&#345;es 2000 divák&#367;. Po žákovském 
+          p&#345;edzápase nastoupila proti sob&#283; mužstva Nešt&#283;mice A a fotbaloví 
+          internacionálové &#268;SSR. Internacionálové &#268;SSR nakonec zvít&#283;zili 3:5.</p>
+          <p class="MsoNormal" align="center">Branky: J. Šašek, Jakl, Zd. Trubák 
+          – Panenka 2, Knebort 2, Nehoda</p>
+          <p class="MsoNormal" align="center"><u>Sestava XI. &#268;s. Internacionál&#367;:</u> 
+          Kouba – M. Dvo&#345;ák – Stratil, Štambacher, Jelínek – J. Jurkanin ( 
+          75.Vojta), Panenka, D. Herda – Fr. Veselý, Knebort, Nehoda - Vojta&nbsp;
+          </p>
+          <p class="MsoNormal" align="center"><u>Sestava domácích:</u> 
+          Temeschinko (Bláha) – Zd. Trubák, Havlí&#269;ek, Taussig, C. Trubák, 
+          Šafrata(Slavík) – Horváth(J. Šašek), Ptá&#269;ek, &#268;ekan, Jakl ( Koste&#269;ka), 
+          Janda</p>
+          <p class="MsoNormal" align="center">&nbsp;</p>
+          <p class="MsoNormal" align="center">V&nbsp;sou&#269;asné dob&#283; má fotbalový oddíl 
+          &#268;eského Lva Tonaso Nešt&#283;mice 250 &#269;len&#367;, osm žákovských družstev, dva 
+          dorostenecké celky a jeden tým dosp&#283;lých. P&#345;edsedou oddílu je Václav 
+          Beránek, manažerem a vedoucí A mužstva je Miloš Hon.</p>
+          <p class="MsoNormal" align="center">V&nbsp;nešt&#283;mickém klubu vyrostla &#345;ada 
+          výborných fotbalist&#367;. N&#283;kte&#345;í to dotáhli do první ligy i do 
+          reprezentace. Pat&#345;í mezi M. Vdovjak ( Sparta Praha), Vl. Po&#269;ta ( 
+          Teplice), Koudela (hrál ligu fotbalovou i ve stolním tenisu), Karda, 
+          Hoftych, Maliga. V&nbsp;sou&#269;asné dob&#283; je následují mládežníci Koste&#269;ka, 
+          Ledvinka, Zoubele, Jakub, Martínek, Král, Stárek, Rytí&#345;, E&#269;er a další.
+          </p>
+          <p align="center">
+          <span style="font-size: 12.0pt; font-family: Times New Roman">Mužstvo 
+          dosp&#283;lých &#268;LT Nešt&#283;mice pat&#345;í již &#345;adu let k&nbsp;p&#345;edním ú&#269;astník&#367;m 
+          divizní sout&#283;že</span></p>
+          <p>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>

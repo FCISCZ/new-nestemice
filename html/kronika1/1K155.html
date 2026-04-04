@@ -1,0 +1,245 @@
+<html>
+
+<head>
+<meta content="Microsoft FrontPage 4.0" name="GENERATOR">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Nestemice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Fox" grup="FCis">
+<style>.menu1 a:link { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:visited { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:hover { font-weight: bold; font-size: 11px; color: #ff0000; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+a:link       { color: #0000ff; font-family: verdana, arial, helvetica }
+a:visited    { color: #0000ff; font-family: verdana, arial, helvetica }
+a:hover      { color: #ff0000; font-family: verdana, arial, helvetica }
+</style>
+
+<SCRIPT>
+
+var isHTMLPageLoaded = false;
+var isNS     = false;
+var isIE     = false;
+var flagMore = false;
+var flagOver = false;
+var flag1    = false;
+var flagWhichLayerActive = 0;
+var t1       = 0;
+var menuCount = 6;
+var leftMenuCount = 6;
+var flagNSStopShowingMenus = false;
+
+SubMenu = new Array();
+
+if (parseInt(navigator.appVersion) >= 4) {
+	if (navigator.appName == "Netscape") isNS = true;
+	else if(navigator.appName == "Microsoft Internet Explorer")	isIE = true;
+}
+
+
+function menuOver(MenuID,e){
+   if(flagNSStopShowingMenus) return
+   flagWhichLayerActive = MenuID;
+   flagOver = true;
+   clearTimeout(t1);
+   if(isNS){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) SubMenu[i].visibility = 'show';
+         else SubMenu[i].visibility = 'hide';
+      }
+   }
+   if(isIE){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) {
+            if(SubMenu[i].style.pixelLeft != -500) return
+            show(SubMenu[i]);
+         }
+           else hide(SubMenu[i]);
+      }
+   }
+}
+
+function menuOut(MenuID1,e){
+   flagOver = false;
+   clearTimeout(t1)
+   if(isNS) t1 = setTimeout("SubMenu[" + MenuID1 + "].visibility = 'hide'",200);
+   if(isIE) t1 = setTimeout("hide(SubMenu[" + MenuID1 + "])",200);
+}
+
+function hide(MenuObject){
+   MenuObject.style.pixelLeft = -500;
+}
+
+function show(MenuObject){
+   MenuObject.style.pixelLeft = MenuObject.origLeft;
+   MenuObject.style.visibility = 'visible';
+}
+
+function submenuOver(e){
+   clearTimeout(t1);
+   if(isNS) SubMenu[flagWhichLayerActive].routeEvent(e);
+   if(isIE) SubMenu[flagWhichLayerActive].style.visibility = 'visible';
+}
+
+function submenuOut(e){
+   if(isNS && flag1){flag1=false;return}
+   if(isNS && flagOver){flagOver = false;return}
+   if(isNS){
+      SubMenu[flagWhichLayerActive].visibility = 'hide';
+      SubMenu[flagWhichLayerActive].routeEvent(e);
+   }
+   if(isIE){
+      if(SubMenu[flagWhichLayerActive].contains(event.toElement)) return;
+      if(event.toElement == document.all.nav0) return;
+      hide(SubMenu[flagWhichLayerActive]);
+   }
+}
+
+</SCRIPT>
+
+
+
+
+     
+       
+<SCRIPT language=javascript1.2>
+
+
+textToWrite = "";
+if(isNS) textToWrite += "<DIV id=NETSCAPE_BUG_PREVENTION style='POSITION:absolute;TOP:0px;LEFT:0px;WIDTH:10px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#FFFFFF;layer-background-color:#FFFFFF;VISIBILITY:hidden'></DIV>";
+textToWrite += "<DIV id=lyrSubMenu1 class=popupMenus style='POSITION:absolute; TOP:117px;LEFT:146px;WIDTH:130px;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#000099;layer-background-color:#009933'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="../strucna.html">STRU&#268;NÁ HISTORIE</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=95><A href="../kroniky.html">KRONIKY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu2 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:240px;WIDTH:120px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="../vesmir.html">VEMÍRNÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="../letecky.html">LETECKÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="../infomapa.html">INFOMAPA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="../samosprava.html">SAMOSPRÁVA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu3 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:376px;WIDTH:94px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="../zub.html">ZUB CASU</A></TD></TR>"   
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="../foto.html">FOTO</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu4 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:114px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.panelak-net.cz>PANELAK-NET.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.nestemice.cz>NESTEMICE.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.seti.cz>SETI.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="../nas.html">O NÁS</A></TD></TR>"      
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="../kniha.html">KNIHA NÁVŠT&#282;V</A></TD></TR>"          
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu5 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:92px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="http://213.192.28.131/html/zivot.html">ŽIVOT V OBCI</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="../sport.html">SPORT</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="../pocasi.html">PO&#268;ASÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="../doprava.html">DOPRAVA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="../anketa.html">ANKETY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu6 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:85px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:fox@nestemice.cz>Mail FOX</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:sonic@nestemice.cz>Mail SONIC</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:spita@nestemice.cz>Mail SPITA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>";
+
+document.write(textToWrite)
+
+if(isNS){
+   for(j=0;j<menuCount;j++){
+      eval("SubMenu[j] = document.lyrSubMenu" + (j + 1));
+      SubMenu[j].captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+      for(i=0;i<SubMenu[j].document.links.length;i++) SubMenu[j].document.links[i].onmouseover = overLink;
+   }
+}
+if(isIE) {
+   for(i=0; i<menuCount; i++) {
+      eval("SubMenu[i] = document.all.lyrSubMenu" + (i + 1));
+      SubMenu[i].style.pixelLeft = -500;
+   }
+}
+
+for(i=0; i<menuCount; i++){
+   SubMenu[i].onmouseover = submenuOver;
+   SubMenu[i].onmouseout  = submenuOut;
+}
+
+SubMenu[0].origLeft = 239
+SubMenu[1].origLeft = 339
+SubMenu[2].origLeft = 439
+SubMenu[3].origLeft = 539
+SubMenu[4].origLeft = 139
+SubMenu[5].origLeft = 639
+
+
+
+</SCRIPT>
+
+
+
+
+</head>
+
+<body background="../../grafika/podklad.jpg" topmargin="0" leftmargin="0">
+
+<table border="0" cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td align="center"><img border="0" src="../../grafika/Logo.jpg" width="450" height="90"><embed src="../../grafika/banner.swf" width="200" height="90"></td>
+  </tr>
+  <tr>
+    <td align="center"><img border="0" src="../../grafika/Lista.gif" usemap="#Map" width="620" height="27"></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<map name="Map">
+<area id="nav0" onmouseover="menuOver(0,event)" onmouseout="menuOut(0,event)" shape="RECT" coords="173, 0, 270, 26">
+<area onmouseover="menuOver(1,event)" onmouseout="menuOut(1,event)" shape="RECT" coords="271, 0, 371, 26">
+<area onmouseover="menuOver(2,event)" onmouseout="menuOut(2,event)" shape="RECT" coords="373, 0, 476, 26">
+<area onmouseover="menuOver(3,event)" onmouseout="menuOut(3,event)" shape="RECT" coords="475, 0, 569, 26">
+<area shape="RECT" coords="69, 0, 172, 26" onmouseover="menuOver(4,event)" onmouseout="menuOut(4,event)" shape="RECT" coords="210,0,322,26">
+<area onmouseover="menuOver(5,event)" onmouseout="menuOut(5,event)" shape="RECT" coords="570, 0, 619, 26">
+<area href="mailto:info@nestemice.cz" shape="rect" coords="2, 0, 35, 26" alt="Timto pošlete mail všem tv&#367;rc&#367;m.">
+<area href="../../index.html" shape="rect" coords="35, 0, 69, 26" alt="Na úvodní stránku."></map>
+
+
+<obsah!!!!!!!!!!!!!!!!!!!!!!!>
+
+
+
+<table border="0" cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td>&nbsp;
+      <table border="0" align="center" width="600">
+        <tr>
+          <td width="100%">
+            <p align="center"><map name="FPMap0">
+            <area href="http://213.192.28.131/html/kronika1/1k154.html" shape="rect" coords="490, 758, 530, 790" alt="O stranu zp&#283;t.">
+            <area href="1K156.html" shape="rect" coords="530, 758, 570, 790" alt="O stranu vp&#345;ed.">
+            </map><img border="0" src="../../grafika/kronika1/155.jpg" width="600" height="800" usemap="#FPMap0" alt="Strana 1"></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>

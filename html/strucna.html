@@ -1,0 +1,506 @@
+<html>
+
+<head>
+<meta content="Microsoft FrontPage 4.0" name="GENERATOR">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Nestemice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Fox" grup="FCis">
+<style>.menu1 a:link { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:visited { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+.menu1 a:hover { font-weight: bold; font-size: 11px; color: #ff0000; font-family: 
+               verdana, arial, helvetica; text-decoration: none }
+a:link       { color: #0000ff; font-family: verdana, arial, helvetica }
+a:visited    { color: #0000ff; font-family: verdana, arial, helvetica }
+a:hover      { color: #ff0000; font-family: verdana, arial, helvetica }
+</style>
+
+<SCRIPT>
+
+var isHTMLPageLoaded = false;
+var isNS     = false;
+var isIE     = false;
+var flagMore = false;
+var flagOver = false;
+var flag1    = false;
+var flagWhichLayerActive = 0;
+var t1       = 0;
+var menuCount = 6;
+var leftMenuCount = 6;
+var flagNSStopShowingMenus = false;
+
+SubMenu = new Array();
+
+if (parseInt(navigator.appVersion) >= 4) {
+	if (navigator.appName == "Netscape") isNS = true;
+	else if(navigator.appName == "Microsoft Internet Explorer")	isIE = true;
+}
+
+
+function menuOver(MenuID,e){
+   if(flagNSStopShowingMenus) return
+   flagWhichLayerActive = MenuID;
+   flagOver = true;
+   clearTimeout(t1);
+   if(isNS){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) SubMenu[i].visibility = 'show';
+         else SubMenu[i].visibility = 'hide';
+      }
+   }
+   if(isIE){
+      for(i=0;i< menuCount; i++){
+         if(MenuID == i) {
+            if(SubMenu[i].style.pixelLeft != -500) return
+            show(SubMenu[i]);
+         }
+           else hide(SubMenu[i]);
+      }
+   }
+}
+
+function menuOut(MenuID1,e){
+   flagOver = false;
+   clearTimeout(t1)
+   if(isNS) t1 = setTimeout("SubMenu[" + MenuID1 + "].visibility = 'hide'",200);
+   if(isIE) t1 = setTimeout("hide(SubMenu[" + MenuID1 + "])",200);
+}
+
+function hide(MenuObject){
+   MenuObject.style.pixelLeft = -500;
+}
+
+function show(MenuObject){
+   MenuObject.style.pixelLeft = MenuObject.origLeft;
+   MenuObject.style.visibility = 'visible';
+}
+
+function submenuOver(e){
+   clearTimeout(t1);
+   if(isNS) SubMenu[flagWhichLayerActive].routeEvent(e);
+   if(isIE) SubMenu[flagWhichLayerActive].style.visibility = 'visible';
+}
+
+function submenuOut(e){
+   if(isNS && flag1){flag1=false;return}
+   if(isNS && flagOver){flagOver = false;return}
+   if(isNS){
+      SubMenu[flagWhichLayerActive].visibility = 'hide';
+      SubMenu[flagWhichLayerActive].routeEvent(e);
+   }
+   if(isIE){
+      if(SubMenu[flagWhichLayerActive].contains(event.toElement)) return;
+      if(event.toElement == document.all.nav0) return;
+      hide(SubMenu[flagWhichLayerActive]);
+   }
+}
+
+</SCRIPT>
+
+
+
+
+     
+       
+<SCRIPT language=javascript1.2>
+
+
+textToWrite = "";
+if(isNS) textToWrite += "<DIV id=NETSCAPE_BUG_PREVENTION style='POSITION:absolute;TOP:0px;LEFT:0px;WIDTH:10px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#FFFFFF;layer-background-color:#FFFFFF;VISIBILITY:hidden'></DIV>";
+textToWrite += "<DIV id=lyrSubMenu1 class=popupMenus style='POSITION:absolute; TOP:117px;LEFT:146px;WIDTH:130px;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#000099;layer-background-color:#009933'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="strucna.html">STRU&#268;NÁ HISTORIE</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=130><A href="h_sport.html">HISTORIE SPORTU</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=95><A href="kroniky.html">KRONIKY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu2 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:240px;WIDTH:120px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="vesmir.html">VESMÍRNÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="letecky.html">LETECKÝ SNÍMEK</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="infomapa.html">INFOMAPA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="okoli.html">MAPA OKOLÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="samosprava.html">SAMOSPRÁVA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu3 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:376px;WIDTH:94px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="zub.html">ZUB &#268;ASU</A></TD></TR>"   
+   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="foto.html">FOTO</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu4 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:114px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.panelak-net.cz>PANELAK-NET.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.nestemice.cz>NESTEMICE.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.seti.cz>SETI.CZ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="nas.html">O NÁS</A></TD></TR>"      
+   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="kniha.html">CO JE NEW</A></TD></TR>"          
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu5 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:92px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="http://213.192.28.131/html/zivot.html">ŽIVOT V OBCI</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="sport.html">SPORT</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="pocasi.html">PO&#268;ASÍ</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="doprava.html">DOPRAVA</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="anketa.html">ANKETY</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>"
+   
+   + "<DIV id=lyrSubMenu6 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:85px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
+   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:fox@nestemice.cz>Mail FOX</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:sonic@nestemice.cz>Mail SONIC</A></TD></TR>"
+   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:spita@nestemice.cz>Mail SPITA</A></TD></TR>"
+   + "</TABLE>"
+   + "</DIV>";
+
+document.write(textToWrite)
+
+if(isNS){
+   for(j=0;j<menuCount;j++){
+      eval("SubMenu[j] = document.lyrSubMenu" + (j + 1));
+      SubMenu[j].captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+      for(i=0;i<SubMenu[j].document.links.length;i++) SubMenu[j].document.links[i].onmouseover = overLink;
+   }
+}
+if(isIE) {
+   for(i=0; i<menuCount; i++) {
+      eval("SubMenu[i] = document.all.lyrSubMenu" + (i + 1));
+      SubMenu[i].style.pixelLeft = -500;
+   }
+}
+
+for(i=0; i<menuCount; i++){
+   SubMenu[i].onmouseover = submenuOver;
+   SubMenu[i].onmouseout  = submenuOut;
+}
+
+SubMenu[0].origLeft = 239
+SubMenu[1].origLeft = 339
+SubMenu[2].origLeft = 439
+SubMenu[3].origLeft = 539
+SubMenu[4].origLeft = 139
+SubMenu[5].origLeft = 639
+
+
+
+</SCRIPT>
+
+
+
+
+</head>
+
+<body background="../grafika/podklad.jpg" topmargin="0" leftmargin="0">
+
+<table border="0" cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Logo.jpg" width="450" height="90"><EMBED src="../grafika/banner.swf" width="200" height="90"></td>
+  </tr>
+  <tr>
+    <td align="center"><img border="0" src="../grafika/Lista.gif" usemap="#Map" width="620" height="27"></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<map name="Map">
+<area id="nav0" onmouseover="menuOver(0,event)" onmouseout="menuOut(0,event)" shape="RECT" coords="173, 0, 270, 26">
+<area onmouseover="menuOver(1,event)" onmouseout="menuOut(1,event)" shape="RECT" coords="271, 0, 371, 26">
+<area onmouseover="menuOver(2,event)" onmouseout="menuOut(2,event)" shape="RECT" coords="373, 0, 476, 26">
+<area onmouseover="menuOver(3,event)" onmouseout="menuOut(3,event)" shape="RECT" coords="475, 0, 569, 26">
+<area shape="RECT" coords="69, 0, 172, 26" onmouseover="menuOver(4,event)" onmouseout="menuOut(4,event)" shape="RECT" coords="210,0,322,26">
+<area onmouseover="menuOver(5,event)" onmouseout="menuOut(5,event)" shape="RECT" coords="570, 0, 619, 26">
+<area href="mailto:info@nestemice.cz" shape="rect" coords="2, 0, 35, 26" alt="Timto pošlete mail všem tv&#367;rc&#367;m.">
+<area href="../index.html" shape="rect" coords="35, 0, 69, 26" alt="Na úvodní stránku."></map>
+
+
+<obsah!!!!!!!!!!!!!!!!!!!!!!!>
+
+
+
+<table border="0"  cellspacing="0" width="750" cellpadding="0">
+  <tr>
+    <td>&nbsp;
+      <table border="3"  align="center" width="600">
+        <tr>
+          <td width="100%" align="center"><b><font size="6">Stru&#269;ná
+            historie.</font></b>
+            <p>N&#283;št&#283;mice (Nestomitz) Tato nevelká obec p&#345;ipojená
+            v roce 1986 k m&#283;stu Ústí nad Labem se rozprostírá na severu
+            &#268;ech ve výšce 204 metr&#367; nad mo&#345;em u b&#345;ehu
+            &#345;eky Labe.</p>
+            <p>První písemnou zmínku o &#345;ece Labi nacházíme v antickém
+            díle Germania, kde se nazývá Albis Flumen. V latin&#283; albus
+            znamená bílý a flumen je obecn&#283; &#345;eka, tok, proud.
+            Pojmenování Labe uvádí až Kosmas v Kronice &#269;eské:
+            &quot;… všechny toky malé i velké pojaty arci do v&#283;tší
+            &#345;eky, jež zove Labe, tekou do Severního mo&#345;e…&quot; Jméno
+            naší &#345;eky je nepochybn&#283; p&#345;edslovanského p&#367;vodu.
+            V latin&#283; a &#345;e&#269;tin&#283; se pro naše ozna&#269;ení bílé
+            &#345;eky, Bíliny, B&#283;lé, vyskytují tvary Albis, Alba, Albia.
+            Podobné jméno z&#345;ejm&#283; m&#283;li i Keltové, kte&#345;í
+            na našem území žili zhruba p&#367;l tisíciletí p&#345;ed po&#269;átkem
+            nového letopo&#269;tu. V keltských zemích se totiž rovn&#283;ž
+            vyskytují &#345;eky nazvané Albis, nap&#345;íklad p&#345;ítok
+            Seiny se dnes nazývá Aube. Germáni p&#345;evzali toto jméno do
+            svého jazyka a z vlastního jména jedine&#269;né &#345;eky je p&#345;enesly
+            jako druhové ozna&#269;ení &#345;eky pro všechny nové toky, které
+            nacházeli p&#345;i svém postupu do skandinávských zemí, Elf,
+            Elve. U Slovan&#367; se slyšený název Albi postupn&#283; m&#283;nil
+            p&#345;ehláskami , oslabováním a p&#345;esmyky v tvary Elbi, Elbe,
+            Olbí, Labí, atd. Všeslovansky zn&#283;lo Albij, ve druhém pád&#283;
+            Labje, z toho vzniklo &#269;eské Lábí a pozd&#283;ji Lab&#283;.
+            Jméno Lab&#283; je rodu st&#345;edního, ale až do 17. století
+            bylo také ženského Lab&#283;, Labie. První písemná zmínka o
+            Nešt&#283;micích je z r. 1188 v listin&#283; &#269;eského knížete
+            Bed&#345;icha. V této listin&#283; jsou uvedeny jako NESCHEMICI (
+            Nez&#269;emici ). P&#367;vod jména se vysv&#283;tluje složit&#283;:
+            Východiskem je jméno &#268;ám, jež se p&#345;ehlasovalo na
+            &#268;ím, lidé &#268;ámovi - &#268;iemici, ostatní byli ne-&#268;iemici,
+            takže to byla osada lidí nikoli &#268;ámových, ale lidí ne z
+            &#268;iemic. Byla to stará slovanská osada p&#345;i cest&#283; z
+            Ryjic o desíti domech. V sedmnáctém století se po&#269;et dom&#367;
+            ztrojnásobil. Za feudalismu pat&#345;ívaly k panství svádovskému,
+            potom k blanskému a b&#345;ezenskému. Velkou rozlohu m&#283;ly svádovské
+            vinice v Nešt&#283;micích.</p>
+            <p>Osvobozením selského stavu, vyman&#283;ním z povinné roboty,
+            se zem&#283;d&#283;lství za&#269;alo slibn&#283; rozvíjet. Po pokusech
+            šlechty o znovu podman&#283;ní selského stavu, které bylo však
+            odmítnuto, dochází k ješt&#283; v&#283;tšímu zlepšení. Zdejší
+            hospodá&#345;ský život probíhal v klidu a ke spokojenosti všech
+            rolník&#367;. Z&#345;izováním pr&#367;myslu však nastalo rapidní
+            ubývání zem&#283;d&#283;lské p&#367;dy. Úsilí zem&#283;d&#283;lc&#367;
+            bylo utla&#269;ováno do pozadí obce ke kopc&#367;m, zvlášt&#283;
+            v letech 1890-1930. Proto z d&#345;ív&#283;jších 95% zem&#283;d&#283;lc&#367;
+            se tento stav snížil na pouhých 30%. V okolí obce se hlavn&#283;
+            p&#283;stovalo žito, je&#269;men a daleko mén&#283; pak oves a pšenice.
+            Sázelo se také mnoho druh&#367; brambor. Dále se zde p&#283;stovali
+            fazole, &#269;o&#269;ka, hrách, &#345;epa, &#269;ervené a bílé
+            zelí a len. V každé usedlosti byl kolovrátek, na kterém se každý
+            ve&#269;er p&#345;edlo. Rovn&#283;ž zaniklo vina&#345;ství a
+            chmela&#345;ství, díky nízkým cenám. Po úpadku vinic a
+            chmelnic nastává kolem roku 1700 zakládání výnosných ovocných
+            zahrad. Zde zprvu rostli hrušn&#283; a švestky, potom se p&#345;idaly
+            i jablon&#283; a o&#345;echy. Ovoce bylo tolik, že zbylé ovoce se
+            sušilo v odborn&#283; vyrobených sušárnách. V Nešt&#283;micích
+            bylo t&#283;chto sušáren 22. Mimo sušené ovoce se u nás také
+            va&#345;il ovocný sirup. Jak &#269;erstvé tak sušené ovoce a
+            sirupy se vyvážely po dráze nebo po Labi do n&#283;meckých m&#283;st,
+            jmenovit&#283; do Dráž&#271;an a Berlína.</p>
+            <p>Prakticky až do konce 19. století byly Nešt&#283;mice nep&#345;íliš
+            významnou zem&#283;d&#283;lskou obcí. Do druhé poloviny 19.
+            století bylo v obci 95% zem&#283;d&#283;lc&#367; a pouhých 5%
+            &#345;emeslník&#367;. Až od roku 1860-1861 p&#345;íliv cizinc&#367;
+            do Nešt&#283;mic se dá považovat za základ pr&#367;myslu, který
+            zpo&#269;átku pracoval omezen&#283; pro místní pot&#345;eby. V
+            roce 1832 zde bylo 40 obytných dom&#367; s 223 obyvateli a v
+            roce1880 už 75 dom&#367; s 557 obyvateli. Pro pot&#345;ebu stavebního
+            materiálu p&#345;i velkém po&#269;tu p&#345;ibývání nových dom&#367;,
+            se kolem roku 1835 postavila první, velice primitivní palírna
+            cihel. Tyto první palírny, se ale moc neuchytily. Dne 5. &#269;ervence
+            1872 postavili další novou cihelnu. Postavil ji stavitel Kliment
+            Taüche a jednalo se o zlepšený druh. Tato cihelny se b&#283;hem n&#283;kolika
+            let v konkurzu prodala a inovovala. V roce 1934 byla zakopena v
+            bankovním konkurzu za 490 000 K&#269;. Na konci b&#345;ezna roku
+            1845 prudké tání více než metrové vrstvy sn&#283;hu po &#269;ty&#345;m&#283;sí&#269;ní
+            tuhé zim&#283; zp&#367;sobilo nebývalou povode&#328;, která se p&#345;ihnala
+            29. b&#345;ezna na Nešt&#283;mice. Labe stouplo skoro o 10 metr&#367;.
+            Velká voda utrhala svádovské lodní mlýny, vzala s sebou i d&#345;ev&#283;né
+            domky kolem &#345;eky. Sedlák&#367;m z Nešt&#283;mic a Veselí,
+            kte&#345;í m&#283;li pole v místech dnešního Tonasa, odnesla
+            voda všechnu ornici. Po opadnutí vody sedláci zpozorovali na zni&#269;ených
+            polích veliké množství keramických nádob vyno&#345;ujících
+            se z písku. Bylo to rozsáhlé poh&#345;ebišt&#283; z období lužické
+            kultury, které vzniklo asi p&#345;ed 3000 lety. Sedláci, když v nádobách
+            našli jen k&#367;stky, nikoli hledané mince, ztratili o keramiku zájem
+            a za&#269;ali ji rozbíjet. Našt&#283;stí se v&#269;as o poh&#345;ebišti
+            dozv&#283;d&#283;l vzd&#283;laný krásnob&#345;ezenský d&#367;chodní
+            písa&#345; Franz Böhm a &#345;adu nádob sta&#269;il zachránit.
+            Spolu s ková&#345;em Böhmelem je posílal po lodích Václavu
+            Hankovi do Národního muzea v Praze, kde je jich n&#283;kolik desítek
+            uloženo dosud. Kuriózním epilogem tohoto archeologického objevu
+            se stala zádušní mše, kterou fará&#345; ve Veselí sloužil za
+            zem&#345;elé pohanské nebožtíky.</p>
+            <p>I v pozd&#283;jších dobách se Nešt&#283;mice ukázaly jako
+            bohatá archeologická lokalita. Rovn&#283;ž z prostoru Tonasa pocházejí
+            &#269;etné nálezy keltskogermánského p&#367;vodu ze 2. stol. p&#345;.
+            n. l. a slovanské poh&#345;ebišt&#283; z 9.-10. století. Postavením
+            cukrovaru v letech 1890-1893 a Solvayovy továrny na výrobu sody v
+            letech 1905-1908 se z obce, která do r. 1894 nem&#283;la ješt&#283;
+            ani vlastní poštu, stalo význa&#269;né pr&#367;myslové centrum.</p>
+            <p>Poslední rafinérie zahájila sv&#367;j provoz v roce 1890 v Nešt&#283;micích
+            pod firmou &quot;The English Austrian Sugar Rafineries Limited in
+            London&quot; za ú&#269;asti n&#283;meckého a anglického kapitálu.
+            Její produkce byla výslovn&#283; zam&#283;&#345;ena na vývoz, a
+            proto byl p&#345;i rafinérii v roce 1892 z&#345;ízen soukromý p&#345;ístav
+            s osmi stanovišti. Vlastní provoz rafinérie byl zahájen v
+            kampani v roce 1893. Od roku 1897 pak neslanový název. &quot;Nestomitzer
+            Zucker afinerie mit dem Sitze in Aussig&quot;. Cukrovar byl rozší&#345;en
+            a zmodernizován, zejména za&#345;ízením na výrobu homolového
+            cukru. Byla tak schopna vyráb&#283;t všechny druhy cukru. V období
+            p&#345;ed rokem 1914 byla její produkce kolem 110 000 t cukru a
+            bylo v ní zam&#283;stnáno na 800 lidí. Vývoz sm&#283;&#345;oval
+            p&#345;edevším do Ameriky, Afriky a Asie. Po 1. sv&#283;tové válce
+            nastal, obdobn&#283; jako u krásnob&#345;ezenské rafinerie, zna&#269;ný
+            pokles výroby v d&#367;sledku omezení vývozu a nakonec v roce
+            1932 rafinérie ukon&#269;ila svoji &#269;innost.</p>
+            <p>Nešt&#283;mická chemi&#269;ka vd&#283;&#269;í za sv&#367;j
+            starý název belgickému chemiku Ernstu Solvayovi (1838-1922), k
+            jehož nejv&#283;tším objev&#367;m pat&#345;il nový, pom&#283;rn&#283;
+            jednoduchý zp&#367;sob výroby sody z vápence, soli a koksu. Nešt&#283;mické
+            Solvayovi závody, byly založeny v roce 1905 jako spole&#269;né
+            továrny zájmové spole&#269;nosti Spolek-Solvay. (Spolek je &#269;lenem
+            mezinárodních kartel&#367; a koncern&#367;. Buduje pobo&#269;né závody
+            nejen v &#268;echách, ale i v zahrani&#269;í, jako je nap&#345;íklad
+            N&#283;mecko, Rakousko, Ma&#271;arsko, Jugoslávie, Polsko,
+            Rumunsko. Od vytvo&#345;ení komanditní spole&#269;nosti Spolek a
+            Solvay se propletenec podíl&#367; akciových ú&#269;astí tuzemských
+            i zahrani&#269;ních bank a skupin podnik&#367; tak prolíná, neustále
+            m&#283;ní a komplikuje, že asi žádní minist&#345;i, ba ani
+            nejzdatn&#283;jší berní ú&#345;edníci nepochopili z&#345;ejm&#283;
+            nikdy, který závod komu vlastn&#283; pat&#345;í, kdo vlastn&#283;
+            koho &#345;ídí a kolik zisk&#367; plyne odkud a kam.) Belgický
+            technolog a podnikatel Ernest Solvay vyzkoušel v roce 1863 v továrním
+            m&#283;&#345;ítku takzvaný &#269;pavkový zp&#367;sob výroby sody
+            a od roku 1870 jej výrobn&#283; používal. Tento zp&#367;sob byl
+            podstatn&#283; levn&#283;jší a získaná soda jakostn&#283;jší
+            než p&#345;i tehdy b&#283;žné Leblancov&#283; metod&#283; výroby
+            sody, kterou používal Spolek. Když hrozilo nebezpe&#269;í, že
+            Solvay pronikne s patentovanou výrobou i do Rakousko-Uherska a naruší
+            tak monopolní postavení Spolku, uzav&#345;el rad&#283;ji tehdejší
+            &#345;editel Schaffner dohodu se Solvay a Cie o založení nejprve
+            jedné spole&#269;né továrny na &#269;pavkovou vodu (v Rakousku) a
+            pozd&#283;ji vznikla celá &#345;ada dalších spole&#269;ných továren
+            po celé monarchii. Jednou z nich byla i nešt&#283;mická, jejíž
+            název si ob&#269;ané zkrátily op&#283;t na Solvayku. 27. února
+            1908 bylo docíleno již prvního výrobku sody surové a dne 2. b&#345;ezna
+            téhož roku byl odeslán již první železni&#269;ní vagón sody
+            amonaké( 100 pytl&#367; o váze 10 000 kg).V b&#345;eznu 1923 ústecký
+            Spolek snižuje mzdy o dalších 10 procent,což vede k &#269;etným
+            stávkám. Údajn&#283; to byl d&#367;sledek hospodá&#345;ské
+            krize, která &#268;eskoslovensko zasáhla v roce 1921. Za&#269;átkem
+            dubna 1923 vypukla stávka v závodech Solvay, vzdor pohr&#367;žkám
+            vedení, že bude propušt&#283;n každý, kdo okamžit&#283;
+            nenastoupí do práce. Za 1. sv&#283;tové války v závod&#283;
+            pracovali také italští zajatci a tím pádem byla továrna pod
+            vojenským dohledem, kterému podléhalo i civilní osazenstvo.V r.
+            1945 byl tento závod znárodn&#283;n. Až do konce 80. let byla
+            hlavní náplní závodu výroba sody (p&#345;ed válkou ro&#269;ní
+            produkce 70 tis. tun, kolem roku 1983 120 tis.), dále se zde hlavn&#283;
+            vyráb&#283;ly chromové soli, chlorid vápenatý, chlorid amonný,
+            posypové soli a mo&#345;idla na d&#345;evo Po osvobození dostlala
+            název Továrna na sodu, zkrácen&#283; Tonaso. Základní závod
+            byl to nedávné doby monopolním výrobcem kalcinované sody a bílých
+            sazí. Jeho výrobní areál byl v&#283;tší než 38 hektar&#367; a
+            zam&#283;stnával p&#345;es 1100 pracovník&#367;. M&#283;l vlastní
+            &#345;í&#269;ní p&#345;ístav a jako kuriozitu uvád&#283;l starší
+            pr&#367;vodce, že spot&#345;ebuje tak velké množství &#269;isté
+            vody, jako m&#283;sto s 250 tisíci obyvateli.</p>
+            <p>Ve dvacátých a t&#345;icátých letech se v nešt&#283;mickém
+            závod&#283; AKO vyráb&#283;ly fotografické desky, filmy a lu&#269;ebniny.
+            Tato firma se p&#367;vodn&#283; nazývala RODAK. Tento název byl
+            tvo&#345;en po&#269;áte&#269;ními písmeny zakladatel&#367;.(Alois
+            Komárek,Inž. Bed&#345;ich Betrlík,J. Brož -ten po založení
+            firmy odstoupil a bývalý kapitán Chorník. Pod tímto jménem
+            bohužel firma nemohla pracovat, protože tento název byl podobný
+            názvu jedné sv&#283;tové firmy, proto ho p&#345;ejmenovali na AKO
+            ( Antonín Komárek). Zpo&#269;átku se v AKU d&#283;laly pouze
+            &#269;ty&#345;i druhy fotodesek. Po opat&#345;ení nutných stroj&#367;
+            zapo&#269;ali s výrobou v uzav&#345;eném hostinci &#268;eská
+            Beseda( majitel pan Josef Soch&#367;rek). Zpo&#269;átku se
+            zakladatelé dostávali p&#345;es mnohé potíže a ned&#367;v&#283;ru
+            amatérských fotograf&#367; v domácí produkt. Nakonec vše
+            prolomily a poslední ob&#283;tovaný groš se vyplatil. Poté neustále
+            p&#345;ibývalo spot&#345;ebitel&#367; a to vedlo k rozši&#345;ování
+            celého podniku. Nedostatek místa vedl k zakoupení D&#283;lnického
+            domu za 245 000 K&#269;. V tomto dom&#283; bylo pot&#345;eba z&#345;ídit
+            továrnu, což stálo 400 000 K&#269;. Byly také pot&#345;eba nové
+            stroje a za&#345;ízení za 300 000 K&#269;. Takto vznikl nový a
+            silný podnik schopný zahrani&#269;ní konkurenci. Dodávali Röntgenovi
+            snímky do všech &#269;eských klinik a nemocnic, zboží pro
+            vojenskou službu a denn&#283; rozesílala &#269;erstvé zboží do
+            všech míst &#268;eskoslovenska. Roku 1932 denn&#283; továrna
+            produkovala 1200 kus&#367; r&#367;zných fotografických desek a
+            1000 náplní fotochemických lu&#269;ebnin. V roce 1934 se továrna
+            rozrostla o odd&#283;lení svitkových film&#367; a byla schopna
+            produkovat 5000 kus&#367; denn&#283; tohoto materiálu. Dále se vyráb&#283;lo
+            všechno p&#345;íslušenství pot&#345;ebné k vyvolání fotografií.
+            Za&#269;al se také vyráb&#283;t foto papír, ale dále tuto výrobu
+            omezila jen na výrobu vyvolávacích papír&#367; zna&#269;ky Ideál.
+            Továrna AKO rok od roku získávala nové a lepší ceny na výstavách
+            a stává se proto velmi známou a dobrou zna&#269;kou.</p>
+            <p>Na tehdy nejromanti&#269;t&#283;jším míst&#283; v obci, tam
+            kde potok Ostern( dnešní Nešt&#283;mický ) vytékal z Nešt&#283;mického
+            údolí, stál kdysi tak zvaný Nový mlýn, d&#367;m &#269;.p. 42.
+            Po n&#283;kolika letech, zv&#283;tšování pozemku a st&#345;ídání
+            vlastník&#367;, prodal i s mlýnem pan Antonín Denatschke 1. zá&#345;í
+            1905 firm&#283; Brat&#345;í Comichau z N&#283;mecka. Tato firma zde
+            zbourala starý mlýn a vybudovala zde továrnu na výrobu stroj&#367;
+            a strojírnu pro výrobu p&#345;epravních za&#345;ízení. Zpo&#269;átku
+            zde pracovalo mén&#283; než 40 lidí, ale v letech 1927-1928 zde
+            bylo zam&#283;stnáno 250 d&#283;lník&#367; a 45 ú&#345;edník&#367;.
+            Závod vyráb&#283;l všechny stroje na p&#345;epravu zboží a
+            materiálu. Tuto pobo&#269;ku firmy Brat&#345;í Comichau vedl pan
+            Alfréd Spahn, který po smrti zakladatele roku 1911, jednoho z
+            bratr&#367;, se stal vlastníkem této pobo&#269;ky. Zprvu byl pouze
+            tichým spole&#269;níkem firmy. Jelikož se zde hlavn&#283; vyráb&#283;ly
+            stroje na p&#345;epravu pro krátké vzdálenosti, které postupem
+            &#269;asu nesta&#269;ily, musely p&#345;ejít k výrob&#283; stroj&#367;
+            pro delší a dlouhou p&#345;epravu. Za 1. sv&#283;tové války se
+            zde také vyráb&#283;l vále&#269;ný materiál. Hlavn&#283; šrapnelová
+            a granátová pouzdra, zapalova&#269;e, atd. Po válce podnik rozkvétal,
+            až do doby kdy se zakázalo vyvážet za hranice &#268;eskoslovenska.
+            V roce 1933 byl provoz zastaven.</p>
+            <p>Vzhledem ke špatné hospodá&#345;ské krizi nebylo možno
+            postavit vlastní biograf, proto byla s panem Emanem Fockem uzav&#345;ena
+            smlouva a kinolicence, která mu byla prozatímn&#283; pronajata.
+            Focke za&#345;ídil v roce 1923 v dom&#283; &#269;.p. 108 (hostinec
+            D&#283;lnický d&#367;m u pana Pöschla) nouzovou provozovnu se 193
+            místy k sezení na vlastní útraty 80 000 K&#269;. Kv&#367;li stálému
+            pokra&#269;ování hospodá&#345;ské krizi p&#345;ibral spole&#269;níka
+            pana Antonína Fischera, který pozd&#283;ji zase ze spolku
+            vystoupil. Proto se Focke sám rozhodl postavit kino a vybral si
+            nejhez&#269;í místo v obci. Dne 2. prosince 1929 bylo první
+            slavnostní biografické p&#345;edstavení. Nové kino stálo 900
+            000 K&#269; a kapacita dosahovala 600 míst. V novém kin&#283;
+            nebyla jen kinematografická p&#345;edstavení,ale také divadelní,
+            akrobatické vložky, zp&#283;vy, v&#283;decké p&#345;ednášky,
+            atd. Díky krizi musel majitel postupn&#283; stáhnout vstupné na
+            minimum, aby alespo&#328; mohl zaplatit pohledávky. Díky neustávající
+            krizi byl majitel donucen k dalším slevám - jednotné ceny 1,10 K&#269;
+            a 2.40 K&#269;. Kdyby tento podnik nebyl tak zadlužen ( dluh p&#345;es
+            500 000 K&#269; ) byl by zlatým dolem.</p>
+            <p>Pr&#367;myslový charakter Nešt&#283;mic zp&#367;sobil, že se
+            staly již v minulém století význa&#269;ným st&#345;ediskem d&#283;lnického
+            hnutí. Mimoto zde aktivn&#283; p&#367;sobila i &#269;eská menšina
+            (Sokol, ochotníci a fotbalový klub &#268;eský lev-zal. 1918).</p>
+            <p>Podle pam&#283;tník&#367; v úterý 8. kv&#283;tna ke druhé
+            hodin&#283; odpolední koku 1945 se doneslo, že od Bukova p&#345;ijížd&#283;jí
+            ke st&#345;edu první ruské tanky. Hlavní jádro armády dorazilo
+            9. kv&#283;tna. V &#269;ele gardové armády A.S. Žadova, která
+            osvobodila ústecký okres, dorazil do m&#283;sta generálmajor,
+            pozd&#283;ji generál poru&#269;ík, Leonid Alexejevi&#269; Kolobov.
+            Ten byl za své zásluhy jmenován &#269;estným ob&#269;anem m&#283;sta
+            Ústí nad Labem a m&#283;l sídlo v Nešt&#283;micích (pozd&#283;ji
+            na Ko&#269;kov&#283;). Rozsáhlá výstavba zapo&#269;atá v r. 1967
+            a pokra&#269;ující dodnes podstatným zp&#367;sobem zm&#283;nila
+            tvá&#345;nost obce, která získala v r. 1970 statut m&#283;sta. V
+            roce 1980 m&#283;ly Nešt&#283;mice 5 150 obyvatel.</p>
+            <p>&nbsp;</p>
+            &nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
