@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Kronika — Neštěmice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css?v=12"/>
+</head>
+<body data-page="kronika" data-base="">
+  <div id="shell-header"></div>
+
+  <main>
+    <div class="page-head">
+      <div>
+        <div class="kicker">Naskenováno · 189 listů</div>
+        <h1>Kronika I</h1>
+      </div>
+      <p class="lede">Rukopisná kronika v&nbsp;původní podobě. Nepřepisujeme do moderní češtiny — necháváme čitelný rukopis, opravy i&nbsp;dobové výrazy.</p>
+    </div>
+
+    <div class="kron-intro">
+      <div>
+        <h3>O tomto svazku</h3>
+        <p>První kronický svazek obsahuje <strong>189 listů</strong>, převážně rukopisných. Naskenováno bylo původně v&nbsp;rozlišení 1200×1800 px kolem roku 2004–2005 (pro tehdejší web), originál je uložen u&nbsp;rodiny správce.</p>
+        <p>Některé listy jsou prázdné, jiné obsahují vlepené fotografie, novinové výstřižky či razítka. Drobné vady skenu — ohyby papíru, prosvítání druhé strany — ponecháváme.</p>
+      </div>
+      <div>
+        <h3>Jak kroniku používat</h3>
+        <ul class="plain">
+          <li>Kliknutím na list se otevře velký náhled s možností přiblížit.</li>
+          <li>Čísla listů odpovídají pořadí ve svazku, <em>ne</em> číslování v rukopisu (to se místy liší).</li>
+          <li>Pokud některý list rozluštíte a&nbsp;chcete přispět přepisem, <a href="o-projektu.html">napište</a>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="stripe">
+      <div class="sec-head">
+        <h2 id="listing">Všechny listy</h2>
+        <div class="aux">
+          <span id="range-label">strana 1–40 z 189</span>
+        </div>
+      </div>
+
+      <div id="kron-grid" class="kron-grid"></div>
+
+      <div class="pager">
+        <button class="btn" id="prev">← předchozí</button>
+        <span class="mono" id="page-info">strana 1 / 5</span>
+        <button class="btn" id="next">další →</button>
+      </div>
+    </section>
+
+    <hr class="hr-ornament"/>
+
+    <section style="padding:20px 0 60px;">
+      <div class="sec-head"><h2>Poznámky k přenosu</h2><div class="aux">pro AI &amp; pozdější ruční úpravu</div></div>
+      <p style="max-width:70ch;font-size:16px;line-height:1.6;color:var(--ink-soft);">V&nbsp;budoucnu plánujeme volitelný <strong>přepis</strong> listů — buď OCR strojovým rozpoznáním, nebo ručním doplňováním čitelných pasáží. Přepis by visel vedle naskenovaného listu jako druhý sloupec, a zaškrtávátko by dovolilo přepínat mezi <em>pouze&nbsp;obrázek</em> / <em>obrázek&nbsp;+&nbsp;text</em> / <em>pouze&nbsp;text</em>. Původní obraz se ale nikdy nesmaže.</p>
+    </section>
+  </main>
+
+  <footer id="shell-footer"></footer>
+
+  <style>
+    .kron-intro {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      padding: 20px 0 48px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .kron-intro h3 {
+      font-family: var(--serif);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 24px;
+      letter-spacing: -0.3px;
+      margin: 0 0 14px;
+    }
+    .kron-intro p { font-size: 16px; line-height: 1.55; color: var(--ink-soft); margin: 0 0 12px; max-width: 48ch; }
+    .kron-intro ul.plain { list-style: none; padding: 0; margin: 0; font-size: 16px; line-height: 1.6; color: var(--ink-soft); }
+    .kron-intro ul.plain li { padding-left: 22px; position: relative; margin-bottom: 10px; }
+    .kron-intro ul.plain li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
+
+    .kron-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .kron-cell {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+    .kron-cell .page {
+      background: var(--paper-dark);
+      border: 1px solid var(--rule);
+      aspect-ratio: 3/4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: transform 0.15s, box-shadow 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+    .kron-cell .page::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(transparent 0, transparent 14px, rgba(29,26,21,0.08) 14px, rgba(29,26,21,0.08) 15px);
+      pointer-events: none;
+    }
+    .kron-cell .page .num {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 36px;
+      color: var(--ink-soft);
+      position: relative;
+    }
+    .kron-cell:hover .page {
+      transform: translateY(-2px);
+      box-shadow: 4px 4px 0 var(--accent);
+    }
+    .kron-cell .cap {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-top: 6px;
+      text-align: center;
+    }
+
+    /* Nahodile "specialni" listy zvyraznit */
+    .kron-cell.special .page { background: #e8dcc0; }
+    .kron-cell.photo .page::after {
+      content: 'vlepena fotografie';
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      right: 8px;
+      font-family: var(--mono);
+      font-size: 8px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-align: center;
+    }
+    .kron-cell.blank .page .num { opacity: 0.3; }
+    .kron-cell.blank .cap { opacity: 0.5; }
+
+    .pager {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      padding: 24px 0;
+    }
+    .pager .mono { font-size: 11px; letter-spacing: 2px; color: var(--ink-soft); }
+
+    /* Lightbox */
+    .lightbox {
+      position: fixed; inset: 0;
+      background: rgba(20,18,14,0.92);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+    .lightbox.on { display: flex; }
+    .lightbox-inner {
+      background: var(--paper);
+      padding: 20px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .lightbox-inner .ph {
+      flex: 1;
+      aspect-ratio: 3/4;
+      max-height: 70vh;
+      border-style: solid;
+    }
+    .lightbox-head {
+      display: flex; justify-content: space-between; align-items: baseline;
+      padding-bottom: 10px; margin-bottom: 14px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .lightbox-head h3 { font-family: var(--serif); font-style: italic; font-weight: 400; margin: 0; font-size: 24px; }
+    .lightbox-head button { background: none; border: 1px solid var(--ink); padding: 4px 10px; cursor: pointer; font-family: var(--mono); font-size: 11px; letter-spacing: 1.5px; }
+    .lightbox-nav { display: flex; justify-content: space-between; padding-top: 12px; border-top: 1px solid var(--rule); margin-top: 14px; }
+
+    @media (max-width: 900px) {
+      .kron-intro { grid-template-columns: 1fr; gap: 24px; }
+      .kron-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 500px) {
+      .kron-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lb">
+    <div class="lightbox-inner">
+      <div class="lightbox-head">
+        <h3 id="lb-title">List —</h3>
+        <button onclick="closeLb()">zavřít</button>
+      </div>
+      <div class="ph" id="lb-ph">[ náhled listu z grafika/kronika1/X.jpg ]</div>
+      <div class="lightbox-nav">
+        <button class="btn" onclick="navLb(-1)">← předchozí list</button>
+        <button class="btn" onclick="navLb(1)">další list →</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="shell.js?v=13"></script>
+  <script>
+    const TOTAL = 189;
+    const PER_PAGE = 40;
+    let page = 1;
+    let currentLb = null;
+
+    // Seed pro "nahodilost" typu listu — deterministicky, aby se to nemenilo
+    function listKind(n) {
+      const h = (n * 2654435761) % 100;
+      if (n % 17 === 5) return 'photo';
+      if (n % 23 === 7) return 'special';
+      if (n === 0 || n === TOTAL - 1 || h < 6) return 'blank';
+      return 'plain';
+    }
+
+    function renderGrid() {
+      const start = (page - 1) * PER_PAGE;
+      const end = Math.min(start + PER_PAGE, TOTAL);
+      const grid = document.getElementById('kron-grid');
+      let html = '';
+      for (let i = start; i < end; i++) {
+        const kind = listKind(i);
+        const label = kind === 'blank' ? 'prázdný' : `list ${i}`;
+        html += `
+          <a class="kron-cell ${kind}" data-n="${i}" onclick="openLb(${i}); return false;">
+            <div class="page"><div class="num">${i}</div></div>
+            <div class="cap">${label}</div>
+          </a>
+        `;
+      }
+      grid.innerHTML = html;
+      document.getElementById('range-label').textContent = `strany ${start + 1}–${end} z ${TOTAL}`;
+      document.getElementById('page-info').textContent = `strana ${page} / ${Math.ceil(TOTAL / PER_PAGE)}`;
+      document.getElementById('prev').disabled = page === 1;
+      document.getElementById('next').disabled = end >= TOTAL;
+    }
+
+    function openLb(n) {
+      currentLb = n;
+      document.getElementById('lb').classList.add('on');
+      document.getElementById('lb-title').textContent = `List ${n}  ·  Kronika I`;
+      document.getElementById('lb-ph').textContent = `[ zde se bude načítat grafika/kronika1/${n}.jpg ]`;
+    }
+    function closeLb() {
+      document.getElementById('lb').classList.remove('on');
+      currentLb = null;
+    }
+    function navLb(dir) {
+      if (currentLb === null) return;
+      const next = currentLb + dir;
+      if (next < 0 || next >= TOTAL) return;
+      openLb(next);
+    }
+    document.getElementById('prev').addEventListener('click', () => { if (page > 1) { page--; renderGrid(); window.scrollTo({top: document.getElementById('listing').offsetTop - 80, behavior: 'smooth'}); } });
+    document.getElementById('next').addEventListener('click', () => { if (page * PER_PAGE < TOTAL) { page++; renderGrid(); window.scrollTo({top: document.getElementById('listing').offsetTop - 80, behavior: 'smooth'}); } });
+    document.getElementById('lb').addEventListener('click', (e) => { if (e.target.id === 'lb') closeLb(); });
+    window.addEventListener('keydown', (e) => {
+      if (!document.getElementById('lb').classList.contains('on')) return;
+      if (e.key === 'Escape') closeLb();
+      if (e.key === 'ArrowLeft') navLb(-1);
+      if (e.key === 'ArrowRight') navLb(1);
+    });
+
+    renderGrid();
+  </script>
+</body>
+</html>

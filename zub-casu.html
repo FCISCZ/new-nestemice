@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Zub času — Neštěmice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css?v=12"/>
+</head>
+<body data-page="zub" data-base="">
+  <div id="shell-header"></div>
+
+  <main>
+    <div class="page-head">
+      <div>
+        <div class="kicker">Patnáct dvojic · postupně tři pohledy</div>
+        <h1>Zub času</h1>
+      </div>
+      <p class="lede">Stejné místo — jednou na přelomu&nbsp;1900, jednou v&nbsp;červnu&nbsp;2001. Sto let mezi oběma snímky. K&nbsp;některým teď přidáváme třetí pohled, <em>2026</em>.</p>
+    </div>
+
+    <div class="zub-intro">
+      <div>
+        <h3>Jak vznikl</h3>
+        <p>V&nbsp;létě 2001 obešel tým <strong>Fox · Sonic · Spita</strong> patnáct míst v&nbsp;Neštěmicích a&nbsp;okolí. V&nbsp;ruce měl dobové pohlednice a&nbsp;fotografie z&nbsp;přelomu 19. a&nbsp;20. století — úkolem bylo vyfotit stejný záběr, ze stejného úhlu.</p>
+        <p>Tři „akty" (kapitoly) tvoří dnes stále fungující sekci. Pro nový web je znovu skenujeme a&nbsp;chystáme <strong>třetí pohled</strong> — 2026.</p>
+      </div>
+      <div class="legend">
+        <div class="legend-row"><span class="leg-dot leg-1901"></span><span>kolem 1901 · pohlednice, archivní foto</span></div>
+        <div class="legend-row"><span class="leg-dot leg-2001"></span><span>25. června 2001 · Fox · Sonic · Spita</span></div>
+        <div class="legend-row"><span class="leg-dot leg-2026"></span><span>2026 · postupně doplňujeme</span></div>
+      </div>
+    </div>
+
+    <section class="stripe">
+      <div class="sec-head">
+        <h2>Akt první — Ústí nad Labem · střed</h2>
+        <div class="aux">5 dvojic</div>
+      </div>
+      <div class="zub-grid" id="akt1"></div>
+    </section>
+
+    <section class="stripe">
+      <div class="sec-head">
+        <h2>Akt druhý — Neštěmice</h2>
+        <div class="aux">5 dvojic</div>
+      </div>
+      <div class="zub-grid" id="akt2"></div>
+    </section>
+
+    <section class="stripe">
+      <div class="sec-head">
+        <h2>Akt třetí — okolí &amp; potok</h2>
+        <div class="aux">5 dvojic</div>
+      </div>
+      <div class="zub-grid" id="akt3"></div>
+    </section>
+
+    <hr class="hr-ornament"/>
+
+    <section style="padding:20px 0 60px;">
+      <p style="max-width:68ch;font-size:18px;line-height:1.6;color:var(--ink-soft);font-family:var(--serif);font-style:italic;">
+        „Když Fox se Spitou v&nbsp;létě 2001 stáli pod Corner housem a&nbsp;srovnávali to, co viděli, s&nbsp;pohlednicí staré sto let, zjistili, že jim trvalo dvě hodiny najít ten správný bod. Sto let odsune kameny o&nbsp;metr, roh domu o&nbsp;půl patra, strom o&nbsp;osm metrů. My teď stojíme na&nbsp;tom stejném bodě znova."
+      </p>
+    </section>
+  </main>
+
+  <footer id="shell-footer"></footer>
+
+  <style>
+    .zub-intro { display: grid; grid-template-columns: 2fr 1fr; gap: 48px; padding: 20px 0 32px; border-bottom: 1px solid var(--rule); }
+    .zub-intro h3 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 24px; margin: 0 0 14px; letter-spacing: -0.3px; }
+    .zub-intro p { font-size: 16px; line-height: 1.55; color: var(--ink-soft); margin: 0 0 12px; max-width: 56ch; }
+    .legend { border: 1px solid var(--rule); padding: 20px; align-self: start; background: var(--paper-dark); }
+    .legend-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-family: var(--mono); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink); }
+    .leg-dot { width: 12px; height: 12px; border: 1px solid var(--ink); display: inline-block; }
+    .leg-1901 { background: #c8b896; }
+    .leg-2001 { background: #8a9c7e; }
+    .leg-2026 { background: var(--accent); }
+
+    .zub-grid { display: flex; flex-direction: column; gap: 40px; }
+    .zub-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+      border-bottom: 1px dotted var(--ink-faint);
+      padding-bottom: 40px;
+    }
+    .zub-pair:last-child { border-bottom: none; padding-bottom: 0; }
+    .zub-pair .caption-col {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+      margin-top: 10px;
+    }
+    .zub-pair .caption {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .zub-pair .title-wrap {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+    .zub-pair h3 {
+      font-family: var(--serif);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 28px;
+      letter-spacing: -0.5px;
+      margin: 0;
+    }
+    .zub-pair .meta {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: var(--ink-faint);
+      text-transform: uppercase;
+    }
+    .zub-pair .ph-1901 { background:
+        repeating-linear-gradient(45deg, #d4c4a0 0, #d4c4a0 6px, #c8b896 6px, #c8b896 7px),
+        #c8b896; color: #5a4a2e; }
+    .zub-pair .ph-2001 { background:
+        repeating-linear-gradient(135deg, #9daf90 0, #9daf90 8px, #8a9c7e 8px, #8a9c7e 9px),
+        #8a9c7e; color: #2d3a24; }
+    .zub-pair .ph-2026 {
+      background: var(--paper);
+      border: 1.5px dashed var(--accent);
+      color: var(--accent);
+      position: relative;
+    }
+    .zub-pair .ph-2026::after {
+      content: 'čeká na 2026';
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      background: var(--paper);
+      padding: 2px 6px;
+    }
+    .zub-pair.done .ph-2026 {
+      background:
+        repeating-linear-gradient(90deg, #e8a891 0, #e8a891 6px, #d97953 6px, #d97953 7px),
+        #d97953;
+      border: 1px solid var(--accent);
+      color: #5a1a0a;
+    }
+    .zub-pair.done .ph-2026::after { content: '2026 · hotovo'; background: var(--accent); color: var(--paper); }
+
+    @media (max-width: 900px) {
+      .zub-intro { grid-template-columns: 1fr; gap: 24px; }
+      .zub-pair { grid-template-columns: 1fr; }
+      .zub-pair .caption-col { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script src="shell.js?v=13"></script>
+  <script>
+    const PAIRS = {
+      akt1: [
+        { title: 'Mírové náměstí', meta: 'Ústí n. L.', done: true },
+        { title: 'Corner House', meta: 'Revoluční ul.' },
+        { title: 'Nádraží západ', meta: 'Důlce' },
+        { title: 'Divadlo', meta: 'Lidické nám.' },
+        { title: 'Městské sady', meta: 'za muzeem' },
+      ],
+      akt2: [
+        { title: 'Neštěmické náměstí', meta: 'pohled k jihu', done: true },
+        { title: 'Hostinec U Lípy', meta: 'Vojanova ul.' },
+        { title: 'Kostel sv. Floriána', meta: 'U kostela' },
+        { title: 'Mlýn nad potokem', meta: 'Mlýnská' },
+        { title: 'Stará škola', meta: 'U školy' },
+      ],
+      akt3: [
+        { title: 'Neštěmický potok · soutěska', meta: 'km 3,2' },
+        { title: 'Zřícenina Blansko', meta: '540 m n. m.' },
+        { title: 'Ryjice · náves', meta: 'od jihu' },
+        { title: 'Železniční most', meta: 'nad potokem' },
+        { title: 'Tefritový lom', meta: 'západní stěna' },
+      ],
+    };
+
+    function renderAkt(id) {
+      const wrap = document.getElementById(id);
+      wrap.innerHTML = PAIRS[id].map((p, i) => `
+        <div class="zub-pair ${p.done ? 'done' : ''}">
+          <div class="title-wrap">
+            <h3>${p.title}</h3>
+            <div class="meta">${p.meta} · № ${String(i+1).padStart(2,'0')}</div>
+          </div>
+          <div class="ph ph-1901" style="aspect-ratio:4/3;">cca 1901</div>
+          <div class="ph ph-2001" style="aspect-ratio:4/3;">25. 6. 2001</div>
+          <div class="ph ph-2026" style="aspect-ratio:4/3;">2026</div>
+          <div class="caption-col">
+            <div class="caption">pohlednice / archiv</div>
+            <div class="caption">Fox · Sonic · Spita · Kodak</div>
+            <div class="caption">${p.done ? 'foto hotové · 2026' : 'čeká na obcházku'}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    ['akt1','akt2','akt3'].forEach(renderAkt);
+  </script>
+</body>
+</html>

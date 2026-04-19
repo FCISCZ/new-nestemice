@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>O projektu — Neštěmice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css?v=12"/>
+</head>
+<body data-page="o" data-base="">
+  <div id="shell-header"></div>
+
+  <main>
+    <div class="page-head">
+      <div>
+        <div class="kicker">Soukromý projekt · 2026</div>
+        <h1>O projektu</h1>
+      </div>
+      <p class="lede">Tenhle web není oficiální. Nezastupuje městský obvod. Je to osobní pokračování práce, kterou kolem roku 2001 začali <em>Fox · Sonic · Spita</em>.</p>
+    </div>
+
+    <section class="manifest">
+      <p class="big">
+        V&nbsp;roce 2001 vznikl na&nbsp;doméně nestemice.cz malý web o&nbsp;jednom koutu Ústí nad&nbsp;Labem. Dělali ho tři lidé —&nbsp;Fox, Sonic a&nbsp;Spita. Skenovali kroniky, obcházeli místa s&nbsp;foťákem a&nbsp;srovnávali dnešek s&nbsp;pohlednicemi starými sto let.
+      </p>
+      <p class="big">
+        Po&nbsp;letech ticha web <em>ožívá jako deník</em>. Historický obsah zůstává tak, jak byl — <strong>přepsaný pouze tam, kde to opravdu dává smysl</strong>. Co je nového: každý den nebo dva sepíše jazykový model krátký zápis z&nbsp;okolí. Zdroje vždy uvádíme.
+      </p>
+      <p class="big soft">
+        Oficiální stránky městského obvodu jsou na&nbsp;<a href="https://www.nestemice.eu">nestemice.eu</a>.
+      </p>
+    </section>
+
+    <section class="stripe people">
+      <div class="sec-head">
+        <h2>Lidé</h2>
+        <div class="aux">dvojčlenná redakce</div>
+      </div>
+
+      <div class="now">
+        <div class="people-grid">
+          <div class="person">
+            <div class="ph portrait" style="border-color:var(--accent);color:var(--accent);">FC</div>
+            <h4>FC</h4>
+            <div class="mono accent">správce &amp; obnova</div>
+            <p>Rozhodl se po&nbsp;letech doménu oživit. Digitalizuje starý obsah, nastavuje pipeline pro AI deník, postupně doplňuje <em>třetí pohled</em> do&nbsp;Zubu času.</p>
+          </div>
+          <div class="person">
+            <div class="ph portrait" style="background:var(--ink);color:var(--paper);border:none;">AI</div>
+            <h4>Redakce AI</h4>
+            <div class="mono soft">Claude (haiku 4.5) + agenti</div>
+            <p>Sepisuje denní zápisky ze sledovaných zdrojů. Vše publikované je označeno jako psané AI. Fakta ověřujeme z&nbsp;více&nbsp;zdrojů.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="people-note">
+        Původní web (2001–2005) stojí za&nbsp;<strong>Foxem</strong> a&nbsp;jeho dvěma spolutvůrci — jejich práci najdete v&nbsp;<a href="archiv-2001.html">Archivu 2001</a>.
+      </p>
+    </section>
+
+    <section class="stripe zdroje">
+      <div class="sec-head">
+        <h2>Zdroje, odkud AI čerpá</h2>
+        <div class="aux">faktický základ pro deník</div>
+      </div>
+
+      <p class="zdroj-intro">AI deník přebírá jen <strong>fakta</strong> (datumy, místa, čísla, úřední oznámení) — nekopíruje cizí texty. Každý zápis odkazuje na zdroj. Níže přehled podle rizika převzetí:</p>
+
+      <div class="zdroj-legend">
+        <span><span class="dot green"></span> Veřejné úřední info — volně citovatelné</span>
+        <span><span class="dot amber"></span> Pouze fakta nebo odkaz, ne kopírovat</span>
+        <span><span class="dot red"></span> Autorský obsah — jen odkaz + vlastní text</span>
+      </div>
+
+      <table class="zdroj-tbl">
+        <thead>
+          <tr><th>Zdroj</th><th>Typ dat</th><th>Jak s tím pracujeme</th></tr>
+        </thead>
+        <tbody>
+          <tr class="grp"><td colspan="3">Úřad &amp; samospráva</td></tr>
+          <tr><td><a href="https://www.nestemice.eu" target="_blank" rel="noopener"><span class="dot green"></span>nestemice.eu</a></td><td>úřední deska, obec</td><td>Veřejné, RSS — OK přebírat.</td></tr>
+          <tr><td><a href="https://www.usti.cz" target="_blank" rel="noopener"><span class="dot amber"></span>usti.cz</a></td><td>městské aktuality</td><td>Fakta OK, celé články ne.</td></tr>
+          <tr><td><a href="https://www.usti-nad-labem.cz" target="_blank" rel="noopener"><span class="dot green"></span>usti-nad-labem.cz</a></td><td>kraj, dotace</td><td>Veřejné — OK.</td></tr>
+
+          <tr class="grp"><td colspan="3">Bezpečnost</td></tr>
+          <tr><td><a href="https://www.hzscr.cz/hzs-usteckeho-kraje.aspx" target="_blank" rel="noopener"><span class="dot green"></span>HZS Ústeckého kraje</a></td><td>zásahy hasičů</td><td>Tiskové zprávy — OK.</td></tr>
+          <tr><td><a href="https://www.policie.cz" target="_blank" rel="noopener"><span class="dot green"></span>Policie ČR</a></td><td>tiskové zprávy</td><td>Veřejné — OK.</td></tr>
+
+          <tr class="grp"><td colspan="3">Školy &amp; vzdělávání</td></tr>
+          <tr><td><a href="https://www.zshluboka.cz" target="_blank" rel="noopener"><span class="dot amber"></span>ZŠ Hluboká</a></td><td>školní aktuality</td><td>Odkaz + vlastní shrnutí.</td></tr>
+          <tr><td><a href="https://www.msnestemice.cz" target="_blank" rel="noopener"><span class="dot amber"></span>MŠ Neštěmice</a></td><td>školní aktuality</td><td>Odkaz + vlastní shrnutí.</td></tr>
+          <tr><td><span class="dot green"></span>Knihovna Neštěmice</td><td>akce, program</td><td>Veřejná instituce — fakta OK.</td></tr>
+
+          <tr class="grp"><td colspan="3">Kultura</td></tr>
+          <tr><td><a href="https://www.usti-nad-labem.cz/cz/zivot-mesta/kultura/" target="_blank" rel="noopener"><span class="dot green"></span>kalendář města</a></td><td>akce</td><td>Fakta (datum, místo, název) OK.</td></tr>
+          <tr><td><a href="https://www.ksul.cz" target="_blank" rel="noopener"><span class="dot green"></span>KSUL</a></td><td>program</td><td>Faktické údaje OK.</td></tr>
+          <tr><td><a href="https://www.kudyznudy.cz" target="_blank" rel="noopener"><span class="dot amber"></span>Kudy z nudy</a></td><td>turistické akce</td><td>Odkaz OK, texty ne.</td></tr>
+
+          <tr class="grp"><td colspan="3">Doprava &amp; životní prostředí</td></tr>
+          <tr><td><a href="https://www.dpmul.cz" target="_blank" rel="noopener"><span class="dot green"></span>DPMÚL</a></td><td>výluky, jízdní řády</td><td>Veřejný dopravce — fakta OK.</td></tr>
+          <tr><td><a href="https://hydro.chmi.cz" target="_blank" rel="noopener"><span class="dot green"></span>ČHMÚ — hladina Labe</a></td><td>měření</td><td>Veřejná data státní služby.</td></tr>
+          <tr><td><a href="https://www.chmi.cz/files/portal/docs/uoco/web_generator/locality/pollution_locality/loc_index.html" target="_blank" rel="noopener"><span class="dot green"></span>ČHMÚ — ovzduší</a></td><td>měření</td><td>Veřejná data státní služby.</td></tr>
+
+          <tr class="grp"><td colspan="3">Sport</td></tr>
+          <tr><td><span class="dot amber"></span>FK Český lev Neštěmice</td><td>výsledky, termíny</td><td>Fakta OK, texty ne.</td></tr>
+
+          <tr class="grp"><td colspan="3">Soukromá média (pozor)</td></tr>
+          <tr><td><a href="https://ustecky.denik.cz" target="_blank" rel="noopener"><span class="dot red"></span>Ústecký deník</a></td><td>články</td><td>Jen odkaz + vlastní text.</td></tr>
+          <tr><td><a href="https://www.ustinadlabemdnes.cz" target="_blank" rel="noopener"><span class="dot red"></span>ustinadlabemdnes.cz</a></td><td>články</td><td>Jen odkaz + vlastní text.</td></tr>
+
+          <tr class="grp"><td colspan="3">Reference</td></tr>
+          <tr><td><a href="https://cs.wikipedia.org/wiki/Ne%C5%A1t%C4%9Bmice" target="_blank" rel="noopener"><span class="dot green"></span>Wikipedia</a></td><td>fakta</td><td>CC BY-SA — OK s uvedením zdroje.</td></tr>
+        </tbody>
+      </table>
+
+      <div class="zdroj-books">
+        <h4>Tiskoviny &amp; knihy</h4>
+        <ul class="plain">
+          <li>Pamětní kniha obce Neštěmice I. (rukopis, cca 1920–1960)</li>
+          <li>Ústecké vlastivědné listy, roč. 1996–2002</li>
+          <li>Historie MHD v&nbsp;Ústí nad Labem (R. Junek, 1999)</li>
+          <li>Blansko — hrad nad potokem (sborník, 1987)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="stripe kontakt">
+      <div class="sec-head">
+        <h2>Kontakt</h2>
+        <div class="aux">napište, opravte, přispějte</div>
+      </div>
+      <div class="kontakt-grid">
+        <div>
+          <p class="big">Máte k&nbsp;některému zápisu <strong>vzpomínku</strong>, starou <strong>fotografii</strong> nebo <strong>opravu</strong>? Napište — rád ji přidám.</p>
+          <p class="big">Našli jste v&nbsp;textu od&nbsp;AI nepřesnost? Napište taky. Opravíme a&nbsp;doplníme poznámku redakce — původní znění necháváme, aby bylo vidět, kde se AI spletla.</p>
+        </div>
+        <div class="contact-box">
+          <div class="mono soft">napište na</div>
+          <a class="email" href="mailto:hello@nestemice.cz">hello@nestemice.cz</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="shell-footer"></footer>
+
+  <style>
+    .manifest { padding: 40px 0; border-bottom: 1px solid var(--rule); max-width: 62ch; }
+    .manifest p.big { font-family: var(--serif); font-size: 24px; line-height: 1.5; margin: 0 0 24px; }
+    .manifest p.big em { color: var(--accent); font-style: italic; }
+    .manifest p.big.soft { font-size: 16px; color: var(--ink-soft); }
+
+    .small-head {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 20px;
+      font-weight: 500;
+    }
+    .past { margin-bottom: 48px; }
+
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    .now .people-grid { grid-template-columns: repeat(2, 1fr); max-width: 720px; }
+    .people-note { margin-top: 32px; padding-top: 20px; border-top: 1px dotted var(--ink-faint); font-size: 15px; color: var(--ink-soft); max-width: 60ch; font-style: italic; font-family: var(--serif); }
+    .people-note strong { color: var(--ink); font-weight: 600; font-style: normal; }
+    .person .portrait {
+      aspect-ratio: 1;
+      max-width: 140px;
+      font-family: var(--mono);
+      font-size: 16px;
+      letter-spacing: 4px;
+      color: var(--ink-soft);
+      border-style: solid;
+    }
+    .person h4 {
+      font-family: var(--serif);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: -0.5px;
+      margin: 16px 0 6px;
+    }
+    .person p {
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--ink-soft);
+      margin: 12px 0 0;
+      max-width: 36ch;
+    }
+    .person p em { color: var(--accent); font-style: italic; }
+
+    .zdroj-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+    .zdroj-grid h4 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 22px; margin: 0 0 14px; }
+    .zdroj-grid ul.plain { list-style: none; padding: 0; margin: 0; font-family: var(--serif); font-size: 16px; line-height: 1.7; color: var(--ink-soft); }
+    .zdroj-grid ul.plain li { padding-left: 20px; position: relative; }
+    .zdroj-grid ul.plain li::before { content: '–'; position: absolute; left: 0; color: var(--accent); }
+
+    .zdroj-intro { font-family: var(--serif); font-size: 18px; line-height: 1.55; color: var(--ink-soft); max-width: 64ch; margin: 0 0 20px; }
+    .zdroj-intro strong { color: var(--ink); font-weight: 600; }
+
+    .zdroj-legend {
+      display: flex; gap: 28px; flex-wrap: wrap;
+      font-family: var(--mono); font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--ink-soft);
+      padding: 14px 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 4px;
+    }
+    .zdroj-legend span { display: inline-flex; align-items: center; gap: 8px; }
+
+    .dot {
+      display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+      vertical-align: middle; margin-right: 6px; flex-shrink: 0;
+    }
+    .dot.green { background: #2d7a4f; }
+    .dot.amber { background: #c89019; }
+    .dot.red   { background: #b4361f; }
+
+    .zdroj-tbl {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--sans);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    .zdroj-tbl thead th {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      text-align: left;
+      padding: 14px 12px 10px;
+      border-bottom: 1px solid var(--rule);
+      font-weight: 500;
+    }
+    .zdroj-tbl td { padding: 10px 12px; border-bottom: 1px dotted var(--ink-faint); vertical-align: top; }
+    .zdroj-tbl td:first-child { width: 32%; }
+    .zdroj-tbl td:nth-child(2) { width: 22%; color: var(--ink-soft); font-style: italic; font-family: var(--serif); }
+    .zdroj-tbl td:last-child { color: var(--ink-soft); }
+    .zdroj-tbl a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
+    .zdroj-tbl a:hover { color: var(--accent); }
+    .zdroj-tbl tr.grp td {
+      background: var(--paper-dark);
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--accent);
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--rule);
+      border-top: 1px solid var(--rule);
+      font-weight: 500;
+    }
+
+    .zdroj-books { margin-top: 8px; padding-top: 28px; border-top: 1px solid var(--rule); }
+    .zdroj-books h4 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 22px; margin: 0 0 14px; }
+    .zdroj-books ul.plain { list-style: none; padding: 0; margin: 0; font-family: var(--serif); font-size: 16px; line-height: 1.7; color: var(--ink-soft); }
+    .zdroj-books ul.plain li { padding-left: 20px; position: relative; }
+    .zdroj-books ul.plain li::before { content: '–'; position: absolute; left: 0; color: var(--accent); }
+    .zdroj-books a { color: var(--accent); text-decoration: none; }
+    .zdroj-books a:hover { text-decoration: underline; }
+
+    .kontakt-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 48px; align-items: start; }
+    .kontakt-grid .big { font-family: var(--serif); font-size: 20px; line-height: 1.55; color: var(--ink); margin: 0 0 20px; }
+    .kontakt-grid .big strong { color: var(--accent); font-weight: 600; font-style: italic; }
+    .contact-box {
+      background: var(--paper-dark);
+      border: 2px solid var(--rule);
+      padding: 28px;
+    }
+    .contact-box .mono { font-size: 10px; letter-spacing: 2px; }
+    .contact-box .email {
+      display: block;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 26px;
+      margin-top: 6px;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+      word-break: break-all;
+    }
+    .contact-box .email:hover { text-decoration: underline; }
+
+    @media (max-width: 900px) {
+      .people-grid, .now .people-grid { grid-template-columns: 1fr; }
+      .zdroj-grid, .kontakt-grid { grid-template-columns: 1fr; gap: 24px; }
+      .zdroj-tbl { font-size: 13px; }
+      .zdroj-tbl td:first-child { width: 42%; }
+      .zdroj-tbl td:nth-child(2) { display: none; }
+      .zdroj-legend { gap: 14px; font-size: 9px; }
+    }
+  </style>
+
+  <script src="shell.js?v=13"></script>
+</body>
+</html>

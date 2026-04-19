@@ -1,0 +1,78 @@
+{
+  "generated": "2026-04-19T14:30:00+02:00",
+  "description": "Seznam článků deníku. Aktualizuje AI (např. Claude Code) při přidání nového článku. Každý článek je markdown soubor v denik/clanky/YYYY-MM-DD-slug.md s frontmatter.",
+  "articles": [
+    {
+      "slug": "2026-04-19-uzavirka-podmokelska",
+      "date": "2026-04-19",
+      "title": "Uzavírka Podmokelské znovu prodloužena, linka 19 jezdí přes Ryjickou",
+      "lede": "Oprava plynového potrubí se protáhla o týden. Objízdná trasa vede přes Kamennou a Ryjickou až do pondělí.",
+      "tag": "doprava",
+      "sources": ["usti.cz", "dpmul.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-19-uklid-potoka",
+      "date": "2026-04-19",
+      "title": "Skauti chystají o víkendu úklid Neštěmického potoka",
+      "lede": "Sraz v sobotu v 9:00 u mostu ke Mlýnské. Pytle, rukavice a svačinu berte s sebou.",
+      "tag": "komunita",
+      "sources": ["facebook.com/nase-nestemice"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-18-zastavka-cd",
+      "date": "2026-04-18",
+      "title": "Zastávka Neštěmice dostane nový označník a elektronické JŘ",
+      "lede": "České dráhy potvrdily modernizaci do konce května. Pokladna zůstane bez obsluhy, výdejna jízdenek přes automat.",
+      "tag": "doprava",
+      "sources": ["cd.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-18-grilovani-pod-kostelem",
+      "date": "2026-04-18",
+      "title": "Sousedské grilování pod kostelem: přišlo přes sto lidí",
+      "lede": "Akce vznikla spontánně v komentářích pod pátečním příspěvkem. Další se plánuje na 1. května.",
+      "tag": "komunita",
+      "sources": ["facebook.com/nase-nestemice"],
+      "reading_time": "3 min"
+    },
+    {
+      "slug": "2026-04-17-sberny-dvur",
+      "date": "2026-04-17",
+      "title": "Sběrný dvůr otevřen zkušebně i v sobotu",
+      "lede": "Úřad městského obvodu hlásí rozšíření otvíracích hodin do konce června. V případě zájmu se změna zafixuje.",
+      "tag": "úřad",
+      "sources": ["muul.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-16-potok-povodnova-aktivita",
+      "date": "2026-04-16",
+      "title": "Neštěmický potok na druhém stupni povodňové aktivity",
+      "lede": "Po vydatných deštech kulminovala hladina v noci. Během pátku se vrací do normálu, u Ryjic je zatopená stezka.",
+      "tag": "příroda",
+      "sources": ["chmi.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-14-nocni-linka-n52",
+      "date": "2026-04-14",
+      "title": "Noční linka N52 se od června vrací i o víkendech",
+      "lede": "Po čtyřech letech se obnovuje spoj mezi centrem a Neštěmicemi i v pátek a sobotu v noci.",
+      "tag": "doprava",
+      "sources": ["dpmul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-12-derby-krasne-brezno",
+      "date": "2026-04-12",
+      "title": "Fotbalisté porazili v derby Krásné Březno 3:1",
+      "lede": "První výhra jara. Dvě branky Koláře, jedna Vejvody z penalty v nastaveném čase.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "3 min"
+    }
+  ]
+}

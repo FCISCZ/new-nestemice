@@ -1,278 +1,245 @@
-<html>
-
+<!doctype html>
+<html lang="cs">
 <head>
-<meta content="Microsoft FrontPage 5.0" name="GENERATOR">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>Nestemice</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="Fox" grup="FCis">
-<style>.menu1 a:link { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
-               verdana, arial, helvetica; text-decoration: none }
-.menu1 a:visited { font-weight: bold; font-size: 11px; color: #ffffff; font-family: 
-               verdana, arial, helvetica; text-decoration: none }
-.menu1 a:hover { font-weight: bold; font-size: 11px; color: #ff0000; font-family: 
-               verdana, arial, helvetica; text-decoration: none }
-a:link       { color: #0000ff; font-family: verdana, arial, helvetica }
-a:visited    { color: #0000ff; font-family: verdana, arial, helvetica }
-a:hover      { color: #ff0000; font-family: verdana, arial, helvetica }
-</style>
-
-<SCRIPT>
-
-var isHTMLPageLoaded = false;
-var isNS     = false;
-var isIE     = false;
-var flagMore = false;
-var flagOver = false;
-var flag1    = false;
-var flagWhichLayerActive = 0;
-var t1       = 0;
-var menuCount = 6;
-var leftMenuCount = 6;
-var flagNSStopShowingMenus = false;
-
-SubMenu = new Array();
-
-if (parseInt(navigator.appVersion) >= 4) {
-	if (navigator.appName == "Netscape") isNS = true;
-	else if(navigator.appName == "Microsoft Internet Explorer")	isIE = true;
-}
-
-
-function menuOver(MenuID,e){
-   if(flagNSStopShowingMenus) return
-   flagWhichLayerActive = MenuID;
-   flagOver = true;
-   clearTimeout(t1);
-   if(isNS){
-      for(i=0;i< menuCount; i++){
-         if(MenuID == i) SubMenu[i].visibility = 'show';
-         else SubMenu[i].visibility = 'hide';
-      }
-   }
-   if(isIE){
-      for(i=0;i< menuCount; i++){
-         if(MenuID == i) {
-            if(SubMenu[i].style.pixelLeft != -500) return
-            show(SubMenu[i]);
-         }
-           else hide(SubMenu[i]);
-      }
-   }
-}
-
-function menuOut(MenuID1,e){
-   flagOver = false;
-   clearTimeout(t1)
-   if(isNS) t1 = setTimeout("SubMenu[" + MenuID1 + "].visibility = 'hide'",200);
-   if(isIE) t1 = setTimeout("hide(SubMenu[" + MenuID1 + "])",200);
-}
-
-function hide(MenuObject){
-   MenuObject.style.pixelLeft = -500;
-}
-
-function show(MenuObject){
-   MenuObject.style.pixelLeft = MenuObject.origLeft;
-   MenuObject.style.visibility = 'visible';
-}
-
-function submenuOver(e){
-   clearTimeout(t1);
-   if(isNS) SubMenu[flagWhichLayerActive].routeEvent(e);
-   if(isIE) SubMenu[flagWhichLayerActive].style.visibility = 'visible';
-}
-
-function submenuOut(e){
-   if(isNS && flag1){flag1=false;return}
-   if(isNS && flagOver){flagOver = false;return}
-   if(isNS){
-      SubMenu[flagWhichLayerActive].visibility = 'hide';
-      SubMenu[flagWhichLayerActive].routeEvent(e);
-   }
-   if(isIE){
-      if(SubMenu[flagWhichLayerActive].contains(event.toElement)) return;
-      if(event.toElement == document.all.nav0) return;
-      hide(SubMenu[flagWhichLayerActive]);
-   }
-}
-
-</SCRIPT>
-
-
-
-
-     
-       
-<SCRIPT language=javascript1.2>
-
-
-textToWrite = "";
-if(isNS) textToWrite += "<DIV id=NETSCAPE_BUG_PREVENTION style='POSITION:absolute;TOP:0px;LEFT:0px;WIDTH:10px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#FFFFFF;layer-background-color:#FFFFFF;VISIBILITY:hidden'></DIV>";
-textToWrite += "<DIV id=lyrSubMenu1 class=popupMenus style='POSITION:absolute; TOP:117px;LEFT:146px;WIDTH:130px;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px;BORDER:#23215C 0px solid;BACKGROUND-COLOR:#000099;layer-background-color:#009933'>"
-   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
-   + "<TR><TD class=menu1 noWrap height=20 width=135><A href="html/strucna.html">STRU&#268;NÁ HISTORIE</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=135><A href="html/h_sport.html">HISTORIE SPORTU</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=135><A href="html/kroniky.html">KRONIKY</A></TD></TR>" 
-   + "</TABLE>"
-   + "</DIV>"
-   
-   + "<DIV id=lyrSubMenu2 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:240px;WIDTH:120px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
-   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
-   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="html/vesmir.html">VESMÍRNÝ SNÍMEK</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="html/letecky.html">LETECKÝ SNÍMEK</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="html/infomapa.html">INFOMAPA</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="html/okoli.html">MAPA OKOLÍ</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=120><A href="html/samosprava.html">SAMOSPRÁVA</A></TD></TR>"
-   + "</TABLE>"
-   + "</DIV>"
-  
-   + "<DIV id=lyrSubMenu3 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:376px;WIDTH:94px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR:#FF9900;PADDING-LEFT:5px;VISIBILITY:hidden;MARGIN:0px'>"
-   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
-   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="html/zub.html">ZUB &#268;ASU</A></TD></TR>"   
-   + "<TR><TD class=menu1 noWrap height=20 width=94><A href="html/foto.html">FOTO</A></TD></TR>"  
-   + "</TABLE>"
-   + "</DIV>"
-   
-   + "<DIV id=lyrSubMenu4 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:114px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
-   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
-   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.panelak-net.cz>PANELAK-NET.CZ</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.nestemice.cz>NESTEMICE.CZ</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=114><A href=http://www.seti.cz>SETI.CZ</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="html/nas.html">O NÁS</A></TD></TR>"      
-   + "<TR><TD class=menu1 noWrap height=20 width=114><A href="html/kniha.html">CO JE NEW</A></TD></TR>"         
-   + "</TABLE>"
-   + "</DIV>"
-   
-   + "<DIV id=lyrSubMenu5 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:92px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
-   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
-   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="http://213.192.28.131/html/zivot.html">ŽIVOT V OBCI</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="html/sport.html">SPORT</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="html/pocasi.html">PO&#268;ASÍ</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="html/doprava.html">DOPRAVA</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=92><A href="html/anketa.html">ANKETY</A></TD></TR>"
-   + "</TABLE>"
-   + "</DIV>"
-   
-   + "<DIV id=lyrSubMenu6 class=popupMenus style='POSITION: absolute;TOP:117px;LEFT:466px;WIDTH:85px;BORDER:#003366 0px solid;BACKGROUND-COLOR:#000099;LAYER-BACKGROUND-COLOR: #FF9900;PADDING-LEFT: 5px;VISIBILITY: hidden;MARGIN:0px'>"
-   + "<TABLE cellSpacing=0 cellPadding=0 border=0>"
-   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:fox@nestemice.cz>Mail FOX</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:sonic@nestemice.cz>Mail SONIC</A></TD></TR>"
-   + "<TR><TD class=menu1 noWrap height=20 width=85><A href=mailto:spita@nestemice.cz>Mail SPITA</A></TD></TR>"
-   + "</TABLE>"
-   + "</DIV>";
-
-
-  
-
-document.write(textToWrite)
-
-if(isNS){
-   for(j=0;j<menuCount;j++){
-      eval("SubMenu[j] = document.lyrSubMenu" + (j + 1));
-      SubMenu[j].captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
-      for(i=0;i<SubMenu[j].document.links.length;i++) SubMenu[j].document.links[i].onmouseover = overLink;
-   }
-}
-if(isIE) {
-   for(i=0; i<menuCount; i++) {
-      eval("SubMenu[i] = document.all.lyrSubMenu" + (i + 1));
-      SubMenu[i].style.pixelLeft = -500;
-   }
-}
-
-for(i=0; i<menuCount; i++){
-   SubMenu[i].onmouseover = submenuOver;
-   SubMenu[i].onmouseout  = submenuOut;
-}
-
-SubMenu[0].origLeft = 239
-SubMenu[1].origLeft = 339
-SubMenu[2].origLeft = 439
-SubMenu[3].origLeft = 539
-SubMenu[4].origLeft = 139
-SubMenu[5].origLeft = 639
-
-
-
-</SCRIPT>
-
-
-
-
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Aktuality â€” NeÅ¡tÄ›mice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css?v=12"/>
 </head>
+<body data-page="home" data-base="">
+  <div id="shell-header"></div>
 
-<body background="grafika/podklad.jpg" topmargin="0" leftmargin="0">
+  <main>
+    <div class="page-head">
+      <div>
+        <div class="kicker">Å½ivÃ½ denÃ­k Â· pÃ­Å¡e AI &nbsp;Â·&nbsp; NeÅ¡tÄ›mice a okolÃ­</div>
+        <h1>Aktuality</h1>
+      </div>
+      <p class="lede">KaÅ¾dÃ½ den nebo dva projde AI vybranÃ© zdroje z okolÃ­ a&nbsp;napÃ­Å¡e krÃ¡tkÃ½ zÃ¡pis. Zdroje jsou vÅ¾dy uvedeny. &nbsp;<a href="rozcestnik.html" style="color:var(--accent);text-decoration:none;white-space:nowrap;">â†’ co to celÃ© je</a></p>
+    </div>
 
-<table border="0" cellspacing="0" width="750" cellpadding="0">
-  <tr>
-    <td align="center"><img border="0" src="grafika/Logo.jpg" width="450" height="90"><EMBED src="grafika/banner.swf" width="200" height="90"></td>
-  </tr>
-  <tr>
-    <td align="center"><img border="0" src="grafika/Lista.gif" usemap="#Map" width="620" height="27"></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-</table>
-<map name="Map">
-<area id="nav0" onmouseover="menuOver(0,event)" onmouseout="menuOut(0,event)" shape="RECT" coords="173, 0, 270, 26">
-<area onmouseover="menuOver(1,event)" onmouseout="menuOut(1,event)" shape="RECT" coords="271, 0, 371, 26">
-<area onmouseover="menuOver(2,event)" onmouseout="menuOut(2,event)" shape="RECT" coords="373, 0, 476, 26">
-<area onmouseover="menuOver(3,event)" onmouseout="menuOut(3,event)" shape="RECT" coords="475, 0, 569, 26">
-<area shape="RECT" coords="69, 0, 172, 26" onmouseover="menuOver(4,event)" onmouseout="menuOut(4,event)" shape="RECT" coords="210,0,322,26">
-<area onmouseover="menuOver(5,event)" onmouseout="menuOut(5,event)" shape="RECT" coords="570, 0, 619, 26">
-<area href="mailto:info@nestemice.cz" shape="rect" coords="2, 0, 35, 26" alt="Timto pošlete mail všem tvurc&#367;m.">
-<area href="index.html" shape="rect" coords="35, 0, 69, 26" alt="Na úvodní stránku."></map>
+    <div class="denik-filters">
+      <span class="mono soft">Filtr:</span>
+      <button class="chip on" data-tag="all">vÅ¡e</button>
+      <button class="chip" data-tag="doprava">doprava</button>
+      <button class="chip" data-tag="komunita">komunita</button>
+      <button class="chip" data-tag="ÃºÅ™ad">ÃºÅ™ad</button>
+      <button class="chip" data-tag="pÅ™Ã­roda">pÅ™Ã­roda</button>
+      <button class="chip" data-tag="sport">sport</button>
+      <button class="chip" data-tag="lidÃ©">lidÃ©</button>
+      <button class="chip" data-tag="kultura">kultura</button>
+    </div>
 
+    <div id="denik-list" class="denik-list">
+      <div class="mono soft" style="padding:40px 0;">naÄÃ­tÃ¡m&hellip;</div>
+    </div>
 
-<obsah!!!!!!!!!!!!!!!!!!!!!!!>
+    <hr class="hr-ornament"/>
 
+    <section class="also-see">
+      <div class="sec-head"><h2>DÃ¡l na webu</h2><div class="aux">ne-aktuality</div></div>
+      <div class="also-grid">
+        <a href="kronika.html" class="also-card">
+          <div class="mono accent">189 listÅ¯</div>
+          <h3>Kronika</h3>
+          <p>NaskenovanÃ¡ rukopisnÃ¡ kronika obce.</p>
+        </a>
+        <a href="zub-casu.html" class="also-card">
+          <div class="mono accent">15 dvojic â†’ trojic</div>
+          <h3>Zub Äasu</h3>
+          <p>StejnÃ© mÃ­sto, 1901 &nbsp;Â·&nbsp; 2001 &nbsp;Â·&nbsp; 2026.</p>
+        </a>
+        <a href="archiv-2001.html" class="also-card">
+          <div class="mono accent">muzeum</div>
+          <h3>Archiv 2001</h3>
+          <p>Jak vypadal pÅ¯vodnÃ­ web. NekomerÄnÃ­ projekt Fox &amp; spol.</p>
+        </a>
+      </div>
+    </section>
+  </main>
 
+  <footer id="shell-footer"></footer>
 
-<table border="0"  cellspacing="0" width="750" cellpadding="0">
-  <tr>
-    <td>&nbsp;
-      <table border="3"  align="center" width="600">
-        <tr>
-          <td width="100%">
-            <p class="MsoNormal" align="center"><b><font size="6">Slovo úvodem
-            nebo-li po&#269;átek všeho</font></b></p>
-            <p class="MsoNormal" align="center">Vítáme Vás na stránkách
-            obyvatel Nešt&#283;mic. Projekt Nešt&#283;mice.cz vznikl za ú&#269;asti
-            n&#283;kolika lidí. Nejv&#283;tší postavou v&nbsp;pozadí je Fox.
-            Je to majitel domény a tím pádem i webmaster. Po jeho pravici a
-            levici postávají Sonic se Spitou (to jako já). První zmínka o N&#283;št&#283;micích
-            nás zaujala na tolik,že mnoho ostatních v&#283;cí šlo stranou.
-            Fox naši stránku naprogramoval a my se Sonicem jsme d&#283;lali
-            grafiku. Co jsem navrhl já, to Sonic p&#345;ivedl k&nbsp;dokonalosti,
-            no a na m&#283; nezbylo nic jiného, než upravovat stovky obrázk&#367;
-            a psát všechny texty. Vše za&#269;ínalo nákresy a dohadováním
-            a nakonec p&#345;išly na &#345;adu skutky. Návšt&#283;va archívu
-            nám zabrala celý den. &#344;editel archívu p. Kaiser nám dovolil
-            p&#345;inést si vlastní po&#269;íta&#269; se scanerem. Na své si
-            hlavn&#283; p&#345;išel digitální fotoaparát, no a také stará
-            dobrá tužka. Všechny data jsme museli upravit tak, aby bylo možné
-            i na pomalejších modemech za nejnižší kvality získat co nejvíce
-            informací. Od této chvíle již b&#283;ží tato doména, ale nás
-            &#269;eká stále dost práce. Postupné rozši&#345;ování našich
-            stránek bude neuv&#283;&#345;itelné. Na našich neoficiálních
-            stránkách, bychom Vám cht&#283;li ukázat Nešt&#283;mice jak jen
-            podrobn&#283; to p&#367;jde, bez n&#283;jakého politického zam&#283;&#345;ení,
-            nejenom z&nbsp;vlastního pohledu, ale také z&nbsp;pohledu lidí
-            kolem nás. M&#367;žete zde najít v&#283;tšinu podnik&#367; a
-            institucí, zajímavostí a aktualit z&nbsp;obce Nešt&#283;mice.
-            Doufám že se Vám zalíbí a že Vám i n&#283;co p&#345;inesou.</p>
-            <p class="MsoNormal" align="center"><span style="mso-spacerun: yes">&nbsp;</span><span style="mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>sp</p>
-            <p align="center">&nbsp;</p>
-            <p align="center">Po&#269;et p&#345;ístup&#367; na tuto stránku&nbsp;&nbsp;
-            <a href="http://pocitadlo.zeal.cz"><IMG SRC="http://pocitadlo.zeal.cz/cgi-bin/wc/nestemice"></a>  </p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+  <style>
+    .denik-filters {
+      display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+      padding-bottom: 28px; margin-bottom: 32px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .denik-filters .mono { margin-right: 8px; font-size: 10px; letter-spacing: 2px; }
+    .chip {
+      background: transparent;
+      border: 1px solid var(--rule);
+      padding: 6px 14px;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: lowercase;
+      color: var(--ink);
+      cursor: pointer;
+      border-radius: 100px;
+    }
+    .chip:hover { background: var(--paper-dark); }
+    .chip.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 
+    .denik-list article {
+      display: grid;
+      grid-template-columns: 140px 1fr 180px;
+      gap: 32px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .denik-list article .date {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .denik-list article .date .tag {
+      display: inline-block;
+      margin-top: 8px;
+      color: var(--accent);
+    }
+    .denik-list article h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: -0.4px;
+      margin: 0 0 10px;
+    }
+    .denik-list article h2 a { text-decoration: none; color: inherit; }
+    .denik-list article h2 a:hover { color: var(--accent); }
+    .denik-list article p.lede {
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--ink-soft);
+      margin: 0;
+      max-width: 58ch;
+    }
+    .denik-list article .sources {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      text-align: right;
+      line-height: 1.8;
+    }
+    .denik-list article.featured {
+      background: var(--paper-dark);
+      padding-left: 24px;
+      padding-right: 24px;
+      margin-left: -24px;
+      margin-right: -24px;
+    }
+    .denik-list article.featured h2 { font-size: 36px; font-style: italic; }
+
+    .also-see { padding: 20px 0 60px; }
+    .also-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+    }
+    .also-card {
+      background: var(--paper);
+      padding: 24px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: background 0.15s;
+    }
+    .also-card:hover { background: var(--paper-dark); }
+    .also-card h3 {
+      font-family: var(--serif); font-style: italic; font-weight: 400;
+      font-size: 28px; letter-spacing: -0.5px; margin: 8px 0 8px;
+    }
+    .also-card p { font-size: 15px; line-height: 1.5; color: var(--ink-soft); margin: 0; }
+    .also-card .mono.accent { font-size: 11px; letter-spacing: 2px; }
+
+    @media (max-width: 900px) {
+      .denik-list article { grid-template-columns: 1fr; gap: 8px; }
+      .denik-list article .sources { text-align: left; }
+      .also-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script src="shell.js?v=13"></script>
+  <script>
+    let ARTICLES = [];
+    let CURRENT_TAG = 'all';
+
+    function formatDate(iso) {
+      const d = new Date(iso);
+      const mes = ['ledna','Ãºnora','bÅ™ezna','dubna','kvÄ›tna','Äervna','Äervence','srpna','zÃ¡Å™Ã­','Å™Ã­jna','listopadu','prosince'];
+      return `${d.getDate()}. ${mes[d.getMonth()]} ${d.getFullYear()}`;
+    }
+
+    function render() {
+      const wrap = document.getElementById('denik-list');
+      const list = CURRENT_TAG === 'all' ? ARTICLES : ARTICLES.filter(a => a.tag === CURRENT_TAG);
+      if (list.length === 0) {
+        wrap.innerHTML = '<div class="mono soft" style="padding:40px 0;">Å½Ã¡dnÃ© zÃ¡pisky v tomto tagu.</div>';
+        return;
+      }
+      wrap.innerHTML = list.map((a, i) => `
+        <article id="${a.slug}" class="${i === 0 && CURRENT_TAG === 'all' ? 'featured' : ''}">
+          <div class="date">
+            ${formatDate(a.date)}
+            <div class="tag">#${a.tag}</div>
+            <div style="margin-top:10px;color:var(--ink-faint);font-size:10px;">${a.reading_time}</div>
+          </div>
+          <div>
+            <h2><a href="denik/clanky/${a.slug}.md">${a.title}</a></h2>
+            <p class="lede">${a.lede}</p>
+          </div>
+          <div class="sources">
+            Zdroje:<br/>
+            ${(a.sources || []).map(s => s.replace(/^https?:\/\//,'')).join('<br/>')}
+          </div>
+        </article>
+      `).join('');
+    }
+
+    document.querySelectorAll('.chip').forEach(ch => {
+      ch.addEventListener('click', () => {
+        document.querySelectorAll('.chip').forEach(c => c.classList.remove('on'));
+        ch.classList.add('on');
+        CURRENT_TAG = ch.dataset.tag;
+        render();
+      });
+    });
+
+    (async () => {
+      try {
+        const r = await fetch('denik/index.json');
+        const data = await r.json();
+        ARTICLES = data.articles || [];
+        render();
+      } catch (e) {
+        ARTICLES = [
+          { slug:'demo1', date:'2026-04-19', title:'UzavÃ­rka PodmokelskÃ© znovu prodlouÅ¾ena, linka 19 jezdÃ­ pÅ™es Ryjickou', lede:'Oprava plynovÃ©ho potrubÃ­ se protÃ¡hla o tÃ½den. ObjÃ­zdnÃ¡ trasa vede pÅ™es Kamennou a Ryjickou aÅ¾ do pondÄ›lÃ­.', tag:'doprava', sources:['usti.cz','dpmul.cz'], reading_time:'2 min' },
+          { slug:'demo2', date:'2026-04-19', title:'Skauti chystajÃ­ o vÃ­kendu Ãºklid NeÅ¡tÄ›mickÃ©ho potoka', lede:'Sraz v sobotu v 9:00 u mostu ke MlÃ½nskÃ©. Pytle, rukavice a svaÄinu berte s sebou.', tag:'komunita', sources:['facebook'], reading_time:'1 min' },
+          { slug:'demo3', date:'2026-04-18', title:'ZastÃ¡vka NeÅ¡tÄ›mice dostane novÃ½ oznaÄnÃ­k a elektronickÃ© JÅ˜', lede:'ÄŒeskÃ© drÃ¡hy potvrdily modernizaci do konce kvÄ›tna. Pokladna zÅ¯stane bez obsluhy.', tag:'doprava', sources:['cd.cz'], reading_time:'2 min' },
+          { slug:'demo4', date:'2026-04-18', title:'SousedskÃ© grilovÃ¡nÃ­ pod kostelem: pÅ™iÅ¡lo pÅ™es sto lidÃ­', lede:'Akce vznikla spontÃ¡nnÄ› v komentÃ¡Å™Ã­ch pod pÃ¡teÄnÃ­m pÅ™Ã­spÄ›vkem. DalÅ¡Ã­ se plÃ¡nuje na 1. kvÄ›tna.', tag:'komunita', sources:['facebook'], reading_time:'3 min' },
+          { slug:'demo5', date:'2026-04-17', title:'SbÄ›rnÃ½ dvÅ¯r otevÅ™en zkuÅ¡ebnÄ› i v sobotu', lede:'ÃšÅ™ad mÄ›stskÃ©ho obvodu hlÃ¡sÃ­ rozÅ¡Ã­Å™enÃ­ otvÃ­racÃ­ch hodin do konce Äervna.', tag:'ÃºÅ™ad', sources:['muul.cz'], reading_time:'2 min' },
+          { slug:'demo6', date:'2026-04-16', title:'NeÅ¡tÄ›mickÃ½ potok na druhÃ©m stupni povodÅˆovÃ© aktivity', lede:'Po vydatnÃ½ch deÅ¡tÃ­ch kulminovala hladina v noci. BÄ›hem pÃ¡tku se vracÃ­ do normÃ¡lu.', tag:'pÅ™Ã­roda', sources:['chmi.cz'], reading_time:'2 min' },
+          { slug:'demo7', date:'2026-04-12', title:'FotbalistÃ© porazili v derby KrÃ¡snÃ© BÅ™ezno 3:1', lede:'PrvnÃ­ vÃ½hra jara. DvÄ› branky KolÃ¡Å™e, jedna Vejvody z penalty.', tag:'sport', sources:['ustecky.denik.cz'], reading_time:'3 min' },
+        ];
+        render();
+        const note = document.createElement('div');
+        note.className = 'mono soft';
+        note.style.cssText = 'padding:14px 16px;margin-bottom:24px;background:#fdf4d9;border:1px solid var(--accent);color:var(--accent);letter-spacing:1px;';
+        note.innerHTML = 'UKÃZKOVÃ DATA &mdash; bÄ›Å¾Ã­te pÅ™es file://. Pro Å¾ivÃ½ feed spusÅ¥te pÅ™es <span class="mono">python -m http.server</span>.';
+        document.getElementById('denik-list').before(note);
+      }
+    })();
+  </script>
 </body>
+</html>
