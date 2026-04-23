@@ -1,7 +1,16 @@
 {
-  "generated": "2026-04-23T20:30:00+02:00",
+  "generated": "2026-04-23T21:45:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-04-23-cviceni-policie-trmice",
+      "date": "2026-04-23",
+      "title": "Policie cvičila zásah proti ozbrojenému útočníkovi v trmické škole",
+      "lede": "V trmické základce proběhlo ve středu cvičení policie proti ozbrojenému útočníkovi. Žáci měli zkrácenou výuku, budova byla prázdná.",
+      "tag": "komunita",
+      "sources": ["Policie ČR", "Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-04-23-tipy-vikend",
       "date": "2026-04-23",
