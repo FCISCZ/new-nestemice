@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="styles.css?v=12"/>
+  <link rel="stylesheet" href="styles.css?v=17"/>
 </head>
 <body data-page="home" data-base="">
   <div id="shell-header"></div>
@@ -37,6 +37,8 @@
       <div class="mono soft" style="padding:40px 0;">načítám&hellip;</div>
     </div>
 
+    <nav id="denik-pager" class="denik-pager"></nav>
+
     <hr class="hr-ornament"/>
 
     <section class="also-see">
@@ -48,7 +50,7 @@
           <p>Naskenovaná rukopisná kronika obce.</p>
         </a>
         <a href="zub-casu.html" class="also-card">
-          <div class="mono accent">15 dvojic → trojic</div>
+          <div class="mono accent">15 trojic · 1901 · 2001 · 2026</div>
           <h3>Zub času</h3>
           <p>Stejné místo, 1901 &nbsp;·&nbsp; 2001 &nbsp;·&nbsp; 2026.</p>
         </a>
@@ -168,35 +170,114 @@
       .denik-list article .sources { text-align: left; }
       .also-grid { grid-template-columns: 1fr; }
     }
+
+    .denik-pager {
+      display: flex; gap: 0; flex-wrap: wrap; align-items: stretch;
+      padding: 28px 0 40px;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 40px;
+    }
+    .denik-pager .pg {
+      flex: 1; min-width: 100px;
+      display: flex; flex-direction: column; align-items: center;
+      padding: 14px 8px;
+      border-right: 1px solid var(--rule);
+      text-decoration: none;
+      color: var(--ink-soft);
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      transition: background .12s;
+    }
+    .denik-pager .pg:first-child { border-left: 1px solid var(--rule); }
+    .denik-pager .pg:hover { background: var(--paper-dark); color: var(--ink); }
+    .denik-pager .pg.current { background: var(--ink); color: var(--paper); }
+    .denik-pager .pg.current .pg-range { color: var(--paper); opacity: .7; }
+    .denik-pager .pg-num {
+      font-family: var(--serif); font-style: italic;
+      font-size: 22px; letter-spacing: -0.5px;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .denik-pager .pg.current .pg-num { color: var(--paper); }
+    .denik-pager .pg-range { color: var(--ink-faint); }
+    .denik-pager .pg-nav {
+      display: flex; align-items: center; padding: 14px 16px;
+      font-size: 10px; letter-spacing: 2px;
+      color: var(--accent);
+    }
+    .denik-pager .pg-nav.disabled { color: var(--ink-faint); pointer-events: none; }
+    @media (max-width: 700px) {
+      .denik-pager .pg { min-width: 60px; padding: 10px 4px; }
+      .denik-pager .pg-num { font-size: 18px; }
+    }
   </style>
 
-  <script src="shell.js?v=13"></script>
+  <script src="shell.js?v=16"></script>
   <script>
+    const PAGE_SIZE = 10;
     let ARTICLES = [];
     let CURRENT_TAG = 'all';
+    let CURRENT_PAGE = parseInt(new URLSearchParams(location.search).get('p') || '1', 10);
+
+    const MES_GEN = ['ledna','února','března','dubna','května','června','července','srpna','září','října','listopadu','prosince'];
+    const MES_SHORT = ['led','úno','bře','dub','kvě','čer','čvc','srp','zář','říj','lis','pro'];
 
     function formatDate(iso) {
       const d = new Date(iso);
-      const mes = ['ledna','února','března','dubna','května','června','července','srpna','září','října','listopadu','prosince'];
-      return `${d.getDate()}. ${mes[d.getMonth()]} ${d.getFullYear()}`;
+      return `${d.getDate()}. ${MES_GEN[d.getMonth()]} ${d.getFullYear()}`;
+    }
+
+    function monthRangeLabel(articles) {
+      // Vezmi první a poslední datum v poli → vrať label jako "duben" nebo "březen–duben"
+      if (!articles.length) return '';
+      const months = new Set();
+      let firstY = null, lastY = null;
+      for (const a of articles) {
+        const d = new Date(a.date);
+        months.add(d.getFullYear() * 12 + d.getMonth());
+        if (firstY === null) firstY = d.getFullYear();
+        lastY = d.getFullYear();
+      }
+      const arr = [...months].sort((a,b)=>b-a); // newest first
+      const newest = arr[0], oldest = arr[arr.length-1];
+      const nm = newest % 12, nY = Math.floor(newest/12);
+      const om = oldest % 12, oY = Math.floor(oldest/12);
+      if (newest === oldest) return MES_SHORT[nm] + (firstY !== (new Date()).getFullYear() ? ` ${nY}` : '');
+      // rozsah
+      const yDiff = nY !== oY;
+      if (yDiff) return `${MES_SHORT[om]} ${oY}–${MES_SHORT[nm]} ${nY}`;
+      return `${MES_SHORT[om]}–${MES_SHORT[nm]}`;
     }
 
     function render() {
       const wrap = document.getElementById('denik-list');
-      const list = CURRENT_TAG === 'all' ? ARTICLES : ARTICLES.filter(a => a.tag === CURRENT_TAG);
-      if (list.length === 0) {
+      const pager = document.getElementById('denik-pager');
+      const filtered = CURRENT_TAG === 'all' ? ARTICLES : ARTICLES.filter(a => a.tag === CURRENT_TAG);
+
+      if (filtered.length === 0) {
         wrap.innerHTML = '<div class="mono soft" style="padding:40px 0;">Žádné zápisky v tomto tagu.</div>';
+        pager.innerHTML = '';
         return;
       }
-      wrap.innerHTML = list.map((a, i) => `
-        <article id="${a.slug}" class="${i === 0 && CURRENT_TAG === 'all' ? 'featured' : ''}">
+
+      const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+      if (CURRENT_PAGE > totalPages) CURRENT_PAGE = totalPages;
+      if (CURRENT_PAGE < 1) CURRENT_PAGE = 1;
+
+      const start = (CURRENT_PAGE - 1) * PAGE_SIZE;
+      const pageArticles = filtered.slice(start, start + PAGE_SIZE);
+
+      wrap.innerHTML = pageArticles.map((a, i) => `
+        <article id="${a.slug}" class="${i === 0 && CURRENT_TAG === 'all' && CURRENT_PAGE === 1 ? 'featured' : ''}">
           <div class="date">
             ${formatDate(a.date)}
             <div class="tag">#${a.tag}</div>
             <div style="margin-top:10px;color:var(--ink-faint);font-size:10px;">${a.reading_time}</div>
           </div>
           <div>
-            <h2><a href="denik/clanky/${a.slug}.md">${a.title}</a></h2>
+            <h2><a href="clanek.html?s=${a.slug}">${a.title}</a></h2>
             <p class="lede">${a.lede}</p>
           </div>
           <div class="sources">
@@ -205,6 +286,19 @@
           </div>
         </article>
       `).join('');
+
+      // Pager: předchozí + stránky s labelem + další
+      if (totalPages === 1) { pager.innerHTML = ''; return; }
+      const parts = [];
+      parts.push(`<a class="pg-nav ${CURRENT_PAGE === 1 ? 'disabled' : ''}" href="?p=${CURRENT_PAGE-1}">← novější</a>`);
+      for (let p = 1; p <= totalPages; p++) {
+        const slice = filtered.slice((p-1)*PAGE_SIZE, p*PAGE_SIZE);
+        const label = monthRangeLabel(slice);
+        const cls = p === CURRENT_PAGE ? 'pg current' : 'pg';
+        parts.push(`<a class="${cls}" href="?p=${p}"><span class="pg-num">${p}</span><span class="pg-range">${label}</span></a>`);
+      }
+      parts.push(`<a class="pg-nav ${CURRENT_PAGE === totalPages ? 'disabled' : ''}" href="?p=${CURRENT_PAGE+1}">starší →</a>`);
+      pager.innerHTML = parts.join('');
     }
 
     document.querySelectorAll('.chip').forEach(ch => {
@@ -212,6 +306,7 @@
         document.querySelectorAll('.chip').forEach(c => c.classList.remove('on'));
         ch.classList.add('on');
         CURRENT_TAG = ch.dataset.tag;
+        CURRENT_PAGE = 1;
         render();
       });
     });
@@ -220,24 +315,10 @@
       try {
         const r = await fetch('denik/index.json');
         const data = await r.json();
-        ARTICLES = data.articles || [];
+        ARTICLES = (data.articles || []).slice().sort((a,b) => b.date.localeCompare(a.date));
         render();
       } catch (e) {
-        ARTICLES = [
-          { slug:'demo1', date:'2026-04-19', title:'Uzavírka Podmokelské znovu prodloužena, linka 19 jezdí přes Ryjickou', lede:'Oprava plynového potrubí se protáhla o týden. Objízdná trasa vede přes Kamennou a Ryjickou až do pondělí.', tag:'doprava', sources:['usti.cz','dpmul.cz'], reading_time:'2 min' },
-          { slug:'demo2', date:'2026-04-19', title:'Skauti chystají o víkendu úklid Neštěmického potoka', lede:'Sraz v sobotu v 9:00 u mostu ke Mlýnské. Pytle, rukavice a svačinu berte s sebou.', tag:'komunita', sources:['facebook'], reading_time:'1 min' },
-          { slug:'demo3', date:'2026-04-18', title:'Zastávka Neštěmice dostane nový označník a elektronické JŘ', lede:'České dráhy potvrdily modernizaci do konce května. Pokladna zůstane bez obsluhy.', tag:'doprava', sources:['cd.cz'], reading_time:'2 min' },
-          { slug:'demo4', date:'2026-04-18', title:'Sousedské grilování pod kostelem: přišlo přes sto lidí', lede:'Akce vznikla spontánně v komentářích pod pátečním příspěvkem. Další se plánuje na 1. května.', tag:'komunita', sources:['facebook'], reading_time:'3 min' },
-          { slug:'demo5', date:'2026-04-17', title:'Sběrný dvůr otevřen zkušebně i v sobotu', lede:'Úřad městského obvodu hlásí rozšíření otvíracích hodin do konce června.', tag:'úřad', sources:['muul.cz'], reading_time:'2 min' },
-          { slug:'demo6', date:'2026-04-16', title:'Neštěmický potok na druhém stupni povodňové aktivity', lede:'Po vydatných deštích kulminovala hladina v noci. Během pátku se vrací do normálu.', tag:'příroda', sources:['chmi.cz'], reading_time:'2 min' },
-          { slug:'demo7', date:'2026-04-12', title:'Fotbalisté porazili v derby Krásné Březno 3:1', lede:'První výhra jara. Dvě branky Koláře, jedna Vejvody z penalty.', tag:'sport', sources:['ustecky.denik.cz'], reading_time:'3 min' },
-        ];
-        render();
-        const note = document.createElement('div');
-        note.className = 'mono soft';
-        note.style.cssText = 'padding:14px 16px;margin-bottom:24px;background:#fdf4d9;border:1px solid var(--accent);color:var(--accent);letter-spacing:1px;';
-        note.innerHTML = 'UKÁZKOVÁ DATA &mdash; běžíte přes file://. Pro živý feed spusťte přes <span class="mono">python -m http.server</span>.';
-        document.getElementById('denik-list').before(note);
+        document.getElementById('denik-list').innerHTML = '<div class="mono soft" style="padding:40px 0;">Nelze načíst seznam článků. Zkuste spustit přes HTTP server.</div>';
       }
     })();
   </script>

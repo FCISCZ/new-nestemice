@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Článek — Neštěmice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css?v=17"/>
+  <style>
+    .clanek-wrap { max-width: 720px; margin: 40px auto; padding: 0 24px; }
+    .clanek-back { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-soft); text-decoration: none; margin-bottom: 32px; }
+    .clanek-back:hover { color: var(--accent); }
+    .clanek-meta { font-family: var(--mono); font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 14px; }
+    .clanek-meta .tag { color: var(--accent); }
+    .clanek-title { font-family: var(--serif); font-weight: 400; font-size: 44px; line-height: 1.15; letter-spacing: -0.5px; margin: 0 0 32px; }
+    .clanek-body { font-family: var(--serif); font-size: 18px; line-height: 1.65; color: var(--ink); }
+    .clanek-body p { margin: 0 0 18px; }
+    .clanek-body blockquote { font-style: italic; color: var(--ink-soft); border-left: 3px solid var(--rule); margin: 28px 0; padding: 4px 0 4px 20px; font-size: 16px; }
+    .clanek-body a { color: var(--accent); }
+    .clanek-body h2 { font-family: var(--serif); font-weight: 600; font-size: 26px; margin: 36px 0 14px; }
+    .clanek-media { margin: 32px 0; }
+    .clanek-media img, .clanek-media video { width: 100%; display: block; border: 1px solid var(--rule); }
+    .clanek-media audio { width: 100%; }
+    .clanek-media .caption { font-family: var(--mono); font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-faint); margin-top: 8px; }
+    .clanek-foot { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--rule); font-family: var(--mono); font-size: 11px; letter-spacing: 1.5px; color: var(--ink-faint); line-height: 1.8; }
+    .clanek-foot .src a { color: var(--accent); text-decoration: none; }
+    .clanek-loading { padding: 80px 0; text-align: center; font-family: var(--mono); color: var(--ink-faint); letter-spacing: 2px; }
+  </style>
+</head>
+<body data-page="home" data-base="">
+  <div id="shell-header"></div>
+
+  <main class="clanek-wrap">
+    <a href="index.html" class="clanek-back">← zpět na aktuality</a>
+    <div id="clanek-root" class="clanek-loading">Načítám článek…</div>
+  </main>
+
+  <footer id="shell-footer"></footer>
+
+  <script src="shell.js?v=16"></script>
+  <script>
+    // --- Mini-markdown parser (dost na naše články)
+    function parseMd(src) {
+      // front-matter extract
+      let fm = {};
+      let body = src;
+      const m = src.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+      if (m) {
+        body = m[2];
+        // naivni YAML
+        let cur = null;
+        for (const line of m[1].split('\n')) {
+          if (/^\s*-\s+/.test(line)) {
+            if (cur && Array.isArray(fm[cur])) {
+              const sub = line.replace(/^\s*-\s+/, '').trim();
+              const kv = sub.match(/^([a-z_]+):\s*(.*)$/i);
+              if (kv) {
+                // prvni polozka pole objektu
+                fm[cur].push({ [kv[1]]: kv[2] });
+              } else {
+                fm[cur].push(sub);
+              }
+            }
+          } else if (/^\s+[a-z_]+:\s*/i.test(line)) {
+            // pokracovani objektu v poli
+            const kv = line.match(/^\s+([a-z_]+):\s*(.*)$/i);
+            if (kv && cur && Array.isArray(fm[cur]) && fm[cur].length) {
+              const last = fm[cur][fm[cur].length - 1];
+              if (typeof last === 'object') last[kv[1]] = kv[2];
+            }
+          } else {
+            const kv = line.match(/^([a-z_]+):\s*(.*)$/i);
+            if (kv) {
+              const key = kv[1], val = kv[2].trim();
+              if (val === '' || val === '[]') { fm[key] = []; cur = key; }
+              else { fm[key] = val; cur = key; }
+            }
+          }
+        }
+      }
+      return { fm, body: body.trim() };
+    }
+
+    function renderMdBody(md, mediaList) {
+      // {{media:N}} placeholdery
+      md = md.replace(/\{\{media:(\d+)\}\}/g, (_, n) => {
+        const idx = parseInt(n, 10) - 1;
+        const m = mediaList[idx];
+        if (!m) return '';
+        return renderMedia(m, true);
+      });
+      // blockquotes
+      md = md.replace(/((?:^> .*(?:\n|$))+)/gm, (block) => {
+        const inner = block.split('\n').filter(Boolean).map(l => l.replace(/^>\s?/, '')).join(' ');
+        return `\n<blockquote>${inlineMd(inner)}</blockquote>\n`;
+      });
+      // h2
+      md = md.replace(/^##\s+(.+)$/gm, (_, t) => `<h2>${inlineMd(t)}</h2>`);
+      // paragraphs
+      const parts = md.split(/\n{2,}/).map(p => {
+        const s = p.trim();
+        if (!s) return '';
+        if (s.startsWith('<')) return s;
+        return `<p>${inlineMd(s).replace(/\n/g, '<br/>')}</p>`;
+      });
+      return parts.join('\n');
+    }
+
+    function inlineMd(s) {
+      // bold
+      s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      // italic
+      s = s.replace(/(?<![*\w])\*([^*\n]+?)\*(?!\w)/g, '<em>$1</em>');
+      // links
+      s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" rel="noopener" target="_blank">$1</a>');
+      return s;
+    }
+
+    function renderMedia(m, inBody) {
+      const base = `denik/media/${SLUG}/`;
+      const cap = m.caption ? `<div class="caption">${m.caption}</div>` : '';
+      if (m.type === 'image') {
+        const src = m.file ? base + m.file : m.url;
+        return `<figure class="clanek-media"><img src="${src}" alt="${m.caption||''}"/>${cap}</figure>`;
+      }
+      if (m.type === 'video') {
+        if (m.url && /youtu/.test(m.url)) {
+          const id = (m.url.match(/(?:v=|youtu\.be\/)([a-zA-Z0-9_-]+)/) || [,''])[1];
+          return `<figure class="clanek-media"><iframe style="width:100%;aspect-ratio:16/9;border:1px solid var(--rule);" src="https://www.youtube.com/embed/${id}" allowfullscreen></iframe>${cap}</figure>`;
+        }
+        const src = m.file ? base + m.file : m.url;
+        return `<figure class="clanek-media"><video controls src="${src}"></video>${cap}</figure>`;
+      }
+      if (m.type === 'audio') {
+        const src = m.file ? base + m.file : m.url;
+        return `<figure class="clanek-media"><audio controls src="${src}"></audio>${cap}</figure>`;
+      }
+      return '';
+    }
+
+    function formatDate(iso) {
+      const d = new Date(iso);
+      const mes = ['ledna','února','března','dubna','května','června','července','srpna','září','října','listopadu','prosince'];
+      return `${d.getDate()}. ${mes[d.getMonth()]} ${d.getFullYear()}`;
+    }
+
+    const SLUG = new URLSearchParams(location.search).get('s');
+
+    (async () => {
+      const root = document.getElementById('clanek-root');
+      if (!SLUG) { root.innerHTML = '<p>Chybí parametr článku.</p>'; return; }
+      try {
+        const r = await fetch(`denik/clanky/${SLUG}.md`);
+        if (!r.ok) throw new Error('404');
+        const src = await r.text();
+        const { fm, body } = parseMd(src);
+        const mediaList = Array.isArray(fm.media) ? fm.media : [];
+        const bodyHtml = renderMdBody(body, mediaList);
+        const sources = Array.isArray(fm.sources) ? fm.sources : [];
+        const srcHtml = sources.map(s => {
+          if (typeof s === 'object') {
+            return s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name||s.url}</a>` : (s.name||'');
+          }
+          return s;
+        }).join(' · ');
+
+        document.title = `${fm.title} — Neštěmice`;
+        root.classList.remove('clanek-loading');
+        root.innerHTML = `
+          <div class="clanek-meta">
+            ${formatDate(fm.date)} &nbsp;·&nbsp; <span class="tag">#${fm.tag||''}</span> &nbsp;·&nbsp; ${fm.reading_time||''}
+          </div>
+          <h1 class="clanek-title">${fm.title}</h1>
+          <div class="clanek-body">${bodyHtml}</div>
+          <div class="clanek-foot">
+            <div class="src">Zdroje: ${srcHtml || '—'}</div>
+            <div>Autor: ${fm.written_by || 'neuvedeno'}</div>
+          </div>
+        `;
+      } catch (e) {
+        root.innerHTML = `<p>Článek nelze načíst. <a href="index.html">Zpět na aktuality</a>.</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>

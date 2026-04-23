@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="styles.css?v=12"/>
+  <link rel="stylesheet" href="styles.css?v=17"/>
 </head>
 <body data-page="zub" data-base="">
   <div id="shell-header"></div>
@@ -15,54 +15,40 @@
   <main>
     <div class="page-head">
       <div>
-        <div class="kicker">Patnáct dvojic · postupně tři pohledy</div>
+        <div class="kicker">Čtrnáct trojic · tři pohledy na stejné místo</div>
         <h1>Zub času</h1>
       </div>
-      <p class="lede">Stejné místo — jednou na přelomu&nbsp;1900, jednou v&nbsp;červnu&nbsp;2001. Sto let mezi oběma snímky. K&nbsp;některým teď přidáváme třetí pohled, <em>2026</em>.</p>
+      <p class="lede">Místa v&nbsp;Neštěmicích a&nbsp;okolí zachycená ze stejného úhlu ve&nbsp;třech časech: <em>kolem 1901</em>, <em>25. června 2001</em> a&nbsp;<em>2026</em>. Třetí snímek postupně doplňuji.</p>
     </div>
 
     <div class="zub-intro">
       <div>
-        <h3>Jak vznikl</h3>
-        <p>V&nbsp;létě 2001 obešel tým <strong>Fox · Sonic · Spita</strong> patnáct míst v&nbsp;Neštěmicích a&nbsp;okolí. V&nbsp;ruce měl dobové pohlednice a&nbsp;fotografie z&nbsp;přelomu 19. a&nbsp;20. století — úkolem bylo vyfotit stejný záběr, ze stejného úhlu.</p>
-        <p>Tři „akty" (kapitoly) tvoří dnes stále fungující sekci. Pro nový web je znovu skenujeme a&nbsp;chystáme <strong>třetí pohled</strong> — 2026.</p>
+        <h3>Jak vznikl Zub času</h3>
+        <p>Už je to nějaký ten pátek, co jsem pro původní web Neštěmic vytvořil sekci <em>Zub času</em>. Tehdy v&nbsp;roce 2001 jsem vzal historické pohlednice z&nbsp;přelomu 19. a&nbsp;20.&nbsp;století a&nbsp;stejná místa vyfotil v&nbsp;tehdejší „současnosti".</p>
+        <p>Na tyhle snímky jsem si od&nbsp;kamaráda půjčil <strong>Olympus s&nbsp;1,2 megapixely</strong> — byl to vůbec jeden z&nbsp;prvních digitálních foťáků, co jsem kdy viděl. Jenže čas letí neuvěřitelně rychle.</p>
+        <p>Dnes, když pracuji na&nbsp;zbrusu nových stránkách Neštěmic, rozhodl jsem se tenhle projekt oživit. Původní data ze starého webu jsem oprášil, přenesl do&nbsp;nového systému a&nbsp;do budoucna plánuji přidat <strong>třetí dějství</strong> — snímky pořízené v&nbsp;roce 2026, aby bylo vidět, jak se naše okolí proměnilo nejen za&nbsp;posledních sto let, ale i&nbsp;za&nbsp;uplynulé čtvrtstoletí.</p>
+        <p class="zub-sign">— FC</p>
       </div>
       <div class="legend">
         <div class="legend-row"><span class="leg-dot leg-1901"></span><span>kolem 1901 · pohlednice, archivní foto</span></div>
-        <div class="legend-row"><span class="leg-dot leg-2001"></span><span>25. června 2001 · Fox · Sonic · Spita</span></div>
+        <div class="legend-row"><span class="leg-dot leg-2001"></span><span>25. června 2001 · archiv, digitál</span></div>
         <div class="legend-row"><span class="leg-dot leg-2026"></span><span>2026 · postupně doplňujeme</span></div>
       </div>
     </div>
 
     <section class="stripe">
       <div class="sec-head">
-        <h2>Akt první — Ústí nad Labem · střed</h2>
-        <div class="aux">5 dvojic</div>
+        <h2>Všechna místa</h2>
+        <div class="aux">14 trojic · náhledy</div>
       </div>
-      <div class="zub-grid" id="akt1"></div>
-    </section>
-
-    <section class="stripe">
-      <div class="sec-head">
-        <h2>Akt druhý — Neštěmice</h2>
-        <div class="aux">5 dvojic</div>
-      </div>
-      <div class="zub-grid" id="akt2"></div>
-    </section>
-
-    <section class="stripe">
-      <div class="sec-head">
-        <h2>Akt třetí — okolí &amp; potok</h2>
-        <div class="aux">5 dvojic</div>
-      </div>
-      <div class="zub-grid" id="akt3"></div>
+      <div class="zub-grid" id="zub-grid"></div>
     </section>
 
     <hr class="hr-ornament"/>
 
     <section style="padding:20px 0 60px;">
       <p style="max-width:68ch;font-size:18px;line-height:1.6;color:var(--ink-soft);font-family:var(--serif);font-style:italic;">
-        „Když Fox se Spitou v&nbsp;létě 2001 stáli pod Corner housem a&nbsp;srovnávali to, co viděli, s&nbsp;pohlednicí staré sto let, zjistili, že jim trvalo dvě hodiny najít ten správný bod. Sto let odsune kameny o&nbsp;metr, roh domu o&nbsp;půl patra, strom o&nbsp;osm metrů. My teď stojíme na&nbsp;tom stejném bodě znova."
+        „Když jsem v&nbsp;létě 2001 stál na&nbsp;některých místech a&nbsp;srovnával to, co jsem viděl, s&nbsp;pohlednicí starou sto let, zjistil jsem, že najít ten správný bod dokáže trvat klidně dvě hodiny. Sto let odsune kameny o&nbsp;metr, roh domu o&nbsp;půl patra, strom o&nbsp;osm metrů."
       </p>
     </section>
   </main>
@@ -70,147 +56,174 @@
   <footer id="shell-footer"></footer>
 
   <style>
-    .zub-intro { display: grid; grid-template-columns: 2fr 1fr; gap: 48px; padding: 20px 0 32px; border-bottom: 1px solid var(--rule); }
+    .zub-intro { display: grid; grid-template-columns: 1.6fr 1fr; gap: 40px; padding: 20px 0 32px; border-bottom: 1px solid var(--rule); }
     .zub-intro h3 { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 24px; margin: 0 0 14px; letter-spacing: -0.3px; }
     .zub-intro p { font-size: 16px; line-height: 1.55; color: var(--ink-soft); margin: 0 0 12px; max-width: 56ch; }
-    .legend { border: 1px solid var(--rule); padding: 20px; align-self: start; background: var(--paper-dark); }
-    .legend-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-family: var(--mono); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink); }
-    .leg-dot { width: 12px; height: 12px; border: 1px solid var(--ink); display: inline-block; }
+    .zub-intro .zub-sign { font-family: var(--serif); font-style: italic; color: var(--accent); margin-top: 4px; font-size: 15px; }
+    .legend { border: 1px solid var(--rule); padding: 22px 24px; align-self: start; background: var(--paper-dark); min-width: 320px; }
+    .legend-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; font-family: var(--mono); font-size: 12px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--ink); white-space: nowrap; }
+    .leg-dot { width: 14px; height: 14px; border: 1px solid var(--ink); display: inline-block; flex-shrink: 0; }
     .leg-1901 { background: #c8b896; }
     .leg-2001 { background: #8a9c7e; }
     .leg-2026 { background: var(--accent); }
 
-    .zub-grid { display: flex; flex-direction: column; gap: 40px; }
-    .zub-pair {
+    .zub-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 56px;
+    }
+    .zub-card {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 16px;
-      border-bottom: 1px dotted var(--ink-faint);
-      padding-bottom: 40px;
+      gap: 14px;
     }
-    .zub-pair:last-child { border-bottom: none; padding-bottom: 0; }
-    .zub-pair .caption-col {
-      grid-column: 1 / -1;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 16px;
-      margin-top: 10px;
-    }
-    .zub-pair .caption {
-      font-family: var(--mono);
-      font-size: 10px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: var(--ink-soft);
-    }
-    .zub-pair .title-wrap {
+    .zub-card .card-head {
       grid-column: 1 / -1;
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 12px;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 10px;
+      margin-bottom: 4px;
+      gap: 16px;
     }
-    .zub-pair h3 {
+    .zub-card h3 {
       font-family: var(--serif);
       font-style: italic;
       font-weight: 400;
-      font-size: 28px;
-      letter-spacing: -0.5px;
+      font-size: 24px;
+      letter-spacing: -0.3px;
       margin: 0;
+      color: var(--ink-faint);
     }
-    .zub-pair .meta {
+    .zub-card h3.has-title { color: var(--ink); }
+    .zub-card .num {
       font-family: var(--mono);
       font-size: 11px;
       letter-spacing: 2px;
       color: var(--ink-faint);
       text-transform: uppercase;
+      white-space: nowrap;
     }
-    .zub-pair .ph-1901 { background:
-        repeating-linear-gradient(45deg, #d4c4a0 0, #d4c4a0 6px, #c8b896 6px, #c8b896 7px),
-        #c8b896; color: #5a4a2e; }
-    .zub-pair .ph-2001 { background:
-        repeating-linear-gradient(135deg, #9daf90 0, #9daf90 8px, #8a9c7e 8px, #8a9c7e 9px),
-        #8a9c7e; color: #2d3a24; }
-    .zub-pair .ph-2026 {
-      background: var(--paper);
-      border: 1.5px dashed var(--accent);
-      color: var(--accent);
-      position: relative;
-    }
-    .zub-pair .ph-2026::after {
-      content: 'čeká na 2026';
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
+    .zub-card .mapa {
       font-family: var(--mono);
-      font-size: 9px;
+      font-size: 10px;
       letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      text-decoration: none;
+      border: 1px solid var(--ink-faint);
+      padding: 4px 10px;
+    }
+    .zub-card .mapa.off { opacity: 0.4; pointer-events: none; }
+    .zub-card .mapa:hover { color: var(--accent); border-color: var(--accent); }
+    .zub-card .ph {
+      aspect-ratio: 3/2;
+      position: relative;
+      overflow: hidden;
+      background: var(--paper-dark);
+    }
+    .zub-card .ph.empty {
+      border: 1.5px dashed var(--accent);
       background: var(--paper);
-      padding: 2px 6px;
     }
-    .zub-pair.done .ph-2026 {
-      background:
-        repeating-linear-gradient(90deg, #e8a891 0, #e8a891 6px, #d97953 6px, #d97953 7px),
-        #d97953;
-      border: 1px solid var(--accent);
-      color: #5a1a0a;
+    .zub-card .ph img {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
     }
-    .zub-pair.done .ph-2026::after { content: '2026 · hotovo'; background: var(--accent); color: var(--paper); }
+    .zub-card .ph .ph-placeholder {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--mono); font-size: 10px; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--ink-faint);
+      text-align: center;
+      padding: 0 12px;
+    }
+    .zub-card .ph.empty .ph-placeholder { color: var(--accent); }
+    .zub-card .caption {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-top: 6px;
+    }
+    .zub-card .caption.todo { color: var(--accent); }
 
     @media (max-width: 900px) {
       .zub-intro { grid-template-columns: 1fr; gap: 24px; }
-      .zub-pair { grid-template-columns: 1fr; }
-      .zub-pair .caption-col { grid-template-columns: 1fr; }
+      .zub-card { grid-template-columns: 1fr; }
     }
   </style>
 
-  <script src="shell.js?v=13"></script>
+  <script src="shell.js?v=16"></script>
   <script>
-    const PAIRS = {
-      akt1: [
-        { title: 'Mírové náměstí', meta: 'Ústí n. L.', done: true },
-        { title: 'Corner House', meta: 'Revoluční ul.' },
-        { title: 'Nádraží západ', meta: 'Důlce' },
-        { title: 'Divadlo', meta: 'Lidické nám.' },
-        { title: 'Městské sady', meta: 'za muzeem' },
-      ],
-      akt2: [
-        { title: 'Neštěmické náměstí', meta: 'pohled k jihu', done: true },
-        { title: 'Hostinec U Lípy', meta: 'Vojanova ul.' },
-        { title: 'Kostel sv. Floriána', meta: 'U kostela' },
-        { title: 'Mlýn nad potokem', meta: 'Mlýnská' },
-        { title: 'Stará škola', meta: 'U školy' },
-      ],
-      akt3: [
-        { title: 'Neštěmický potok · soutěska', meta: 'km 3,2' },
-        { title: 'Zřícenina Blansko', meta: '540 m n. m.' },
-        { title: 'Ryjice · náves', meta: 'od jihu' },
-        { title: 'Železniční most', meta: 'nad potokem' },
-        { title: 'Tefritový lom', meta: 'západní stěna' },
-      ],
-    };
+    /* ===========================================================
+       Zub času — data
+       Soubory jsou v obrazky/zub-casu/<nn>-<rok>.jpg
+       title:  zobrazí se jako nadpis dvojice. Pokud je '', zobrazí se "bez názvu".
+       mapUrl: odkaz na mapu (mapy.cz / Google). Pokud je '', tlačítko bude vypnuté.
+       =========================================================== */
+    const ITEMS = [
+      { n: '01', title: '', mapUrl: '' },
+      { n: '02', title: '', mapUrl: '' },
+      { n: '03', title: '', mapUrl: '' },
+      { n: '04', title: '', mapUrl: '' },
+      { n: '05', title: '', mapUrl: '' },
+      { n: '06', title: '', mapUrl: '' },
+      { n: '07', title: '', mapUrl: '' },
+      { n: '08', title: '', mapUrl: '' },
+      { n: '09', title: '', mapUrl: '' },
+      { n: '10', title: '', mapUrl: '' },
+      { n: '11', title: '', mapUrl: '' },
+      { n: '12', title: '', mapUrl: '' },
+      { n: '13', title: '', mapUrl: '' },
+      { n: '14', title: '', mapUrl: '' },
+    ];
 
-    function renderAkt(id) {
-      const wrap = document.getElementById(id);
-      wrap.innerHTML = PAIRS[id].map((p, i) => `
-        <div class="zub-pair ${p.done ? 'done' : ''}">
-          <div class="title-wrap">
-            <h3>${p.title}</h3>
-            <div class="meta">${p.meta} · № ${String(i+1).padStart(2,'0')}</div>
-          </div>
-          <div class="ph ph-1901" style="aspect-ratio:4/3;">cca 1901</div>
-          <div class="ph ph-2001" style="aspect-ratio:4/3;">25. 6. 2001</div>
-          <div class="ph ph-2026" style="aspect-ratio:4/3;">2026</div>
-          <div class="caption-col">
-            <div class="caption">pohlednice / archiv</div>
-            <div class="caption">Fox · Sonic · Spita · Kodak</div>
-            <div class="caption">${p.done ? 'foto hotové · 2026' : 'čeká na obcházku'}</div>
-          </div>
-        </div>
-      `).join('');
+    const BASE = 'obrazky/zub-casu/';
+
+    function photoCell(n, year, label, opts = {}) {
+      if (opts.empty) {
+        return `<div class="ph empty">
+          <span class="ph-placeholder">${label}</span>
+        </div>`;
+      }
+      return `<div class="ph">
+        <span class="ph-placeholder">${label}</span>
+        <img src="${BASE}${n}-${year}.jpg" alt="${n} ${year}" loading="lazy" onerror="this.remove();"/>
+      </div>`;
     }
 
-    ['akt1','akt2','akt3'].forEach(renderAkt);
+    function render() {
+      const wrap = document.getElementById('zub-grid');
+      wrap.innerHTML = ITEMS.map(it => {
+        const title = it.title || 'Bez názvu';
+        const titleCls = it.title ? 'has-title' : '';
+        const map = it.mapUrl
+          ? `<a class="mapa" href="${it.mapUrl}" target="_blank" rel="noopener">mapa</a>`
+          : `<span class="mapa off">mapa</span>`;
+        return `<div class="zub-card">
+          <div class="card-head">
+            <h3 class="${titleCls}">${title}</h3>
+            <div style="display:flex;gap:12px;align-items:baseline;">
+              <span class="num">№ ${it.n}</span>
+              ${map}
+            </div>
+          </div>
+          ${photoCell(it.n, '1901', 'cca 1901')}
+          ${photoCell(it.n, '2001', '25. 6. 2001')}
+          ${photoCell(it.n, '2026', 'sem doplním\n2026', { empty: true })}
+          <div class="caption">pohlednice / archiv</div>
+          <div class="caption">digitální foto · 2001</div>
+          <div class="caption todo">čeká na 2026</div>
+        </div>`;
+      }).join('');
+    }
+
+    render();
   </script>
 </body>
 </html>
