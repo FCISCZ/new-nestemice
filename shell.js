@@ -11,11 +11,11 @@
 
 (function () {
   const NAV = [
-    { key: 'home',    href: 'index.html',       label: 'Aktuality' },
-    { key: 'kronika', href: 'kronika.html',     label: 'Kronika' },
-    { key: 'zub',     href: 'zub-casu.html',    label: 'Zub času' },
-    { key: 'o',       href: 'o-projektu.html',  label: 'O projektu' },
-    { key: 'archiv',  href: 'archiv-2001.html', label: 'Archiv 2001' },
+    { key: 'home',    href: 'index.html',        label: 'Aktuality' },
+    { key: 'kronika', href: 'kronika.html',      label: 'Kronika' },
+    { key: 'zub',     href: 'zub-casu.html',     label: 'Zub času' },
+    { key: 'o',       href: 'o-projektu.html',   label: 'O projektu' },
+    { key: 'archiv',  href: 'archiv-2001.html',  label: 'Archiv 2001' },
   ];
 
   function formatDate(d) {
@@ -143,7 +143,6 @@
             <li><a href="${base}kronika.html">Kronika</a></li>
             <li><a href="${base}zub-casu.html">Zub času</a></li>
             <li><a href="${base}o-projektu.html">O projektu</a></li>
-            <li><a href="${base}archiv-2001.html">Archiv 2001</a></li>
           </ul>
         </div>
         <div>

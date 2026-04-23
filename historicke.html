@@ -3,32 +3,22 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Archiv 2001 — jak tohle místo vypadalo kdysi</title>
+  <title>Historické stránky — Neštěmice</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles.css?v=17"/>
 </head>
-<body data-page="archiv" data-base="">
+<body data-page="historicke" data-base="">
   <div id="shell-header"></div>
 
   <main>
     <div class="page-head">
       <div>
-        <div class="kicker">Muzejní exponát · nepoužívat jako info</div>
-        <h1>Archiv <em>2001</em></h1>
+        <div class="kicker">Texty z&nbsp;roku 2001 · přepsány z&nbsp;archivu</div>
+        <h1>Historické <em>stránky</em></h1>
       </div>
-      <p class="lede">Takhle vypadal původní web nestemice.cz. FrontPage 5.0, tabulky, image&#8209;map navigace, mailto na Fox&#8201;·&#8201;Sonic&#8201;·&#8201;Spita. Necháváme&nbsp;žít.</p>
-    </div>
-
-    <div class="archiv-warn">
-      <strong>Pozor:</strong> tato stránka <em>není</em> aktuální. Informace o&nbsp;hospodách, dopravě a&nbsp;úřadu odpovídají roku 2001. Pro aktuální info zkuste <a href="index.html">aktuality</a>, oficiální <a href="https://www.nestemice.eu" target="_blank" rel="noopener">nestemice.eu</a> nebo vyhledat „Neštěmice" na&nbsp;<a href="https://www.seznam.cz/hledat?q=Ne%C5%A1t%C4%9Bmice" target="_blank" rel="noopener">Seznamu</a> či&nbsp;<a href="https://www.google.com/search?q=Ne%C5%A1t%C4%9Bmice" target="_blank" rel="noopener">Googlu</a>.
-    </div>
-
-    <div class="hist-wrap">
-    <div class="hist-intro">
-      <h2>Historické stránky</h2>
-      <p>Obsah původního webu nestemice.cz (2001). Texty jsme převedli do&nbsp;čitelné podoby beze&nbsp;změny obsahu — tak, jak je kdysi napsali Fox, Sonic a&nbsp;Spita.</p>
+      <p class="lede">Obsah původního webu nestemice.cz (2001). Texty jsme převedli do&nbsp;čitelné podoby beze&nbsp;změny obsahu — tak, jak je kdysi napsali Fox, Sonic a&nbsp;Spita. Staré vizuální prvky jsou k&nbsp;vidění v&nbsp;původním archivu.</p>
     </div>
 
     <ul class="hist-list">
@@ -78,45 +68,15 @@
         </a>
       </li>
     </ul>
-    </div>
 
+    <div class="hist-note">
+      <p>Texty jsou přepsány ze souborů <span class="mono">strucna.html</span>, <span class="mono">ryjice.html</span>, <span class="mono">blansko.html</span>, <span class="mono">doprava_d.html</span>, <span class="mono">h_zalozeni.html</span>, <span class="mono">h_zacatky.html</span> a <span class="mono">h_novodoba.html</span> z&nbsp;původního webu. Autoři: Fox, Sonic, Spita. Obsah je ponechán beze&nbsp;změny (pouze opravena diakritika a&nbsp;rozbité znakové sady).</p>
+    </div>
   </main>
 
   <footer id="shell-footer"></footer>
 
   <style>
-    .archiv-warn {
-      background: #fdf4d9;
-      border: 1.5px solid var(--accent);
-      padding: 16px 20px;
-      font-size: 15px;
-      line-height: 1.55;
-      margin-bottom: 40px;
-      color: var(--ink);
-    }
-    .archiv-warn strong { color: var(--accent); }
-
-    /* —— historické stránky — seznam kapitol —— */
-    .hist-wrap { max-width: 820px; margin: 0 auto; }
-    .hist-intro { margin: 48px 0 8px; text-align: center; }
-    .hist-intro p { margin-left: auto; margin-right: auto; }
-    .hist-intro h2 {
-      font-family: var(--serif);
-      font-style: italic;
-      font-weight: 400;
-      font-size: clamp(28px, 3vw, 36px);
-      letter-spacing: -0.5px;
-      margin: 0 0 10px;
-    }
-    .hist-intro p {
-      font-family: var(--serif);
-      font-size: 17px;
-      line-height: 1.55;
-      color: var(--ink-soft);
-      margin: 0 auto;
-      max-width: 58ch;
-      text-align: center;
-    }
     .hist-list {
       list-style: none;
       padding: 0;
@@ -128,42 +88,61 @@
     }
     .hist-list li:last-child { border-bottom: 1px solid var(--rule); }
     .hist-list a {
-      display: block;
-      text-align: center;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 40px;
       text-decoration: none;
       color: var(--ink);
+      align-items: baseline;
     }
     .hist-list a:hover h2 { color: var(--accent); }
     .hist-list .mono.accent {
       font-size: 11px;
       letter-spacing: 2px;
       color: var(--accent);
-      margin-bottom: 8px;
+      padding-top: 8px;
     }
     .hist-list h2 {
       font-family: var(--serif);
       font-weight: 400;
       font-style: italic;
-      font-size: clamp(24px, 2.4vw, 32px);
-      letter-spacing: -0.6px;
+      font-size: clamp(28px, 3vw, 40px);
+      letter-spacing: -0.8px;
       margin: 0 0 10px;
-      line-height: 1.1;
+      line-height: 1.05;
       transition: color .15s;
     }
     .hist-list p {
       font-family: var(--serif);
-      font-size: 16px;
+      font-size: 17px;
       line-height: 1.55;
       color: var(--ink-soft);
-      margin: 0 auto;
+      margin: 0;
       max-width: 58ch;
+    }
+    .hist-sport {
+      /* 3 fotbalové články sdílí jeden <li> */
     }
     .hist-sport > a + a {
       margin-top: 20px;
       padding-top: 20px;
       border-top: 1px dotted var(--rule);
     }
+
+    .hist-note {
+      padding: 20px 24px;
+      background: var(--paper-dark);
+      border-left: 3px solid var(--accent);
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--ink-soft);
+      margin-bottom: 60px;
+    }
+    .hist-note p { margin: 0; }
+    .hist-note .mono { font-size: 12px; color: var(--ink); }
+
     @media (max-width: 720px) {
+      .hist-list a { grid-template-columns: 1fr; gap: 8px; }
       .hist-list .mono.accent { padding-top: 0; }
     }
   </style>
