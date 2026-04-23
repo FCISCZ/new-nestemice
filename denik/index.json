@@ -1,5 +1,78 @@
 {
-  "generated": "2026-04-19T23:55:00+02:00",
+  "generated": "2026-04-23T20:30:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
-  "articles": []
+  "articles": [
+    {
+      "slug": "2026-04-23-tipy-vikend",
+      "date": "2026-04-23",
+      "title": "Víkend v Ústí. Klubové kino, ples Chabakusu a Akva-Tera burza",
+      "lede": "Přehled akcí na víkend 24.–26. dubna. Film Gerta Schnirch, ples bigbandu, prohlídky bunkru u Velkého Března a Akva-Tera burza v Domě kultury.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-23-kruhac-chlumec",
+      "date": "2026-04-23",
+      "title": "U Chlumce začala stavba kruháče. Křižovatku smrti nahradí kruhový objezd za 32 milionů",
+      "lede": "Na silnici I/30 mezi Ústím a Teplicemi začala přestavba nebezpečné křižovatky U Šmelce. Stavba potrvá pět měsíců, provoz bude střídavě v jednom pruhu.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-22-studenti-media",
+      "date": "2026-04-22",
+      "title": "Studenti v Ústí vyšli do ulic na podporu veřejnoprávních médií",
+      "lede": "Před gymnáziem Jateční se sešlo asi 280 studentů na podporu ČT a Českého rozhlasu. Podobné akce proběhly v dalších sedmi městech.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-22-den-zeme-ddm",
+      "date": "2026-04-22",
+      "title": "Den Země v DDM. Soutěže a hry pro děti i rodiče v Parku republiky",
+      "lede": "Dům dětí a mládeže uspořádal odpoledne ke Dni Země. Soutěže a hry venku v Parku republiky, vstup zdarma.",
+      "tag": "kultura",
+      "sources": ["ddmul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-21-vodovod-kockovska",
+      "date": "2026-04-21",
+      "title": "Opravy vodovodu na Severní Terase. Voda může být hnědá, není to nebezpečné",
+      "lede": "V Kočkovské ulici opravují potrubí. Voda může být zakalená až do čtvrteční půlnoci. Podle vodáren není zakalení zdraví nebezpečné.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-21-ai-skola-palachova",
+      "date": "2026-04-21",
+      "title": "Základní škola Palachova zkouší umělou inteligenci ve výuce. Je jednou ze šesti v Česku",
+      "lede": "ZŠ Palachova se zapojila do dvouletého pilotu AI Akcelerátor. Mění výuku, hodnocení i komunikaci s pomocí umělé inteligence.",
+      "tag": "komunita",
+      "sources": ["e-usti.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-20-opravy-chodniku-nestemicka",
+      "date": "2026-04-20",
+      "title": "Ústí opraví chodníky. Největší zakázka míří do Neštěmické ulice",
+      "lede": "Radní schválili velkoplošné opravy chodníků. Neštěmická ulice dostane nové povrchy za čtyři miliony. Opraví se i Jizerská, Stavbařů a Novosedlické náměstí.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-20-dotace-podnikatele",
+      "date": "2026-04-20",
+      "title": "Ústecký kraj nabízí začínajícím podnikatelům až 200 tisíc. Přihlášky končí dnes",
+      "lede": "Dotační program pro nové podnikatele v Ústeckém kraji: 50–200 tisíc korun, 70 % nákladů. Žádosti jen elektronicky do 20. dubna.",
+      "tag": "úřad",
+      "sources": ["e-usti.cz"],
+      "reading_time": "1 min"
+    }
+  ]
 }
