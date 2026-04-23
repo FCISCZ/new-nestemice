@@ -1,42 +1,5 @@
 {
   "generated": "2026-04-19T23:55:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
-  "articles": [
-    {
-      "slug": "2026-04-19-uzavirka-hlavni",
-      "date": "2026-04-19",
-      "title": "Uzavírka ulice Hlavní pro těžkou nákladní dopravu platí až do konce roku",
-      "lede": "Od 6. března je v Neštěmicích ulice Hlavní uzavřená pro kamiony. Platí to až do 31. prosince 2026. Osobní auta a MHD jezdí dál.",
-      "tag": "doprava",
-      "sources": ["zakruta.cz", "usti.cz"],
-      "reading_time": "2 min"
-    },
-    {
-      "slug": "2026-04-14-benesuv-most",
-      "date": "2026-04-14",
-      "title": "Benešův most se 26. dubna zavírá. Dopady na vlaky, MHD i auta",
-      "lede": "Rekonstrukce za 629 milionů začíná v sobotu. Místo mostu pojedou přes Labe vlaky U0 a XU0, MHD linky 450–453 se rozdělí na dvě větve.",
-      "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "kr-ustecky.cz"],
-      "reading_time": "3 min"
-    },
-    {
-      "slug": "2026-04-13-pozar-notebooku",
-      "date": "2026-04-13",
-      "title": "V Sibiřské ulici začal v noci hořet notebook. Majitel hasil ručníkem",
-      "lede": "Ve tři čtvrtě na tři ráno začal hořet notebook na kuchyňské lince. Majitel stihl plameny uhasit ještě před příjezdem hasičů.",
-      "tag": "lidé",
-      "sources": ["ustecky.denik.cz"],
-      "reading_time": "1 min"
-    },
-    {
-      "slug": "2026-04-08-pozar-travy-na-sklipku",
-      "date": "2026-04-08",
-      "title": "Strážníci hasili v Neštěmicích travní porost. Všimli si ohně při kontrole",
-      "lede": "Jarní sucho zvyšuje riziko travních požárů. V úterý si hlídka všimla ohně v ulici Na Sklípku při běžném průjezdu.",
-      "tag": "příroda",
-      "sources": ["e-usti.cz"],
-      "reading_time": "1 min"
-    }
-  ]
+  "articles": []
 }
