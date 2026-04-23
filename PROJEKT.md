@@ -79,7 +79,45 @@ Sdílené soubory:
 
 ---
 
-## 5. Tón a vizuální řešení
+## 5. Aktuality — jak se zobrazují
+
+### Stránkování
+- **10 článků na stránku** (konstanta `PAGE_SIZE` v index.html)
+- Řazení: **nejnovější první** (podle `date` z index.json)
+- URL: `index.html?p=2`, `?p=3` atd. Bez parametru = strana 1.
+- **První článek na straně 1** (bez filtru) se vykreslí jako `featured` (větší, zvýrazněný pozadím)
+
+### Pager dole
+```
+← novější    [1]       [2]         [3]          starší →
+             duben     březen      leden–únor
+```
+- Vlevo: `← novější` (stránka o 1 nižší, disabled na straně 1)
+- Uprostřed: čísla stránek, **pod každým číslem label měsíce** podle dat článků na té stránce:
+  - 1 měsíc → `duben`
+  - 2 měsíce ve stejném roce → `březen–duben`
+  - přes rok → `prosinec 2025–leden 2026`
+- Vpravo: `starší →` (stránka o 1 vyšš��, disabled na poslední)
+- Aktuální stránka je zvýrazněná (tmavé pozadí, bílý text)
+
+### Filtr tagem
+- Nahoře lišta s tagy: `vše`, `doprava`, `komunita`, `úřad`, `příroda`, `sport`, `lidé`, `kultura`
+- Přepnutí tagu resetuje stránku na 1
+- Tag `vše` = žádný filtr
+
+### Jak přidat článek
+1. Markdown do `denik/clanky/YYYY-MM-DD-slug.md` s frontmatterem (viz `denik/README.md`)
+2. Záznam do `denik/index.json` na **první pozici** v `articles[]`
+3. Aktualizovat `generated` timestamp
+4. Commit + push
+
+### Zobrazení článku
+- Klik na titulek → `clanek.html?s=<slug>` → načte markdown, vykreslí plný text
+- Podporuje: odstavce, **tučné**, *kurzíva*, odkazy, citáty (blockquote), h2, média (obrázky, video, audio)
+
+---
+
+## 6. Tón a vizuální řešení
 
 - **Novinový / magazínový pocit** — serif nadpisy, monospace pro technické texty
 - Akcentová barva: **oranžová** (`--accent`)
@@ -89,7 +127,7 @@ Sdílené soubory:
 
 ---
 
-## 6. Co zbývá (roadmap)
+## 7. Co zbývá (roadmap)
 
 - [ ] Rozhodnout verzování: celý web vs. článek vs. zápis
 - [ ] Nastavit Claude Code na publikační workflow (draft → babička → publikace)
@@ -100,7 +138,7 @@ Sdílené soubory:
 
 ---
 
-## 7. Pravidla pro mě (Claude-designéra)
+## 8. Pravidla pro mě (Claude-designéra)
 
 - **Čtu tento soubor jako první.** Pak teprve sahám na cokoli jiného.
 - Neměním věci, které FC nezadal. Ani „při tom, když už to dělám".
