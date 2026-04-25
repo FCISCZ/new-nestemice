@@ -1,7 +1,17 @@
 {
-  "generated": "2026-04-24T22:00:00+02:00",
+  "generated": "2026-04-25T12:00:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-04-25-zlata-klec-rektorat",
+      "date": "2026-04-25",
+      "title": "Zlaté zámky vedle spáleniště. Zamlčený háček nové chlouby Severní Terasy",
+      "lede": "Město chce za stamiliony přestavět bývalý rektorát UJEP v Hoření na byty pro seniory, mladé i Dům dětí. Pár desítek metrů od něj ale stojí vyhořelý hotel Máj. Zlatá klec je pořád klec.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "3 min",
+      "author": "FC"
+    },
     {
       "slug": "2026-04-24-ordinace-detsky-lekar",
       "date": "2026-04-24",
