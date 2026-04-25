@@ -1,7 +1,34 @@
 {
-  "generated": "2026-04-23T21:45:00+02:00",
+  "generated": "2026-04-24T22:00:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-04-24-ordinace-detsky-lekar",
+      "date": "2026-04-24",
+      "title": "Do Neštěmic se vrací ordinace dětského lékaře. Bude ordinovat hned po Velikonocích",
+      "lede": "Ve zdravotním středisku v Hluboké začne po Velikonocích ordinovat MUDr. Martin Pánek. Kapacita až 1 200 pacientů, registrace už běží. V dubnu má přijít poradna, v květnu neurolog.",
+      "tag": "komunita",
+      "sources": ["nestemice.eu"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-24-orlicka-revitalizace",
+      "date": "2026-04-24",
+      "title": "V Orlické na Severní Terase má vzniknout 92 městských bytů. Město představilo plán",
+      "lede": "Bytové domy Orlická 1 a 3 projdou kompletní rekonstrukcí — zateplení, fotovoltaika, nové vytápění. Po dokončení tu bude až 92 městských bytů.",
+      "tag": "úřad",
+      "sources": ["usti.cz", "e-usti.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-04-24-skritci-letni-kino",
+      "date": "2026-04-24",
+      "title": "Dlouhonozí skřítci v letním kině. Děti hledaly poklad v papírovém bludišti",
+      "lede": "V ústeckém letním kině proběhla rodinná akce Den, který spojuje. Pro děti hry a hledání pokladu, pro rodiče chill zóna. Vstup zdarma.",
+      "tag": "kultura",
+      "sources": ["usti.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-04-23-cviceni-policie-trmice",
       "date": "2026-04-23",
