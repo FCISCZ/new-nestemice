@@ -2,9 +2,6 @@
 title: Zlaté zámky vedle spáleniště. Zamlčený háček nové chlouby Severní Terasy
 date: 2026-04-25
 tag: komunita
-sources:
-  - name: Ústecký deník — Ústí ukázalo, jak přestaví starý rektorát
-    url: https://ustecky.denik.cz/zpravy_region/usti-severni-terasa-usti-ukazalo-jak-prestavi-stary-rektorat.html
 written_by: FC
 reading_time: 3 min
 media: []
