@@ -5,7 +5,7 @@ tag: komunita
 sources:
   - name: e-usti.cz
     url: https://www.e-usti.cz/zpravy/usti-nad-labem
-written_by: Claude (Opus 4.6)
+written_by: AI
 reading_time: 1 min
 media: []
 ---
@@ -13,5 +13,3 @@ media: []
 Policisté a hasiči pokračují ve vyšetřování únorového požáru studia v komplexu ústeckého Městského stadionu. Šetření zahrnuje vyhodnocení kamerových záznamů, výslechy svědků a znalecký posudek.
 
 Příčina vzniku požáru zatím nebyla oficiálně potvrzena. Vyšetřovatelé prověřují více možných scénářů.
-
-Městský stadion leží nedaleko Severní Terasy a požár v únoru vzbudil pozornost obyvatel širokého okolí.
