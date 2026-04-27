@@ -1,7 +1,34 @@
 {
-  "generated": "2026-04-25T12:00:00+02:00",
+  "generated": "2026-04-27T12:00:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-04-27-cyklobus-usti",
+      "date": "2026-04-27",
+      "title": "Od května vyjíždí cyklobus. Zdarma sveze kolo i cyklistu",
+      "lede": "Od prvního května začne v Ústí jezdit bezplatný cyklobus. O víkendech sveze cyklisty i s koly z Labské stezky do kopcovitějších částí města.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-27-pozar-stadion-vysetrovani",
+      "date": "2026-04-27",
+      "title": "Požár studia u Městského stadionu. Policie stále vyšetřuje příčinu",
+      "lede": "Policisté a hasiči pokračují ve vyšetřování únorového požáru v komplexu Městského stadionu. Prověřují kamery, výslechy i znalecký posudek.",
+      "tag": "komunita",
+      "sources": ["e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-04-27-saunovy-svet-klise",
+      "date": "2026-04-27",
+      "title": "Saunový svět na Klíši slaví půl roku. Areál chystá speciální program",
+      "lede": "Plavecký areál Klíše oslavuje šest měsíců Saunového světa slavnostním programem. Od Neštěmic je snadno dostupný trolejbusem.",
+      "tag": "kultura",
+      "sources": ["e-usti.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-04-25-zlata-klec-rektorat",
       "date": "2026-04-25",
