@@ -110,5 +110,30 @@ Sdílené soubory:
 
 ---
 
+---
+
+## 8. Auto-publikace deníku (VYŘEŠENO 4. 6. 2026)
+
+Dvě cloudové rutiny na claude.ai (claude.ai/code/routines): „Neštěmice ráno" (9:10) a
+„Neštěmice odpoledne" (16:10) píšou články do `denik/` a pushují do repa.
+
+**Co bylo 5 týdnů rozbité (od konce dubna):** rutiny běžely a články psaly, ale push na
+GitHub padal. Dvě vrstvy problému:
+1. GitHub App „Claude" byla jen *autorizovaná* (OAuth), ne *nainstalovaná* na repu → žádný
+   write přístup → push `Permission denied` / `Resource not accessible by integration`.
+   Opraveno instalací appky přes github.com/apps/claude (Contents: Read and write).
+2. Vzdálený Claude Code NIKDY nepushuje na `main` — vždy na vlastní větev `claude/**`.
+   Web (GitHub Pages) servíruje jen `main`, takže články se nezveřejnily.
+
+**Trvalé řešení:** GitHub Action `.github/workflows/automerge-claude.yml` — na každý push na
+`claude/**` ho automaticky sloučí do `main`. Default workflow permissions repa = `write`.
+Řetěz: rutina napíše → pushne na `claude/**` → Action sloučí do `main` → Pages publikuje.
+**FC nedělá nic.** Otestováno naživo 4. 6. 2026.
+
+Kontrola kdyby se to rozbilo: log Action na GitHubu (záložka Actions), a jestli existuje
+nainstalovaná App s write na github.com/settings/installations.
+
+---
+
 *Aktualizováno: 19. 4. 2026, ~23:45, Claude-designér na konci dlouhého dne.*
 *Pokud něco z toho neodpovídá realitě, FC to ráno upraví.*
