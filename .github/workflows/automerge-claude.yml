@@ -1,0 +1,29 @@
+name: Auto-merge claude branches to main
+
+# Cloudove rutiny Claude Code pushuji clanky na vetev claude/**.
+# Web (GitHub Pages) serviruje jen main, tak to sem automaticky slijeme.
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge pushed branch into main
+        run: |
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git merge --no-ff "origin/${BRANCH}" -m "auto-merge ${BRANCH} -> main (clanky z rutiny)"
+          git push origin main
