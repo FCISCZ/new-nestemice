@@ -1,7 +1,34 @@
 {
-  "generated": "2026-04-27T12:00:00+02:00",
+  "generated": "2026-06-04T08:00:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-04-koupaliste-brna-sezona",
+      "date": "2026-06-04",
+      "title": "Koupaliště Brná otevřelo sezónu 2026. Nová terasa, pétanque a automatické zavlažování",
+      "lede": "Termální koupaliště v Brné zahájilo sezónu. Nová restaurační terasa, pétanque hřiště a automatické zavlažování. Vstupné 150 / 90 Kč.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-04-filmove-leto-ujep",
+      "date": "2026-06-04",
+      "title": "Filmové léto v kampusu UJEP startuje dnes. Každý čtvrtek večer pod širým nebem, vstup zdarma",
+      "lede": "V amfiteátru kampusu UJEP začíná letní série bezplatných filmových večerů. Každý čtvrtek od 17:30, červen: Neporazitelní, Stezka života, Postřižiny.",
+      "tag": "kultura",
+      "sources": ["ujep.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-04-trolejbus-vystupni",
+      "date": "2026-06-04",
+      "title": "Nová trolejbusová trať po 17 letech. Výstupní spojuje Krásné Březno se Severní Terasou",
+      "lede": "DPMÚL spustil 1. června zkušební provoz na nové 2,35km trati v ulici Výstupní. Linky 74 a 75 dostaly 18metrové parciální trolejbusy. Projekt stál 79 milionů Kč.",
+      "tag": "doprava",
+      "sources": ["dpmul.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-04-27-cyklobus-usti",
       "date": "2026-04-27",
