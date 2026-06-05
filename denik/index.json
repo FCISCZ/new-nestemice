@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-05T09:00:00+02:00",
+  "generated": "2026-06-05T14:10:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-05-benesak-oblouk-pilire",
+      "date": "2026-06-05",
+      "title": "Benešák po roce prací: historický oblouk spočinul na nových pilířích",
+      "lede": "Po roce od uzavření Benešova mostu usadili stavbaři historický ocelový oblouk na nové pilíře. Betonáž mostovky probíhá, otevření plánováno 19. prosince.",
+      "tag": "doprava",
+      "sources": ["zdopravy.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-05-rekonstrukce-socialni-pece",
+      "date": "2026-06-05",
+      "title": "Oprava Sociální péče u nemocnice vrcholí. Největší komplikace přijdou v druhé půli června",
+      "lede": "Rekonstrukce ulice Sociální péče u Masarykovy nemocnice probíhá od dubna. Zastávka Bukov sanatorium se přesunula, největší omezení přijdou od druhé půle června.",
+      "tag": "doprava",
+      "sources": ["irozhlas.cz", "sever.rozhlas.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-05-elinka-t94-brana-vanov",
+      "date": "2026-06-05",
+      "title": "Elektropřívoz T94 Brná–Vaňov jezdí v létě do osmé. Stačí zavolat",
+      "lede": "Nová elektrická loď T94 přepravuje cestující a kola přes Labe mezi Brnou a Vaňovem. Denně do 20 hodin, na zavolání, v tarifu DÚK.",
+      "tag": "doprava",
+      "sources": ["kr-ustecky.cz", "zdopravy.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-05-utulek-fest",
       "date": "2026-06-05",
