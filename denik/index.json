@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-05T14:10:00+02:00",
+  "generated": "2026-06-06T12:00:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-06-poricni-policie-brna-plovouci-stani",
+      "date": "2026-06-06",
+      "title": "Poříční policie v Brné dostala nové plovoucí garáže. ŘVC za ně zaplatilo 39 milionů",
+      "lede": "Ředitelství vodních cest předalo 27. května nové kryté plovoucí garáže poříčnímu oddělení v Brné. Dvě stavby o sto tunách každá nahradily 35 let staré garáže.",
+      "tag": "komunita",
+      "sources": ["rvc.gov.cz", "md.gov.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-06-kruhac-chlumec-hlavni-faze",
+      "date": "2026-06-06",
+      "title": "Kruháč u Chlumce rozkopali naplno. Kolony na I/30 potrvají do října",
+      "lede": "Od 2. června vstoupila přestavba křižovatky U Šmelce do hlavní fáze. Silnice III/25357 je uzavřena, kamiony mají zákaz tranzitu. Omezení platí do konce října.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz", "zdopravy.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-06-europe-direct-usti-bedna",
+      "date": "2026-06-06",
+      "title": "Ústí má nové okno do EU. Europe Direct otevřelo 3. června v Bedně",
+      "lede": "Spolek Bedna v Masarykově ulici hostí nové informační centrum EU. Europe Direct otevřelo 3. června za přítomnosti primátora a zástupkyně Evropské komise.",
+      "tag": "komunita",
+      "sources": ["kr-ustecky.cz", "sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-05-benesak-oblouk-pilire",
       "date": "2026-06-05",
