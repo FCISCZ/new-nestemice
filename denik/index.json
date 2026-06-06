@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-06T12:00:00+02:00",
+  "generated": "2026-06-06T16:30:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-06-szpi-vecerka-nestemice",
+      "date": "2026-06-06",
+      "title": "Inspekce zavřela večerku v Neštěmicích. Myši, zdechliny a špína na Seifertově ulici",
+      "lede": "SZPI uzavřela 19. května prodejnu v Seifertově ulici v Neštěmicích. Kontroloři našli mrtvé hlodavce, jejich stopy, hmyz v potravinách a dlouhodobě zanedbanou hygienu.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-06-zus-nestemice-balet",
+      "date": "2026-06-06",
+      "title": "Žáci ZUŠ Neštěmice tančí v neděli na velkém jevišti. Čarovná zahrada v Divadle města",
+      "lede": "Žáci tanečního oboru ZUŠ Neštěmice vystoupí 7. června v Divadle města Ústí nad Labem. Pohádkový balet Čarovná zahrada začíná v 17 hodin, vstupné 300 Kč.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz", "vstupenkyusti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-06-zoo-levhart-cejlonsky",
+      "date": "2026-06-06",
+      "title": "Zoo v Krásném Březně má nového levharta. Vzácný samec přijel z Itálie, čeká ho samice z Jihlavy",
+      "lede": "Ústecká zoo přijala tříletého samce levharta cejlonského z italské Zoo d'Abruzzo. Spolu se samicí z Jihlavy vytvoří chovný pár – ve volné přírodě žije jen 700 až 950 těchto levhartů.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-06-zoo-belozubka-sbirka",
+      "date": "2026-06-06",
+      "title": "Zoo v Krásném Březně sbírá na bělozubku. Nejmenší savec dostane vlastní expozici",
+      "lede": "Zoologická zahrada v Ústí nad Labem spustila sbírku na novou expozici pro bělozubku nejmenší. Cíl je 312 000 Kč; zvíře váží asi 2 gramy a patří k nejmenším savcům světa.",
+      "tag": "příroda",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-06-poricni-policie-brna-plovouci-stani",
       "date": "2026-06-06",
