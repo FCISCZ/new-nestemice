@@ -1,0 +1,12 @@
+Zdroj: https://www.e-usti.cz/zpravy/usti-nad-labem/142271-v-pondeli-zacina-rekonstrukce-na-d8-ridice-cekaji-omezeni
+Staženo: 2026-06-07
+Poznámka: Stránka vrátila HTTP 403. Fakta ověřena z více zdrojů (viz níže).
+---
+V pondělí 8. června 2026 začíná rekonstrukce na dálnici D8 mezi exitem 18 Nová Ves a exitem 48 Lovosice (km 18–48, délka cca 30 km). Práce potrvají přibližně 98 dní, hlavní stavební fáze má skončit v září, dokončení do poloviny října. Zakázka za 398,04 milionu Kč bez DPH – zhotovitel sdružení EUROVIA CZ a Voestalpine Krems Finaltechnik. Práce zahrnují: nový systém nouzového volání SOS, výměnu svodidel ve středním dělicím pásu, modernizaci telematických zařízení. Provoz v režimu 2+2 (rychlostní pruhy uzavřeny), maximální rychlost 80 km/h, zákaz vjezdu pro vozidla širší než 2,2 m včetně zrcátek v levém pruhu.
+
+Potvrzující zdroje (všechny přístupné přes vyhledávání, stránky samotné vracejí 403):
+- https://www.ceske-novinky.cz/2026/06/04/behem-leta-probehne-oprava-stredoveho-pasu-a-rekonstrukce-telematiky-na-d8/
+- https://litomericky.denik.cz/zpravy_region/opravy-omezeni-dalnice-d8-prace-uzavirka-20260604.html
+- https://melnicky.denik.cz/zpravy_region/danice-d8-nova-ves-lovosice-omezeni-opravy.html
+- https://prazsky.denik.cz/zpravy_region/na-d8-potrvaji-tri-mesice-omezeni-silnicari-vymeni-technologie-i-svodidla-202606.html
+- https://zdopravy.cz/zacne-velka-rekonstrukce-na-d8-potrva-tri-mesice-opravi-se-30-kilometru-dalnice-284213/

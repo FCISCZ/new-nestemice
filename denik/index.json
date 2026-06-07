@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-06T16:30:00+02:00",
+  "generated": "2026-06-07T09:00:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-07-d8-rekonstrukce-lovosice",
+      "date": "2026-06-07",
+      "title": "D8 se od pondělí zúží na dva pruhy. Opravy potrvají až do října",
+      "lede": "Od 8. června začíná rekonstrukce 30 km D8 mezi Novou Vsí a Lovosicemi. Provoz 2+2, max 80 km/h, zákaz pro vozidla nad 2,2 m šíře. Práce potrvají do října.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz", "ceske-novinky.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-07-ustecky-schod-letni-kino",
+      "date": "2026-06-07",
+      "title": "Ústecký schod dnes zdolává letní kino. Start od půl desáté, vstupné 50 nebo 150 korun",
+      "lede": "Speciální ročník závodu Ústecký schod se koná dnes od 9:30 v kulisách letního kina v Ústí nad Labem. Vstupné 50 nebo 150 korun.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-07-zoo-svetovy-den-ziraf",
+      "date": "2026-06-07",
+      "title": "Zoo v Krásném Březně slaví Světový den žiraf. Program pro děti i dospělé od 14 hodin",
+      "lede": "Zoo Ústí nad Labem připravila na 21. června od 14 hodin program ke Světovému dni žiraf. Kvíz, dílna, komentované krmení a setkání s ošetřovatelem.",
+      "tag": "příroda",
+      "sources": ["enviweb.cz", "zoousti.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-06-szpi-vecerka-nestemice",
       "date": "2026-06-06",
