@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-07T09:00:00+02:00",
+  "generated": "2026-06-07T14:24:00+02:00",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-07-ddm-tabory-leto",
+      "date": "2026-06-07",
+      "title": "DDM Ústí otevírá přihlášky na letní tábory. Cesta kolem světa nebo tanec a tvoření",
+      "lede": "DDM Ústí nad Labem nabízí příměstské tábory: Cesta kolem světa 13.–17. července, Kreativní léto 20.–24. července. Přihlášky na ddmul.cz.",
+      "tag": "komunita",
+      "sources": ["ddmul.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-07-pietni-misto-marianska-skala",
+      "date": "2026-06-07",
+      "title": "Na Mariánské skále přibylo pietní místo. Rodiče sem přinesou jméno svého dítěte",
+      "lede": "Na Mariánské skále přibylo vzpomínkové místo pro rodiče po ztrátě miminka. Strom se srdci, levandule, kámen — projekt Masarykovy nemocnice.",
+      "tag": "lidé",
+      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-07-manesovy-sady-rekonstrukce",
+      "date": "2026-06-07",
+      "title": "Mánesovy sady v centru Ústí čekají přerod. Park uzavřen od ledna, hotovo do roku 2027",
+      "lede": "Mánesovy sady jsou uzavřeny od 26. ledna. Rekonstrukce za 40 milionů přinese hřiště, psí výběh, parkour i bezbariérové cesty.",
+      "tag": "komunita",
+      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-07-zus-evy-randove-100-let",
+      "date": "2026-06-07",
+      "title": "Sto let ZUŠ Evy Randové. Výstava v muzeu mapuje celou historii školy",
+      "lede": "Oblastní muzeum v Ústí hostí výstavu ke 100 letům ZUŠ Evy Randové. Potrvá do 2. srpna 2026, přibližuje historii i současnost školy.",
+      "tag": "kultura",
+      "sources": ["muzeumusti.cz", "operaplus.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-07-d8-rekonstrukce-lovosice",
       "date": "2026-06-07",
