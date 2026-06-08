@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-08T00:00:00+02:00",
+  "generated": "2026-06-08T14:12:03Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-08-chodniky-nestemicka",
+      "date": "2026-06-08",
+      "title": "Neštěmická dostane nový chodník za čtyři miliony. Práce probíhají po etapách",
+      "lede": "Město opraví chodník v Neštěmické ulici za čtyři miliony korun. Úsek od AVE po zastávku Krčínova, s bezbariérovými prvky pro nevidomé.",
+      "tag": "úřad",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-08-filmove-leto-ujep",
+      "date": "2026-06-08",
+      "title": "Filmové léto s UJEP startuje čtvrtkem. Zdarma pod širým nebem každý týden až do srpna",
+      "lede": "Čtvrtý ročník Filmového léta s UJEP startuje 4. června v kampusu. Každý čtvrtek od 17:30 zdarma. Červen: Neporazitelní, Stezka života, Postřižiny.",
+      "tag": "kultura",
+      "sources": ["naseveru.net", "ujep.cz", "usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-08-trolejbus-vystupni",
+      "date": "2026-06-08",
+      "title": "Poprvé za 17 let. Ústí spustilo novou trolejbusovou trať a linky 74 a 75 jedou i přes Neštěmice",
+      "lede": "Od 1. června testuje Ústí novou trolejbusovou trať ve Výstupní ulici. Linky 74 a 75 jedou kloubovými trolejbusy, linka 75 zastavuje na Neštěmické.",
+      "tag": "doprava",
+      "sources": ["zdopravy.cz", "ustecky.denik.cz", "zitusti.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-08-benesak-ranni-kolona",
       "date": "2026-06-08",
