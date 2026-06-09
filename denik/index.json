@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-09T08:30:00Z",
+  "generated": "2026-06-09T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-09-jedno-usti-koalice-volby",
+      "date": "2026-06-09",
+      "title": "Sedm stran tvoří Jedno Ústí. V říjnových volbách chtějí vyhnat ANO a SPD z radnice",
+      "lede": "Historicky nejširší koalice v Ústí: PRO! Ústí, Piráti, Zelení, STAN, TOP 09, UFO a Naše Česko. Lídr Tomáš Vohryzka. Volby 9.–10. října.",
+      "tag": "úřad",
+      "sources": ["ustecky.denik.cz", "jednousti.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-09-atleticka-hala-vseborice",
+      "date": "2026-06-09",
+      "title": "Ve Všebořicích vyroste atletická hala za 600 milionů. Pojme 2 200 diváků a splní podmínky pro světové mítinky",
+      "lede": "Atletická hala ve Všebořicích za 600 mil. Kč. Projekt 2026, stavba 2027, dokončení 2028. Certifikace World Athletics Silver, kapacita 2 200 diváků.",
+      "tag": "sport",
+      "sources": ["atletika.cz", "irozhlas.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-09-justicni-areal-bukov",
+      "date": "2026-06-09",
+      "title": "Justiční palác na Bukově roste. Tisícovka zaměstnanců se nastěhuje v září 2028",
+      "lede": "Stavba justičního paláce na Bukově pokračuje. Náklady 2,5 mld. Kč, dokončení září 2028. 46 síní, 1 000 zaměstnanců, 300+ parkovacích míst.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz", "msp.gov.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-09-dpmul-vseborice-detsky-den",
       "date": "2026-06-09",
