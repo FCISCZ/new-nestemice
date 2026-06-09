@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-08T14:12:03Z",
+  "generated": "2026-06-09T08:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-09-dpmul-vseborice-detsky-den",
+      "date": "2026-06-09",
+      "title": "Dětský den v depu DPMÚL ve Všebořicích. Nafukovačky, hasiči a prohlídka vozovny",
+      "lede": "DPMÚL otevírá 13. června vozovnu ve Všebořicích. Nafukovačky, hasiči, Policie i prohlídka opravny trolejbusů, od 9 do 15 hodin.",
+      "tag": "kultura",
+      "sources": ["dpmul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-09-zukovova-ulice-oprava-strekove",
+      "date": "2026-06-09",
+      "title": "Žukovova na Střekově se zavírá na půl roku. EUROVIA mění povrch, chodníky i osvětlení",
+      "lede": "Od 8. června je uzavřena Žukovova ulice na Střekově. EUROVIA CZ rekonstruuje povrch, chodníky, parkoviště a osvětlení. Uzavírka trvá do 29. listopadu.",
+      "tag": "doprava",
+      "sources": ["zdopravy.cz", "auto-mania.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-09-spolu-pro-usti-nestemice-volby",
+      "date": "2026-06-09",
+      "title": "ODS a lidovci jdou v říjnu společně. V Neštěmicích povede koalici Nicole Školková",
+      "lede": "ODS a KDU-ČSL kandidují jako Spolu pro Ústí. Lídr za město Radim Bzura, v Neštěmicích Nicole Školková. Komunální volby 9.–10. října 2026.",
+      "tag": "úřad",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-08-chodniky-nestemicka",
       "date": "2026-06-08",
