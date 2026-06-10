@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-09T12:00:00Z",
+  "generated": "2026-06-10T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-10-zs-nestemicka-5g-kamery",
+      "date": "2026-06-10",
+      "title": "Sportoviště u ZŠ Neštěmická hlídají 5G kamery napojené na dispečink strážníků",
+      "lede": "Kamery za 922 000 Kč na síti 5G propojí areál ZŠ Neštěmická s operačním střediskem Městské policie. Sledování non-stop z Na Nivách v Předlicích.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-10-corso-krasne-brezno",
+      "date": "2026-06-10",
+      "title": "Corso v Krásném Březně čeká přes léto demolice. Rekonstrukce nádvoří stojí přes 40 milionů",
+      "lede": "Rekonstrukce vnitrobloku Corsa v Krásném Březně vstoupila do demoliční fáze. Firma Klement Construction bourá promenádu za 40+ mil. Kč, dokončení do konce roku.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-10-heliport-nocni-provoz",
+      "date": "2026-06-10",
+      "title": "Heliport ústecké nemocnice dostal povolení k nočnímu provozu. Záchranáři přistanou i po setmění",
+      "lede": "Od 1. června 2026 certifikát VFR/NOC pro heliport Masarykovy nemocnice. Modernizace za 60+ mil. Kč, AI hasicí systém, 85 % z EU fondů.",
+      "tag": "komunita",
+      "sources": ["homerlive.cz", "ustecky.denik.cz", "zitusti.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-09-jedno-usti-koalice-volby",
       "date": "2026-06-09",
