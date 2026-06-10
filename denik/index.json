@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-10T09:00:00Z",
+  "generated": "2026-06-10T11:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-10-vetruze-nocni-vyjimky",
+      "date": "2026-06-10",
+      "title": "Ústí povolilo dvě letní akce na Větruši do půlnoci. Oldies festival i open-air mají výjimku z nočního klidu",
+      "lede": "Zastupitelé schválili výjimky z nočního klidu na Větruši: 30. května Oldies Větruše a 8. srpna letní open-air. Hudba smí hrát do půlnoci.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz", "usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-10-vase-usti-tomkova",
+      "date": "2026-06-10",
+      "title": "Yveta Tomková obhajuje Neštěmice. Do říjnových voleb jde jako jednička Vaše Ústí",
+      "lede": "Dvakrát po sobě zvolená starostka Neštěmic Yveta Tomková povede kandidátku Vaše Ústí + Za lepší Střekov v říjnových komunálních volbách.",
+      "tag": "úřad",
+      "sources": ["vaseusti.cz", "nestemice.eu"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-10-socialni-pece-oprava",
+      "date": "2026-06-10",
+      "title": "Ulice Sociální péče u nemocnice dostává chytré semafory a nové zastávky. Stavba vyjde na 76 milionů",
+      "lede": "Rekonstrukce ulice Sociální péče u Masarykovy nemocnice: chytré semafory, nové zálivové zastávky MHD a bezpečnější přechody. Dokončení v listopadu.",
+      "tag": "doprava",
+      "sources": ["irozhlas.cz", "usti.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-10-draci-lode-den-labe",
+      "date": "2026-06-10",
+      "title": "Na Vaňově vládli závodníci. Dračí lodě na Labi ovládl tým Bulldog Gym KOVO PB",
+      "lede": "17. ročník Den Labe na Vaňově: 29 posádek, 28 školních týmů. Vítěz Bulldog Gym KOVO PB s časem 00:55.330, druhý Cákalové, třetí Sutor Global.",
+      "tag": "sport",
+      "sources": ["dragonboat.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-10-zs-nestemicka-5g-kamery",
       "date": "2026-06-10",
