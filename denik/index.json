@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-10T11:00:00Z",
+  "generated": "2026-06-11T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-11-most-mojzir-rok-uzavirky",
+      "date": "2026-06-11",
+      "title": "Rok s uzavřeným mostem v Mojžíři. Neštěmice stále nápor provozu nesou",
+      "lede": "Zítra je rok od uzavření mostu na I/62 v Mojžíři. Objízdná trasa přes Neštěmice přinesla 700 aut za hodinu. Nový most za 259 milionů má být hotový na konci 2026.",
+      "tag": "doprava",
+      "sources": ["nestemice.eu", "kraje.rsd.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-11-szpi-vecerka-nestemice",
+      "date": "2026-06-11",
+      "title": "Inspekce zavřela večerku v Seifertově ulici. Hlodavci, hmyz, kontaminované potraviny",
+      "lede": "SZPI 19. května uzavřela prodejnu Phú Chien Tran v Seifertově ulici v Neštěmicích. Důvod: hlodavci, mrtvé myši, hmyz a závažně zanedbaná hygiena.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-11-zoo-belozubka-sbirka",
+      "date": "2026-06-11",
+      "title": "Zoo v Krásném Březně sbírá na expozici pro bělozubku. Savec váží dva gramy",
+      "lede": "Zoo Ústí nad Labem vyhlásila sbírku 312 000 Kč na novou expozici pro bělozubku nejmenší – jednoho z nejmenších savců světa. Nová klec půjde do pavilonu šelem.",
+      "tag": "příroda",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-10-vetruze-nocni-vyjimky",
       "date": "2026-06-10",
