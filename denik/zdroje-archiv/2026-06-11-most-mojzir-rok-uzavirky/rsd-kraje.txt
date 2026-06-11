@@ -1,0 +1,18 @@
+Zdroj: https://kraje.rsd.cz/ustecky/planovana-rekonstrukce-mostu-mojzir-na-silnici-i-62/
+Staženo: 2026-06-11
+---
+Stránka vrátila HTTP 403 při přímém přístupu WebFetch. Fakta ověřená vyhledáváním (ŘSD Ústecký kraj + Ústecký deník):
+
+ŘSD postaví v severočeském Mojžíři na I/62 nový most – technická fakta:
+
+- Most na silnici I/62 uzavřen od čtvrtku 12. června 2025
+- Nový most: délka cca 291 m, 2 opěry, 8 pilířů, nejvyšší pilíř 13 m
+- Cena: 259 milionů Kč bez DPH
+- Zhotovitel: Strabag SIS a.s.
+- Dodavatel betonu: Cemex
+- Uzavírka potrvá do konce roku 2026
+- Nový most nahradí stávající estakádu a je projektován na 100+ let
+
+Doplňkový zdroj: https://tvstav.cz/clanek/8594-cemex-dodava-beton-pro-rekonstrukci-klicove-estakady-mojzir-v-usti-n-l
+Doplňkový zdroj: https://ustecky.denik.cz/zpravy_region/most-mojzir-oprava-stavba-beton-zima.html
+Doplňkový zdroj: https://ustecky.denik.cz/zpravy_region/most-mojzir-uzavirka-20250611.html
