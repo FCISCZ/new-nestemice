@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-11T08:00:00Z",
+  "generated": "2026-06-11T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-11-zoo-tulen-mlade",
+      "date": "2026-06-11",
+      "title": "V zoo v Krásném Březně se po 16 letech narodil tuleň. Expozice je dočasně uzavřena",
+      "lede": "Ústecká zoo hlásí chovatelský úspěch: samice Ayma porodila mládě tuleně obecného. Výběh je uzavřen, první dny jsou kritické.",
+      "tag": "příroda",
+      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-11-severni-terasa-parkovani",
+      "date": "2026-06-11",
+      "title": "Na Severní Terase přibyde přes 200 parkovacích míst. Práce mají skončit v říjnu",
+      "lede": "Město vyhlásilo zakázku za 26 milionů na 216 nových stání v ulicích Werichova, Voskovcova, Burianova a dalších. Dokončení do konce října 2026.",
+      "tag": "doprava",
+      "sources": ["sever.rozhlas.cz", "e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-11-nestemicka-druha-etapa",
+      "date": "2026-06-11",
+      "title": "Neštěmická dostane nový chodník i na levé straně. Druhá etapa oprav stojí 1,6 milionu",
+      "lede": "Firma INSKY opraví za 1,58 milionu Kč levostranný chodník v Neštěmické ulici od V Oblouku po zastávku Výstupní. Dlažba nahradí asfalt, práce do tří měsíců.",
+      "tag": "úřad",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-11-detsky-den-krasne-brezno",
+      "date": "2026-06-11",
+      "title": "Dětský den v Krásném Březně se vydařil. Pomohli hasiči, policie i desítky firem",
+      "lede": "Městský obvod Neštěmice uspořádal dětský den v Krásném Březně za účasti hasičů, policie a místních firem. Starostka Tomková poděkovala všem, kdo pomohli.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-11-most-mojzir-rok-uzavirky",
       "date": "2026-06-11",
