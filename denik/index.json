@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-12T09:00:00Z",
+  "generated": "2026-06-12T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-12-grand-prix-usti-atletika",
+      "date": "2026-06-12",
+      "title": "Grand Prix Ústí přivítá světové špičky. Vstup na atletický mítink je zdarma",
+      "lede": "Ve čtvrtek 18. června přijede do Ústí atletická světová špička. Grand Prix Ústí je poprvé v sérii World Athletics Bronze. Startují Staněk, Enekwechi a Špotáková. Vstup zdarma.",
+      "tag": "sport",
+      "sources": ["atletikauk.cz", "online.atletika.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-12-derby-mojzir-nestemice-vitasek",
+      "date": "2026-06-12",
+      "title": "Mojžíř ovládl ústecké El Clásico 4:1. Vitásek se po špalíru hráčů rozloučil s kariérou",
+      "lede": "Jarní derby 7. ligy Mojžíř–Neštěmice B skončilo 4:1. Čtyři sta diváků bylo svědkem rozlučky Aleše Vitáska, který fotbal začínal v Neštěmicích a zakončil v Mojžíři.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-12-dostupne-byty-plan-2045",
+      "date": "2026-06-12",
+      "title": "Ústí chce do roku 2045 tři tisíce dostupných bytů. V hledáčku je i Krásné Březno",
+      "lede": "Rada Ústí schválila bytovou politiku do roku 2045: 3 000 dostupných bytů za 70–90 % tržního nájmu. Nové byty plánuje i v Krásném Březně a na Severní Terase.",
+      "tag": "komunita",
+      "sources": ["irozhlas.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-12-ustecky-pride-crush-2026",
+      "date": "2026-06-12",
+      "title": "CRUSH — čtvrtý Ústecký pride vyvrcholí 27. června v Hraničáři",
+      "lede": "Čtvrtý ročník Ústeckého pride s názvem CRUSH vyvrcholí 27. června v Hraničáři. Připraven je sekáč, drag show, testování HIV a párty s DJs. Vstup pro všechny.",
+      "tag": "kultura",
+      "sources": ["hranicar-usti.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-12-pozar-chatek-nestemice",
       "date": "2026-06-12",
