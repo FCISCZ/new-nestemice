@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-11T12:00:00Z",
+  "generated": "2026-06-12T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-12-pozar-chatek-nestemice",
+      "date": "2026-06-12",
+      "title": "U Neštěmic hořely tři zahradní chatky. Příčinou bylo otevřené ohniště",
+      "lede": "Ve čtvrtek odpoledne hořely tři zahradní chatky mezi Neštěmicemi a Mojžířem. Zasahovalo pět jednotek, nikdo se nezranil, příčinou bylo otevřené ohniště.",
+      "tag": "komunita",
+      "sources": ["pozary.cz", "hzscr.gov.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-12-trolejbus-vystupni",
+      "date": "2026-06-12",
+      "title": "Po 17 letech nová trolejbusová trať. Výstupní ulicí jezdí od června bateriové trolejbusy",
+      "lede": "DPMÚL spustil 1. června zkušební provoz na nové trati ve Výstupní ulici. Linky 74 a 75 jezdí 18metrovými trolejbusy, z kopce na baterie. Trať stála 70 milionů, 85 % z EU.",
+      "tag": "doprava",
+      "sources": ["zdopravy.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-12-zukovova-rekonstrukce",
+      "date": "2026-06-12",
+      "title": "Žukovova ulice na Střekově se rekonstruuje. Uzavírka potrvá do konce listopadu",
+      "lede": "Od 8. června probíhá rozsáhlá rekonstrukce Žukovovy ulice na Střekově za 46,6 milionu. Dvě etapy, práce do 28. listopadu, objízdka přes Kojetickou a Poslední cestu.",
+      "tag": "doprava",
+      "sources": ["zdopravy.cz", "usti.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-11-zoo-tulen-mlade",
       "date": "2026-06-11",

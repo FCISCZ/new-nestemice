@@ -1,0 +1,18 @@
+Zdroj: https://zdopravy.cz/v-usti-zacal-zkusebni-provoz-na-nove-trolejbusove-trati-vetsinu-nakladu-zaplatila-dotace-283978/
+Staženo: 2026-06-12
+---
+V Ústí začal zkušební provoz na nové trolejbusové trati, většinu nákladů zaplatila dotace
+
+Dopravní podnik města Ústí nad Labem (DPMÚL) zahájil 1. června 2026 zkušební provoz s cestujícími na nové trolejbusové trati v ulici Výstupní. Jde o první novou trolejbusovou trať ve městě po 17 letech (od roku 2009).
+
+Délka nové trati: 2,35 km troleje (instalováno pouze ve směru stoupání, tj. z Krásného Března do Dobietic).
+
+Celkové náklady: přibližně 70 milionů korun, z toho 85 % uhrazeno z Operačního programu Doprava (EU dotace).
+
+Na trati jsou nasazeny 18metrové parciální trolejbusy (Škoda/SOR) nahrazující původní 12metrové autobusy. Trolejbusy jezdí nahoru pod trakčním vedením, dolů využívají bateriový pohon a při jízdě z kopce dobíjejí baterie rekuperací.
+
+Trať obsluhuje linky 74 a 75 propojující Krásné Březno, Dobětice a Severní Terasu.
+
+Technická novinka: DPMÚL nainstaloval v Krásném Březně první průběžně napájený trolejbusový obratník ve městě.
+
+Zdroj byl nalezen přes WebSearch dne 2026-06-12. Přímý přístup přes WebFetch nebyl dostupný (HTTP 403), data čerpána z výsledků fulltextového vyhledávání a více zdrojů (zdopravy.cz, ustecky.denik.cz, fdrive.cz).
