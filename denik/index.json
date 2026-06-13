@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-13T10:00:00Z",
+  "generated": "2026-06-13T12:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-13-nestemice-kp-posledni-kolo",
+      "date": "2026-06-13",
+      "title": "Neštěmice hrají dnes o druhé místo. Proboštov titul bere, postup možná ne",
+      "lede": "FK Český Lev Neštěmice nastupuje dnes v 10:15 k poslednímu kolu KP proti Srbicím. Jsou druzí, Proboštov odmítá postup — to by Neštěmice dostaly šanci na divizi.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz", "livesport.cz", "teplicky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-13-4-tenori-letni-kino",
+      "date": "2026-06-13",
+      "title": "4 Tenorů přijedou do Ústí v úterý. Letní kino hostí operní hvězdy s orchestrem",
+      "lede": "Marian Vojtko, Pavel Vítek, Jan Kříž a Michal Bragagnolo vystoupí 16. června v letním kině s Orchestrem Divadla města. Vstupenky za 790–990 Kč.",
+      "tag": "kultura",
+      "sources": ["vstupenkyusti.cz", "operaplus.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-13-atletika-skolaci-stadion",
+      "date": "2026-06-13",
+      "title": "Přes sedm set školáků si zkusilo atletiku na ústeckém stadionu. Nejpilnější dostali oštěpy",
+      "lede": "Druhého června se na Městském stadionu UMT sešlo přes 700 žáků z ústeckých základních škol. Český atletický svaz připravil šest disciplín, nejlepší školy dostaly pěnové oštěpy.",
+      "tag": "sport",
+      "sources": ["atletika.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-13-techtle-mechtle-revue",
+      "date": "2026-06-13",
+      "title": "Techtle Mechtle a Petr Kotvald míří do Ústí. Travesti show v letním kině 28. června",
+      "lede": "Soubor Techtle Mechtle přiveze 28. června do ústeckého letního kina travesti show se speciálním hostem Petrem Kotvaldem. Začátek v 19:00, sezení číslované.",
+      "tag": "kultura",
+      "sources": ["ksul.cz", "vstupenkyusti.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-13-vyluka-trat-130-usti-decin",
       "date": "2026-06-13",
