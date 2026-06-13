@@ -1,0 +1,9 @@
+Zdroj: https://www.mesto-most.cz/vismo/dokumenty2.asp?id_org=9959&id=50187
+Staženo: 2026-06-13
+Poznámka: Web vrátil HTTP 403; obsah ověřen přes vyhledávač a indexovaný snippet z webu Města Most.
+---
+Správa železnic informuje o plánovaných výlukách na trati 130 (Ústí nad Labem – Děčín a zpět),
+které proběhnou od 2. června do 30. června 2026 v časech od 1:50 do 3:45/4:45 hodin.
+
+Plánované noční výluky na trati 130 probíhají každou noc v nočních hodinách.
+Dotčené spoje jsou nahrazovány náhradní autobusovou dopravou (NAD) podle výlukového jízdního řádu.
