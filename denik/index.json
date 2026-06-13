@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-12T12:00:00Z",
+  "generated": "2026-06-13T10:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-13-vyluka-trat-130-usti-decin",
+      "date": "2026-06-13",
+      "title": "Dnes v noci výluka Ústí–Děčín. EC 258 pojede přes Velké Březno s hodinovým zpožděním",
+      "lede": "Od 21:00 dnes do 4:00 zítra uzavře Správa železnic úsek ÚnL–Povrly. EC 258 Berliner pojede odklonem přes Velké Březno, regionální vlaky nahradí autobusy.",
+      "tag": "doprava",
+      "sources": ["ceskedrahy.cz", "spravazeleznic.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-13-tulen-zoo-prvni-v-evrope",
+      "date": "2026-06-13",
+      "title": "Tuleň z ústecké zoo je první mládě narozené v evropské zoo v roce 2026",
+      "lede": "Databáze ZIMS potvrdila: mládě tuleně obecného z Krásného Března je první v evropských zoo letos. Matkou je 17letá Ayma. Expozice zůstává uzavřena.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz", "tn.nova.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-13-spd-motoriste-usti-volby",
+      "date": "2026-06-13",
+      "title": "SPD a Motoristé jdou do říjnových voleb v Ústí společně. Lídrem je náměstek Mohr",
+      "lede": "SPD, Motoristé, Trikolora a Přísaha vytvoří v Ústí společnou kandidátku. Lídrem je náměstek primátora Michal Mohr, dvojkou zastupitel Petr Krause.",
+      "tag": "úřad",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-12-grand-prix-usti-atletika",
       "date": "2026-06-12",
