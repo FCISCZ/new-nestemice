@@ -1,7 +1,25 @@
 {
-  "generated": "2026-06-13T12:30:00Z",
+  "generated": "2026-06-14T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-14-pohadkove-nedele-strekov",
+      "date": "2026-06-14",
+      "title": "Pohádkové neděle na hradě Střekov. Příští je za týden, vstup zdarma",
+      "lede": "Sváťovo Divadlo každý měsíc hraje na hradním nádvoří zdarma. Nejbližší pohádková neděle je 21. června ve 15:00. Zbývají ještě čtyři termíny do září.",
+      "tag": "kultura",
+      "sources": ["kudyznudy.cz", "lobkowicz.cz", "stredohori.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-14-i-trans-taiwan-semiconductor-usti",
+      "date": "2026-06-14",
+      "title": "Tchajwanský gigant míří do Ústeckého kraje. Logistické centrum pro chipové chemikálie stojí 400 milionů",
+      "lede": "Firma i-TRANS Global oznámila 20. května záměr vybudovat v Ústeckém kraji evropský hub pro chemikálie do výroby čipů. Za projektem stojí dvouletá práce ICUK a partnerů.",
+      "tag": "komunita",
+      "sources": ["icuk.cz", "czechinvest.gov.cz", "businessinfo.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-13-nestemice-kp-posledni-kolo",
       "date": "2026-06-13",
