@@ -1,0 +1,29 @@
+Zdroj: https://policie.gov.cz/docDetail.aspx?docid=22950485&docType=ART
+Staženo: 2026-06-15
+---
+3 109 osob, po kterých jsme loni pátrali v Ústeckém kraji (Policie ČR)
+
+Krajské ředitelství policie Ústeckého kraje v roce 2025 pátralo celkem po 3 109 osobách.
+Oproti roku 2024 (3 199 hledaných) mírný pokles. V roce 2023 bylo hledaných 2 912.
+
+Z celkového počtu bylo 313 pohřešovaných osob (pohřešované = absence nedobrovolná nebo
+bezpečnostní riziko). Všichni pohřešovaní byli v průběhu roku 2025 nalezeni.
+21 pohřešovaných tvořily děti — všechny se vrátily v bezpečí.
+
+Mluvčí krajského ředitelství: Kamil Marek.
+
+Statistiky zahrnují osoby, na které byl vydán:
+- příkaz k dodání, zatčení nebo výkonu vazby
+- osoby pohřešované
+- jiné hledané osoby
+
+Zajímavé případy roku 2025:
+- Muž, který se schoval v lednici
+- Muž sražený vlakem, který byl nakonec nalezen doma bez vážnějšího zranění
+
+Aplikace Echo (mobilní) – nástroj pro veřejnost při pátrání po pohřešovaných.
+
+Doplňující zdroj (e-usti.cz, publikováno 15. 6. 2026):
+https://www.e-usti.cz/zpravy/usti-nad-labem/141589-tisice-hledanych-stovky-pohresovanych-policie-v-usteckem-kraji-patrala-loni-po-vice-nez-trech-tisicich-osob
+
+Poznámka: přímý fetch stránek vrátil HTTP 403; fakta ověřena ze souhrnů výsledků vyhledávání.
