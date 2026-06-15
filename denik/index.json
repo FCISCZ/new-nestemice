@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-14T09:00:00Z",
+  "generated": "2026-06-15T07:10:33Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-15-most-mojzir-beton-postup",
+      "date": "2026-06-15",
+      "title": "Na most v Mojžíři padne přes čtyři tisíce kubíků betonu. Hotovo má být na podzim",
+      "lede": "Rekonstrukce estakády v Mojžíři vstoupila do klíčové fáze: nosníky přes koleje osazeny v březnu, nyní probíhá betonáž. Hotovo za 259 milionů má být na podzim 2026.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz", "kraje.rsd.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-15-ddm-fzp-staz-vedou",
+      "date": "2026-06-15",
+      "title": "Dvanáct středoškoláků stráví tento týden s vědci na FŽP UJEP. Stáž pořádají DDM a Tilia Krásná Lípa",
+      "lede": "Týdenní stáž Za vědou na FŽP UJEP začala dnes. Dvanáct středoškoláků čekají přednášky, laboratoře a výlet do Národního parku České Švýcarsko.",
+      "tag": "komunita",
+      "sources": ["ddmul.cz", "fzp.ujep.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-15-sucho-ustecky-kraj",
+      "date": "2026-06-15",
+      "title": "Nejhorší sucho od roku 1991 trápí region. SVS zásoby pitné vody nestihuje",
+      "lede": "Duben a květen 2026 přinesly nejhorší podmínky pro hluboké vrty v ČR od roku 1991. Zásoby pitné vody jsou přesto v pořádku — potvrdila vodárna SVS.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz", "svs.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-14-pohadkove-nedele-strekov",
       "date": "2026-06-14",
