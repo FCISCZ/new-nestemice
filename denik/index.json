@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-15T07:10:33Z",
+  "generated": "2026-06-15T10:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-15-policie-patrani-ustecky-kraj",
+      "date": "2026-06-15",
+      "title": "Policie v Ústeckém kraji pátrala loni po více než třech tisících lidí. Pohřešované našla všechny",
+      "lede": "V roce 2025 pátrala ústecká policie po 3 109 osobách. Všech 313 pohřešovaných bylo nalezeno — včetně 21 dětí. Policie doporučuje aplikaci Echo.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz", "e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-15-vyluka-linka-415-holodecek",
+      "date": "2026-06-15",
+      "title": "Linka 415 nejezdí přes Holedeček do 19. června. Silnici uzavřela rekonstrukce vodovodu",
+      "lede": "Meziměstská linka 415 jede od 8. do 19. června v omezení kvůli uzavírce silnice v Holedečku. Rekonstrukce vodovodu potrvá do pátku.",
+      "tag": "doprava",
+      "sources": ["kr-ustecky.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-15-belehradska-uzavirka-voda",
+      "date": "2026-06-15",
+      "title": "Bělehradská uzavřena do 28. června. SVS obnovuje ocelové potrubí z roku 1972",
+      "lede": "Bělehradská ulice v Ústí nad Labem je od 1. do 28. června zcela uzavřena. SVS opravuje potrubí z roku 1972. Objížďka přes Rooseveltovu a Pařížskou.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz", "silnicniuzavirky.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-15-most-mojzir-beton-postup",
       "date": "2026-06-15",
