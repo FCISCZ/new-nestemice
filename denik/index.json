@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-16T08:00:00Z",
+  "generated": "2026-06-16T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-16-straznici-pes-odebrani",
+      "date": "2026-06-16",
+      "title": "Strážníci z Ústí odebrali majiteli fenu. Do péče ji převzalo centrum při Zoo",
+      "lede": "Strážníci z Ústí asistovali při odebrání feny majiteli podezřelému z týrání. Pes skončil v dočasné péči Centra pro zvířata v nouzi při ústecké Zoo.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-16-pozemni-stavby-jerab",
+      "date": "2026-06-16",
+      "title": "Jeřáb u ikonické výškové budovy v centru Ústí. Majitelé sanují střechu a plánují nové patro",
+      "lede": "U budovy bývalých Pozemních staveb ve Velké Hradební se objevil jeřáb. Majitelé sanují vršek a plánují přidat patro — datové centrum, soláry nebo byty.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-16-led-tabule-mhd",
+      "date": "2026-06-16",
+      "title": "Centrum Ústí dostalo nové LED tabule na zastávkách MHD. Ústečané si na ně teprve zvykají",
+      "lede": "DPMÚL nainstaloval v centru 16 nových LED panelů s odjezdy MHD a DÚK. Nahradily zastaralé LCD obrazovky. Reakce cestujících jsou smíšené.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz", "dpmul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-16-hledany-mojzir-policie",
+      "date": "2026-06-16",
+      "title": "Vyhazoval nábytek z okna. Policie z Neštěmic v Mojžíři zadržela mezinárodně hledaného mladistvého",
+      "lede": "Hlídka z Neštěmic vyjela 9. června do Mojžíře kvůli muži házejícímu nábytek z okna. Při kontrole se ukázalo, že jde o mezinárodně hledanou osobu ze Slovenska.",
+      "tag": "komunita",
+      "sources": ["tydenikpolicie.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-16-u5-vyluka-cerven",
       "date": "2026-06-16",
