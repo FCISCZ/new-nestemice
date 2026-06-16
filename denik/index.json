@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-15T10:30:00Z",
+  "generated": "2026-06-16T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-16-u5-vyluka-cerven",
+      "date": "2026-06-16",
+      "title": "Vlaky U5 o víkendu 27.–28. června nejedou. Ústí–Úpořiny nahradí autobus z Přístavní",
+      "lede": "O víkendu 27.–28. června budou vlaky U5 mezi Ústím a Úpořinami nahrazeny autobusy. Bus odjíždí z Přístavní ulice za hlavním nádražím.",
+      "tag": "doprava",
+      "sources": ["kr-ustecky.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-16-milada-linka-leto",
+      "date": "2026-06-16",
+      "title": "Ke jezeru Milada od 27. června zdarma. DPMÚL spouští kyvadlovou linku každý pátek a svátek",
+      "lede": "Od 27. června jezdí ke jezeru Milada každý pátek a svátek kyvadlová linka DPMÚL zdarma. Výchozí zastávka je u Divadla.",
+      "tag": "doprava",
+      "sources": ["dpmul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-16-letni-zmena-jr-duk",
+      "date": "2026-06-16",
+      "title": "Od neděle platí letní jízdní řád DÚK. Přibyla vazba v Lovosicích, elektrické vozy k Zálezlům",
+      "lede": "Od 14. června platí letní jízdní řád DÚK. Přibyly přestupní vazby v Lovosicích a Vraňanech a večerní pár na trase Louny–Žatec.",
+      "tag": "doprava",
+      "sources": ["kr-ustecky.cz", "ceskedrahy.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-15-policie-patrani-ustecky-kraj",
       "date": "2026-06-15",
