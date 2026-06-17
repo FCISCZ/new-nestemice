@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-17T08:00:00Z",
+  "generated": "2026-06-17T10:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-17-dodavky-nocni-zakaz-nestemice",
+      "date": "2026-06-17",
+      "title": "Noční zákaz pro dodávky rozšiřuje se do Neštěmic a Krásného Března",
+      "lede": "Od loňského léta platí v části Ústí zákaz nočního parkování pro velké dodávky. Po pilotu v Dobětici se zóna rozšířila do Neštěmic a Krásného Března.",
+      "tag": "doprava",
+      "sources": ["sever.rozhlas.cz", "irozhlas.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-17-drony-metropolnet-straznici",
+      "date": "2026-06-17",
+      "title": "Metropolnetovy drony poprvé v terénu. Odhalily ubytovnu bezdomovců i černou skládku",
+      "lede": "Projekt DRONYÚL za 12 milionů korun je v plném provozu. První výjezd 17. května odhalil v lokalitě Důlčí neoprávněnou ubytovnu i nelegální skládku.",
+      "tag": "komunita",
+      "sources": ["cesky.radio.cz", "irozhlas.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-17-rezidentni-parkovani-nestemice",
+      "date": "2026-06-17",
+      "title": "Město dokončilo studii rezidentního parkování pro Neštěmice a Klíše",
+      "lede": "Ústí nad Labem má hotové analýzy rezidentního parkování pro Neštěmice a Klíši. Implementace zatím bez potvrzeného termínu.",
+      "tag": "doprava",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-17-grand-prix-usti-program",
       "date": "2026-06-17",
