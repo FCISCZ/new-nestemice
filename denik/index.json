@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-16T12:00:00Z",
+  "generated": "2026-06-17T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-17-grand-prix-usti-program",
+      "date": "2026-06-17",
+      "title": "Grand Prix Ústí zítra od 16 hodin. Program, závodníci a vstup zdarma",
+      "lede": "17. ročník Grand Prix Ústí nad Labem je zítra. Poprvé v seriálu World Athletics Bronze. Špotáková, 13 disciplín, doprovodný program pro děti. Vstup zdarma.",
+      "tag": "sport",
+      "sources": ["atletikauk.cz", "kr-ustecky.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-17-policie-utocnice-hradiste",
+      "date": "2026-06-17",
+      "title": "Žena v centru Ústí bezdůvodně napadala kolemjdoucí. Policie pátrá po svědcích",
+      "lede": "V dubnu napadla 32letá žena v ulici Hradiště seniorku s holí i staršího muže. Policie vydala výzvu 1. června: hledá svědky z doby 11:15–11:50.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-17-nehoda-zizkova-pet-zranenych",
+      "date": "2026-06-17",
+      "title": "Hasiči u převráceného auta na Žižkové. Ošetřili pět zraněných",
+      "lede": "Osobní auto se 13. června v 7:21 převrátilo na bok v ulici Žižkova. Zasahovaly dvě jednotky HZS, pomohly pěti zraněným.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-16-straznici-pes-odebrani",
       "date": "2026-06-16",
