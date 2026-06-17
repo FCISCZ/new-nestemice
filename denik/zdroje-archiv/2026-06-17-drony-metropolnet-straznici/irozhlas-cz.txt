@@ -1,0 +1,23 @@
+ZDROJ: irozhlas.cz + cesky.radio.cz (Český rozhlas / Radio Prague International)
+DATUM STAŽENÍ: 2026-06-17
+TÉMA: Projekt DRONYÚL - dronový dohled v Ústí nad Labem
+
+OVĚŘENÉ FAKTY (z vyhledávacích výsledků ČRo a dalších zdrojů):
+
+- Projekt název: DRONYÚL
+- Provozovatel operačního centra: Metropolnet, a.s. (sídlo Na Nivách, Ústí nad Labem)
+- Celkový rozpočet projektu: 12 milionů korun
+- Financování: dotace "5G pro 5 měst"
+- Počet dronů: 4 kusy
+- Plná operační způsobilost: konec března 2026
+- První ostrý testovací výjezd v terénu: 17. května 2026
+  - Nález č. 1: neoprávněná ubytovna bezdomovců na obecním pozemku v lokalitě Důlčí
+  - Nález č. 2: nelegální skládka odpadu v lokalitě Důlčí
+- Přenos dat: 5G připojení v reálném čase do operačního centra
+- Uživatelé systému: Metropolnet + Městská policie Ústí nad Labem (strážníci)
+- Plánované využití: pátrání po osobách, monitorování požárů, kontrola parkování, potírání pytláctví, monitorování povodní
+
+ZDROJE VYHLEDÁVÁNÍ:
+- cesky.radio.cz / Radio Prague International (veřejnoprávní ČRo, fakta OK)
+- irozhlas.cz (veřejnoprávní zpravodajství ČRo, fakta OK)
+- ustecky.denik.cz (odkaz - pouze ověření faktů, text vlastní)
