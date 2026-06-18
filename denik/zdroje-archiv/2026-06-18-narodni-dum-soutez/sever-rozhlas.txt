@@ -1,0 +1,23 @@
+Zdroj: https://sever.rozhlas.cz/narodni-dum-v-usti-nad-labem-ceka-rekonstrukce-mela-pomoci-snizit-naklady-na-9184642
+Staženo: 2026-06-18
+---
+Stránka vrátila HTTP 403 při přímém přístupu. Níže jsou fakta ověřená vyhledáváním (sever.rozhlas.cz, 2026).
+
+Národní dům v Ústí nad Labem čeká rekonstrukce. Měla by pomoci snížit náklady na jeho provoz.
+
+Klíčová fakta z vyhledávání (potvrzena sever.rozhlas.cz a CKA):
+
+- Kulturní středisko města Ústí nad Labem (KSUL) připravuje architektonickou soutěž na obnovu Národního domu.
+- Soutěž je jednofázová, otevřená, anonymní, projektová.
+- Cíl: přeměnit Národní dům v moderní variabilní multifunkční centrum přitahující mladé obyvatele.
+- Rekonstrukce má snížit provozní náklady budovy.
+- Náklady na přípravu soutěže a projektové dokumentace: 8,66 milionu Kč.
+- Celkové náklady na rekonstrukci: odhadováno přes 37,3 milionu Kč včetně DPH.
+- Financování: dotace z Operačního programu Spravedlivá transformace (OP ST), až 80 % uznatelných nákladů.
+- Termín: technická část do konce roku 2026, celý projekt do konce roku 2027.
+
+Zdroj rovněž: https://www.cka.cz/souteze/databaze/narodni-dum-usti-nad-labem
+(Databáze soutěží České komory architektů — soutěž vedena jako aktuální/připravovaná)
+
+Zdroj rovněž (jen odkaz + vlastní text):
+https://ustecky.denik.cz/zpravy_region/usti-architektonicka-soutez-obnova-historicke-budovy-legendarni-narodni-dum.html
