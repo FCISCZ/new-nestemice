@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-18T07:15:00Z",
+  "generated": "2026-06-18T09:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-18-ano-hruby-ridicak",
+      "date": "2026-06-18",
+      "title": "Kandidát ANO na primátora přišel o řidičák. Na padesátce jel devětadevadesát",
+      "lede": "Tomáš Hrubý, lídr ANO pro říjnové volby a manažer Slunety, přišel o řidičák za jízdu 97 km/h v padesátce. Chybu veřejně uznal.",
+      "tag": "úřad",
+      "sources": ["denik.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-18-protipovodnova-opatreni-labe",
+      "date": "2026-06-18",
+      "title": "Ústí přebírá protipovodňové zábrany od Povodí Labe. Vláda musí ještě říct ano",
+      "lede": "Zastupitelé schválili podmínky převzetí části protipovodňových opatření na Labi. Smlouvu musí ještě potvrdit vláda ČR.",
+      "tag": "komunita",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-18-benesuv-most-nocni-uzavirky",
+      "date": "2026-06-18",
+      "title": "Benešův most se vrací na pilíře. Od včerejška noční uzavírky silnice pod ním",
+      "lede": "Stavbaři Metrostav TBR a Strabag Sis usazují historický oblouk na nové pilíře. Od 19. 6. noční uzavírky silnice I/30, termín otevření 31. 12. 2026.",
+      "tag": "doprava",
+      "sources": ["kr-ustecky.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-18-narodni-dum-soutez",
       "date": "2026-06-18",
