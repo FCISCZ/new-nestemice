@@ -1,0 +1,21 @@
+Zdroj: https://www.chmi.cz/
+Staženo: 2026-06-19
+Poznámka: Přímý fetch chmi.cz vrátil HTTP 403. Fakta ověřena přes WebSearch z více zdrojů (tn.nova.cz, pocasi.blesk.cz) referujících výstrahu ČHMÚ.
+---
+ČHMÚ vydal pro Ústecký kraj výstrahu před vedry platnou od pátku 19. června 2026 v poledne.
+
+Ústí nad Labem: žlutá výstraha (1. stupeň) – teploty přesáhnou 31 °C.
+Litoměřicko a Lounsko: oranžová výstraha (2. stupeň) – teploty mohou dosáhnout 34–36 °C.
+
+Výstraha platí do soboty 20. června v noci.
+
+Důvod: kombinace vysokých teplot a vysoké vzdušné vlhkosti způsobuje dusivé vedro.
+
+Doporučení:
+- Dostatečný příjem tekutin
+- Omezit fyzickou aktivitu v poledních a odpoledních hodinách
+- Vyvarovat se přímého slunce
+- Zvýšená pozornost: senioři, malé děti, těhotné ženy, chronicky nemocní
+- Nezdržovat děti ani zvířata v zaparkovaných vozidlech
+
+Sekundární zdroj: https://tn.nova.cz/zpravodajstvi/clanek/650373-chmu-vydal-vystrahu-v-osmi-krajich-bude-vysoky-stupen-nebezpeci

@@ -1,0 +1,15 @@
+Zdroj: https://www.atletika.cz/novinky/grand-prix-usti-poprve-broznovy-mitinkem/
+Staženo: 2026-06-19
+Poznámka: Přímý fetch vrátil HTTP 403. Obsah ověřen přes WebSearch z výsledků vyhledávání.
+---
+17. ročník Grand Prix Ústí nad Labem se konal ve čtvrtek 18. června 2026 na stadionu mládeže na Bukově.
+
+Letošní ročník se poprvé zařadil do série World Athletics Continental Tour Bronze.
+
+Hlavní závod vrhu koulí mužů: Vítěz Russel Winger (USA), výkon 20,76 m – nový rekord stadionu. Tomáš Staněk (CZE) skončil na 7. místě. Startovali také: Zane Weir (ITA), Chukwuebuka Enekwechi (NGA), Uziel Muñoz (MEX), Roger Steen (USA).
+
+Doprovodný program zahrnoval hod oštěpem žen (se startující Barborou Špotákovou a její tréninkovou skupinou), závod na 800 m (Memoriál Bedřišky Kulhavé) a sprint na 100 m.
+
+Vstup pro diváky byl zdarma.
+
+Zdroj 2: https://online.atletika.cz/vysledky/87006 (oficiální výsledky ČAS, přímý fetch vrátil 403)
