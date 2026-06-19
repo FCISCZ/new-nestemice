@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-18T09:30:00Z",
+  "generated": "2026-06-19T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-19-slouceni-skol-usti",
+      "date": "2026-06-19",
+      "title": "Dvě ústecké základky pohltí čtyři mateřinky. Zastupitelé schválili sloučení",
+      "lede": "ZŠ Školní náměstí si připojí MŠ Škroupova, ZŠ Vinařská převezme MŠ Vinařskou a MŠ 5. května. Důvodem jsou odchody ředitelů a novela školského zákona.",
+      "tag": "komunita",
+      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-19-ujep-doucovaci-platforma",
+      "date": "2026-06-19",
+      "title": "UJEP pomohla doučováním patnácti tisícům dětí z kraje. Studenti jezdí i na opravné zkoušky",
+      "lede": "Doučovací platforma UJEP v Ústí nad Labem bezplatně pomohla zhruba 15 000 dětem z kraje — od přípravy na opravné zkoušky po kroužky robotiky pro nadané.",
+      "tag": "komunita",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-19-kolobezkar-seniorka-usti",
+      "date": "2026-06-19",
+      "title": "Koloběžkář jel po chodníku a srazil seniorku. Ústecká policie případ šetří",
+      "lede": "Osmnáctiletý rider na Xiaomi koloběžce jel po chodníku v Pařížské ulici a srazil 85letou chodkyni. Seniorka skončila se zraněním pánve v nemocnici.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz", "tydenikpolicie.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-18-ano-hruby-ridicak",
       "date": "2026-06-18",
