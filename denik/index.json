@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-19T08:00:00Z",
+  "generated": "2026-06-19T14:10:46Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-19-skolni-rok-konec",
+      "date": "2026-06-19",
+      "title": "Školy v Ústí zavřou 26. června. Letní prázdniny 2026 začínají o týden dříve",
+      "lede": "Školní rok 2025/2026 skončí v pátek 26. června, o čtyři dny dříve než původně. Prázdniny potrvají do 31. srpna. Platí i pro ZŠ Neštěmická.",
+      "tag": "komunita",
+      "sources": ["msmt.gov.cz", "edu.gov.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-19-horko-chmu-vystraha",
+      "date": "2026-06-19",
+      "title": "Vedra přišla do Ústeckého kraje. ČHMÚ vydal výstrahu, teploty přesáhnou 31 stupňů",
+      "lede": "Žlutá výstraha ČHMÚ platí pro Ústí nad Labem od pátečního poledne. Odpolední teploty přesáhnou 31 °C, na Litoměřicku hrozí až 36 °C.",
+      "tag": "příroda",
+      "sources": ["chmi.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-19-grand-prix-usti-vysledky",
+      "date": "2026-06-19",
+      "title": "Winger vyhrál Grand Prix Ústí. Vrhem 20,76 metru překonal rekord stadionu",
+      "lede": "Američan Russel Winger vyhrál 17. ročník Grand Prix Ústí nad Labem hodem 20,76 m a překonal rekord stadionu. Staněk skončil sedmý.",
+      "tag": "sport",
+      "sources": ["atletika.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-19-slouceni-skol-usti",
       "date": "2026-06-19",
