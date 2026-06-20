@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-20T09:30:00Z",
+  "generated": "2026-06-20T11:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-20-itrans-tchajwan-semiconductory-usti",
+      "date": "2026-06-20",
+      "title": "Tchajwanská firma míří do Ústeckého kraje. i-TRANS Global tu postaví hub pro chemikálie do čipů",
+      "lede": "Tchajwanská i-TRANS Global oznámila investici přes 400 milionů Kč v Ústeckém kraji. Firma tu postaví evropský logistický hub pro chemikálie do výroby polovodičů.",
+      "tag": "komunita",
+      "sources": ["czechinvest.gov.cz", "icuk.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-20-pohadkove-nedele-strekov",
+      "date": "2026-06-20",
+      "title": "Pohádkové neděle na hradě Střekov. Zítra hraje Sváťovo divadlo, vstup zdarma",
+      "lede": "Hrad Střekov hostí každý měsíc pohádkové neděle se Sváťovým divadlem. Nejbližší termín je 21. června od 15 hodin, vstup zdarma bez nutnosti hradního lístku.",
+      "tag": "kultura",
+      "sources": ["kudyznudy.cz", "lobkowicz.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-20-szpi-vecerka-nestemice",
+      "date": "2026-06-20",
+      "title": "Inspekce zavřela večerku v Neštěmicích. Myší trus, zdechliny a zanedbané regály",
+      "lede": "SZPI uzavřela 19. května prodejnu v Seifertově ulici v Neštěmicích. Inspektoři nalezli mrtvé hlodavce, trus a hmyz mezi potravinami.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-20-nestemicka-druha-etapa-chodniky",
+      "date": "2026-06-20",
+      "title": "Neštěmická ulice dostane nový chodník. Druhá etapa opravy nahradí asfalt dlažbou",
+      "lede": "Na Neštěmické ulici začne druhá etapa oprav chodníků. Levý chodník od V Oblouku po zastávku Výstupní dostane novou dlažbu za 1,58 milionu korun.",
+      "tag": "komunita",
+      "sources": ["sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-20-zapomenuty-ucet-senior",
       "date": "2026-06-20",
