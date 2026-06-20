@@ -1,7 +1,25 @@
 {
-  "generated": "2026-06-19T14:10:46Z",
+  "generated": "2026-06-20T09:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-20-zapomenuty-ucet-senior",
+      "date": "2026-06-20",
+      "title": "\"Zapomenutý účet\" připravil seniora z Ústí o 290 tisíc. Zavolali mu ze slovenského čísla",
+      "lede": "Osmaosmdesátiletý muž z Ústí nad Labem přišel o téměř 290 000 Kč po telefonátu ze slovenského čísla. Podvodníci mu slíbili peníze ze zapomenutého účtu — ve skutečnosti z něj 18 platbami vybrali vše.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-20-nedvedi-u-stanku-letni-kino",
+      "date": "2026-06-20",
+      "title": "Vojta a Jan Nedvěd ml. přijedou do Ústí. Turné Nedvědi u stánků míří 11. července do letního kina",
+      "lede": "Letní turné Nedvědi u stánků zavítá 11. července do ústeckého letního kina. Jan Nedvěd ml. a Vojta Nedvěd na jeviště přivedou i Fešáky, Kamelot a kapelu Příbuzní.",
+      "tag": "kultura",
+      "sources": ["vojtanedved.cz", "honzanedved.cz", "tickets.nfctron.com"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-19-skolni-rok-konec",
       "date": "2026-06-19",
