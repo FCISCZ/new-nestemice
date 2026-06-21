@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-21T08:00:00Z",
+  "generated": "2026-06-21T14:10:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-21-nestemice-opravy-hriste",
+      "date": "2026-06-21",
+      "title": "Neštěmice dostane 2,5 milionu na opravy. Peníze půjdou na chodníky v Peškově a stezky Na Výšině",
+      "lede": "Rada města rozdělila 10 milionů mezi čtyři obvody. Neštěmice opraví chodníky a dvory v Peškově ulici a stezky na Na Výšině a Žežické.",
+      "tag": "úřad",
+      "sources": ["usti.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-21-den-izs-armada-letiste",
+      "date": "2026-06-21",
+      "title": "Den s IZS a Armádou na ústeckém letišti. Hasiči předvedli zásah na hořící auto",
+      "lede": "Ve Všebořicích se v sobotu konaly ukázky hasičů, policie, záchranářů a vojáků. Na letiště jezdila bezplatná kyvadlová doprava.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-21-stredoskolaci-kraj-2026",
+      "date": "2026-06-21",
+      "title": "Kraj ocenil nejlepší středoškoláky 2026. Z Ústí bodovaly studentky ze dvou gymnázií",
+      "lede": "Ústecký kraj vyhlásil vítěze soutěže Středoškoláci 2026. Z Ústí nad Labem uspěly studentky gymnázií Šmejkala a Jateční.",
+      "tag": "lidé",
+      "sources": ["kr-ustecky.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-21-milada-bus-zdarma",
       "date": "2026-06-21",
