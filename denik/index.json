@@ -1,7 +1,25 @@
 {
-  "generated": "2026-06-20T11:00:00Z",
+  "generated": "2026-06-21T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-21-milada-bus-zdarma",
+      "date": "2026-06-21",
+      "title": "K jezeru Milada autobusem zdarma. Linka jezdí od 27. června každý víkend a svátek",
+      "lede": "Bezplatná turistická linka k Jezeru Milada startuje 27. června. Jezdí každý pátek, sobotu, neděli a svátek, deset spojů denně ze zastávky Divadlo.",
+      "tag": "doprava",
+      "sources": ["dpmul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-21-pozar-chatky-nestemice",
+      "date": "2026-06-21",
+      "title": "Požár v zahrádkářské kolonii v Neštěmicích. Hořely tři chatky, zasahovaly čtyři jednotky",
+      "lede": "V neštěmické zahrádkářské kolonii hořelo 11. června. Jedna chatka lehla popelem, dvě byly zasaženy částečně. Příčinou byla manipulace s ohněm.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-20-itrans-tchajwan-semiconductory-usti",
       "date": "2026-06-20",
