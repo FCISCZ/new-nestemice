@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-21T14:10:00Z",
+  "generated": "2026-06-22T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-22-rondel-turbo-krizovatka",
+      "date": "2026-06-22",
+      "title": "Rondel na Bukově dostane nové značení. Turbo křižovatka změní provoz do roku 2030",
+      "lede": "Padesát let stará okružní křižovatka na Bukově se promění v turbo kruhový objezd. Nové vodorovné značení přibude letos, stavba je naplánovaná na rok 2030.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-22-strekov-obchodni-zona",
+      "date": "2026-06-22",
+      "title": "Konec patnáctiletého sporu. Ústečtí zastupitelé schválili zástavbu proluky na Střekově",
+      "lede": "Zastupitelé hlasovali 32–0 pro novou územní studii střekovské proluky. Místo samotného supermarketu vznikne bloková zástavba s byty a obchody.",
+      "tag": "úřad",
+      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-22-nabor-strazniku-mp",
+      "date": "2026-06-22",
+      "title": "Ústí hledá deset nových strážníků. Nabízí 70 tisíc náborový příspěvek a pět sick days",
+      "lede": "Městská policie Ústí nad Labem hledá deset nových kolegů pro posílení centra. Náborový příspěvek je 70 000 Kč, přihlásit se lze e-mailem nebo osobně.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz", "mpul.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-21-nestemice-opravy-hriste",
       "date": "2026-06-21",
