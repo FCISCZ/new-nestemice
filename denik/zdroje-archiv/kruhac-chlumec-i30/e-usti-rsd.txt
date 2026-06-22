@@ -1,0 +1,17 @@
+Zdroj: https://www.e-usti.cz/zpravy/usti-nad-labem/142189-v-nedeli-zacne-stavba-kruhace-u-chlumce-jaka-cekaji-ridice-omezeni
+Zdroj 2: https://www.e-usti.cz/zpravy/usti-nad-labem/142204-zahajeni-stavby-kruhoveho-objezdu-u-chlumce-se-odklada
+Zdroj 3: https://ustecky.denik.cz/zpravy-region/kolony-auta-usti-teplice-kruhac-krizovatka-rsd-objizdka/
+Staženo: 2026-06-22
+Poznámka: Přímý přístup přes WebFetch blokován (HTTP 403). Fakta ověřena z výpisů vyhledávače z více zdrojů.
+---
+Stavba kruhového objezdu na křižovatce silnic I/30 a III/25357 u Chlumce nedaleko Ústí nad Labem.
+Plánované zahájení: 24. května 2026 (odloženo z technických a geologických důvodů).
+Skutečné zahájení: 2. června 2026 (neděle), v brzkých ranních hodinách.
+Ukončení: 31. října 2026.
+Intenzita provozu: přibližně 16 000 vozidel denně, velká část tvoří nákladní vozidla.
+Omezení:
+- III/25357: úplná uzavírka
+- I/30: střídavý provoz; dopravci 7:00–17:00, semafory mimo tuto dobu
+- I/13 + I/30: omezení pro vozidla nad 12 tun
+Objízdná trasa: ve směru Teplice (bližší informace na dopravní tabulích).
+Zdroje: e-usti.cz (142189, 142204), ustecky.denik.cz, RSD Ústecký kraj
