@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-22T09:00:00Z",
+  "generated": "2026-06-22T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-22-policie-patraci-ustecky-kraj",
+      "date": "2026-06-22",
+      "title": "Přes tři tisíce pátracích akcí v Ústeckém kraji za rok. Všechny pohřešované osoby byly nalezeny",
+      "lede": "Policie zahájila v Ústeckém kraji v roce 2025 pátrání po 3 109 osobách. Všech 313 pohřešovaných bylo nalezeno, 21 z nich byly děti.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-22-kruhac-chlumec-i30",
+      "date": "2026-06-22",
+      "title": "U Chlumce roste kruhový objezd. Omezení na I/30 potrvají do konce října",
+      "lede": "Stavba kruháče u Chlumce začala 2. června a potrvá do 31. října. Na I/30 platí střídavý provoz, III/25357 je úplně uzavřena.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-22-slouceni-zs-ms-usti",
+      "date": "2026-06-22",
+      "title": "Ústečtí zastupitelé schválili sloučení dvou ZŠ s mateřskými školami",
+      "lede": "ZŠ Školní náměstí pohltí MŠ Škroupova, ZŠ Vinařská povede dvě školky. Zastupitelé reagují na novelizaci školského zákona i na personální změny.",
+      "tag": "úřad",
+      "sources": ["ustecky.denik.cz", "sever.rozhlas.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-22-tulen-zoo-usti",
+      "date": "2026-06-22",
+      "title": "Tuleňátko v ústecké zoo po šestnácti letech. Expozice je uzavřena, krmení zrušena",
+      "lede": "V Zoo Ústí nad Labem se 8. června narodilo mládě tuleně obecného — první v evropských zoo letos. Expozice je uzavřena kvůli klidu pro matku a mládě.",
+      "tag": "příroda",
+      "sources": ["zoousti.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-22-rondel-turbo-krizovatka",
       "date": "2026-06-22",
