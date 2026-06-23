@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-23T08:00:00Z",
+  "generated": "2026-06-23T10:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-23-triangle-kraj-investice-panattoni",
+      "date": "2026-06-23",
+      "title": "Kraj schválil investici za 9,5 miliardy v zóně Triangle. Panattoni tu postaví závod s 960 pracovními místy",
+      "lede": "Zastupitelé Ústeckého kraje schválili 22. června prodej 43 ha v Triangle u Žatce. Developer Panattoni tu postaví výrobní závod pro dosud neveřejného investora s 960 pracovními místy.",
+      "tag": "komunita",
+      "sources": ["ceskenoviny.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-23-zbranova-amnestie-ustecky-kraj",
+      "date": "2026-06-23",
+      "title": "Zbraňová amnestie v Ústeckém kraji skončí za týden. Přijato přes 200 zbraní včetně historických rarit",
+      "lede": "Amnestie na nelegálně držené zbraně platí jen do 30. června. V Ústeckém kraji bylo dosud odevzdáno 227 zbraní — mezi nimi špagin, panzerfaust i kulomet vz. 26.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz", "ustecko24.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-23-milada-navrat-sv-vaclava",
+      "date": "2026-06-23",
+      "title": "Tisíce lidí přišly na středověké bitvy u jezera Milada. Festival připomněl výročí 1126 a 1426",
+      "lede": "Jezero Milada hostilo 6. června festival Návrat sv. Václava. Tisíce návštěvníků viděly dvě bitevní rekonstrukce připomínající 900 let od Chlumce a 600 let od Bitvy u Ústí.",
+      "tag": "kultura",
+      "sources": ["irozhlas.cz", "jezeromilada.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-23-box-grand-prix-56-rocnik",
       "date": "2026-06-23",
