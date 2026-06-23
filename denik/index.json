@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-22T12:00:00Z",
+  "generated": "2026-06-23T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-23-box-grand-prix-56-rocnik",
+      "date": "2026-06-23",
+      "title": "Boxeři z třiatřiceti zemí změřili síly v Ústí nad Labem. Indie ovládla Grand Prix 56. ročníku",
+      "lede": "56. ročník World Boxing Challenge Grand Prix se konal v Ústí nad Labem 17.–21. června. Indie vybojovala 12 medailí, zlaté získala i olympijská bronzová medailistka Borgohain.",
+      "tag": "sport",
+      "sources": ["worldboxing.org"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-23-kraj-594-mil-silnice-mosty",
+      "date": "2026-06-23",
+      "title": "Kraj opraví silnice a mosty za 594 milionů. V Ústí nad Labem jdou peníze na dva labské mosty",
+      "lede": "SÚS Ústeckého kraje letos vynaloží 594 milionů na silnice a mosty. Největšími akcemi jsou dva labské mosty v Ústí nad Labem a most v Rtyni nad Bílinou.",
+      "tag": "doprava",
+      "sources": ["irozhlas.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-23-mcr-junioru-plavani-usti",
+      "date": "2026-06-23",
+      "title": "Mistrovství ČR juniorů v plavání hostilo Ústí nad Labem. Foltýn vyhrál šest individuálních závodů",
+      "lede": "Šampionát se 670 plavci proběhl v Ústí nad Labem 28.–31. května. Jan Foltýn ze Slavie VŠ Plzeň ovládl šest individuálních disciplín a potvrdil status nejlepšího českého juniorského plavce.",
+      "tag": "sport",
+      "sources": ["plaveckyklub.cz", "sgpilsen.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-22-policie-patraci-ustecky-kraj",
       "date": "2026-06-22",
