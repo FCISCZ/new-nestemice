@@ -1,7 +1,25 @@
 {
-  "generated": "2026-06-23T10:00:00Z",
+  "generated": "2026-06-24T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-24-stk-gebert-mistri-evropy",
+      "date": "2026-06-24",
+      "title": "Tři tituly Mistrů Evropy pro Ústí. Taneční klub STK Gebert ovládl šampionát v Opatiji",
+      "lede": "STK Gebert Ústí nad Labem přivezl z chorvatské Opatije tři tituly Mistrů Evropy. Na šampionátu Best Dance Group 20.–21. června uspěly dětská, juniorská i dospělá formace.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-24-3d-model-sizma-vez",
+      "date": "2026-06-24",
+      "title": "Šikmá věž poprvé v 3D. Vědci z UJEP mapují dronem kostel Nanebevzetí Panny Marie",
+      "lede": "Geoinformatici z UJEP a Metropolnet pořizují dronem první kompletní 3D model kostela se šikmou věží. Model poslouží radnici i informačnímu centru.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-23-triangle-kraj-investice-panattoni",
       "date": "2026-06-23",

@@ -1,0 +1,33 @@
+Zdroj: https://ustecky.denik.cz/zpravy-region/v-usti-vznika-prvni-3d-model-jedne-z-oblibenych-dominant/
+Staženo: 2026-06-24
+Poznámka: ustecky.denik.cz — pouze odkaz, text nelze kopírovat. Přímý přístup blokován proxy (403).
+Informace ověřeny přes WebSearch (2 nezávislé dotazy).
+---
+V Ústí vzniká první 3D model jedné z oblíbených dominant — Kostel Nanebevzetí Panny Marie
+
+Geoinformatici z Fakulty životního prostředí UJEP (Univerzita J. E. Purkyně) ve spolupráci s
+municipální firmou Metropolnet začali vytvářet první kompletní trojrozměrný model kostela
+Nanebevzetí Panny Marie v Ústí nad Labem.
+
+Fakta o kostele:
+- Kostel Nanebevzetí Panny Marie v Ústí nad Labem je znám šikmou věží
+- Výška věže: 65 m
+- Odchylka věže: 2 m 1 cm — 4. nejnakloněnější věž v Evropě
+
+Metoda:
+- Dron s částečnou autonomií
+- Fotogrammetrie — pořizování překrývajících se snímků pro 3D rekonstrukci
+- Cíl: metodika pro bezchybné 3D modely bez slepých míst
+
+Využití modelu:
+1. Doplnění celkového 3D modelu města (objednaného radnicí v minulém roce — tehdy byl kostel
+   obestavěn lešením při rekonstrukci a v modelu nevypadal dobře)
+2. Výroba plastické sochy kostela pro umístění v turistickém informačním centru města
+
+Bezpečnost při létání:
+- Během snímkování kordón Městské policie kolem zóny zákazu vstupu
+- Dron vybaven padákem pro případ technického selhání
+
+Zdroj 2: https://ustecky.denik.cz/ (Ústecký deník — sekce zprávy regionu)
+Wikipedie o kostele: https://cs.wikipedia.org/wiki/Kostel_Nanebezvet%C3%AD_Panny_Marie_(%C3%9Ast%C3%AD_nad_Labem)
+Web kostela: https://sikmavez.cz/ (šikmávěž.cz)
