@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-24T08:00:00Z",
+  "generated": "2026-06-24T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-24-strelba-cisterna-krasne-brezno",
+      "date": "2026-06-24",
+      "title": "Opilý muž střílel z okna panelového domu na cisternu s vodou. Policie ho zadržela v Krásném Březně",
+      "lede": "Řidič cisternového vozu zaparkovaný v ulici Peškova v Krásném Březně byl v pondělí napaden opilým mužem ze čtvrtého patra, který na něj vystřelil. Policie z oddělení Neštěmice muže zadržela.",
+      "tag": "komunita",
+      "sources": ["policie.gov.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-24-pozarni-varovani-kraj",
+      "date": "2026-06-24",
+      "title": "Ústecký kraj vyhlásil zvýšené nebezpečí požárů. Platí zákaz ohňů v lesích i na polích",
+      "lede": "Krajský úřad Ústeckého kraje vyhlásil 14. června dobu zvýšeného nebezpečí vzniku požárů pro celé území kraje. Zákaz kouření a ohňů v lesích platí do odvolání.",
+      "tag": "úřad",
+      "sources": ["hzscr.gov.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-24-techtle-mechtle-letni-kino",
+      "date": "2026-06-24",
+      "title": "Travesti šou Techtle Mechtle přijíždí do letního kina. Speciálním hostem bude Petr Kotvald",
+      "lede": "V neděli 28. června vystoupí v Letním kině Ústí nad Labem travesti revue Techtle Mechtle. Speciálním hostem bude zpěvák Petr Kotvald, začátek ve 19:00.",
+      "tag": "kultura",
+      "sources": ["ksul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-24-ddm-letni-tabory-2026",
+      "date": "2026-06-24",
+      "title": "DDM Ústí nad Labem chystá letní tábory. Turistický odjíždí 1. července od Billy v Krásném Březně",
+      "lede": "DDM Ústí nad Labem spouští prázdninový program: turistický tábor odjíždí 1. července od Billy v Krásném Březně, příměstský tábor od 13. července, plus muzikálový a lezecké tábory.",
+      "tag": "komunita",
+      "sources": ["ddmul.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-24-stk-gebert-mistri-evropy",
       "date": "2026-06-24",
