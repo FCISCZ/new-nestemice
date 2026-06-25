@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-24T12:00:00Z",
+  "generated": "2026-06-25T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-25-mlady-zachranar-krajske-kolo",
+      "date": "2026-06-25",
+      "title": "Krajské kolo Mladého záchranáře na Komáří vížce. Čtrnáct týmů závodilo v záchraně tonoucích i resuscitaci",
+      "lede": "Čtrnáct týmů ze základních škol a gymnázií Ústeckého kraje soutěžilo 17. června na Komáří vížce v Krupce v záchranářských disciplínách.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-25-rodinne-radovanky-mestske-sady",
+      "date": "2026-06-25",
+      "title": "Rodinné radovánky v Městských sadech. Tuto sobotu čtyři hodiny atrakcí pro děti",
+      "lede": "V sobotu 27. června od 14 do 18 hodin připraví Městské sady v Ústí nad Labem odpoledne pro rodiny s dětmi. Nafukovací atrakce, bodyzorbing, hoverboardy i bublinový workshop.",
+      "tag": "kultura",
+      "sources": ["usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-25-podvodne-sms-pokuty",
+      "date": "2026-06-25",
+      "title": "Magistrát varuje před podvodnými SMS. Falešné pokuty za přestupky vybízejí ke kliknutí na odkaz",
+      "lede": "Ústecký magistrát zaznamenal nárůst podvodných SMS o fiktivních dopravních pokutách. Státní orgány takto pokuty nezasílají, jde o pokus vylákat platební údaje.",
+      "tag": "úřad",
+      "sources": ["usti.cz", "policie.gov.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-24-strelba-cisterna-krasne-brezno",
       "date": "2026-06-24",
