@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-25T08:00:00Z",
+  "generated": "2026-06-25T14:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-25-prekladiste-odpadu-ave-nestemice",
+      "date": "2026-06-25",
+      "title": "Překladiště odpadů AVE v Neštěmicích dostalo stopku. Kraj nařídil EIA",
+      "lede": "Firma AVE chce v Krásném Březně překladiště odpadů na 30 000 tun ročně. Krajský úřad vydal závěr: záměr podléhá EIA. Neštěmice záměr odmítají.",
+      "tag": "příroda",
+      "sources": ["ekolist.cz", "sever.rozhlas.cz", "kr-ustecky.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-25-sdh-mojzir-postup-mcr",
+      "date": "2026-06-25",
+      "title": "Mladí hasiči z Mojžíře znovu na Mistrovství ČR. Tereza Opavová vyhrála v krajském kole vše",
+      "lede": "Juniorský SDH Mojžíř postoupil podruhé za sebou na Mistrovství ČR v požárním sportu. Juniorka Tereza Opavová zvítězila ve všech individuálních disciplínách krajského kola.",
+      "tag": "sport",
+      "sources": ["nestemice.eu"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-25-zus-nestemice-brillante-teplice",
+      "date": "2026-06-25",
+      "title": "ZUŠ Neštěmice opět zazářila. Ema Vystavělová skončila třetí v pěvecké soutěži Brillante",
+      "lede": "Žákyně ZUŠ Neštěmice Ema Vystavělová obsadila 3. místo v pěvecké soutěži Brillante Teplice. V její kategorii závodilo šestnáct soutěžících.",
+      "tag": "kultura",
+      "sources": ["nestemice.eu"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-25-mlady-zachranar-krajske-kolo",
       "date": "2026-06-25",
