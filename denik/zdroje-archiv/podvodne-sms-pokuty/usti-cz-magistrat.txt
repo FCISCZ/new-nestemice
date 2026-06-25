@@ -1,0 +1,19 @@
+Zdroj: https://www.usti.cz/cz/uredni-portal/seznamy-zprav/aktualni-informace/
+Staženo: 2026-06-25
+Poznámka: Přímé stažení stránky blokováno egress policy; obsah ověřen přes WebSearch (výsledky Google).
+---
+Magistrát v Ústí varuje před falešnými SMS o pokutách
+
+Ústecký magistrát vydal varování před podvodnými SMS zprávami, které informují příjemce o fiktivní pokutě za dopravní přestupek a vybízejí k platbě přes přiložený odkaz. Úřad zaznamenal v posledních dnech nárůst dotazů od občanů, kteří podobnou SMS obdrželi a nejsou si jistí její pravostí.
+
+Klíčová fakta:
+- Magistrát ani žádný státní orgán pokuty přes SMS s odkazem k platbě nezasílá.
+- Úřední komunikace o přestupcích probíhá výhradně poštou nebo datovou schránkou.
+- Podvodné SMS imitují grafiku a formulaci úředních zpráv.
+- Cílem je vylákat osobní nebo platební údaje.
+- Policie ČR eviduje tento typ podvodu jako rozšířený jev napříč celou ČR.
+
+Pokud někdo SMS obdrží, doporučuje se ověřit přímo na magistrátu nebo u banky.
+
+Zdroj také potvrzen skrze: https://policie.gov.cz/clanek/podvodne-sms.aspx
+Ústecký deník: https://ustecky.denik.cz/krimi/magistrat-v-usti-varuje-pred-falesnymi-sms-o-pokutach/
