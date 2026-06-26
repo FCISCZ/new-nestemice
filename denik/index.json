@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-25T14:30:00Z",
+  "generated": "2026-06-26T08:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-26-extremni-vedro-chmu-vystraha",
+      "date": "2026-06-26",
+      "title": "ČHMÚ vyhlásil extrémní výstrahu. O víkendu hrozí přes 37 stupňů i v Ústí, padnout může rekord",
+      "lede": "ČHMÚ vydal na víkend 27.–28. června výstrahu nejvyššího stupně. Pro Ústí nad Labem platí teploty nad 37 °C, v neděli může padnout český rekord 40,4 °C.",
+      "tag": "příroda",
+      "sources": ["chmi.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-26-most-novy-svet-odklada",
+      "date": "2026-06-26",
+      "title": "Oprava mostu přes Nový svět se odkládá. Semafory v Drážďanské nebudou, most je v horším stavu",
+      "lede": "Plánovaná oprava mostu přes Nový svět v Krásném Březně se odkládá. Průzkum odhalil závažnější poškození — nutné nové dokumentace a výběrové řízení.",
+      "tag": "doprava",
+      "sources": ["e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-24-dite-samo-trolejbus-mojzir",
+      "date": "2026-06-24",
+      "title": "Tříleté dítě jelo samo trolejbusem. Rodiče mezitím hlásili ztrátu v Mojžíři, strážníci z Neštěmic je spojili",
+      "lede": "Ve středu 24. června jelo tříleté dítě samo trolejbusem v Ústí. Rodiče z Mojžíře v tu chvíli hlásili jeho ztrátu. Strážníci z Neštěmic rodinu šťastně spojili.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-25-prekladiste-odpadu-ave-nestemice",
       "date": "2026-06-25",
