@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-27T06:00:00Z",
+  "generated": "2026-06-27T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-27-rock-in-usti-2026",
+      "date": "2026-06-27",
+      "title": "Rock In Ústí nad Labem 2026. Festival přijede do Letního kina 8. srpna",
+      "lede": "Jednodenní hudební festival Rock In se vrací do Ústí nad Labem. Letní kino přivítá kapely v sobotu 8. srpna od 14:00, děti do 5 let zdarma.",
+      "tag": "kultura",
+      "sources": ["rockin.cz", "goout.net"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-27-klisska-propad-vozovky",
+      "date": "2026-06-27",
+      "title": "V ústecké Klíšské ulici se propadla vozovka. Díra zastavila MHD, oprava trvala den",
+      "lede": "Ve středu večer 25. června se v Klíšské ulici propadla vozovka. Klíše hvězda – Klíše lázně uzavřeno, MHD odkloněno. Silnice průjezdná od čtvrtka odpoledne.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-27-cnb-budova-policie-usti",
+      "date": "2026-06-27",
+      "title": "Budova ČNB s kyvadlem v centru Ústí změnila majitele. Koupila ji policie za 43 milionů",
+      "lede": "Česká národní banka prodala svou pobočku u OC Forum policejnímu prezidiu za 43 milionů korun. ČNB prostory opustí koncem roku 2026.",
+      "tag": "úřad",
+      "sources": ["cnb.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-27-ujep-letni-skoly-staze-2026",
       "date": "2026-06-27",
