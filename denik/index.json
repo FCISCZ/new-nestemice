@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-26T12:00:00Z",
+  "generated": "2026-06-27T06:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-27-ujep-letni-skoly-staze-2026",
+      "date": "2026-06-27",
+      "title": "UJEP otevírá prázdninové školy a stáže. Nabídka je pestrá a většinou zdarma",
+      "lede": "Ústecká univerzita připravila na léto desítky akcí pro děti i dospělé. Mezinárodní škola o Klíšském potoce, FUD ateliéry nebo dětská vědecká stáž — většinou zdarma.",
+      "tag": "kultura",
+      "sources": ["ujep.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-27-chodniky-nestemicka-krasne-brezno",
+      "date": "2026-06-27",
+      "title": "Neštěmická ulice dostane nový chodník. Druhá etapa oprav začíná v Krásném Březně",
+      "lede": "Firma INSKY opraví levostranný chodník v Neštěmické ulici od V Oblouku po zastávku Výstupní. Asfalt nahradí zámková dlažba, cena 1,58 milionu korun.",
+      "tag": "komunita",
+      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-27-hzs-pozar-chatky-nestemice",
+      "date": "2026-06-27",
+      "title": "Hasiči zasahovali v Neštěmicích. Hořely tři zahradní chatky, příčinou byl oheň",
+      "lede": "Ve čtvrtek 11. června zasahovaly čtyři jednotky hasičů u požáru tří zahradních chatek mezi Neštěmicemi a Mojžířem. Nikdo nebyl zraněn.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz", "pozary.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-26-mattoni-pulmaraton-2026",
       "date": "2026-06-26",
