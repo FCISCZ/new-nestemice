@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-28T10:00:00Z",
+  "generated": "2026-06-28T13:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-28-nemocnice-vjezd-na-kabate",
+      "date": "2026-06-28",
+      "title": "Masarykova nemocnice uzavírá vjezd z ulice Na Kabátě. Letní opravy potrvají do konce srpna",
+      "lede": "V rámci rekonstrukce Sociální péče je dočasně uzavřen vjezd do nemocnice z ulice Na Kabátě. Omezení platí do konce srpna 2026, zastávka MHD přesunuta.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-28-fk-viagem-priprava-oulehla",
+      "date": "2026-06-28",
+      "title": "FK Viagem Ústí nad Labem zahájil letní přípravu. Oulehla porazil Liberec v práci, vyhledává posilu na křídlo",
+      "lede": "Fotbalisté FK Viagem spustili přípravu 15. června pod novým koučem Davidem Oulehlem. Klub přivedl posily ze Španělska a Anglie, v přípravě zvládl vítězství 3:1.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-28-nehoda-podmokelska-krasne-brezno",
+      "date": "2026-06-28",
+      "title": "Řidič srazil ženu na přechodu v Krásném Březně. Rozhořčení svědci ho zbili",
+      "lede": "Dopravní nehoda na Podmokelské ulici 23. června: řidič srazil těhotnou chodkyni, svědci ho napadli. Obě strany skončily v nemocnici s lehkými zraněními.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz", "ceskenoviny.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-28-letni-kino-projekce-po-13-letech",
+      "date": "2026-06-28",
+      "title": "Letní kino v Ústí nad Labem se vrátí k pravidelným projekcím. Po třinácti letech",
+      "lede": "Od 5. srpna 2026 se v ústeckém Letním kině opět promítají filmy každou středu a pátek. Naposledy svítilo plátno v roce 2012.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-28-teplotni-rekord-varov-doksany",
       "date": "2026-06-28",
