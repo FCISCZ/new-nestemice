@@ -1,7 +1,25 @@
 {
-  "generated": "2026-06-27T12:00:00Z",
+  "generated": "2026-06-28T10:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-28-teplotni-rekord-varov-doksany",
+      "date": "2026-06-28",
+      "title": "Česko překonalo teplotní rekord. V Doksanech bylo přes čtyřicet stupňů, Vaňov v Ústí zaznamenal historické maximum",
+      "lede": "V pátek 27. června 2026 padl nový absolutní teplotní rekord ČR — 40,9 °C v Doksanech. Ústecká stanice Vaňov jako jediná na severu Čech překonala svůj historický denní rekord.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz", "irozhlas.cz", "x.com/CHMUCHMI"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-28-uzavirka-veleslavinova-horeni",
+      "date": "2026-06-28",
+      "title": "Veleslavínova a Hoření ulice se od neděle uzavírají. Rekonstrukce kanalizace potrvá do poloviny srpna",
+      "lede": "Od 29. června do 16. srpna 2026 bude úplně uzavřena Veleslavínova a Hoření ulice v centru Ústí nad Labem kvůli rekonstrukci kanalizace a vodovodu.",
+      "tag": "doprava",
+      "sources": ["zakruta.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-27-rock-in-usti-2026",
       "date": "2026-06-27",
