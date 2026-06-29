@@ -1,7 +1,16 @@
 {
-  "generated": "2026-06-28T13:00:00Z",
+  "generated": "2026-06-29T10:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-29-nestemice-kp-konec-sezony",
+      "date": "2026-06-29",
+      "title": "FK Neštěmice zakončil sezónu na druhém místě. Postup do divize odmítly Proboštov i oni",
+      "lede": "FK Český Lev Neštěmice obsadil v KP 2025/2026 druhé místo za vítězným Proboštovem. Postup do 4. ligy odmítl Proboštov i Neštěmice — do divize nepůjde z Ústeckého kraje nikdo.",
+      "tag": "sport",
+      "sources": ["teplicky.denik.cz", "ustecky.denik.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-06-28-nemocnice-vjezd-na-kabate",
       "date": "2026-06-28",
