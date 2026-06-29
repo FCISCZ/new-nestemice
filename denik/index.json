@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-29T10:00:00Z",
+  "generated": "2026-06-29T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-29-detsky-den-dpmul-vseborice",
+      "date": "2026-06-29",
+      "title": "Dětský den v depu DPMÚL ve Všebořicích. Jubilejní 11. ročník přivítal rodiny se soutěžemi a historickými vozy",
+      "lede": "DPMÚL otevřel 13. června depo ve Všebořicích pro jubilejní 11. Dětský den. Soutěže, historické vozy a dopravní soutěže DÚK, vstup zdarma.",
+      "tag": "komunita",
+      "sources": ["dpmul.cz", "kr-ustecky.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-29-den-izs-armada-letiste-usti",
+      "date": "2026-06-29",
+      "title": "Den IZS s Armádou ČR přilákal tisíce lidí na ústecké letiště. Hasiči, vojáci i záchranáři předvedli techniku",
+      "lede": "Na ústeckém letišti se 20. června sešly tisíce lidí na Dni IZS. Hasiči, vojáci, záchranáři i policie ukázali techniku a předvedli dynamické ukázky zásahů.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz", "kr-ustecky.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-29-trolejbus-vystupni-krasne-brezno",
+      "date": "2026-06-29",
+      "title": "První nová trolejbusová trať za 17 let. Výstupní ulice propojila Krásné Březno se Severní Terasou",
+      "lede": "DPMÚL zahájil provoz na nové trolejbusové trati ve Výstupní ulici. Linky 74 a 75 nově jezdí s 18m parciálními trolejbusy přes Krásné Březno na Terasou.",
+      "tag": "doprava",
+      "sources": ["dpmul.cz", "zdopravy.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-06-29-pozar-chatky-nestemice",
+      "date": "2026-06-29",
+      "title": "Požár zahrádkářské kolonie v Neštěmicích. Hasiči chránili okolní chatky čtyřmi jednotkami",
+      "lede": "Čtyři hasičské jednotky zasahovaly v červnu u požáru tří chatky v Neštěmicích. Jedna shořela v plném rozsahu, dvě utrpěly částečné poškození. Bez zranění.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-29-nestemice-kp-konec-sezony",
       "date": "2026-06-29",
