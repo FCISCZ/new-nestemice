@@ -1,7 +1,34 @@
 {
-  "generated": "2026-06-29T12:00:00Z",
+  "generated": "2026-06-30T07:11:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-30-klisska-kanalizace-cervenec",
+      "date": "2026-06-30",
+      "title": "Klíšská a okolní ulice mají omezený provoz do poloviny července. Mění se i trasy MHD",
+      "lede": "Od 27. června do 16. července platí v ulicích Brožíkova, Alešova, Bezručova a Klíšská omezení kvůli rekonstrukci kanalizace z 1926 a vodovodu z 1952.",
+      "tag": "doprava",
+      "sources": ["magistrát Ústí nad Labem", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-30-kultura-festival-ostrovske-skaly",
+      "date": "2026-06-30",
+      "title": "Festival Kůltúra míří do přírody. Loutky, písně a highline na Ostrovských skalách 29. srpna",
+      "lede": "Festival Kůltúra 29. srpna v areálu Ostrovských skal: divadlo Altrego, písničkář Václav Havelka, highlinerka Tereza Panochová a dětský sbor z Tisé.",
+      "tag": "kultura",
+      "sources": ["festivaly.eu", "kultura365.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-30-firfest-2026-firovka",
+      "date": "2026-06-30",
+      "title": "Fírfest slaví 18. narozeniny. Scull & Crossbones, KREVEL a Aleš Brichta zahrají 15. srpna ve Fírovce",
+      "lede": "18. ročník Fírfestu se koná 15. srpna 2026 v areálu Fírovky. Na pódium vystoupí Scull & Crossbones, KREVEL a Aleš Brichta.",
+      "tag": "kultura",
+      "sources": ["festivaly.net", "kultura365.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-29-detsky-den-dpmul-vseborice",
       "date": "2026-06-29",
