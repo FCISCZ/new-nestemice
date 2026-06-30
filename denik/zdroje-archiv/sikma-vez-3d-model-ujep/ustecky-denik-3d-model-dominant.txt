@@ -1,0 +1,16 @@
+Zdroj: https://ustecky.denik.cz/zpravy-region/v-usti-vznika-prvni-3d-model-jedne-z-oblibenych-dominant/
+Staženo: 2026-06-30
+Poznámka: Přímý přístup vrátil HTTP 403. Fakta ověřena přes WebSearch. Zdroj je "odkaz + vlastní text" (nelze kopírovat text).
+---
+Ověřená fakta (ze shrnutí WebSearch):
+
+- Zahájení: konec června 2026 (kolem 24. 6. 2026)
+- Realizátoři: geoinformatici z Fakulty životního prostředí UJEP + městská společnost Metropolnet
+- Objekt: kostel Nanebevzetí Panny Marie s šikmou věží v Ústí nad Labem
+- Metoda: drony s částečně autonomním letem
+- Důvod: starý 3D model zachycoval kostel obalený lešením z doby rekonstrukce — byl nevzhledný
+- Použití dat: aktualizace 3D modelu města + výroba plastiky pro informační centrum
+- Bezpečnostní opatření: při každém natáčení vymezují strážníci uzavřenou zónu; dron je vybaven padákem
+- Drony pořídilo město za cca 12 milionů Kč, slouží i městské policii a Metropolnetu
+
+Podpůrný zdroj (Czech Radio, veřejnoprávní): https://sever.rozhlas.cz/ustecti-vedci-vytvorili-s-pomoci-nove-technologie-podrobny-3d-model-mosteckeho-9618219

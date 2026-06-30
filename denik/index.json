@@ -1,7 +1,43 @@
 {
-  "generated": "2026-06-30T07:11:00Z",
+  "generated": "2026-06-30T09:15:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-06-30-soud-pokus-vrazdy-krasne-brezno",
+      "date": "2026-06-30",
+      "title": "Krajský soud začal projednávat útok nožem na seniora na zastávce v Krásném Březně",
+      "lede": "Muž, který v listopadu 2024 pobodal 74letého seniora na zastávce u Prioru v Krásném Březně, stanul před krajským soudem. Navrhovaný trest: 12 let.",
+      "tag": "komunita",
+      "sources": ["Policie ČR", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-30-sikma-vez-3d-model-ujep",
+      "date": "2026-06-30",
+      "title": "UJEP mapuje šikmou věž dronem. Vzniká první kompletní 3D model dominanty města",
+      "lede": "Geoinformatici z UJEP a Metropolnet natočili dronem kostel s šikmou věží. Nový 3D model nahradí starý záběr, kde byla stavba obalena lešením.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-30-benesuv-most-betonaz-mostovky",
+      "date": "2026-06-30",
+      "title": "Benešův most šel donaha. Stavbaři se chystají betonovat novou mostovku",
+      "lede": "Stará ocelová mostovka Benešova mostu je pryč, oblouk sedí na nových pilířích. Příští fází je betonáž; most má být slavnostně otevřen 19. prosince 2026.",
+      "tag": "doprava",
+      "sources": ["Ústecký kraj", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-06-30-mhd-milada-zdarma-leto",
+      "date": "2026-06-30",
+      "title": "O víkendech na Miladu zdarma. DPMÚL spouští sezónní autobus z centra Ústí",
+      "lede": "Od 27. června do 31. srpna jezdí každý pátek, sobotu, neděli a svátek bezplatný autobus ze zastávky Divadlo k jezeru Milada a zpět.",
+      "tag": "doprava",
+      "sources": ["DPMÚL"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-06-30-klisska-kanalizace-cervenec",
       "date": "2026-06-30",
