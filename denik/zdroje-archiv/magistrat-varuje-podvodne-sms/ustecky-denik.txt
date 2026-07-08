@@ -1,0 +1,17 @@
+Zdroj: https://ustecky.denik.cz/krimi/magistrat-v-usti-varuje-pred-falesnymi-sms-o-pokutach/
+Staženo: 2026-07-08
+Poznámka: Přímý přístup na ustecky.denik.cz vrátil při pokusu přes WebFetch/proxy HTTP 403 (blokováno na síťové úrovni proxy prostředí, gateway odmítl CONNECT). Fakta ověřena opakovaným dotazem přes WebSearch a zkřížena s nezávislým zdrojem auto-mania.cz, který o stejné vlně podvodných SMS informoval samostatně. Údaje se ve výsledcích shodovaly.
+---
+Magistrát v Ústí varuje před falešnými SMS o pokutách — Ústecký deník
+
+Magistrát města Ústí nad Labem varuje občany před podvodnými SMS zprávami, které oznamují fiktivní pokutu za údajný přestupek a nutí příjemce zaplatit prostřednictvím odkazu přiloženého ve zprávě.
+
+Úřad v posledních dnech eviduje rostoucí počet lidí, kteří takovou zprávu obdrželi a nejsou si jistí, zda je pravá.
+
+Mluvčí města Marek Lukinič uvedl, že úřad žádné takové SMS nerozesílá a že se jedná o pokus vylákat osobní nebo platební údaje. Podle něj se informace o pokutách nebo přestupkovém řízení nikdy neposílají formou odkazu v textové zprávě — oficiální komunikace probíhá výhradně poštou nebo prostřednictvím datové schránky.
+
+Podvodníci podle magistrátu často využívají grafiku nebo formulace, které mají působit oficiálním dojmem.
+
+Lidem, kteří si nejsou jistí pravostí zprávy, úřad doporučuje ověřit si informaci přímo na magistrátu nebo u své banky, a v žádném případě neklikat na odkaz v podezřelé SMS.
+
+Zdroj potvrzení: ustecky.denik.cz (článek "Magistrát v Ústí varuje před falešnými SMS o pokutách"), nezávisle potvrzeno auto-mania.cz (článek "Tohle nevypadá nebezpečně, ale je. Falešné SMS o pokutách se opět šíří mezi lidmi") a zitusti.cz (článek "Pozor na podvodné SMS zprávy o pokutách").
