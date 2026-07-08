@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-02T14:20:00Z",
+  "generated": "2026-07-08T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-07-08-magistrat-varuje-podvodne-sms",
+      "date": "2026-07-08",
+      "title": "Magistrát v Ústí varuje před podvodnými SMS o pokutách. Neklikejte na odkaz",
+      "lede": "Magistrát upozorňuje na SMS s fiktivními pokutami a odkazem k platbě. Úřad takové zprávy neposílá, jde o pokus vylákat osobní údaje.",
+      "tag": "úřad",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-07-08-tabor-klondyk-krasne-brezno",
+      "date": "2026-07-08",
+      "title": "Letní tábor Klondyk vyráží 1. srpna. Sraz je v Krásném Březně za Billou",
+      "lede": "DDM Ústí nad Labem vypravuje zálesácký tábor Klondyk 2026. Odjezd i příjezd je z Krčínovy ulice za Billou v Krásném Březně.",
+      "tag": "komunita",
+      "sources": ["DDM Ústí nad Labem"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-07-02-zelena-strecha-ujep-usti",
       "date": "2026-07-02",
