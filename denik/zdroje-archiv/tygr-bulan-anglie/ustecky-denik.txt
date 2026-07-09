@@ -1,0 +1,19 @@
+Zdroj: https://ustecky.denik.cz/zpravy/zmena-v-chovu-velkych-selem-usteckou-zoo-opousti-tygr-bulan/
+Staženo: 2026-07-09
+Poznámka: Přímý přístup na ustecky.denik.cz vrátil HTTP 403 (blokováno na síťové úrovni proxy prostředí, stejně jako u wikipedia.org a dalších domén – jde o obecné omezení tohoto prostředí, ne o problém konkrétního zdroje). Fakta ověřena opakovaným dotazem přes WebSearch a zkřížena s nezávislými zdroji: prvnizpravy.cz (článek "Tygr Bulan míří do Anglie") a starším článkem Ústeckého deníku z 15. května 2026 "V ústecké zoo je opravená hala v pavilonu šelem, chystají se další změny" (popisuje stejný pavilon a plánované úpravy). Podle metadat vyhledávání byl článek o odjezdu tygra publikován přibližně 5 dní před stažením, tedy kolem 4. července 2026.
+---
+Změna v chovu velkých šelem. Ústeckou zoo opouští tygr Bulan
+
+Zoo Ústí nad Labem v Krásném Březně přichází o samce tygra malajského (Panthera tigris jacksoni) jménem Bulan. Zvíře odcestuje do britské zoologické zahrady Hamerton Zoological Park, kde by se mělo stát součástí nového chovného páru.
+
+Přesun je výsledkem dlouhodobého jednání mezi ústeckou zoo a britským parkem. V Hamertonu na Bulana čeká chovná samice, se kterou by měl v budoucnu zplodit potomky.
+
+Evropská asociace zoologických zahrad a akvárií (EAZA) aktuálně nemá dostatečnou chovnou kapacitu pro tygry malajské, a péče o tento poddruh se proto přesouvá i do akreditovaných institucí mimo asociaci.
+
+Bulan se narodil v Zoo Praha a do Ústí nad Labem přišel v roce 2019, aby vytvořil chovný pár se samicí Indrou. K úspěšnému spáření mezi nimi ale nikdy nedošlo, pravděpodobně kvůli vyššímu věku samice.
+
+Bulanův odjezd umožní přeměnu Pavilonu šelem, který už nesplňuje prostorové nároky na moderní chov velkých koček, jako jsou tygři nebo lvi. Po nezbytných úpravách má expozici po tygrech obydlet vzácný levhart cejlonský.
+
+V pavilonu šelem v současnosti žijí tři chovné páry: medvědi malajští, irbisové a levharti cejlonští. Samec levharta cejlonského přišel do Ústí v květnu 2026 z italské Zoo d'Abruzzo, aby vytvořil pár se samicí, která do zahrady přišla začátkem roku 2025 z Jihlavy.
+
+Zdroj potvrzení: ustecky.denik.cz (článek "Změna v chovu velkých šelem. Ústeckou zoo opouští tygr Bulan"), nezávisle potvrzeno prvnizpravy.cz (článek "Tygr Bulan míří do Anglie").

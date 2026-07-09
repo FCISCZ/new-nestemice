@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-08T09:00:00Z",
+  "generated": "2026-07-09T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-07-09-tygr-bulan-anglie",
+      "date": "2026-07-09",
+      "title": "Ústeckou zoo v Krásném Březně opouští tygr Bulan. Míří do Anglie za chovnou samicí",
+      "lede": "Zoo Ústí posílá samce tygra malajského Bulana do britské Hamerton Zoo. Uvolní tak pavilon šelem pro vzácné levharty cejlonské.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz", "prvnizpravy.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-07-09-tragedie-jezero-milada",
+      "date": "2026-07-09",
+      "title": "Tragédie na jezeře Milada. Policie znovu připomíná zásady bezpečnosti u vody",
+      "lede": "Na jezeře Milada u Ústí zemřel dospělý muž. Policie po tragédii připomíná preventivní projekt Bezpečně u vody.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz", "policie.gov.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-07-08-magistrat-varuje-podvodne-sms",
       "date": "2026-07-08",
