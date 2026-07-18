@@ -1,0 +1,15 @@
+Zdroj: https://ustecky.denik.cz/zpravy-region/cesta-do-skol-v-usti-bude-bezpecnejsi-upravy-zklidni-provoz/
+Staženo: 2026-07-18
+Poznámka: Přímý přístup přes WebFetch vrátil HTTP 403 (blokováno na síťové úrovni proxy prostředí, ověřeno opakovaně i na jiných doménách). Fakta ověřena a zkřížena přes WebSearch mezi nezávislými zdroji: Ústecký deník ("Cesta do škol v Ústí bude bezpečnější. Úpravy zklidní provoz") a Český rozhlas Sever ("Po výtkách rodičů plánuje Ústí nad Labem zklidnit dopravu a parkování kolem základní školy Elišky Krásnohorské"). Popis rozsahu úprav i lokalita se ve zdrojích shodovaly.
+---
+Cesta do škol v Ústí bude bezpečnější. Úpravy zklidní provoz
+
+Statutární město Ústí nad Labem připravuje úpravy ulic Elišky Krásnohorské, Bělehradská, Na Vyhlídce a Na Schodech na Severní Terase. Podnětem byly opakované stížnosti rodičů na dopravní situaci v okolí základní školy Elišky Krásnohorské a sousední základní umělecké školy.
+
+V lokalitě se ráno potkává hustý automobilový provoz, krátkodobé parkování rodičů vozících děti a intenzivní pěší pohyb dětí do školy. Cílem úprav je dopravu v této oblasti zklidnit a zvýšit bezpečnost chodců.
+
+Projekt počítá s novými přechody pro chodce, úpravou pěších tras, vznikem parkovacích pruhů a změnou dopravního značení. V části ulice Na Schodech má být zavedena jednosměrka, která zlepší přehlednost a sníží riziko kolizí. Úpravy zahrnou i veřejné osvětlení, dopravní ostrůvek v Bělehradské a náhradní výsadbu zeleně.
+
+Po předání staveniště budou mít zhotovitelé na dokončení prací 150 dní.
+
+Zdroj potvrzení: ustecky.denik.cz, nezávisle potvrzeno sever.rozhlas.cz.
