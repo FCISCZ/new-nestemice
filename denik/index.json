@@ -1,7 +1,34 @@
 {
-  "generated": "2026-07-09T09:00:00Z",
+  "generated": "2026-07-18T14:19:30Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-07-18-vystraha-pred-bourkami",
+      "date": "2026-07-18",
+      "title": "ČHMÚ varuje před silnými bouřkami. Ústecko čekají přívalové deště, vítr i kroupy",
+      "lede": "ČHMÚ vydal výstrahu před bouřkami platnou pro Ústecký kraj od pátku do soboty. Hrozí přívalové srážky, silný vítr i kroupy.",
+      "tag": "příroda",
+      "sources": ["Ústecký deník", "Český rozhlas Sever"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-07-18-zklidneni-dopravy-severni-terasa",
+      "date": "2026-07-18",
+      "title": "Cesta do školy na Severní Terase bude bezpečnější. Ústí chystá nové přechody i jednosměrku",
+      "lede": "Město upraví ulice u ZŠ Elišky Krásnohorské. Přibudou přechody, parkovací pruhy a jednosměrka v ulici Na Schodech.",
+      "tag": "doprava",
+      "sources": ["Ústecký deník", "Český rozhlas Sever"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-07-18-napadeni-partnerky-nestemice",
+      "date": "2026-07-18",
+      "title": "Devatenáctiletý muž napadl v panelovém domě na Ústecku svou partnerku. Žena skončila s zraněními v nemocnici",
+      "lede": "Policisté z OO Mojžíř vyšetřují napadení mladé ženy jejím partnerem jako opakované domácí násilí. Po muži pátrají.",
+      "tag": "komunita",
+      "sources": ["Policie ČR", "Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-07-09-tygr-bulan-anglie",
       "date": "2026-07-09",

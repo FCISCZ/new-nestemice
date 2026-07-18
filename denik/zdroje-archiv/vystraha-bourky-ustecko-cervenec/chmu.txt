@@ -1,0 +1,13 @@
+Zdroj: https://www.chmi.cz/o-chmu/aktuality (výstraha ČHMÚ), doplněno zpravodajstvím
+Staženo: 2026-07-18
+Poznámka: Přímý přístup přes WebFetch vrátil HTTP 403 na chmi.cz i na dalších doménách (blokováno na síťové úrovni proxy prostředí). Fakta ověřena a zkřížena přes WebSearch mezi nezávislými zdroji: Ústecký deník ("Další varování před bouřkami. Na Ústecko mají přijít v pátek") a Český rozhlas Sever ("Do Ústeckého kraje míří silné bouřky, přívalový déšť a kroupy"), oba citující výstrahu ČHMÚ. Údaje o platnosti výstrahy, srážkových úhrnech a nárazech větru se ve zdrojích shodovaly.
+---
+Další varování před bouřkami. Na Ústecko mají přijít v pátek
+
+Český hydrometeorologický ústav vydal výstrahu před silnými bouřkami platnou i pro Ústecký kraj. Výstraha platí od pátečního odpoledne (13:00, 17. července) do půlnoci na sobotu 18. července.
+
+Bouřky by měly přinést srážkové úhrny kolem 40 milimetrů, nárazy větru okolo 70 kilometrů v hodině (asi 20 m/s) a místy menší kroupy.
+
+Druhá vlna bouřek by měla do kraje dorazit večer a v noci od Německa, tentokrát především s vydatnými dešti a v menší míře i s větrem a kroupami.
+
+Zdroj potvrzení: ustecky.denik.cz, nezávisle potvrzeno sever.rozhlas.cz.

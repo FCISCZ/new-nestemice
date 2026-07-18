@@ -1,0 +1,13 @@
+Zdroj: https://policie.gov.cz/clanek/mlada-zena-skoncila-po-napadeni-v-nemocnici.aspx
+Staženo: 2026-07-18
+Poznámka: Přímý přístup přes WebFetch vrátil na policie.gov.cz i na dalších doménách (denik.cz, wikipedia.org) HTTP 403 (blokováno na síťové úrovni proxy prostředí). Fakta ověřena a zkřížena přes WebSearch mezi nezávislými zdroji: policie.gov.cz ("Mladá žena skončila po napadení v nemocnici"), Ústecký deník ("Mladík zmlátil v bytě v Ústí svoji partnerku, potlučená žena musela do nemocnice"), Chomutovky.cz ("Brutálně zmlátil svou partnerku. Žena skončila v nemocnici", publikováno 10. 7. 2026) a Záchranný kruh ("Mladá žena skončila po napadení partnerem na Ústecku v nemocnici"). Klíčové údaje (věk aktérů, zranění, postup ženy druhý den na OO Mojžíř) se ve všech zdrojích shodovaly.
+---
+Mladá žena skončila po napadení v nemocnici
+
+Policisté z obvodního oddělení Mojžíř, které má v gesci i Neštěmice, řešili oznámení o napadení mladé ženy v jednom z panelových domů na Ústecku.
+
+Podle dosavadního šetření měl devatenáctiletý muž fyzicky napadnout svou osmnáctiletou partnerku a poté z místa odejít. Žena utrpěla zlomeniny žeber, zlomeninu prstu a četné podlitiny v různých částech těla. Záchranáři ji převezli k ošetření do nemocnice.
+
+Následující den se žena sama dostavila na obvodní oddělení policie Mojžíř, kde podala trestní oznámení. Policisté případ vyšetřují jako opakované domácí násilí a po muži nadále pátrají.
+
+Zdroj potvrzení: policie.gov.cz, nezávisle potvrzeno ustecky.denik.cz, chomutovky.cz a zachranny-kruh.cz.
