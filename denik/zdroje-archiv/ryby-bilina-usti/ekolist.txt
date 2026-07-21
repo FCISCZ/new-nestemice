@@ -1,0 +1,10 @@
+Zdroj: https://ekolist.cz/cz/zpravodajstvi/zpravy/na-biline-na-ustecku-se-objevila-bila-pena-pro-ryby-muze-byt-voda-stresorem
+Staženo: 2026-07-21
+---
+Stránka vrátila HTTP 403 při přímém stažení (WebFetch). Obsah ověřen přes vyhledávání (WebSearch), fakta potvrzena i zdrojem ustecky.denik.cz.
+
+Klíčová fakta:
+- Na řece Bílině na Ústecku se objevila bílá pěna.
+- Odborníci upozorňují, že přítomnost pěny a změny složení vody mohou být pro ryby stresovým faktorem, který vede k dušení.
+- Případ souvisí s incidentem na Bílině u západního nádraží v Ústí nad Labem 20. července 2026, kdy ryby lapaly po dechu a plavaly na hřbetě.
+- Hromadný úhyn ryb nebyl potvrzen, většina ryb incident přežila.

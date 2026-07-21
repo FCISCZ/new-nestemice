@@ -1,0 +1,13 @@
+Zdroj: https://ustecky.denik.cz/zpravy-region/ve-ctvrtek-ceka-ridice-v-usti-peklo-pripravte-si-nervy/
+Staženo: 2026-07-21
+---
+Stránka vrátila HTTP 403 při přímém stažení (WebFetch). Obsah ověřen přes vyhledávání (WebSearch), fakta potvrzena i nezávislým zdrojem teplicky.denik.cz.
+
+Klíčová fakta:
+- U mostu Dr. Edvarda Beneše v Ústí nad Labem začalo ve čtvrtek 16. července 2026 ráno dopravní omezení.
+- Příčinou je havárie vodovodu, který praskl na silnici těsně před sjezdem z mostu směrem do centra.
+- Omezení zužuje průjezd ze Střekova do centra, řidiči osobních aut musí jet přes Krásné Březno.
+- Silničáři kvůli opravě uzavřeli jeden jízdní pruh, aby se dostali k závadě a mohli otevřít část vozovky. Opačný směr zůstal průjezdný.
+- MHD jezdí dál podle stávajícího režimu, trasy linek omezení nezasáhlo.
+- Provoz se v místě může krátkodobě zahustit, hlavně v ranní špičce. Město doporučuje zvýšenou opatrnost při průjezdu objížďkou.
+- O délce omezení rozhodne až rozsah zjištěné závady.
