@@ -1,0 +1,12 @@
+Zdroj: https://ustecky.denik.cz/zpravy-region/kolaps-stovek-ryb-na-biline-v-usti-zasahovat-museli-hasici-rybari-i-povodi/
+Staženo: 2026-07-21
+---
+Stránka vrátila HTTP 403 při přímém stažení (WebFetch). Obsah ověřen přes vyhledávání (WebSearch), fakta potvrzena i nezávislým zdrojem ekolist.cz.
+
+Klíčová fakta:
+- V pondělí 20. července 2026 ráno byly na řece Bílině u západního nádraží v Ústí nad Labem pozorovány ryby lapající po dechu, plavaly na hřbetě.
+- Na místě zasahovali hasiči, rybáři a pracovníci Povodí Ohře (dva technici).
+- Podle rybářů (mluvčí severočeských rybářů Jan Skalský) nešlo o hromadný úhyn ryb, většina ryb přežila.
+- Příčinou byl pravděpodobně lokální nedostatek kyslíku ve vodě, možná v souvislosti s tenzidy (látky snižující povrchové napětí vody, používané v kosmetice a čisticích prostředcích).
+- Jak se tenzidy do řeky dostaly, nebylo v době zprávy jasné.
+- Úřady incident dále šetří.

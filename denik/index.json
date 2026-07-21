@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-18T14:19:30Z",
+  "generated": "2026-07-21T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-07-21-vodovod-benesuv-most",
+      "date": "2026-07-21",
+      "title": "Havárie vodovodu komplikuje dopravu u Benešova mostu. Ze Střekova se jezdí přes Krásné Březno",
+      "lede": "U mostu Dr. E. Beneše praskl vodovod, jeden pruh je uzavřený. Řidiči ze Střekova musí objíždět přes Krásné Březno.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz", "teplicky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-07-21-ryby-bilina-usti",
+      "date": "2026-07-21",
+      "title": "Ryby na Bílině lapaly po dechu a plavaly na hřbetě. Hasiči i rybáři odvrátili horší scénář",
+      "lede": "U západního nádraží v Ústí zasahovali hasiči a rybáři kvůli rybám dusícím se nedostatkem kyslíku. Většina ryb přežila.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz", "ekolist.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-07-18-vystraha-pred-bourkami",
       "date": "2026-07-18",

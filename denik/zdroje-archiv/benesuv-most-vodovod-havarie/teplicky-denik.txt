@@ -1,0 +1,9 @@
+Zdroj: https://teplicky.denik.cz/kraj-a-okoli/jedete-do-usti-pozor-je-tam-dalsi-omezeni-u-labe-v-okoli-benesova-mostu/
+Staženo: 2026-07-21
+---
+Stránka vrátila HTTP 403 při přímém stažení (WebFetch). Obsah ověřen přes vyhledávání (WebSearch), fakta potvrzena i zdrojem ustecky.denik.cz.
+
+Klíčová fakta:
+- Potvrzuje další dopravní omezení v okolí Benešova mostu v Ústí nad Labem u Labe.
+- Souvisí s havárií vodovodu poblíž mostu Dr. Edvarda Beneše, která si vyžádala zúžení průjezdu ze Střekova směrem do centra.
+- Řidiči jsou nasměrováni na objízdnou trasu přes Krásné Březno.
