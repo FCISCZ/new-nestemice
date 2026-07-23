@@ -1,0 +1,11 @@
+Zdroj: https://ustecky.denik.cz/zpravy-region/koupani-v-prirode-na-ustecku-horsi-vodu-hlasi-chlumec-a-varvazov/
+Staženo: 2026-07-23
+---
+Stránka vrátila HTTP 403 při přímém stažení (WebFetch). Obsah ověřen přes vyhledávání (WebSearch), fakta potvrzena napříč více regionálními mutacemi Deníku (teplický, litoměřický, mostecký, děčínský).
+
+Klíčová fakta:
+- Krajská hygienická stanice Ústeckého kraje pravidelně sleduje kvalitu vody na dvaceti přírodních koupalištích v kraji.
+- Zhoršenou kvalitu vody hlásí zatopený lom/rybník Chlumec u Ústí nad Labem — zvýšený obsah chlorofylu (řasy), hodnocen druhým stupněm hygienického posouzení.
+- V zatopeném lomu Varvažov je zhoršená průhlednost vody, přítomny sinice a zvýšený obsah chlorofylu A — hygienici uvádějí mírně zvýšenou možnost zdravotních potíží.
+- Doporučení hygieniků: po koupání v těchto lokalitách se osprchovat.
+- Ostatní sledované vodní plochy v kraji, včetně jezera Milada u Ústí nad Labem, jsou bez závad a vhodné ke koupání.
