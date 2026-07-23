@@ -1,0 +1,12 @@
+Zdroj: https://sever.rozhlas.cz/plavecka-hala-klise-v-usti-nad-labem-je-od-13-cervence-uzavrena-9629844
+Staženo: 2026-07-23
+---
+Stránka vrátila HTTP 403 při přímém stažení (WebFetch). Obsah ověřen přes vyhledávání (WebSearch), fakta o rozsahu a termínech odstávky konzistentní s údaji Městských služeb Ústí nad Labem (Munipolis) citovanými v článku.
+
+Klíčová fakta:
+- Plavecká hala Klíše v Ústí nad Labem je od pondělí 13. července 2026 uzavřena kvůli pravidelné letní odstávce.
+- Krytý plavecký bazén, dětský bazén a parní komory mimo provoz do 9. srpna 2026, hala se pro návštěvníky znovu otevře 10. srpna 2026.
+- Skokanský bazén byl mimo provoz do 20. července.
+- Saunový svět uzavřen od 20. do 26. července.
+- Letní koupaliště, fitness i solárium zůstávají po celou dobu odstávky v provozu.
+- Předplacená členství Městské služby automaticky prodlouží o dobu odstávky.
