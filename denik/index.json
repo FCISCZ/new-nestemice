@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-23T12:00:00Z",
+  "generated": "2026-07-24T07:21:01Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-07-24-filmove-leto-letnak",
+      "date": "2026-07-24",
+      "title": "Letní kino v Ústí ožívá filmy. Po 13 letech se vrací pravidelná promítání pod širým nebem",
+      "lede": "Letní kino v Ústí zahajuje po 13 letech pravidelná promítání. Od srpna do poloviny září nabídne filmy, jógu i pohádky pro děti.",
+      "tag": "kultura",
+      "sources": ["ksul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-07-24-pozar-domu-predlice",
+      "date": "2026-07-24",
+      "title": "Hasiči zasahovali u požáru domu v Předlicích. V neobydlené budově našli tři ohniska",
+      "lede": "V Předlicích hořel neobydlený dům v ulici U Jeslí. Hasiči objevili tři ohniska včetně podkroví, zásah trval přes dvě hodiny.",
+      "tag": "komunita",
+      "sources": ["hzscr.gov.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-07-23-vrazda-zastavka-divadlo",
       "date": "2026-07-23",

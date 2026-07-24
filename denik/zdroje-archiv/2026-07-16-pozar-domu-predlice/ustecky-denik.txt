@@ -1,0 +1,12 @@
+Zdroj ze skupiny "odkaz + vlastní text" — fakta z tohoto zdroje NEKOPÍROVÁNY.
+Zdroj: Ústecký deník
+URL: https://ustecky.denik.cz/zpravy_region/pozar-predlice-hasici-majaky-silnice.html
+Staženo: 2026-07-24
+Přístup: URL ověřeno přes WebSearch, přímý fetch blokován proxy (403).
+---
+
+Klíčové informace zjištěné přes WebSearch (potvrzují zprávu HZS):
+- Titulek: "Houkačky a majáky v Předlicích. Požár domu zaměstnal hasiče na několik hodin"
+- Popisuje stejný zásah jako HZS: dům v ulici U Jeslí v Předlicích, hašení trvalo několik hodin.
+
+Poznámka: Web obsahuje i jiný, samostatný požár v téže ulici (U Jeslí) z jiného data — obydlený byt ve 4. patře, 22 evakuovaných lidí, škoda cca 1 milion Kč, příčina manipulace s otevřeným ohněm, zásah v sobotu kolem poledne. Tento odlišný incident se neshoduje časem ani okolnostmi (obydlený dům, evakuace, škoda) se zásahem z 16. 7. 2026 popsaným HZS (neobydlený dům, žádné osoby, žádná škoda, nahlášeno ve čtvrtek 10:39). Do článku o zásahu 16. 7. 2026 tyto odlišné informace NEBYLY použity, aby nedošlo k záměně dvou různých událostí.
