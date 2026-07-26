@@ -1,7 +1,16 @@
 {
-  "generated": "2026-07-26T09:00:00Z",
+  "generated": "2026-07-26T14:20:38Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-07-26-rybarska-olympiada-hluboka",
+      "date": "2026-07-26",
+      "title": "Žák ze ZŠ Hluboká vybojoval ve Vodňanech 2. místo v krajském kole Rybářské olympiády",
+      "lede": "František Liška ze 7.A obsadil 2. místo v krajském kole Rybářské olympiády ve Vodňanech. Soutěžilo se v teorii, poznávání ryb i muškaření.",
+      "tag": "lidé",
+      "sources": ["zs-hluboka.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-07-26-teplarna-trmice-plyn",
       "date": "2026-07-26",
