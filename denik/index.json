@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-03T07:24:38Z",
+  "generated": "2026-08-03T14:22:45Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-03-utonuly-povrly-labe",
+      "date": "2026-08-03",
+      "title": "V Labi u Povrlů na Ústecku našli utonulého muže. Policie zatím nevidí cizí zavinění",
+      "lede": "V sobotu ráno objevili rybáři v Labi u Povrlů tělo utonulého muže. Podle policie zatím nic nenasvědčuje cizímu zavinění, příčinu smrti ukáže pitva.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-03-piknik-nobel-kampus-ujep",
+      "date": "2026-08-03",
+      "title": "Piknik Nobel se vrací na Kampus UJEP. Letní přednášky pod širým nebem startují 5. srpna",
+      "lede": "UJEP zve na letní cyklus přednášek Piknik Nobel v amfiteátru kampusu. Každou středu od 18 hodin, vstup zdarma, program běží až do 23. září.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz", "ujep.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-03-pristavni-ctyri-vikendy",
       "date": "2026-08-03",
