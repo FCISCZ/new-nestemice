@@ -1,0 +1,21 @@
+Zdroj: Ústecký kraj (KÚ Ústeckého kraje)
+URL: https://www.kr-ustecky.cz/vystraha-pro-zvysene-nebezpeci-vzniku-pozaru-opet-v-platnosti
+Staženo: 2026-08-05
+Přístup: URL ověřeno přes WebSearch (agregace: kr-ustecky.cz, Litoměřický deník, Teplický deník, Litoměřicko24, Chomutovky.cz, mesto Děčín). Přímý fetch blokován proxí (HTTP 403) - stejný stav jako u předchozích rešerší tohoto deníku.
+Zdroj z veřejné/úřední skupiny (krajský úřad) - fakta ověřena a přeformulována vlastními slovy.
+---
+
+Klíčové informace zjištěné přes WebSearch:
+- Ústecký kraj vyhlásil (znovu) období zvýšeného nebezpečí vzniku požárů, platné od 29. července 2026 od 15:00 do 31. srpna 2026.
+- Důvodem je dlouhotrvající sucho, vysoké teploty a v posledních dnech i teplé, suché a větrné počasí, které výrazně zvyšuje riziko vzniku a rychlého šíření požárů v přírodním prostředí.
+- Opatření platí pro celé území kraje a je závazné pro veřejnost, vlastníky pozemků i provozovatele rekreačních zařízení.
+- Mezi konkrétní zákazy patří: rozdělávání ohňů (včetně pálení trávy a větví) v přírodě a lesích, kouření a používání otevřeného ohně v lesích a do vzdálenosti 50 metrů od okraje lesa.
+- V předchozím obdobném vyhlášení (dřívější případ v létě 2026) trvalo období zvýšeného nebezpečí požáru téměř měsíc, než bylo odvoláno.
+- Podkladem pro vyhlášení jsou mimo jiné výstrahy Českého hydrometeorologického ústavu (ČHMÚ) k nebezpečí požárů.
+
+Zdrojové odkazy nalezené přes WebSearch:
+- Ústecký kraj: "Výstraha pro zvýšené nebezpečí vzniku požárů opět v platnosti" a "2. Vyhlášení doby zvýšeného nebezpečí vzniku požárů 2026"
+- Litoměřický deník / Teplický deník: "V Ústeckém kraji skončilo období zvýšeného nebezpečí požáru, trvalo skoro měsíc" (k předchozímu vyhlášení)
+- Litoměřicko24: "Ústecký kraj opět vyhlásil období zvýšeného nebezpečí vzniku požárů. Platí přísné zákazy"
+- Chomutovky.cz: "Ústecký kraj vyhlásil zákaz ohně: platí zvýšené nebezpečí požárů"
+- Město Děčín: "Na území Ústeckého kraje platí opět zvýšené nebezpečí vzniku požárů"
