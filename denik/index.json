@@ -1,7 +1,34 @@
 {
-  "generated": "2026-08-03T14:22:45Z",
+  "generated": "2026-08-05T07:35:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-05-smogova-situace-ozon",
+      "date": "2026-08-05",
+      "title": "V Ústeckém kraji platí smogová situace kvůli ozonu. Potřetí za letošní léto",
+      "lede": "Meteorologové vyhlásili pro Ústecký kraj smogovou situaci kvůli přízemnímu ozonu, letos už potřetí. Lidem se doporučuje vyhýbat se odpoledne fyzické zátěži venku.",
+      "tag": "příroda",
+      "sources": ["chmi.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-05-zakaz-ohne-sucho",
+      "date": "2026-08-05",
+      "title": "Ústecký kraj kvůli suchu znovu zakázal rozdělávat oheň v přírodě. Platí do konce srpna",
+      "lede": "Kvůli suchu a horku platí v celém Ústeckém kraji do 31. srpna zákaz rozdělávání ohňů a táboráků v přírodě a v lesích i kolem nich.",
+      "tag": "příroda",
+      "sources": ["kr-ustecky.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-05-mazoretky-soustredeni",
+      "date": "2026-08-05",
+      "title": "Mažoretky z DDM Ústí nad Labem vyrážejí na letní soustředění do Jizerských hor",
+      "lede": "Mažoretkový soubor DDM Ústí nad Labem stráví 8.-15. srpna soustředění v Kořenově-Příchovicích jako přípravu na podzimní sezónu.",
+      "tag": "kultura",
+      "sources": ["ddmul.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-03-utonuly-povrly-labe",
       "date": "2026-08-03",

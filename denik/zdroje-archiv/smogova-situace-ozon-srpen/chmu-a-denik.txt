@@ -1,0 +1,22 @@
+Zdroj: ČHMÚ (ovzdusi.chmi.cz) a Ústecký deník
+URL: https://ovzdusi.chmi.cz/SVRS.php?showPol=O3. ; https://ustecky.denik.cz/zpravy-region/meteorologove-vyhlasili-v-usteckem-kraji-smogovou-situaci/
+Staženo: 2026-08-05
+Přístup: Fakta ověřena přes WebSearch (agregace více zdrojů: ČeskéNoviny.cz, Deník N, Ústecký deník, ČRo Sever). Přímý fetch jednotlivých URL blokován proxí (HTTP 403) - stejný stav jako u předchozích rešerší tohoto deníku.
+---
+
+Klíčové informace zjištěné přes WebSearch:
+- V úterý 4. srpna 2026 vyhlásili meteorologové v Ústeckém kraji smogovou situaci kvůli zvýšené koncentraci přízemního (troposférického) ozonu.
+- Jde už o třetí smogovou situaci v kraji od konce června 2026.
+- Smogová situace se vyhlašuje, pokud hodinový průměr troposférického ozonu překročí informativní prahovou hodnotu 180 mikrogramů na metr krychlový alespoň na jedné reprezentativní stanici pro dané území.
+- Přízemní ozon vzniká v atmosféře reakcí uhlovodíků a oxidů dusíku za intenzivního slunečního záření - typicky při dlouhotrvajícím horku.
+- Doporučení pro veřejnost: vyhýbat se zvýšené fyzické zátěži venku, zejména v odpoledních hodinách, kdy je frekvence dýchání vyšší. Doporučení platí především pro osoby s chronickými dýchacími potížemi, seniory a malé děti.
+- Při vyšších koncentracích ozonu a delší expozici může docházet k pálení očí a nosu, nutkání ke kašli, bolestem hlavy a tlaku na hrudi.
+- Pro srovnání: předchozí smogová situace pro troposférický ozon trvala od 26. do 28. června 2026 (vyhlášena 26.6. ve 14:21, odvolána 28.6. ve 22:53) - typicky trvá řádově dny.
+- Situace souvisí s aktuálním extrémně vysokým horkem v regionu (podle dřívějších zpráv teploty v Ústí nad Labem kolem 33-37 °C začátkem srpna 2026).
+
+Zdrojové odkazy nalezené přes WebSearch:
+- ČeskéNoviny.cz: "Meteorologové vyhlásili v Ústeckém kraji smogovou situaci, potřetí za léto"
+- Deník N (minuta): "Meteorologové vyhlásili v Ústeckém kraji smogovou situaci kvůli přízemnímu ozonu"
+- Ústecký deník: "Meteorologové vyhlásili v Ústeckém kraji smogovou situaci"
+- ČRo Sever: "Meteorologové v Ústeckém kraji vyhlásili smogovou situaci kvůli zvýšené... koncentraci přízemního ozónu"
+- ČHMÚ SVRS: historický přehled a metodika vyhlašování smogových situací (https://ovzdusi.chmi.cz/SVRS/historie.php)
