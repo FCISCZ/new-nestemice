@@ -1,7 +1,34 @@
 {
-  "generated": "2026-08-05T07:35:00Z",
+  "generated": "2026-08-05T14:20:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-05-rock-in-usti",
+      "date": "2026-08-05",
+      "title": "Rock in přiveze do Letního kina Dymytry i Horkýže Slíže. Traktor zahraje jen v Ústí",
+      "lede": "V sobotu 8. srpna od 14 hodin hostí Letní kino putovní rockový festival Rock in. Zahrají Alkehol, Dymytry, Horkýže Slíže, Trautenberk i Traktor.",
+      "tag": "kultura",
+      "sources": ["rockin.cz", "ksul.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-05-firfest-usti",
+      "date": "2026-08-05",
+      "title": "Fírfest slaví osmnáctku. Festival na Fírovce nabídne Aleše Brichtu i Krevel",
+      "lede": "V sobotu 15. srpna se na Fírovce koná 18. ročník festivalu Fírfest. Zahrají Scull & Crossbones, Krevel, Aleš Brichta Project a Nerrea, vstupné 200 Kč.",
+      "tag": "kultura",
+      "sources": ["firfest.cz", "smsticket.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-05-pozar-trava-nestemice",
+      "date": "2026-08-05",
+      "title": "V Neštěmicích hořela suchá tráva. Hasiči zasahovali uprostřed vlny požárů v kraji",
+      "lede": "Hasiči vyjeli ve středu k požáru trávního porostu v Neštěmicích. Jde o součást širší vlny požárů suché vegetace v kraji kvůli horku a suchu.",
+      "tag": "příroda",
+      "sources": ["pozary.cz", "e-mostecko.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-05-smogova-situace-ozon",
       "date": "2026-08-05",
