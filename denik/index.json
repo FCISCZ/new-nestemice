@@ -1,7 +1,34 @@
 {
-  "generated": "2026-08-09T07:20:55Z",
+  "generated": "2026-08-11T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-11-autobus-jezero-milada",
+      "date": "2026-08-11",
+      "title": "K jezeru Milada zdarma autobusem. Linka jezdí o víkendech až do konce srpna",
+      "lede": "Od 27. června do 31. srpna vozí DPMÚL o víkendech a svátcích zdarma autobus k jezeru Milada. Spojuje zastávku Divadlo s oběma plážemi.",
+      "tag": "doprava",
+      "sources": ["dpmul.cz", "usti.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-11-cviceni-izs-spolchemie",
+      "date": "2026-08-11",
+      "title": "Ústí čeká velké cvičení hasičů. V polovině září si vyzkouší únik chloru u Spolchemie",
+      "lede": "16. září proběhne u Spolchemie velké cvičení hasičů, policie a záchranky na únik chloru z vykolejené cisterny. Čekají dopravní omezení.",
+      "tag": "úřad",
+      "sources": ["usti.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-11-labe-nizky-stav",
+      "date": "2026-08-11",
+      "title": "Labe u Ústí teče na třetinu. Sucho zatím oficiálně nevyhlásili",
+      "lede": "Labe u Ústí nad Labem teče jen s třetinou obvyklého množství vody. Hydrolog varuje před dalším zhoršením, oficiální sucho ale vyhlášeno nebylo.",
+      "tag": "příroda",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-09-slovanka-uzavrena",
       "date": "2026-08-09",
