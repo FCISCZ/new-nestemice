@@ -1,0 +1,11 @@
+Zdroj: Statutární město Ústí nad Labem (usti.cz) – Aktuální informace
+URL: https://www.usti.cz/cz/uredni-portal/media/aktualni-informace/
+Staženo: 2026-08-11
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED). Fakta ověřena agregací přes WebSearch, shodně s Ústeckým deníkem a serverem Žít Ústí (zitusti.cz).
+---
+
+Klíčové informace zjištěné přes WebSearch:
+- V Ústí nad Labem se ve středu 16. září 2026 od 9:00 hodin uskuteční rozsáhlé taktické cvičení složek integrovaného záchranného systému (IZS).
+- Místo konání: areál společnosti Spolchemie a jeho okolí.
+- Scénář: vykolejení železniční cisterny a únik chloru, možné rozšíření nebezpečné látky mimo areál.
+- Cíl cvičení: prověřit koordinaci hasičů, policie a záchranné služby a způsob varování a ochrany obyvatel v okolí.
