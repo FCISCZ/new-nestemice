@@ -1,7 +1,16 @@
 {
-  "generated": "2026-08-11T09:00:00Z",
+  "generated": "2026-08-12T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-12-pozar-louka-nestemice",
+      "date": "2026-08-12",
+      "title": "Pokus o oheň ze slámy zapálil louku v Neštěmicích. Hasiči bojovali s plameny v těžkém terénu",
+      "lede": "V sobotu večer hořela v Neštěmicích louka o rozměrech 50 na 60 metrů. Příčinou byl pokus ženy zapálit oheň ze slámy, zasahovaly čtyři jednotky hasičů.",
+      "tag": "příroda",
+      "sources": ["e-usti.cz", "pozary.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-11-autobus-jezero-milada",
       "date": "2026-08-11",
