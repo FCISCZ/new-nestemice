@@ -1,7 +1,34 @@
 {
-  "generated": "2026-08-14T09:00:00Z",
+  "generated": "2026-08-14T15:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-14-oprava-chodniku-nestemicka",
+      "date": "2026-08-14",
+      "title": "Neštěmická ulice se dočká nového chodníku. Startuje druhá etapa oprav",
+      "lede": "V Neštěmické ulici začala druhá etapa oprav chodníku za 1,58 milionu korun. Starý asfalt nahradí zámková dlažba od V Oblouku po zastávku Výstupní.",
+      "tag": "doprava",
+      "sources": ["nestemice.eu", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-14-spolchemie-cov-bioreaktor",
+      "date": "2026-08-14",
+      "title": "Spolchemie spouští druhý bioreaktor. Čistírna odpadních vod u Neštěmic bude účinnější",
+      "lede": "Spolchemie v srpnu dokončuje modernizaci čistírny odpadních vod za 110 milionů korun. Nový bioreaktor je o 5 procent účinnější než původní zařízení.",
+      "tag": "příroda",
+      "sources": ["spolchemie.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-14-nestemice-fotbal-priprava",
+      "date": "2026-08-14",
+      "title": "Neštěmičtí fotbalisté prohráli generálku v Novém Boru 2:5. V sezoně je povede nové trenérské duo",
+      "lede": "FK Český Lev Neštěmice prohrál přípravný zápas v Novém Boru 2:5. Nový trenérský tandem Novák a Doboš cílí na špičku krajského přeboru.",
+      "tag": "sport",
+      "sources": ["fcnovybor.cz", "ceskolipsky.denik.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-14-mimoradne-sucho-labe",
       "date": "2026-08-14",
