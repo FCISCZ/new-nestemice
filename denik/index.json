@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-12T09:00:00Z",
+  "generated": "2026-08-14T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-14-mimoradne-sucho-labe",
+      "date": "2026-08-14",
+      "title": "Sucho u Labe je už oficiálně mimořádné. Postihlo přes polovinu území, které spravuje Povodí Labe",
+      "lede": "Povodí Labe vyhlásilo mimořádné sucho na přes polovině spravovaného území včetně toku u Ústí. Nízko jsou i podzemní vody a prameny.",
+      "tag": "příroda",
+      "sources": ["vodarenstvi.cz", "ceskenoviny.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-14-firfest-usti",
+      "date": "2026-08-14",
+      "title": "Fírfest slaví osmnáctku. V sobotu se Fírovka v Ústí promění v pódium",
+      "lede": "V sobotu 15. srpna hostí Fírovka v Ústí nad Labem osmnáctý ročník hudebního festivalu Fírfest. Na pódiu se vystřídá několik kapel, vstupné kolem 200 Kč.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-12-pozar-louka-nestemice",
       "date": "2026-08-12",
