@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-14T15:30:00Z",
+  "generated": "2026-08-19T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-19-zs-mirova-modernizace",
+      "date": "2026-08-19",
+      "title": "V Ústí začala rozsáhlá modernizace ZŠ Mírová za necelých 190 milionů korun",
+      "lede": "Město v srpnu zahájilo největší letošní investici do školství. ZŠ Mírová projde zateplením, výměnou oken, fotovoltaikou i bezbariérovými úpravami.",
+      "tag": "úřad",
+      "sources": ["moderniobec.cz", "parlamentnilisty.cz"],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-08-19-bourky-popadane-stromy",
+      "date": "2026-08-19",
+      "title": "Bouřky lámaly stromy po celém kraji, zasahovali i hasiči v Ústí nad Labem",
+      "lede": "Silný déšť a vítr zaměstnaly 17. srpna hasiče napříč krajem, asi šedesát výjezdů. Odstraňovali padlé stromy a čerpali vodu i v Ústí nad Labem.",
+      "tag": "příroda",
+      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-14-oprava-chodniku-nestemicka",
       "date": "2026-08-14",
