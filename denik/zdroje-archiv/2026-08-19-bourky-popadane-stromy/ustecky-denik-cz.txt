@@ -1,0 +1,9 @@
+Zdroj: Ústecký deník
+URL: https://ustecky.denik.cz/zpravy-region/bourka-lijak-hasici-vyjezdy-stromy-silnice/
+Staženo: 2026-08-19
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména ustecky.denik.cz je blokovaná síťovým proxy tohoto prostředí). Fakta ověřena agregací přes WebSearch, nezávisle potvrzena i shodnými zprávami e-Ústí.cz, Teplického a Děčínského deníku. Text NEKOPÍROVÁN, pouze odkaz a vlastní přeformulování.
+---
+
+Titulek: "Bouřka lámala stromy a zatopila silnice. Nejvíce výjezdů měli hasiči na Ústecku"
+
+Potvrzuje stejné jádro zprávy jako e-Ústí.cz: bouřky a vydatný déšť 17. srpna 2026 zaměstnaly hasiče v celém Ústeckém kraji, nejvíc výjezdů (odstraňování stromů, čerpání vody) bylo zaznamenáno na Ústecku, Děčínsku a Teplicku.
