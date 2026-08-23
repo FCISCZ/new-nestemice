@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-19T12:00:00Z",
+  "generated": "2026-08-23T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-23-vladimir-paral-usti",
+      "date": "2026-08-23",
+      "title": "Zemřel spisovatel Vladimír Páral, se kterým je navždy spjaté i Ústí nad Labem",
+      "lede": "Spisovatel zemřel 10. srpna v den svých 94. narozenin. Od roku 1956 žil a pracoval v Ústí, které proslavil v řadě svých románů.",
+      "tag": "lidé",
+      "sources": ["ustecky.denik.cz", "ceskenoviny.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-23-pytlak-habrovicky-rybnik",
+      "date": "2026-08-23",
+      "title": "Cizinec lovil ryby bez povolenky v chovném rybníku u Ústí. Strážníci mu zabavili prut",
+      "lede": "Strážníci zasáhli 16. srpna na Habrovickém rybníku u muže bez rybářského lístku. Prut mu zabavili jako důkaz, hrozí mu pokuta.",
+      "tag": "komunita",
+      "sources": ["ustecky.denik.cz", "rybarskyrozcestnik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-19-zs-mirova-modernizace",
       "date": "2026-08-19",
