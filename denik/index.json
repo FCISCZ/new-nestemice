@@ -1,7 +1,16 @@
 {
-  "generated": "2026-08-24T09:00:00Z",
+  "generated": "2026-08-24T15:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-24-fotbal-nestemice-hattrick-bilina",
+      "date": "2026-08-24",
+      "title": "Hattrick kapitána Martínka. Neštěmičtí fotbalisté vyhráli v Bílině 3:2",
+      "lede": "Fotbalisté FK Český Lev Neštěmice vyhráli v Bílině 3:2 zásluhou hattricku kapitána Jana Martínka. Nový ročník 5. ligy odstartovali výhrou.",
+      "tag": "sport",
+      "sources": ["ustecky.denik.cz", "fknestemice.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-24-nehoda-opletalova-nestemice",
       "date": "2026-08-24",
