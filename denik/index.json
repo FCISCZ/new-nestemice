@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-23T12:00:00Z",
+  "generated": "2026-08-24T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-24-nehoda-opletalova-nestemice",
+      "date": "2026-08-24",
+      "title": "V Neštěmicích se srazila tři auta, poškozeno bylo i trolejové vedení",
+      "lede": "V sobotu 22. srpna se v ulici Opletalova střetla tři auta, poškozeno bylo i trolejové vedení. Hasiči museli vyprošťovat osoby z vozidel.",
+      "tag": "doprava",
+      "sources": ["ustecky.denik.cz", "pozary.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-24-icwf-zaverecny-koncert",
+      "date": "2026-08-24",
+      "title": "Ústí bylo dva týdny centrem světového dirigování. Kurz ICWF vyvrcholil koncertem v divadle",
+      "lede": "Divadlo města Ústí nad Labem hostilo dva týdny mezinárodní dirigentský kurz ICWF. Program vyvrcholil sérií koncertů, poslední zazněl 24. srpna.",
+      "tag": "kultura",
+      "sources": ["ustecky.denik.cz", "naseveru.net"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-23-vladimir-paral-usti",
       "date": "2026-08-23",
