@@ -1,0 +1,9 @@
+Zdroj: POŽÁRY.cz
+URL: https://www.pozary.cz/clanek/307176-v-ulici-opletalova-v-usti-nad-labem-konkretne-v-mestske-casti/
+Staženo: 2026-08-24
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména pozary.cz je blokovaná síťovým proxy tohoto prostředí). Fakta ověřena agregací přes WebSearch, nezávisle potvrzena i shodnou zprávou Ústeckého deníku. Text NEKOPÍROVÁN, pouze odkaz a vlastní přeformulování.
+---
+
+Titulek: "V ulici Opletalova v Ústí nad Labem, konkrétně v městské části Neštěmice..."
+
+Potvrzuje stejné jádro zprávy jako Ústecký deník: v ulici Opletalova v městské části Neštěmice došlo ke srážce tří osobních automobilů, při níž bylo zasaženo trolejové vedení. Na místo vyjeli hasiči, kteří nehodu zajistili a provedli protipožární opatření. Nehoda byla nahlášena s nutností vyproštění osob z vozidel.
