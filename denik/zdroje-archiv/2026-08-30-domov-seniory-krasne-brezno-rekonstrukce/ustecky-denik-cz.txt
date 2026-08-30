@@ -1,0 +1,10 @@
+Zdroj: Ústecký deník
+URL: https://ustecky.denik.cz/zpravy_region/domov-pro-seniory-ceka-velka-modernizace-dalsi-domovy-v-usti-to-take-ceka-202605.html
+URL 2: https://ustecky.denik.cz/zpravy-region/zatepleni-a-strecha-ustecky-domov-pro-seniory-ceka-rekonstrukce/
+Staženo: 2026-08-30
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména ustecky.denik.cz je blokovaná síťovým proxy tohoto prostředí). Fakta ověřena agregací přes WebSearch nad dvěma nezávislými články Ústeckého deníku se shodným jádrem zprávy. Text NEKOPÍROVÁN, pouze odkaz a vlastní přeformulování.
+---
+
+Titulek: "Domov pro seniory čeká velká modernizace. Další domovy v Ústí to také čeká" / "Zateplení a střecha. Ústecký domov pro seniory čeká rekonstrukce"
+
+Domov pro seniory Krásné Březno (budova z roku 1988) čeká rozsáhlá rekonstrukce a snížení energetické náročnosti. Zastupitelé/radní města Ústí nad Labem schválili zadání veřejné zakázky firmě Klement Construction, která v soutěži nabídla 39,2 milionu korun bez DPH. Práce zahrnou zateplení obvodového pláště budovy včetně střechy, opravu nevyhovující skleněné fasády a instalaci předokenních elektrických žaluzií ve všech pokojích kvůli regulaci teploty v létě. Součástí je i fotovoltaická elektrárna s bateriovým úložištěm, která má v případě výpadku proudu udržet v provozu výtah, což je klíčové pro mobilitu klientů zařízení.
