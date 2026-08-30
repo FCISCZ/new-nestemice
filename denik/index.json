@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T15:30:00Z",
+  "generated": "2026-08-30T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-08-30-zus-nestemice-slouceni",
+      "date": "2026-08-30",
+      "title": "Neštěmická ZUŠ se od nového roku sloučí se ZUŠ Evy Randové",
+      "lede": "Od 1. září povede obě ústecké ZUŠ jeden ředitel, Marek Korbélyi. K samotnému sloučení škol dojde k 1. lednu 2027, výuka zůstane zachována.",
+      "tag": "úřad",
+      "sources": ["kr-ustecky.cz", "ustecky.denik.cz", "sever.rozhlas.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-08-30-domov-seniory-krasne-brezno-rekonstrukce",
+      "date": "2026-08-30",
+      "title": "Domov pro seniory v Krásném Březně čeká zateplení i nová fotovoltaika za 39 milionů",
+      "lede": "Domov pro seniory Krásné Březno čeká zateplení, nová fasáda i fotovoltaika s bateriemi pro záložní chod výtahu. Zakázku vysoutěžila firma Klement Construction.",
+      "tag": "úřad",
+      "sources": ["ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-08-24-fotbal-nestemice-hattrick-bilina",
       "date": "2026-08-24",
