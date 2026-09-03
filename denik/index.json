@@ -1,7 +1,16 @@
 {
-  "generated": "2026-08-30T09:00:00Z",
+  "generated": "2026-09-03T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-03-most-mojzir-doprava-nestemice",
+      "date": "2026-09-03",
+      "title": "Uzavřený most v Mojžíří zahltil Neštěmice dopravou. Radnice žádá o policejní dohled",
+      "lede": "Provoz v Mojžíří po uzavírce mostu na I/62 vzrostl až desetinásobně. Auto srazilo dítě, radnice žádá o dohled policie. Most se má otevřít na podzim.",
+      "tag": "doprava",
+      "sources": ["nestemice.eu", "sever.rozhlas.cz", "ustecky.denik.cz", "zdopravy.cz"],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-08-30-zus-nestemice-slouceni",
       "date": "2026-08-30",
