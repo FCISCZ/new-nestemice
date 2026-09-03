@@ -1,0 +1,14 @@
+Zdroj: Ústecký deník
+Titulek 1: Na most v Mojžíři padne obří množství betonu. Práce zase pokročily
+URL 1: https://ustecky.denik.cz/zpravy_region/na-most-v-mojziri-padne-obri-mnozstvi-betonu-prace-zase-pokrocily-20260615.html
+Titulek 2: Na mojžířské frontě kolony. Začala tam oprava mostu, zavřený má být od úterý
+URL 2: https://ustecky.denik.cz/zpravy_region/mojzir-doprava-most-kolony-rekonstrukce-usti-rsd-silnice.html
+Staženo: 2026-09-03
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména ustecky.denik.cz je blokovaná síťovým proxy tohoto prostředí). Jde o zdroj typu "odkaz + vlastní text" — obsah NEKOPÍROVÁN, pouze shrnutí faktů pro účely ověření a vlastní přeformulování v článku, v článku uveden pouze odkaz.
+---
+
+Silnice I/62 přes estakádu v Mojžíři je od úterý 10. června 2026 kompletně uzavřená kvůli rekonstrukci mostu evid. č. 62-007, který spojuje Ústí nad Labem s Děčínem. Původní most jde k zemi, staví se nový, dlouhý téměř 292 metrů, vedoucí přes železniční koridor, místní komunikace a větve křižovatky. Cena stavby je 259 milionů korun, práce provádí firma Strabag SIS.
+
+Hlavní objízdná trasa pro tranzit vede po silnici I/13 přes Jílové a Libouchec, projet lze i přes sídliště Neštěmice a Mojžíř. Běžně tudy denně projede až 12 tisíc vozidel, z toho několik tisíc kamionů.
+
+Most by měl zůstat neprůjezdný nejméně do konce roku 2026.
