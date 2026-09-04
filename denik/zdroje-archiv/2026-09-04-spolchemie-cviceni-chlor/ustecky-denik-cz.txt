@@ -1,0 +1,8 @@
+Zdroj: Ústecký deník (ustecky.denik.cz)
+Titulek: Únik chemikálií? Ústí čeká velké cvičení hasičů a záchranky
+URL: https://ustecky.denik.cz/zpravy-region/unik-chemikalii-usti-ceka-velke-cviceni-hasicu-a-zachranky/
+Staženo: 2026-09-04
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména ustecky.denik.cz je blokovaná síťovým proxy tohoto prostředí). Podle pravidel webu jde o zdroj typu "odkaz + vlastní text" — text NEKOPÍROVÁN, pouze odkaz a shrnutí faktů dostupných z náhledu vyhledávání, nezávisle potvrzených dalšími zdroji (kr-ustecky.cz, chomutovky.cz, zitusti.cz).
+---
+
+Deník informuje o stejném plánovaném cvičení IZS ve Spolchemii dne 16. září 2026 (simulace úniku chloru z vykolejené cisterny, součinnost hasičů, zdravotnické záchranné služby a policie). Použito jen jako potvrzující zdroj, článek ani jeho text nebyl kopírován.
