@@ -1,7 +1,16 @@
 {
-  "generated": "2026-09-03T09:00:00Z",
+  "generated": "2026-09-04T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-04-spolchemie-cviceni-chlor",
+      "date": "2026-09-04",
+      "title": "Krásné Březno čeká velké cvičení záchranářů. Nacvičí únik chloru ve Spolchemii",
+      "lede": "V areálu Spolchemie proběhne 16. září rozsáhlé cvičení IZS – simulace úniku chloru z cisterny. Okolí čekají dopravní omezení.",
+      "tag": "komunita",
+      "sources": ["kr-ustecky.cz", "chomutovky.cz", "zitusti.cz", "ustecky.denik.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-03-most-mojzir-doprava-nestemice",
       "date": "2026-09-03",
