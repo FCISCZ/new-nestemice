@@ -1,0 +1,12 @@
+Zdroj: iROZHLAS.cz (Český rozhlas)
+Titulek: Meteorologové vydali výstrahu před silným větrem a bouřkami. V noci se mohou objevit na severu Čech
+URL: https://www.irozhlas.cz/zpravy-domov/meteorologove-vydali-vystrahu-pred-silnym-vetrem-a-bourkami-v-noci-se-muzou_2609041102_tkp
+Staženo: 2026-09-06
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména irozhlas.cz je blokovaná síťovým proxy tohoto prostředí, stejně jako sever.rozhlas.cz). Fakta ověřena agregací přes WebSearch, nezávisle potvrzena shodnými zprávami Ústeckého deníku (výstraha jmenovitě pro Ústí nad Labem) a Českého rozhlasu Sever. Text NEKOPÍROVÁN, pouze vlastní přeformulování.
+---
+
+V pátek 4. září 2026 vydal Český hydrometeorologický ústav výstrahu před silným větrem a bouřkami pro severozápad a sever Čech. Studená fronta měla přes území přejít ve večerních a nočních hodinách.
+
+Výstraha před silným větrem platila od pátku 22:00 do soboty 3:00 pro okresy na severu Ústeckého, Libereckého a Královéhradeckého kraje, s nárazy větru očekávanými v rozmezí 55 až 70 km/h.
+
+Podle informací Ústeckého deníku platila pro samotné Ústí nad Labem žlutá výstraha, meteorologové zároveň nevyloučili přechod ojedinělé supercely s kroupami nad územím kraje.
