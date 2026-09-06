@@ -1,7 +1,34 @@
 {
-  "generated": "2026-09-06T12:00:00Z",
+  "generated": "2026-09-06T14:16:04Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-06-most-novy-svet-odklad",
+      "date": "2026-09-06",
+      "title": "Oprava mostu přes Nový svět se odkládá. Semafory na Neštěmické v Krásném Březně letos nebudou",
+      "lede": "Nový technický průzkum mostu odhalil horší stav, než se čekalo. Odkládá se i instalace semaforů na křižovatce Drážďanské a Neštěmické.",
+      "tag": "doprava",
+      "sources": ["e-Ústí.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-06-policie-sloucena-stanice-nestemice",
+      "date": "2026-09-06",
+      "title": "Neštěmice mají jednu policejní služebnu. Krásné Březno se sloučilo s Mojžířem",
+      "lede": "Obvodní oddělení Krásné Březno se spojilo s Mojžířem do jedné služebny na Horní ulici, která nově pokrývá celé Neštěmice.",
+      "tag": "úřad",
+      "sources": ["e-Ústí.cz", "Policie ČR"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-06-drazdanska-ulice-rekonstrukce",
+      "date": "2026-09-06",
+      "title": "Drážďanskou ulici v Krásném Březně čeká rekonstrukce za čtvrt miliardy korun",
+      "lede": "Město hledá zhotovitele studie a dokumentace k rekonstrukci Drážďanské ulice. Přibudou cyklostezky i vsakovací opatření, hotovo má být do roku 2030.",
+      "tag": "doprava",
+      "sources": ["Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-06-uzavirka-nestemicka-ulice",
       "date": "2026-09-06",

@@ -1,0 +1,11 @@
+Zdroj: e-Ústí.cz — Schválené semafory v Drážďanské ulici zatím nebudou! Oprava mostu přes Nový svět se odkládá
+URL: https://www.e-usti.cz/zpravy/usti-nad-labem/142043-schvalene-semafory-v-drazdanske-ulici-zatim-nebudou-oprava-mostu-pres-novy-svet-se-odklada
+Staženo: 2026-09-06
+Přístup: Přímý fetch URL blokován síťovým proxy tohoto prostředí (EGRESS_BLOCKED — doména e-usti.cz je na blokovaném seznamu, stejně jako většina zpravodajských webů v tomto běhu). Fakta ověřena přes WebSearch agregaci ze dvou nezávislých dotazů, které se shodují v datech (odklad opravy mostu, technický průzkum, nová dokumentace, odklad semaforů). Text NEKOPÍROVÁN, pouze vlastní přeformulování.
+---
+
+Oprava mostu přes lokalitu Nový svět, která měla podle plánu začít v dubnu a trvat několik měsíců, se odkládá. Nový technický průzkum totiž ukázal, že most je ve výrazně horším stavu, než se původně předpokládalo. Kvůli tomu je nutné přepracovat projektovou dokumentaci a vypsat nové výběrové řízení na zhotovitele.
+
+S opravou mostu souviselo i plánované dopravní opatření — objízdná trasa přes Podmokelskou a Drážďanskou ulici, kde měly během rekonstrukce fungovat přechody pro chodce řízené semafory. Na křižovatce Drážďanské a Neštěmické ulice v Krásném Březně měly být nově instalovány semafory s detekcí pro přednostní průjezd vozidel záchranného systému a městské hromadné dopravy.
+
+Kvůli odkladu opravy mostu se odkládá i instalace těchto semaforů a související dopravní opatření.
