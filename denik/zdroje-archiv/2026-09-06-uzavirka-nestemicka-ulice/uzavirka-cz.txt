@@ -1,0 +1,11 @@
+Zdroj: Uzavírka.cz – Dopravní info a uzavírky Ústí nad Labem 2026
+URL: https://uzavirka.cz/uzavirka/usti
+Staženo: 2026-09-06
+Přístup: Přímý fetch URL blokován proxí (EGRESS_BLOCKED — doména uzavirka.cz je blokovaná síťovým proxy tohoto prostředí, stejně jako tudyne.cz a usti.cz). Fakta ověřena agregací přes WebSearch, shodně potvrzena nezávisle servery Uzavírka.cz i TudyNE.cz (oba čerpají z dopravního portálu města Ústí nad Labem). Text NEKOPÍROVÁN, pouze vlastní přeformulování.
+---
+
+Ulice Neštěmická v Ústí nad Labem – Neštěmicích je zcela uzavřena pro veřejný provoz od 24. srpna 2026 od 8:00 do 30. září 2026 do 23:59.
+
+Důvodem uzavírky jsou stavební práce spojené s pokládkou odvodňovacího pásu v komunikaci.
+
+Shodné informace (termín i důvod uzavírky) uvádí i server TudyNE.cz ve svém přehledu dopravních omezení pro Ústí nad Labem.

@@ -1,7 +1,34 @@
 {
-  "generated": "2026-09-04T09:00:00Z",
+  "generated": "2026-09-06T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-06-uzavirka-nestemicka-ulice",
+      "date": "2026-09-06",
+      "title": "Ulice Neštěmická je měsíc uzavřená. Důvodem je pokládka odvodňovacího pásu",
+      "lede": "Ulice Neštěmická je od 24. srpna do 30. září zcela uzavřená kvůli pokládce odvodňovacího pásu. Řidiče čeká objízdná trasa.",
+      "tag": "doprava",
+      "sources": ["uzavirka.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-06-vystraha-bourky-usti",
+      "date": "2026-09-06",
+      "title": "Ústí zasáhla výstraha před bouřkami a silným větrem. Meteorologové nevyloučili supercelu",
+      "lede": "V noci ze 4. na 5. září platila pro Ústí nad Labem žlutá výstraha před bouřkami a větrem s nárazy až 70 km/h.",
+      "tag": "příroda",
+      "sources": ["iROZHLAS.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-06-dny-evropskeho-dedictvi-brezno",
+      "date": "2026-09-06",
+      "title": "Zámek i kostel v Krásném Březně jsou přes září otevřené veřejnosti",
+      "lede": "V rámci Dnů evropského dědictví je po celý září otevřený zámek Krásné Březno i kostel sv. Floriána, vstup do zámku je zdarma.",
+      "tag": "kultura",
+      "sources": ["npu.cz", "Kudy z nudy"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-04-spolchemie-cviceni-chlor",
       "date": "2026-09-04",
