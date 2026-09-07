@@ -1,7 +1,16 @@
 {
-  "generated": "2026-09-06T14:16:04Z",
+  "generated": "2026-09-07T07:21:06Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-07-sjezd-chemiku-spolchemie",
+      "date": "2026-09-07",
+      "title": "Chemici se po 20 letech vrací do Ústí. Sjezd připomíná i 170 let Spolchemie v Krásném Březně",
+      "lede": "V Ústí začal 78. sjezd chemiků. Jeho generálním partnerem je Spolchemie v Krásném Březně, která letos slaví 170 let od založení.",
+      "tag": "lidé",
+      "sources": ["Česká společnost chemická", "Přírodovědecká fakulta UJEP", "Český rozhlas Sever"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-06-most-novy-svet-odklad",
       "date": "2026-09-06",
