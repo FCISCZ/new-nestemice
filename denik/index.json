@@ -1,7 +1,43 @@
 {
-  "generated": "2026-09-07T07:21:06Z",
+  "generated": "2026-09-09T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-09-domov-seniory-krasne-brezno-rekonstrukce",
+      "date": "2026-09-09",
+      "title": "Domov pro seniory v Krásném Březně čeká zásadní rekonstrukce. Zateplení, žaluzie i fotovoltaika",
+      "lede": "Domov pro seniory Krásné Březno projde rozsáhlou rekonstrukcí za 39,2 milionu korun. Zateplení, žaluzie i fotovoltaika s bateriovým úložištěm.",
+      "tag": "úřad",
+      "sources": ["Ústecký deník"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-09-chodnik-na-vysine-nestemice",
+      "date": "2026-09-09",
+      "title": "Sídliště Na Výšině v Neštěmicích má nové chodníky. Oprava navázala na práce bytového družstva",
+      "lede": "V srpnu skončila oprava chodníku Na Výšině v Neštěmicích. Navázala na práce bytového družstva, výsledkem je obnova chodníků kolem celého sídliště.",
+      "tag": "komunita",
+      "sources": ["nestemice.eu"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-09-brouseni-koleji-povrly-usti",
+      "date": "2026-09-09",
+      "title": "Noční broušení kolejí zasáhne Krásné Březno. Trať u nádraží Ústí sever čeká údržba",
+      "lede": "V noci z 28. na 29. září proběhne na trati Povrly – Ústí nad Labem sever opravné broušení kolejnic. Práce se dotknou obyvatel Krásného Března.",
+      "tag": "doprava",
+      "sources": ["nestemice.eu"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-09-plot-mojzir-bezpecnost",
+      "date": "2026-09-09",
+      "title": "Podél hlavní silnice v Mojžíři přibyl plot. Má chránit chodce před objízdnou dopravou",
+      "lede": "Město spolu s obvodem Neštěmice nechalo v Mojžíří postavit plot podél silnice. Reaguje na desetinásobně vzrostlý provoz kvůli uzavírce mostu.",
+      "tag": "doprava",
+      "sources": ["Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-07-sjezd-chemiku-spolchemie",
       "date": "2026-09-07",
