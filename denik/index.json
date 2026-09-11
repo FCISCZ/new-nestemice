@@ -1,7 +1,16 @@
 {
-  "generated": "2026-09-09T09:00:00Z",
+  "generated": "2026-09-11T07:21:32Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-11-fotbal-nestemice-remiza-zatec",
+      "date": "2026-09-11",
+      "title": "Souboj neporažených v Neštěmicích skončil remízou. Žatec vyrovnal až v nastavení",
+      "lede": "Neštěmice vedly po brance Denise Stupky, gólovou hostinu ale spolykal Žatec, jenž srovnal na 1:1 v nastaveném čase.",
+      "tag": "sport",
+      "sources": ["Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-09-domov-seniory-krasne-brezno-rekonstrukce",
       "date": "2026-09-09",
