@@ -1,0 +1,9 @@
+Zdroj: https://sever.rozhlas.cz/v-nestemicke-ulici-v-usti-nad-labem-zacne-druha-etapa-oprav-chodniku-9622599
+Staženo: 2026-09-13
+Poznámka: Přímé stažení stránky přes WebFetch bylo v tomto běhu nedostupné (síťová politika prostředí blokuje veškerý přímý přístup na webové domény mimo GitHub). Fakta níže jsou rekonstruována z opakovaných, vzájemně shodných strojových souhrnů vyhledávače nad indexovanou stránkou Českého rozhlasu Sever a byla křížově ověřena druhým, nezávislým zdrojem (Ústecký deník, viz druhý soubor v této složce).
+---
+V Neštěmické ulici v Ústí nad Labem začne druhá etapa oprav chodníků. Zakázku na tuto etapu získala firma INSKY za zhruba 1,58 milionu korun bez DPH.
+
+Dělníci opraví levostranný chodník v úseku mezi ulicí V Oblouku a zastávkou MHD před ulicí Výstupní. Předmětem zakázky je především výměna poškozených asfaltových ploch za zámkovou dlažbu.
+
+Stavbaři mají postupovat po jednotlivých úsecích tak, aby zůstal zachovaný přístup k přechodům pro chodce i k zastávkám veřejné dopravy. Hotovo má být přibližně do tří měsíců od zahájení stavby.
