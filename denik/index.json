@@ -1,7 +1,34 @@
 {
-  "generated": "2026-09-11T07:21:32Z",
+  "generated": "2026-09-13T14:17:54Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-13-mattoni-uzavirky-krasne-brezno",
+      "date": "2026-09-13",
+      "title": "Běžecký festival Mattoni uzavře v sobotu ulice v Krásném Březně",
+      "lede": "Mattoni Running Festival 19. září projede i areálem Spolchemie. V Krásném Březně kvůli němu na část dne uzavřou několik ulic.",
+      "tag": "doprava",
+      "sources": ["RunCzech"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-13-nehoda-podmokelska-krasne-brezno",
+      "date": "2026-09-13",
+      "title": "Řidič v Krásném Březně srazil chodkyni. Rozzuření svědci ho vytáhli z auta a zbili",
+      "lede": "Nehoda na ulici Podmokelská ve středu skončila i napadením řidiče. Chodkyně i řidič skončili s lehkým zraněním v nemocnici.",
+      "tag": "doprava",
+      "sources": ["Ústecký deník", "Aktuálně.cz", "ČeskéNoviny.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-13-oprava-chodniku-nestemicka",
+      "date": "2026-09-13",
+      "title": "Neštěmická ulice se dočká i nového chodníku. Startuje druhá etapa oprav",
+      "lede": "Firma INSKY opraví za 1,58 milionu korun levostranný chodník mezi V Oblouku a zastávkou u Výstupní ulice.",
+      "tag": "doprava",
+      "sources": ["Český rozhlas Sever", "Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-11-fotbal-nestemice-remiza-zatec",
       "date": "2026-09-11",
