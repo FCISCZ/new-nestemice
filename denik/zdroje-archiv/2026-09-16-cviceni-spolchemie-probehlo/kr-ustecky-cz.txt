@@ -1,0 +1,5 @@
+Zdroj: https://www.kr-ustecky.cz/takticke-cviceni-ve-spolchemii-proveri-spolupraci-slozek-izs-pri-chemicke-havarii
+Staženo: 2026-09-16
+Poznámka: Přímé stažení přes WebFetch bylo v tomto prostředí nedostupné (blokace síťové politiky prostředí). Fakta níže rekonstruována ze strojových souhrnů vyhledávače, organizátorem cvičení byl Hasičský záchranný sbor Ústeckého kraje ve spolupráci s krajem.
+---
+Ústecký kraj jako spoluorganizátor potvrzuje, že taktické cvičení ve Spolchemii mělo prověřit spolupráci složek IZS při chemické havárii. Akci organizoval Hasičský záchranný sbor Ústeckého kraje. Cvičení počítalo i s dopravními omezeními v okolí závodu, zejména kolem ulic Tovární, Brněnská, Panská a U Chemičky, s největšími komplikacemi dopoledne mezi 9. a 11. hodinou.

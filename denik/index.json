@@ -1,7 +1,43 @@
 {
-  "generated": "2026-09-13T14:17:54Z",
+  "generated": "2026-09-16T14:16:15Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-16-pekarna-holky-u-pece-nestemice",
+      "date": "2026-09-16",
+      "title": "Z drážního domku v Neštěmicích je pekárna. Holky u pece měly první den vyprodáno",
+      "lede": "Dvě kamarádky otevřely v bývalém drážním domku v Neštěmicích malou pekárnu. Hned první den měly vyprodáno.",
+      "tag": "lidé",
+      "sources": ["Ústecký deník"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-16-zus-nestemice-spolecne-vedeni",
+      "date": "2026-09-16",
+      "title": "ZUŠ Neštěmice a ZUŠ Evy Randové mají od září společné vedení. Sloučí se v lednu",
+      "lede": "Obě umělecké školy povede od září Marek Korbélyi. K úplnému sloučení obou institucí dojde k 1. lednu 2027.",
+      "tag": "úřad",
+      "sources": ["Český rozhlas Sever", "Ústecký kraj"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-16-uzavirka-nestemicka-ulice",
+      "date": "2026-09-16",
+      "title": "Neštěmická ulice je do konce září zcela uzavřená kvůli odvodnění",
+      "lede": "Kompletní uzavírka Neštěmické ulice kvůli odvodňovacím pracím potrvá od 24. srpna do 30. září.",
+      "tag": "doprava",
+      "sources": ["Uzavírka.cz", "Silniční uzavírky"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-16-cviceni-spolchemie-probehlo",
+      "date": "2026-09-16",
+      "title": "Cvičný únik chloru ve Spolchemii je za záchranáři. Nacvičili dekontaminaci i informační linku",
+      "lede": "Dopolední taktické cvičení IZS v areálu Spolchemie prověřilo dekontaminaci zasažených i informační linku pro veřejnost.",
+      "tag": "úřad",
+      "sources": ["Ústecký deník", "Ústecký kraj"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-13-mattoni-uzavirky-krasne-brezno",
       "date": "2026-09-13",
