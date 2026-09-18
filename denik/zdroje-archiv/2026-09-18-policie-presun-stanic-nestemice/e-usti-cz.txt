@@ -1,0 +1,7 @@
+Zdroj: https://www.e-usti.cz/zpravy/usti-nad-labem/141505-v-usti-odstartoval-presun-stanic-policie-ceske-republiky-dotkne-se-nestemic-i-centra-mesta
+Staženo: 2026-09-18
+Poznámka: Přímé stažení přes WebFetch bylo v tomto prostředí nedostupné (blokace síťové politiky prostředí – doména e-usti.cz je blokována stejně jako většina externích domén). Fakta níže rekonstruována z opakovaných, vzájemně konzistentních strojových souhrnů vyhledávače nad tímto zdrojem (dva nezávislé dotazy vrátily shodné detaily). Dle pravidel webu (e-usti.cz) pouze odkaz a vlastní přeformulovaný text, žádná doslovná citace. Přesné datum publikace článku se nepodařilo dohledat, proto je v článku uváděno opatrně jako "nedávno".
+---
+V Ústí nad Labem začal přesun a reorganizace služeben Policie České republiky. Obvodní oddělení Krásné Březno se sloučilo s kolegy z Mojžíře – vznikla jedna společná služebna pro celé Neštěmice v ulici Horní. V budově ve Vojanově ulici v Krásném Březně zůstala zachována kancelář pro potřeby policistů ze sloučených oddělení.
+
+Budova bývalé služebny v centru města přitom nezůstala prázdná – nastěhoval se do ní oddíl služby dopravní policie, který dříve sídlil v Petrovické ulici.

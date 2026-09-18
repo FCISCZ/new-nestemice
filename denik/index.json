@@ -1,7 +1,16 @@
 {
-  "generated": "2026-09-16T14:16:15Z",
+  "generated": "2026-09-18T07:18:30Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-18-policie-presun-stanic-nestemice",
+      "date": "2026-09-18",
+      "title": "Neštěmice mají jednu policejní služebnu místo dvou. Krásné Březno se spojilo s Mojžířem",
+      "lede": "Policie sloučila obvodní oddělení Krásné Březno a Mojžíř do jedné služebny v Neštěmicích. V Krásném Březně zůstala aspoň kancelář.",
+      "tag": "úřad",
+      "sources": ["e-Ústí.cz"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-16-pekarna-holky-u-pece-nestemice",
       "date": "2026-09-16",
