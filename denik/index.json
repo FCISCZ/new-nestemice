@@ -1,7 +1,16 @@
 {
-  "generated": "2026-09-19T07:20:00Z",
+  "generated": "2026-09-19T14:20:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-19-most-mojzir-otevreni",
+      "date": "2026-09-19",
+      "title": "Nová estakáda v Mojžíři by mohla být průjezdná už v září",
+      "lede": "Stavba nového mostu v Mojžíři na silnici I/62 se blíží ke konci. ŘSD odhaduje zprovoznění na září až říjen 2026.",
+      "tag": "doprava",
+      "sources": ["ŘSD Ústecký kraj", "Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-19-den-bez-aut-dukapka",
       "date": "2026-09-19",
