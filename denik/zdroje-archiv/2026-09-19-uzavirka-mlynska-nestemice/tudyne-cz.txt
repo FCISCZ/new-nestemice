@@ -1,0 +1,5 @@
+Zdroj: https://www.tudyne.cz/dopravni-informace/usti-nad-labem/detail/8cc9f2920c24452cb5ff1659ef789913
+Staženo: 2026-09-19
+Poznámka: Přímé stažení stránky přes WebFetch bylo v tomto prostředí blokováno síťovou politikou (egress proxy blokuje přístup k tudyne.cz i k dalším doménám). Fakta níže byla ověřena opakovaně přes nezávislé vyhledávací dotazy (WebSearch), které se shodly na stejných datech a důvodu uzavírky napříč více zdroji (TudyNE.cz i silnicniuzavirky.cz).
+---
+Ulice Mlýnská v Ústí nad Labem-Neštěmicích je úplně uzavřena z důvodu prací na inženýrských sítích, konkrétně kvůli realizaci stavby "Pokládka neveřejné městské sítě v lokalitě 6 – Neštěmice". Uzavírka místní komunikace platí od 18. 9. 2026 7:00 do 20. 9. 2026 23:59.

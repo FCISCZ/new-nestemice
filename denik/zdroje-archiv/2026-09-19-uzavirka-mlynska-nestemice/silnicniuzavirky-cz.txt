@@ -1,0 +1,5 @@
+Zdroj: https://www.silnicniuzavirky.cz/uzavirky-usti-nad-labem-554804/
+Staženo: 2026-09-19
+Poznámka: Přímé stažení přes WebFetch bylo blokováno síťovou politikou prostředí (stejné jako u tudyne.cz). Fakta rekonstruována z konzistentních výsledků nezávislého vyhledávání, které nad tímto zdrojem opakovaně potvrdilo stejné datum a lokalitu uzavírky.
+---
+Přehled uzavírek v Ústí nad Labem (data z JSDI ŘSD ČR, aktualizace po minutách) mezi aktuálními omezeními uvádí i uzavírku ulice Mlýnská v Ústí nad Labem-Neštěmicích od 18. do 20. září 2026 z důvodu inženýrských sítí. V přehledu je evidováno celkem 66 dopravních omezení v Ústí nad Labem, z toho 45 úplných uzavírek.
