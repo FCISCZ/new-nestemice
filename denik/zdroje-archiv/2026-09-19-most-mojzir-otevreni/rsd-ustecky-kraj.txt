@@ -1,0 +1,13 @@
+Zdroj: https://kraje.rsd.cz/ustecky/aktualni-informace-k-planovane-rekonstrukci-mostu-mojzir-na-silnici-i-62/
+Staženo: 2026-09-19
+Poznámka: Přímý stažení stránky přes WebFetch nebylo v tomto běhu k dispozici (síťová politika prostředí blokuje přístup na tuto doménu). Níže je shrnutí ověřené přes vyhledávání, které cituje oficiální stránku ŘSD pro Ústecký kraj a navazující zpravodajství (viz druhý soubor v této složce).
+---
+ŘSD staví v Mojžíři na silnici I/62 nový most (estakádu) přes trať a místní komunikace mezi Ústím nad Labem a Děčínem. Stavbu provádí firma Strabag SIS, smluvní cena díla činí 259 milionů korun bez DPH.
+
+Původní most musel jít k zemi kvůli špatnému technickému stavu. Demolice a výstavba nové konstrukce si vyžádaly i výluky na železniční trati Praha–Děčín. Kompletní uzavírka mostu mezi Ústím nad Labem a Děčínem trvá od června 2025.
+
+Nová estakáda by měla mít délku kolem 290 metrů. Do konstrukce bylo zality přes 4000 m3 betonu, nosníky nad železniční tratí instalovali stavbaři začátkem března za pomoci jednoho z největších mobilních jeřábů v ČR.
+
+Mluvčí ŘSD Jan Rýdl uvedl, že pokud vše půjde podle plánu, provoz by na estakádu mohl být vpuštěn v září, případně v říjnu 2026. Následující měsíce by pak měly patřit dokončovacím pracím mimo vozovku.
+
+Objízdná trasa pro tranzitní dopravu a vozidla nad 3,5 tuny vede po dálnici D8 a silnici I/13 přes Libouchec a Jílové. Osobní auta a autobusy mohou jezdit objízdnou trasou přes sídliště Neštěmice a Mojžíř - zde ale platí omezení na podjezdu, kde smí projet jen vozidla do 3,5 tuny (výjimku mají linky MHD a složky IZS). Provoz v sídlištích řídí semafory - dva na přechodech pro chodce a jeden pod železničním mostem.
