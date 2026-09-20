@@ -1,7 +1,34 @@
 {
-  "generated": "2026-09-19T14:20:00Z",
+  "generated": "2026-09-20T14:19:28Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-20-mattoni-pulmaraton-vysledky",
+      "date": "2026-09-20",
+      "title": "Mattoni půlmaraton v Ústí měl přes 5000 běžců. Padl český rekord tratě",
+      "lede": "V sobotu proběhl 16. ročník Mattoni Running Festivalu. Zvítězili Simon Boch a Tereza Hrochová, která zaběhla nový český rekord tratě.",
+      "tag": "sport",
+      "sources": ["RunCzech"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-20-kontrola-mojzir-svabi-stenice",
+      "date": "2026-09-20",
+      "title": "Šváby, štěnice i černé odběry. Kontrola v Mojžíři našla další problémy",
+      "lede": "Společná kontrola hygieniků, policie a stavebního úřadu v ulici Jindřicha Plachty odhalila hmyz, nepořádek u kontejnerů i černé odběry elektřiny.",
+      "tag": "komunita",
+      "sources": ["Ústecký deník", "e-Ústí.cz"],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-09-20-svoz-odpadu-mojzir-nestemice",
+      "date": "2026-09-20",
+      "title": "Kontejner na velkoobjemový odpad zavítá v listopadu i na Opletalovu",
+      "lede": "Městský obvod Neštěmice zveřejnil termín mobilního sběru velkoobjemového odpadu: 10. listopadu na Opletalově ulici od 15:30 do 15:50.",
+      "tag": "úřad",
+      "sources": ["Městský obvod Ústí nad Labem – Neštěmice"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-19-most-mojzir-otevreni",
       "date": "2026-09-19",
