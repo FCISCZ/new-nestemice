@@ -1,7 +1,16 @@
 {
-  "generated": "2026-09-20T14:19:28Z",
+  "generated": "2026-09-22T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-09-22-uzavirka-pristavni-benesuv-most",
+      "date": "2026-09-22",
+      "title": "Přístavní ulice bude o víkendu znovu zavřená. Poslední ze zářijových uzavírek u Benešova mostu",
+      "lede": "Silnice I/30 v Přístavní ulici pod Benešovým mostem bude 26.–27. září zcela uzavřená. Řidiči z Neštěmic a Krásného Března pojedou objížďkou přes město.",
+      "tag": "doprava",
+      "sources": ["Krajský úřad Ústeckého kraje", "Ústecký deník"],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-20-mattoni-pulmaraton-vysledky",
       "date": "2026-09-20",
