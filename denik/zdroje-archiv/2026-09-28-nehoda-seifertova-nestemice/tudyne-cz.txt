@@ -1,0 +1,7 @@
+Zdroj: https://www.tudyne.cz/dopravni-informace/usti-nad-labem/detail/ff808181a043159601a0e32609906abb
+Staženo: 2026-09-28
+Poznámka: Přímý přístup přes WebFetch nebyl v tomto běhu k dispozici (síťová politika prostředí blokuje odchozí přístup na externí domény). Obsah níže je ověřené shrnutí získané přes WebSearch. Pouze dopravní údaje, text je přeformulován vlastními slovy.
+---
+Dopravní portál TudyNE.cz eviduje dopravní nehodu v Ústí nad Labem ze dne 27. 9. 2026.
+
+Záznam uvádí Seifertovu ulici, čas nehody od 15:50 do 17:55 a informaci, že šlo o srážku dvou osobních vozidel. Po dobu zásahu byl provoz v místě řízen kyvadlově, jedním jízdním pruhem.
