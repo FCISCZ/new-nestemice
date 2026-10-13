@@ -1,14 +1,50 @@
 {
-  "generated": "2026-09-28T14:15:37Z",
+  "generated": "2026-10-13T07:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-13-cyklobus-zavody",
+      "date": "2026-10-13",
+      "title": "V sobotu 17. října nepojedou cyklobusy 20 a 21. Důvodem jsou motoristické závody",
+      "lede": "Dopravní podnik v sobotu 17. října 2026 zruší provoz cyklobusových linek 20 a 21 kvůli motoristickým závodům.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-13-historicky-autobus-matej",
+      "date": "2026-10-13",
+      "title": "Do sbírky ústeckého dopravního podniku se vrací historický autobus Škoda 706 RTO „Matěj“",
+      "lede": "DPmÚL rozšiřuje sbírku historických vozidel o autobus Škoda 706 RTO z roku 1960, který se vrací v rozpracovaném stavu restaurace.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-13-mezni-severni-terasa",
+      "date": "2026-10-13",
+      "title": "Rekonstrukce Mezní vstoupila do druhé etapy. Zastávka Severní Terasa dočasně nezastavuje",
+      "lede": "Od 28. září je ve směru Gagarinova zrušena zastávka Severní Terasa. Ranní spoje linek 72, 77 a 88 začínají v zastávce Gagarinova.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-09-28-dusicky-hrbitovy-krasne-brezno-mojzir",
       "date": "2026-09-28",
       "title": "Hřbitovy v Krásném Březně a Mojžíři budou mít o Dušičkách otevřeno déle",
       "lede": "Od 26. října do 11. listopadu budou hřbitovy ve správě Městských služeb Ústí nad Labem otevřené do 20 hodin. Na klid dohlédnou strážníci a policisté.",
       "tag": "úřad",
-      "sources": ["e-Ústí.cz", "Ústecký deník"],
+      "sources": [
+        "e-Ústí.cz",
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -17,7 +53,11 @@
       "title": "Seifertova ulice v Neštěmicích byla po nehodě dvou aut kyvadlově řízená",
       "lede": "V neděli odpoledne se v Seifertově ulici srazila dvě osobní auta. Hasiči museli vyprošťovat osoby z vozidel, doprava byla několik hodin řízena kyvadlově.",
       "tag": "doprava",
-      "sources": ["HZS Ústeckého kraje", "POŽÁRY.cz", "TudyNE.cz"],
+      "sources": [
+        "HZS Ústeckého kraje",
+        "POŽÁRY.cz",
+        "TudyNE.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -26,7 +66,10 @@
       "title": "Vánoční strom v Neštěmicích se rozsvítí 28. listopadu. Zahraje Pavel Callta i Fonotest",
       "lede": "Program u neštěmické radnice začíná v 16 hodin. Vystoupí kapela Fonotest, sbor Ústecké Bambini i zpěvák Pavel Callta, chybět nebude ani betlém a tvořivá dílna pro děti.",
       "tag": "kultura",
-      "sources": ["Ústecký deník", "e-Ústí.cz"],
+      "sources": [
+        "Ústecký deník",
+        "e-Ústí.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -35,7 +78,10 @@
       "title": "Přístavní ulice bude o víkendu znovu zavřená. Poslední ze zářijových uzavírek u Benešova mostu",
       "lede": "Silnice I/30 v Přístavní ulici pod Benešovým mostem bude 26.–27. září zcela uzavřená. Řidiči z Neštěmic a Krásného Března pojedou objížďkou přes město.",
       "tag": "doprava",
-      "sources": ["Krajský úřad Ústeckého kraje", "Ústecký deník"],
+      "sources": [
+        "Krajský úřad Ústeckého kraje",
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -44,7 +90,9 @@
       "title": "Mattoni půlmaraton v Ústí měl přes 5000 běžců. Padl český rekord tratě",
       "lede": "V sobotu proběhl 16. ročník Mattoni Running Festivalu. Zvítězili Simon Boch a Tereza Hrochová, která zaběhla nový český rekord tratě.",
       "tag": "sport",
-      "sources": ["RunCzech"],
+      "sources": [
+        "RunCzech"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -53,7 +101,10 @@
       "title": "Šváby, štěnice i černé odběry. Kontrola v Mojžíři našla další problémy",
       "lede": "Společná kontrola hygieniků, policie a stavebního úřadu v ulici Jindřicha Plachty odhalila hmyz, nepořádek u kontejnerů i černé odběry elektřiny.",
       "tag": "komunita",
-      "sources": ["Ústecký deník", "e-Ústí.cz"],
+      "sources": [
+        "Ústecký deník",
+        "e-Ústí.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -62,7 +113,9 @@
       "title": "Kontejner na velkoobjemový odpad zavítá v listopadu i na Opletalovu",
       "lede": "Městský obvod Neštěmice zveřejnil termín mobilního sběru velkoobjemového odpadu: 10. listopadu na Opletalově ulici od 15:30 do 15:50.",
       "tag": "úřad",
-      "sources": ["Městský obvod Ústí nad Labem – Neštěmice"],
+      "sources": [
+        "Městský obvod Ústí nad Labem – Neštěmice"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -71,7 +124,10 @@
       "title": "Nová estakáda v Mojžíři by mohla být průjezdná už v září",
       "lede": "Stavba nového mostu v Mojžíři na silnici I/62 se blíží ke konci. ŘSD odhaduje zprovoznění na září až říjen 2026.",
       "tag": "doprava",
-      "sources": ["ŘSD Ústecký kraj", "Ústecký deník"],
+      "sources": [
+        "ŘSD Ústecký kraj",
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -80,7 +136,10 @@
       "title": "V úterý jezdí MHD i vlaky po kraji zdarma. Stačí aplikace DÚKapka",
       "lede": "Na Mezinárodní den bez aut 22. září pojede MHD i regionální doprava v celém DÚK zdarma. Podmínkou je mít v mobilu aplikaci DÚKapka.",
       "tag": "doprava",
-      "sources": ["Ústecký kraj", "Statutární město Ústí nad Labem"],
+      "sources": [
+        "Ústecký kraj",
+        "Statutární město Ústí nad Labem"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -89,7 +148,10 @@
       "title": "Mlýnská ulice v Neštěmicích je do neděle zcela uzavřená",
       "lede": "Mlýnská ulice v Neštěmicích je od 18. do 20. září úplně uzavřená kvůli pokládce inženýrských sítí.",
       "tag": "doprava",
-      "sources": ["TudyNE.cz", "Silniční uzavírky"],
+      "sources": [
+        "TudyNE.cz",
+        "Silniční uzavírky"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -98,7 +160,9 @@
       "title": "Neštěmice mají jednu policejní služebnu místo dvou. Krásné Březno se spojilo s Mojžířem",
       "lede": "Policie sloučila obvodní oddělení Krásné Březno a Mojžíř do jedné služebny v Neštěmicích. V Krásném Březně zůstala aspoň kancelář.",
       "tag": "úřad",
-      "sources": ["e-Ústí.cz"],
+      "sources": [
+        "e-Ústí.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -107,7 +171,9 @@
       "title": "Z drážního domku v Neštěmicích je pekárna. Holky u pece měly první den vyprodáno",
       "lede": "Dvě kamarádky otevřely v bývalém drážním domku v Neštěmicích malou pekárnu. Hned první den měly vyprodáno.",
       "tag": "lidé",
-      "sources": ["Ústecký deník"],
+      "sources": [
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -116,7 +182,10 @@
       "title": "ZUŠ Neštěmice a ZUŠ Evy Randové mají od září společné vedení. Sloučí se v lednu",
       "lede": "Obě umělecké školy povede od září Marek Korbélyi. K úplnému sloučení obou institucí dojde k 1. lednu 2027.",
       "tag": "úřad",
-      "sources": ["Český rozhlas Sever", "Ústecký kraj"],
+      "sources": [
+        "Český rozhlas Sever",
+        "Ústecký kraj"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -125,7 +194,10 @@
       "title": "Neštěmická ulice je do konce září zcela uzavřená kvůli odvodnění",
       "lede": "Kompletní uzavírka Neštěmické ulice kvůli odvodňovacím pracím potrvá od 24. srpna do 30. září.",
       "tag": "doprava",
-      "sources": ["Uzavírka.cz", "Silniční uzavírky"],
+      "sources": [
+        "Uzavírka.cz",
+        "Silniční uzavírky"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -134,7 +206,10 @@
       "title": "Cvičný únik chloru ve Spolchemii je za záchranáři. Nacvičili dekontaminaci i informační linku",
       "lede": "Dopolední taktické cvičení IZS v areálu Spolchemie prověřilo dekontaminaci zasažených i informační linku pro veřejnost.",
       "tag": "úřad",
-      "sources": ["Ústecký deník", "Ústecký kraj"],
+      "sources": [
+        "Ústecký deník",
+        "Ústecký kraj"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -143,7 +218,9 @@
       "title": "Běžecký festival Mattoni uzavře v sobotu ulice v Krásném Březně",
       "lede": "Mattoni Running Festival 19. září projede i areálem Spolchemie. V Krásném Březně kvůli němu na část dne uzavřou několik ulic.",
       "tag": "doprava",
-      "sources": ["RunCzech"],
+      "sources": [
+        "RunCzech"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -152,7 +229,11 @@
       "title": "Řidič v Krásném Březně srazil chodkyni. Rozzuření svědci ho vytáhli z auta a zbili",
       "lede": "Nehoda na ulici Podmokelská ve středu skončila i napadením řidiče. Chodkyně i řidič skončili s lehkým zraněním v nemocnici.",
       "tag": "doprava",
-      "sources": ["Ústecký deník", "Aktuálně.cz", "ČeskéNoviny.cz"],
+      "sources": [
+        "Ústecký deník",
+        "Aktuálně.cz",
+        "ČeskéNoviny.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -161,7 +242,10 @@
       "title": "Neštěmická ulice se dočká i nového chodníku. Startuje druhá etapa oprav",
       "lede": "Firma INSKY opraví za 1,58 milionu korun levostranný chodník mezi V Oblouku a zastávkou u Výstupní ulice.",
       "tag": "doprava",
-      "sources": ["Český rozhlas Sever", "Ústecký deník"],
+      "sources": [
+        "Český rozhlas Sever",
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -170,7 +254,9 @@
       "title": "Souboj neporažených v Neštěmicích skončil remízou. Žatec vyrovnal až v nastavení",
       "lede": "Neštěmice vedly po brance Denise Stupky, gólovou hostinu ale spolykal Žatec, jenž srovnal na 1:1 v nastaveném čase.",
       "tag": "sport",
-      "sources": ["Ústecký deník"],
+      "sources": [
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -179,7 +265,9 @@
       "title": "Domov pro seniory v Krásném Březně čeká zásadní rekonstrukce. Zateplení, žaluzie i fotovoltaika",
       "lede": "Domov pro seniory Krásné Březno projde rozsáhlou rekonstrukcí za 39,2 milionu korun. Zateplení, žaluzie i fotovoltaika s bateriovým úložištěm.",
       "tag": "úřad",
-      "sources": ["Ústecký deník"],
+      "sources": [
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -188,7 +276,9 @@
       "title": "Sídliště Na Výšině v Neštěmicích má nové chodníky. Oprava navázala na práce bytového družstva",
       "lede": "V srpnu skončila oprava chodníku Na Výšině v Neštěmicích. Navázala na práce bytového družstva, výsledkem je obnova chodníků kolem celého sídliště.",
       "tag": "komunita",
-      "sources": ["nestemice.eu"],
+      "sources": [
+        "nestemice.eu"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -197,7 +287,9 @@
       "title": "Noční broušení kolejí zasáhne Krásné Březno. Trať u nádraží Ústí sever čeká údržba",
       "lede": "V noci z 28. na 29. září proběhne na trati Povrly – Ústí nad Labem sever opravné broušení kolejnic. Práce se dotknou obyvatel Krásného Března.",
       "tag": "doprava",
-      "sources": ["nestemice.eu"],
+      "sources": [
+        "nestemice.eu"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -206,7 +298,9 @@
       "title": "Podél hlavní silnice v Mojžíři přibyl plot. Má chránit chodce před objízdnou dopravou",
       "lede": "Město spolu s obvodem Neštěmice nechalo v Mojžíří postavit plot podél silnice. Reaguje na desetinásobně vzrostlý provoz kvůli uzavírce mostu.",
       "tag": "doprava",
-      "sources": ["Ústecký deník"],
+      "sources": [
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -215,7 +309,11 @@
       "title": "Chemici se po 20 letech vrací do Ústí. Sjezd připomíná i 170 let Spolchemie v Krásném Březně",
       "lede": "V Ústí začal 78. sjezd chemiků. Jeho generálním partnerem je Spolchemie v Krásném Březně, která letos slaví 170 let od založení.",
       "tag": "lidé",
-      "sources": ["Česká společnost chemická", "Přírodovědecká fakulta UJEP", "Český rozhlas Sever"],
+      "sources": [
+        "Česká společnost chemická",
+        "Přírodovědecká fakulta UJEP",
+        "Český rozhlas Sever"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -224,7 +322,9 @@
       "title": "Oprava mostu přes Nový svět se odkládá. Semafory na Neštěmické v Krásném Březně letos nebudou",
       "lede": "Nový technický průzkum mostu odhalil horší stav, než se čekalo. Odkládá se i instalace semaforů na křižovatce Drážďanské a Neštěmické.",
       "tag": "doprava",
-      "sources": ["e-Ústí.cz"],
+      "sources": [
+        "e-Ústí.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -233,7 +333,10 @@
       "title": "Neštěmice mají jednu policejní služebnu. Krásné Březno se sloučilo s Mojžířem",
       "lede": "Obvodní oddělení Krásné Březno se spojilo s Mojžířem do jedné služebny na Horní ulici, která nově pokrývá celé Neštěmice.",
       "tag": "úřad",
-      "sources": ["e-Ústí.cz", "Policie ČR"],
+      "sources": [
+        "e-Ústí.cz",
+        "Policie ČR"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -242,7 +345,9 @@
       "title": "Drážďanskou ulici v Krásném Březně čeká rekonstrukce za čtvrt miliardy korun",
       "lede": "Město hledá zhotovitele studie a dokumentace k rekonstrukci Drážďanské ulice. Přibudou cyklostezky i vsakovací opatření, hotovo má být do roku 2030.",
       "tag": "doprava",
-      "sources": ["Ústecký deník"],
+      "sources": [
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -251,7 +356,9 @@
       "title": "Ulice Neštěmická je měsíc uzavřená. Důvodem je pokládka odvodňovacího pásu",
       "lede": "Ulice Neštěmická je od 24. srpna do 30. září zcela uzavřená kvůli pokládce odvodňovacího pásu. Řidiče čeká objízdná trasa.",
       "tag": "doprava",
-      "sources": ["uzavirka.cz"],
+      "sources": [
+        "uzavirka.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -260,7 +367,9 @@
       "title": "Ústí zasáhla výstraha před bouřkami a silným větrem. Meteorologové nevyloučili supercelu",
       "lede": "V noci ze 4. na 5. září platila pro Ústí nad Labem žlutá výstraha před bouřkami a větrem s nárazy až 70 km/h.",
       "tag": "příroda",
-      "sources": ["iROZHLAS.cz"],
+      "sources": [
+        "iROZHLAS.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -269,7 +378,10 @@
       "title": "Zámek i kostel v Krásném Březně jsou přes září otevřené veřejnosti",
       "lede": "V rámci Dnů evropského dědictví je po celý září otevřený zámek Krásné Březno i kostel sv. Floriána, vstup do zámku je zdarma.",
       "tag": "kultura",
-      "sources": ["npu.cz", "Kudy z nudy"],
+      "sources": [
+        "npu.cz",
+        "Kudy z nudy"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -278,7 +390,12 @@
       "title": "Krásné Březno čeká velké cvičení záchranářů. Nacvičí únik chloru ve Spolchemii",
       "lede": "V areálu Spolchemie proběhne 16. září rozsáhlé cvičení IZS – simulace úniku chloru z cisterny. Okolí čekají dopravní omezení.",
       "tag": "komunita",
-      "sources": ["kr-ustecky.cz", "chomutovky.cz", "zitusti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "chomutovky.cz",
+        "zitusti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -287,7 +404,12 @@
       "title": "Uzavřený most v Mojžíří zahltil Neštěmice dopravou. Radnice žádá o policejní dohled",
       "lede": "Provoz v Mojžíří po uzavírce mostu na I/62 vzrostl až desetinásobně. Auto srazilo dítě, radnice žádá o dohled policie. Most se má otevřít na podzim.",
       "tag": "doprava",
-      "sources": ["nestemice.eu", "sever.rozhlas.cz", "ustecky.denik.cz", "zdopravy.cz"],
+      "sources": [
+        "nestemice.eu",
+        "sever.rozhlas.cz",
+        "ustecky.denik.cz",
+        "zdopravy.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -296,7 +418,11 @@
       "title": "Neštěmická ZUŠ se od nového roku sloučí se ZUŠ Evy Randové",
       "lede": "Od 1. září povede obě ústecké ZUŠ jeden ředitel, Marek Korbélyi. K samotnému sloučení škol dojde k 1. lednu 2027, výuka zůstane zachována.",
       "tag": "úřad",
-      "sources": ["kr-ustecky.cz", "ustecky.denik.cz", "sever.rozhlas.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "ustecky.denik.cz",
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -305,7 +431,9 @@
       "title": "Domov pro seniory v Krásném Březně čeká zateplení i nová fotovoltaika za 39 milionů",
       "lede": "Domov pro seniory Krásné Březno čeká zateplení, nová fasáda i fotovoltaika s bateriemi pro záložní chod výtahu. Zakázku vysoutěžila firma Klement Construction.",
       "tag": "úřad",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -314,7 +442,10 @@
       "title": "Hattrick kapitána Martínka. Neštěmičtí fotbalisté vyhráli v Bílině 3:2",
       "lede": "Fotbalisté FK Český Lev Neštěmice vyhráli v Bílině 3:2 zásluhou hattricku kapitána Jana Martínka. Nový ročník 5. ligy odstartovali výhrou.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz", "fknestemice.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "fknestemice.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -323,7 +454,10 @@
       "title": "V Neštěmicích se srazila tři auta, poškozeno bylo i trolejové vedení",
       "lede": "V sobotu 22. srpna se v ulici Opletalova střetla tři auta, poškozeno bylo i trolejové vedení. Hasiči museli vyprošťovat osoby z vozidel.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "pozary.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "pozary.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -332,7 +466,10 @@
       "title": "Ústí bylo dva týdny centrem světového dirigování. Kurz ICWF vyvrcholil koncertem v divadle",
       "lede": "Divadlo města Ústí nad Labem hostilo dva týdny mezinárodní dirigentský kurz ICWF. Program vyvrcholil sérií koncertů, poslední zazněl 24. srpna.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz", "naseveru.net"],
+      "sources": [
+        "ustecky.denik.cz",
+        "naseveru.net"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -341,7 +478,10 @@
       "title": "Zemřel spisovatel Vladimír Páral, se kterým je navždy spjaté i Ústí nad Labem",
       "lede": "Spisovatel zemřel 10. srpna v den svých 94. narozenin. Od roku 1956 žil a pracoval v Ústí, které proslavil v řadě svých románů.",
       "tag": "lidé",
-      "sources": ["ustecky.denik.cz", "ceskenoviny.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "ceskenoviny.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -350,7 +490,10 @@
       "title": "Cizinec lovil ryby bez povolenky v chovném rybníku u Ústí. Strážníci mu zabavili prut",
       "lede": "Strážníci zasáhli 16. srpna na Habrovickém rybníku u muže bez rybářského lístku. Prut mu zabavili jako důkaz, hrozí mu pokuta.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "rybarskyrozcestnik.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "rybarskyrozcestnik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -359,7 +502,10 @@
       "title": "V Ústí začala rozsáhlá modernizace ZŠ Mírová za necelých 190 milionů korun",
       "lede": "Město v srpnu zahájilo největší letošní investici do školství. ZŠ Mírová projde zateplením, výměnou oken, fotovoltaikou i bezbariérovými úpravami.",
       "tag": "úřad",
-      "sources": ["moderniobec.cz", "parlamentnilisty.cz"],
+      "sources": [
+        "moderniobec.cz",
+        "parlamentnilisty.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -368,7 +514,10 @@
       "title": "Bouřky lámaly stromy po celém kraji, zasahovali i hasiči v Ústí nad Labem",
       "lede": "Silný déšť a vítr zaměstnaly 17. srpna hasiče napříč krajem, asi šedesát výjezdů. Odstraňovali padlé stromy a čerpali vodu i v Ústí nad Labem.",
       "tag": "příroda",
-      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "e-usti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -377,7 +526,10 @@
       "title": "Neštěmická ulice se dočká nového chodníku. Startuje druhá etapa oprav",
       "lede": "V Neštěmické ulici začala druhá etapa oprav chodníku za 1,58 milionu korun. Starý asfalt nahradí zámková dlažba od V Oblouku po zastávku Výstupní.",
       "tag": "doprava",
-      "sources": ["nestemice.eu", "ustecky.denik.cz"],
+      "sources": [
+        "nestemice.eu",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -386,7 +538,9 @@
       "title": "Spolchemie spouští druhý bioreaktor. Čistírna odpadních vod u Neštěmic bude účinnější",
       "lede": "Spolchemie v srpnu dokončuje modernizaci čistírny odpadních vod za 110 milionů korun. Nový bioreaktor je o 5 procent účinnější než původní zařízení.",
       "tag": "příroda",
-      "sources": ["spolchemie.cz"],
+      "sources": [
+        "spolchemie.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -395,7 +549,11 @@
       "title": "Neštěmičtí fotbalisté prohráli generálku v Novém Boru 2:5. V sezoně je povede nové trenérské duo",
       "lede": "FK Český Lev Neštěmice prohrál přípravný zápas v Novém Boru 2:5. Nový trenérský tandem Novák a Doboš cílí na špičku krajského přeboru.",
       "tag": "sport",
-      "sources": ["fcnovybor.cz", "ceskolipsky.denik.cz", "ustecky.denik.cz"],
+      "sources": [
+        "fcnovybor.cz",
+        "ceskolipsky.denik.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -404,7 +562,10 @@
       "title": "Sucho u Labe je už oficiálně mimořádné. Postihlo přes polovinu území, které spravuje Povodí Labe",
       "lede": "Povodí Labe vyhlásilo mimořádné sucho na přes polovině spravovaného území včetně toku u Ústí. Nízko jsou i podzemní vody a prameny.",
       "tag": "příroda",
-      "sources": ["vodarenstvi.cz", "ceskenoviny.cz"],
+      "sources": [
+        "vodarenstvi.cz",
+        "ceskenoviny.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -413,7 +574,9 @@
       "title": "Fírfest slaví osmnáctku. V sobotu se Fírovka v Ústí promění v pódium",
       "lede": "V sobotu 15. srpna hostí Fírovka v Ústí nad Labem osmnáctý ročník hudebního festivalu Fírfest. Na pódiu se vystřídá několik kapel, vstupné kolem 200 Kč.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -422,7 +585,10 @@
       "title": "Pokus o oheň ze slámy zapálil louku v Neštěmicích. Hasiči bojovali s plameny v těžkém terénu",
       "lede": "V sobotu večer hořela v Neštěmicích louka o rozměrech 50 na 60 metrů. Příčinou byl pokus ženy zapálit oheň ze slámy, zasahovaly čtyři jednotky hasičů.",
       "tag": "příroda",
-      "sources": ["e-usti.cz", "pozary.cz"],
+      "sources": [
+        "e-usti.cz",
+        "pozary.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -431,7 +597,10 @@
       "title": "K jezeru Milada zdarma autobusem. Linka jezdí o víkendech až do konce srpna",
       "lede": "Od 27. června do 31. srpna vozí DPMÚL o víkendech a svátcích zdarma autobus k jezeru Milada. Spojuje zastávku Divadlo s oběma plážemi.",
       "tag": "doprava",
-      "sources": ["dpmul.cz", "usti.cz"],
+      "sources": [
+        "dpmul.cz",
+        "usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -440,7 +609,10 @@
       "title": "Ústí čeká velké cvičení hasičů. V polovině září si vyzkouší únik chloru u Spolchemie",
       "lede": "16. září proběhne u Spolchemie velké cvičení hasičů, policie a záchranky na únik chloru z vykolejené cisterny. Čekají dopravní omezení.",
       "tag": "úřad",
-      "sources": ["usti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "usti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -449,7 +621,9 @@
       "title": "Labe u Ústí teče na třetinu. Sucho zatím oficiálně nevyhlásili",
       "lede": "Labe u Ústí nad Labem teče jen s třetinou obvyklého množství vody. Hydrolog varuje před dalším zhoršením, oficiální sucho ale vyhlášeno nebylo.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -458,7 +632,9 @@
       "title": "Oblíbenou jídelnu Slovanka v centru Ústí zavřela inspekce. Za škůdce může prý celá budova",
       "lede": "Jídelnu v centru Ústí zavřela inspekce kvůli škůdcům a nečistotám. Provozovatel, boxer Lukáš Konečný, viní celou budovu.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -467,7 +643,10 @@
       "title": "U jezera Milada startuje Miladatlon. Devátý ročník terénního triatlonu láká i lékaře na mistrovství republiky",
       "lede": "22. srpna se u jezera Milada koná devátý ročník Miladatlonu i Mistrovství ČR v terénním triatlonu lékařů. Registrace běží do 9. srpna.",
       "tag": "sport",
-      "sources": ["miladatlon.cz", "kudyznudy.cz"],
+      "sources": [
+        "miladatlon.cz",
+        "kudyznudy.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -476,7 +655,10 @@
       "title": "Rock in přiveze do Letního kina Dymytry i Horkýže Slíže. Traktor zahraje jen v Ústí",
       "lede": "V sobotu 8. srpna od 14 hodin hostí Letní kino putovní rockový festival Rock in. Zahrají Alkehol, Dymytry, Horkýže Slíže, Trautenberk i Traktor.",
       "tag": "kultura",
-      "sources": ["rockin.cz", "ksul.cz"],
+      "sources": [
+        "rockin.cz",
+        "ksul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -485,7 +667,10 @@
       "title": "Fírfest slaví osmnáctku. Festival na Fírovce nabídne Aleše Brichtu i Krevel",
       "lede": "V sobotu 15. srpna se na Fírovce koná 18. ročník festivalu Fírfest. Zahrají Scull & Crossbones, Krevel, Aleš Brichta Project a Nerrea, vstupné 200 Kč.",
       "tag": "kultura",
-      "sources": ["firfest.cz", "smsticket.cz"],
+      "sources": [
+        "firfest.cz",
+        "smsticket.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -494,7 +679,10 @@
       "title": "V Neštěmicích hořela suchá tráva. Hasiči zasahovali uprostřed vlny požárů v kraji",
       "lede": "Hasiči vyjeli ve středu k požáru trávního porostu v Neštěmicích. Jde o součást širší vlny požárů suché vegetace v kraji kvůli horku a suchu.",
       "tag": "příroda",
-      "sources": ["pozary.cz", "e-mostecko.cz"],
+      "sources": [
+        "pozary.cz",
+        "e-mostecko.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -503,7 +691,10 @@
       "title": "V Ústeckém kraji platí smogová situace kvůli ozonu. Potřetí za letošní léto",
       "lede": "Meteorologové vyhlásili pro Ústecký kraj smogovou situaci kvůli přízemnímu ozonu, letos už potřetí. Lidem se doporučuje vyhýbat se odpoledne fyzické zátěži venku.",
       "tag": "příroda",
-      "sources": ["chmi.cz", "ustecky.denik.cz"],
+      "sources": [
+        "chmi.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -512,7 +703,9 @@
       "title": "Ústecký kraj kvůli suchu znovu zakázal rozdělávat oheň v přírodě. Platí do konce srpna",
       "lede": "Kvůli suchu a horku platí v celém Ústeckém kraji do 31. srpna zákaz rozdělávání ohňů a táboráků v přírodě a v lesích i kolem nich.",
       "tag": "příroda",
-      "sources": ["kr-ustecky.cz"],
+      "sources": [
+        "kr-ustecky.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -521,7 +714,9 @@
       "title": "Mažoretky z DDM Ústí nad Labem vyrážejí na letní soustředění do Jizerských hor",
       "lede": "Mažoretkový soubor DDM Ústí nad Labem stráví 8.-15. srpna soustředění v Kořenově-Příchovicích jako přípravu na podzimní sezónu.",
       "tag": "kultura",
-      "sources": ["ddmul.cz"],
+      "sources": [
+        "ddmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -530,7 +725,9 @@
       "title": "V Labi u Povrlů na Ústecku našli utonulého muže. Policie zatím nevidí cizí zavinění",
       "lede": "V sobotu ráno objevili rybáři v Labi u Povrlů tělo utonulého muže. Podle policie zatím nic nenasvědčuje cizímu zavinění, příčinu smrti ukáže pitva.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -539,7 +736,10 @@
       "title": "Piknik Nobel se vrací na Kampus UJEP. Letní přednášky pod širým nebem startují 5. srpna",
       "lede": "UJEP zve na letní cyklus přednášek Piknik Nobel v amfiteátru kampusu. Každou středu od 18 hodin, vstup zdarma, program běží až do 23. září.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz", "ujep.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "ujep.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -548,7 +748,10 @@
       "title": "Přístavní ulice pod Benešovým mostem je uzavřená už druhý víkend ze čtyř. Kdy skončí objížďky",
       "lede": "Kvůli rekonstrukci Benešova mostu je Přístavní ulice v Ústí uzavřená čtyři víkendy po sobě. Zbývají termíny 8.–9. a 15.–16. srpna.",
       "tag": "doprava",
-      "sources": ["kr-ustecky.cz", "ustecky.denik.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -557,7 +760,10 @@
       "title": "Z Ústí nad Labem přímo do Frankfurtu i Krakova. Od 31. července vyjíždí nová mezinárodní vlaková linka",
       "lede": "Od 31. července jezdí z Ústí nad Labem nová linka Leo Express až do Frankfurtu, Krakova a Přemyšle. Jízdenky od 239 korun.",
       "tag": "doprava",
-      "sources": ["ustecko24.cz", "ustecky.denik.cz"],
+      "sources": [
+        "ustecko24.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -566,7 +772,10 @@
       "title": "V Předlicích se srazila dvě auta, jedno skončilo na střeše. Tři lidé se zranili",
       "lede": "V pondělí se v Textilní ulici v Předlicích srazila dvě auta, jedno skončilo na střeše. Záchranáři odvezli tři lehce zraněné do nemocnice.",
       "tag": "doprava",
-      "sources": ["pozary.cz", "ustecky.denik.cz"],
+      "sources": [
+        "pozary.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -575,7 +784,9 @@
       "title": "Žák ze ZŠ Hluboká vybojoval ve Vodňanech 2. místo v krajském kole Rybářské olympiády",
       "lede": "František Liška ze 7.A obsadil 2. místo v krajském kole Rybářské olympiády ve Vodňanech. Soutěžilo se v teorii, poznávání ryb i muškaření.",
       "tag": "lidé",
-      "sources": ["zs-hluboka.cz"],
+      "sources": [
+        "zs-hluboka.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -584,7 +795,10 @@
       "title": "Teplárna v Trmicích přejde z uhlí na plyn. Přestavba za 8,1 miliardy má zajistit teplo pro Ústí i po roce 2030",
       "lede": "ČEZ vybral firmu Metrostav DIZ na přestavbu teplárny Trmice z uhlí na plyn za 8,1 miliardy korun. Hotovo má být do konce roku 2030.",
       "tag": "úřad",
-      "sources": ["oenergetice.cz", "ekonomickydenik.cz"],
+      "sources": [
+        "oenergetice.cz",
+        "ekonomickydenik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -593,7 +807,10 @@
       "title": "Osobní auto narazilo na D8 zezadu do kamionu. Tři zranění, dálnice byla přes ráno uzavřená",
       "lede": "U Petrovic na D8 narazilo osobní auto do kamionu, tři lidé se zranili. Dálnice byla uzavřená, provoz se vrátil do normálu po sedmé hodině.",
       "tag": "doprava",
-      "sources": ["hzscr.gov.cz", "ustecky.denik.cz"],
+      "sources": [
+        "hzscr.gov.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -602,7 +819,9 @@
       "title": "Letní kino v Ústí ožívá filmy. Po 13 letech se vrací pravidelná promítání pod širým nebem",
       "lede": "Letní kino v Ústí zahajuje po 13 letech pravidelná promítání. Od srpna do poloviny září nabídne filmy, jógu i pohádky pro děti.",
       "tag": "kultura",
-      "sources": ["ksul.cz"],
+      "sources": [
+        "ksul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -611,7 +830,10 @@
       "title": "Hasiči zasahovali u požáru domu v Předlicích. V neobydlené budově našli tři ohniska",
       "lede": "V Předlicích hořel neobydlený dům v ulici U Jeslí. Hasiči objevili tři ohniska včetně podkroví, zásah trval přes dvě hodiny.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz", "ustecky.denik.cz"],
+      "sources": [
+        "hzscr.gov.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -620,7 +842,10 @@
       "title": "Hádka na zastávce Divadlo v Ústí skončila vraždou. Jednasedmdesátiletý muž bodl mladšího soka nožem",
       "lede": "U zastávky Divadlo v centru Ústí bodl 71letý muž po hádce mladšího soka. Ten zemřel, senior je obviněn z vraždy.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "novinky.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "novinky.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -629,7 +854,9 @@
       "title": "Koupání v přírodě na Ústecku. Horší vodu hlásí Chlumec a Varvažov, jinde je čisto",
       "lede": "Hygienici hlásí zhoršenou kvalitu vody v Chlumci a Varvažově kvůli řasám a sinicím. Ostatní koupaliště v kraji jsou v pořádku.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -638,7 +865,9 @@
       "title": "Plavecká hala Klíše je přes léto zavřená. Sauna i skokanský bazén se postupně vrací do provozu",
       "lede": "Krytý bazén v Klíši je od 13. července do 9. srpna mimo provoz kvůli letní odstávce. Venkovní koupaliště funguje dál.",
       "tag": "sport",
-      "sources": ["Český rozhlas Sever"],
+      "sources": [
+        "Český rozhlas Sever"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -647,7 +876,10 @@
       "title": "Havárie vodovodu komplikuje dopravu u Benešova mostu. Ze Střekova se jezdí přes Krásné Březno",
       "lede": "U mostu Dr. E. Beneše praskl vodovod, jeden pruh je uzavřený. Řidiči ze Střekova musí objíždět přes Krásné Březno.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "teplicky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "teplicky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -656,7 +888,10 @@
       "title": "Ryby na Bílině lapaly po dechu a plavaly na hřbetě. Hasiči i rybáři odvrátili horší scénář",
       "lede": "U západního nádraží v Ústí zasahovali hasiči a rybáři kvůli rybám dusícím se nedostatkem kyslíku. Většina ryb přežila.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz", "ekolist.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "ekolist.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -665,7 +900,10 @@
       "title": "ČHMÚ varuje před silnými bouřkami. Ústecko čekají přívalové deště, vítr i kroupy",
       "lede": "ČHMÚ vydal výstrahu před bouřkami platnou pro Ústecký kraj od pátku do soboty. Hrozí přívalové srážky, silný vítr i kroupy.",
       "tag": "příroda",
-      "sources": ["Ústecký deník", "Český rozhlas Sever"],
+      "sources": [
+        "Ústecký deník",
+        "Český rozhlas Sever"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -674,7 +912,10 @@
       "title": "Cesta do školy na Severní Terase bude bezpečnější. Ústí chystá nové přechody i jednosměrku",
       "lede": "Město upraví ulice u ZŠ Elišky Krásnohorské. Přibudou přechody, parkovací pruhy a jednosměrka v ulici Na Schodech.",
       "tag": "doprava",
-      "sources": ["Ústecký deník", "Český rozhlas Sever"],
+      "sources": [
+        "Ústecký deník",
+        "Český rozhlas Sever"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -683,7 +924,10 @@
       "title": "Devatenáctiletý muž napadl v panelovém domě na Ústecku svou partnerku. Žena skončila s zraněními v nemocnici",
       "lede": "Policisté z OO Mojžíř vyšetřují napadení mladé ženy jejím partnerem jako opakované domácí násilí. Po muži pátrají.",
       "tag": "komunita",
-      "sources": ["Policie ČR", "Ústecký deník"],
+      "sources": [
+        "Policie ČR",
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -692,7 +936,10 @@
       "title": "Ústeckou zoo v Krásném Březně opouští tygr Bulan. Míří do Anglie za chovnou samicí",
       "lede": "Zoo Ústí posílá samce tygra malajského Bulana do britské Hamerton Zoo. Uvolní tak pavilon šelem pro vzácné levharty cejlonské.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz", "prvnizpravy.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "prvnizpravy.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -701,7 +948,10 @@
       "title": "Tragédie na jezeře Milada. Policie znovu připomíná zásady bezpečnosti u vody",
       "lede": "Na jezeře Milada u Ústí zemřel dospělý muž. Policie po tragédii připomíná preventivní projekt Bezpečně u vody.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "policie.gov.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "policie.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -710,7 +960,9 @@
       "title": "Magistrát v Ústí varuje před podvodnými SMS o pokutách. Neklikejte na odkaz",
       "lede": "Magistrát upozorňuje na SMS s fiktivními pokutami a odkazem k platbě. Úřad takové zprávy neposílá, jde o pokus vylákat osobní údaje.",
       "tag": "úřad",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -719,7 +971,9 @@
       "title": "Letní tábor Klondyk vyráží 1. srpna. Sraz je v Krásném Březně za Billou",
       "lede": "DDM Ústí nad Labem vypravuje zálesácký tábor Klondyk 2026. Odjezd i příjezd je z Krčínovy ulice za Billou v Krásném Březně.",
       "tag": "komunita",
-      "sources": ["DDM Ústí nad Labem"],
+      "sources": [
+        "DDM Ústí nad Labem"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -728,7 +982,9 @@
       "title": "Zelená střecha na UJEP ukazuje, jak ochladit rozpálené město. Rozdíl je až 40 stupňů",
       "lede": "Experimentální zelená střecha na Pedagogické fakultě UJEP ukazuje, o kolik lépe drží teplo než klasická střecha. Rozdíl dosahuje 40 stupňů.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -737,7 +993,9 @@
       "title": "Policie v Neštěmicích hledá ženu s kočárkem a muže v bílém tričku. Mohou pomoci objasnit případ",
       "lede": "Policisté z Neštěmic pátrají po dvou lidech z kamerového záznamu z Opletalovy ulice kvůli případu zneužití platebního prostředku.",
       "tag": "komunita",
-      "sources": ["Policie ČR"],
+      "sources": [
+        "Policie ČR"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -746,7 +1004,9 @@
       "title": "Dětský tábor Zootropolis vyrazil od Billy v Krásném Březně na Desnou",
       "lede": "DDM Ústí nad Labem vypravil letní tábor LT Desná 2026. Sraz i odjezd byl od Billy v Krásném Březně, návrat je naplánován na 10. července.",
       "tag": "komunita",
-      "sources": ["DDM Ústí nad Labem"],
+      "sources": [
+        "DDM Ústí nad Labem"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -755,7 +1015,9 @@
       "title": "Hromadná potyčka v Mojžíří. Do sporu dvou rodin zasahovalo více policejních hlídek",
       "lede": "Spor dvou žen v Mojžíří přerostl v potyčku dvou rodin na ulici Jindřicha Plachty. Policie zajistila tři osoby, případ řeší jako přestupek.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -764,7 +1026,10 @@
       "title": "Krajský soud začal projednávat útok nožem na seniora na zastávce v Krásném Březně",
       "lede": "Muž, který v listopadu 2024 pobodal 74letého seniora na zastávce u Prioru v Krásném Březně, stanul před krajským soudem. Navrhovaný trest: 12 let.",
       "tag": "komunita",
-      "sources": ["Policie ČR", "ustecky.denik.cz"],
+      "sources": [
+        "Policie ČR",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -773,7 +1038,9 @@
       "title": "UJEP mapuje šikmou věž dronem. Vzniká první kompletní 3D model dominanty města",
       "lede": "Geoinformatici z UJEP a Metropolnet natočili dronem kostel s šikmou věží. Nový 3D model nahradí starý záběr, kde byla stavba obalena lešením.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -782,7 +1049,10 @@
       "title": "Benešův most šel donaha. Stavbaři se chystají betonovat novou mostovku",
       "lede": "Stará ocelová mostovka Benešova mostu je pryč, oblouk sedí na nových pilířích. Příští fází je betonáž; most má být slavnostně otevřen 19. prosince 2026.",
       "tag": "doprava",
-      "sources": ["Ústecký kraj", "ustecky.denik.cz"],
+      "sources": [
+        "Ústecký kraj",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -791,7 +1061,9 @@
       "title": "O víkendech na Miladu zdarma. DPMÚL spouští sezónní autobus z centra Ústí",
       "lede": "Od 27. června do 31. srpna jezdí každý pátek, sobotu, neděli a svátek bezplatný autobus ze zastávky Divadlo k jezeru Milada a zpět.",
       "tag": "doprava",
-      "sources": ["DPMÚL"],
+      "sources": [
+        "DPMÚL"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -800,7 +1072,10 @@
       "title": "Klíšská a okolní ulice mají omezený provoz do poloviny července. Mění se i trasy MHD",
       "lede": "Od 27. června do 16. července platí v ulicích Brožíkova, Alešova, Bezručova a Klíšská omezení kvůli rekonstrukci kanalizace z 1926 a vodovodu z 1952.",
       "tag": "doprava",
-      "sources": ["magistrát Ústí nad Labem", "ustecky.denik.cz"],
+      "sources": [
+        "magistrát Ústí nad Labem",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -809,7 +1084,10 @@
       "title": "Festival Kůltúra míří do přírody. Loutky, písně a highline na Ostrovských skalách 29. srpna",
       "lede": "Festival Kůltúra 29. srpna v areálu Ostrovských skal: divadlo Altrego, písničkář Václav Havelka, highlinerka Tereza Panochová a dětský sbor z Tisé.",
       "tag": "kultura",
-      "sources": ["festivaly.eu", "kultura365.cz"],
+      "sources": [
+        "festivaly.eu",
+        "kultura365.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -818,7 +1096,10 @@
       "title": "Fírfest slaví 18. narozeniny. Scull & Crossbones, KREVEL a Aleš Brichta zahrají 15. srpna ve Fírovce",
       "lede": "18. ročník Fírfestu se koná 15. srpna 2026 v areálu Fírovky. Na pódium vystoupí Scull & Crossbones, KREVEL a Aleš Brichta.",
       "tag": "kultura",
-      "sources": ["festivaly.net", "kultura365.cz"],
+      "sources": [
+        "festivaly.net",
+        "kultura365.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -827,7 +1108,10 @@
       "title": "Dětský den v depu DPMÚL ve Všebořicích. Jubilejní 11. ročník přivítal rodiny se soutěžemi a historickými vozy",
       "lede": "DPMÚL otevřel 13. června depo ve Všebořicích pro jubilejní 11. Dětský den. Soutěže, historické vozy a dopravní soutěže DÚK, vstup zdarma.",
       "tag": "komunita",
-      "sources": ["dpmul.cz", "kr-ustecky.cz"],
+      "sources": [
+        "dpmul.cz",
+        "kr-ustecky.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -836,7 +1120,10 @@
       "title": "Den IZS s Armádou ČR přilákal tisíce lidí na ústecké letiště. Hasiči, vojáci i záchranáři předvedli techniku",
       "lede": "Na ústeckém letišti se 20. června sešly tisíce lidí na Dni IZS. Hasiči, vojáci, záchranáři i policie ukázali techniku a předvedli dynamické ukázky zásahů.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz", "kr-ustecky.cz"],
+      "sources": [
+        "hzscr.gov.cz",
+        "kr-ustecky.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -845,7 +1132,10 @@
       "title": "První nová trolejbusová trať za 17 let. Výstupní ulice propojila Krásné Březno se Severní Terasou",
       "lede": "DPMÚL zahájil provoz na nové trolejbusové trati ve Výstupní ulici. Linky 74 a 75 nově jezdí s 18m parciálními trolejbusy přes Krásné Březno na Terasou.",
       "tag": "doprava",
-      "sources": ["dpmul.cz", "zdopravy.cz"],
+      "sources": [
+        "dpmul.cz",
+        "zdopravy.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -854,7 +1144,9 @@
       "title": "Požár zahrádkářské kolonie v Neštěmicích. Hasiči chránili okolní chatky čtyřmi jednotkami",
       "lede": "Čtyři hasičské jednotky zasahovaly v červnu u požáru tří chatky v Neštěmicích. Jedna shořela v plném rozsahu, dvě utrpěly částečné poškození. Bez zranění.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz"],
+      "sources": [
+        "hzscr.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -863,7 +1155,10 @@
       "title": "FK Neštěmice zakončil sezónu na druhém místě. Postup do divize odmítly Proboštov i oni",
       "lede": "FK Český Lev Neštěmice obsadil v KP 2025/2026 druhé místo za vítězným Proboštovem. Postup do 4. ligy odmítl Proboštov i Neštěmice — do divize nepůjde z Ústeckého kraje nikdo.",
       "tag": "sport",
-      "sources": ["teplicky.denik.cz", "ustecky.denik.cz"],
+      "sources": [
+        "teplicky.denik.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -872,7 +1167,10 @@
       "title": "Masarykova nemocnice uzavírá vjezd z ulice Na Kabátě. Letní opravy potrvají do konce srpna",
       "lede": "V rámci rekonstrukce Sociální péče je dočasně uzavřen vjezd do nemocnice z ulice Na Kabátě. Omezení platí do konce srpna 2026, zastávka MHD přesunuta.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -881,7 +1179,9 @@
       "title": "FK Viagem Ústí nad Labem zahájil letní přípravu. Oulehla porazil Liberec v práci, vyhledává posilu na křídlo",
       "lede": "Fotbalisté FK Viagem spustili přípravu 15. června pod novým koučem Davidem Oulehlem. Klub přivedl posily ze Španělska a Anglie, v přípravě zvládl vítězství 3:1.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -890,7 +1190,10 @@
       "title": "Řidič srazil ženu na přechodu v Krásném Březně. Rozhořčení svědci ho zbili",
       "lede": "Dopravní nehoda na Podmokelské ulici 23. června: řidič srazil těhotnou chodkyni, svědci ho napadli. Obě strany skončily v nemocnici s lehkými zraněními.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "ceskenoviny.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "ceskenoviny.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -899,7 +1202,9 @@
       "title": "Letní kino v Ústí nad Labem se vrátí k pravidelným projekcím. Po třinácti letech",
       "lede": "Od 5. srpna 2026 se v ústeckém Letním kině opět promítají filmy každou středu a pátek. Naposledy svítilo plátno v roce 2012.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -908,7 +1213,11 @@
       "title": "Česko překonalo teplotní rekord. V Doksanech bylo přes čtyřicet stupňů, Vaňov v Ústí zaznamenal historické maximum",
       "lede": "V pátek 27. června 2026 padl nový absolutní teplotní rekord ČR — 40,9 °C v Doksanech. Ústecká stanice Vaňov jako jediná na severu Čech překonala svůj historický denní rekord.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz", "irozhlas.cz", "x.com/CHMUCHMI"],
+      "sources": [
+        "ustecky.denik.cz",
+        "irozhlas.cz",
+        "x.com/CHMUCHMI"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -917,7 +1226,9 @@
       "title": "Veleslavínova a Hoření ulice se od neděle uzavírají. Rekonstrukce kanalizace potrvá do poloviny srpna",
       "lede": "Od 29. června do 16. srpna 2026 bude úplně uzavřena Veleslavínova a Hoření ulice v centru Ústí nad Labem kvůli rekonstrukci kanalizace a vodovodu.",
       "tag": "doprava",
-      "sources": ["zakruta.cz"],
+      "sources": [
+        "zakruta.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -926,7 +1237,10 @@
       "title": "Rock In Ústí nad Labem 2026. Festival přijede do Letního kina 8. srpna",
       "lede": "Jednodenní hudební festival Rock In se vrací do Ústí nad Labem. Letní kino přivítá kapely v sobotu 8. srpna od 14:00, děti do 5 let zdarma.",
       "tag": "kultura",
-      "sources": ["rockin.cz", "goout.net"],
+      "sources": [
+        "rockin.cz",
+        "goout.net"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -935,7 +1249,10 @@
       "title": "V ústecké Klíšské ulici se propadla vozovka. Díra zastavila MHD, oprava trvala den",
       "lede": "Ve středu večer 25. června se v Klíšské ulici propadla vozovka. Klíše hvězda – Klíše lázně uzavřeno, MHD odkloněno. Silnice průjezdná od čtvrtka odpoledne.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -944,7 +1261,10 @@
       "title": "Budova ČNB s kyvadlem v centru Ústí změnila majitele. Koupila ji policie za 43 milionů",
       "lede": "Česká národní banka prodala svou pobočku u OC Forum policejnímu prezidiu za 43 milionů korun. ČNB prostory opustí koncem roku 2026.",
       "tag": "úřad",
-      "sources": ["cnb.cz", "ustecky.denik.cz"],
+      "sources": [
+        "cnb.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -953,7 +1273,9 @@
       "title": "UJEP otevírá prázdninové školy a stáže. Nabídka je pestrá a většinou zdarma",
       "lede": "Ústecká univerzita připravila na léto desítky akcí pro děti i dospělé. Mezinárodní škola o Klíšském potoce, FUD ateliéry nebo dětská vědecká stáž — většinou zdarma.",
       "tag": "kultura",
-      "sources": ["ujep.cz"],
+      "sources": [
+        "ujep.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -962,7 +1284,10 @@
       "title": "Neštěmická ulice dostane nový chodník. Druhá etapa oprav začíná v Krásném Březně",
       "lede": "Firma INSKY opraví levostranný chodník v Neštěmické ulici od V Oblouku po zastávku Výstupní. Asfalt nahradí zámková dlažba, cena 1,58 milionu korun.",
       "tag": "komunita",
-      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -971,7 +1296,10 @@
       "title": "Hasiči zasahovali v Neštěmicích. Hořely tři zahradní chatky, příčinou byl oheň",
       "lede": "Ve čtvrtek 11. června zasahovaly čtyři jednotky hasičů u požáru tří zahradních chatek mezi Neštěmicemi a Mojžířem. Nikdo nebyl zraněn.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz", "pozary.cz"],
+      "sources": [
+        "hzscr.gov.cz",
+        "pozary.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -980,7 +1308,9 @@
       "title": "Mattoni Running Festival se vrací do Ústí. Půlmaraton podél Labe poběží 19. září",
       "lede": "V sobotu 19. září 2026 se Ústí nad Labem stane dějištěm Mattoni Running Festivalu. Půlmaraton, 10K i bambini run startují z Mírového náměstí.",
       "tag": "sport",
-      "sources": ["runczech.com"],
+      "sources": [
+        "runczech.com"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -989,7 +1319,10 @@
       "title": "Házenkářky Spartaku Ústí slaví. Bronz z MČR a vítězství na ITS Cupu v Kunovicích",
       "lede": "HK Spartak Ústí nad Labem z Krásného Března zakončil sezónu skvěle: starší a minižákyně vyhrály ITS Cup, mladší žákyně získaly bronz z Finálového turnaje MČR.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz", "handball.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "handball.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -998,7 +1331,9 @@
       "title": "Drážďanská ulice v Krásném Březně čeká velká proměna. Město hledá projektanta za 25 milionů",
       "lede": "Magistrát hledá zpracovatele projektové dokumentace pro rekonstrukci Drážďanské ulice v Krásném Březně. Celkové náklady přesáhnou čtvrt miliardy, hotovo do roku 2030.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1007,7 +1342,9 @@
       "title": "Letní jízdní řád MHD v Ústí začíná v neděli 29. června. Co se mění?",
       "lede": "DPMÚL přechází od 29. června na letní provoz. Změny se dotknou 14 linek, prázdniny potrvají do 31. srpna. V pátek 27. 6. startuje i bezplatná linka na Miladu.",
       "tag": "doprava",
-      "sources": ["dpmul.cz"],
+      "sources": [
+        "dpmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1016,7 +1353,9 @@
       "title": "ČHMÚ vyhlásil extrémní výstrahu. O víkendu hrozí přes 37 stupňů i v Ústí, padnout může rekord",
       "lede": "ČHMÚ vydal na víkend 27.–28. června výstrahu nejvyššího stupně. Pro Ústí nad Labem platí teploty nad 37 °C, v neděli může padnout český rekord 40,4 °C.",
       "tag": "příroda",
-      "sources": ["chmi.cz"],
+      "sources": [
+        "chmi.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1025,7 +1364,9 @@
       "title": "Oprava mostu přes Nový svět se odkládá. Semafory v Drážďanské nebudou, most je v horším stavu",
       "lede": "Plánovaná oprava mostu přes Nový svět v Krásném Březně se odkládá. Průzkum odhalil závažnější poškození — nutné nové dokumentace a výběrové řízení.",
       "tag": "doprava",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1034,7 +1375,9 @@
       "title": "Tříleté dítě jelo samo trolejbusem. Rodiče mezitím hlásili ztrátu v Mojžíři, strážníci z Neštěmic je spojili",
       "lede": "Ve středu 24. června jelo tříleté dítě samo trolejbusem v Ústí. Rodiče z Mojžíře v tu chvíli hlásili jeho ztrátu. Strážníci z Neštěmic rodinu šťastně spojili.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1043,7 +1386,11 @@
       "title": "Překladiště odpadů AVE v Neštěmicích dostalo stopku. Kraj nařídil EIA",
       "lede": "Firma AVE chce v Krásném Březně překladiště odpadů na 30 000 tun ročně. Krajský úřad vydal závěr: záměr podléhá EIA. Neštěmice záměr odmítají.",
       "tag": "příroda",
-      "sources": ["ekolist.cz", "sever.rozhlas.cz", "kr-ustecky.cz"],
+      "sources": [
+        "ekolist.cz",
+        "sever.rozhlas.cz",
+        "kr-ustecky.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1052,7 +1399,9 @@
       "title": "Mladí hasiči z Mojžíře znovu na Mistrovství ČR. Tereza Opavová vyhrála v krajském kole vše",
       "lede": "Juniorský SDH Mojžíř postoupil podruhé za sebou na Mistrovství ČR v požárním sportu. Juniorka Tereza Opavová zvítězila ve všech individuálních disciplínách krajského kola.",
       "tag": "sport",
-      "sources": ["nestemice.eu"],
+      "sources": [
+        "nestemice.eu"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1061,7 +1410,9 @@
       "title": "ZUŠ Neštěmice opět zazářila. Ema Vystavělová skončila třetí v pěvecké soutěži Brillante",
       "lede": "Žákyně ZUŠ Neštěmice Ema Vystavělová obsadila 3. místo v pěvecké soutěži Brillante Teplice. V její kategorii závodilo šestnáct soutěžících.",
       "tag": "kultura",
-      "sources": ["nestemice.eu"],
+      "sources": [
+        "nestemice.eu"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1070,7 +1421,9 @@
       "title": "Krajské kolo Mladého záchranáře na Komáří vížce. Čtrnáct týmů závodilo v záchraně tonoucích i resuscitaci",
       "lede": "Čtrnáct týmů ze základních škol a gymnázií Ústeckého kraje soutěžilo 17. června na Komáří vížce v Krupce v záchranářských disciplínách.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz"],
+      "sources": [
+        "hzscr.gov.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1079,7 +1432,9 @@
       "title": "Rodinné radovánky v Městských sadech. Tuto sobotu čtyři hodiny atrakcí pro děti",
       "lede": "V sobotu 27. června od 14 do 18 hodin připraví Městské sady v Ústí nad Labem odpoledne pro rodiny s dětmi. Nafukovací atrakce, bodyzorbing, hoverboardy i bublinový workshop.",
       "tag": "kultura",
-      "sources": ["usti.cz"],
+      "sources": [
+        "usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1088,7 +1443,10 @@
       "title": "Magistrát varuje před podvodnými SMS. Falešné pokuty za přestupky vybízejí ke kliknutí na odkaz",
       "lede": "Ústecký magistrát zaznamenal nárůst podvodných SMS o fiktivních dopravních pokutách. Státní orgány takto pokuty nezasílají, jde o pokus vylákat platební údaje.",
       "tag": "úřad",
-      "sources": ["usti.cz", "policie.gov.cz"],
+      "sources": [
+        "usti.cz",
+        "policie.gov.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1097,7 +1455,9 @@
       "title": "Opilý muž střílel z okna panelového domu na cisternu s vodou. Policie ho zadržela v Krásném Březně",
       "lede": "Řidič cisternového vozu zaparkovaný v ulici Peškova v Krásném Březně byl v pondělí napaden opilým mužem ze čtvrtého patra, který na něj vystřelil. Policie z oddělení Neštěmice muže zadržela.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz"],
+      "sources": [
+        "policie.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1106,7 +1466,9 @@
       "title": "Ústecký kraj vyhlásil zvýšené nebezpečí požárů. Platí zákaz ohňů v lesích i na polích",
       "lede": "Krajský úřad Ústeckého kraje vyhlásil 14. června dobu zvýšeného nebezpečí vzniku požárů pro celé území kraje. Zákaz kouření a ohňů v lesích platí do odvolání.",
       "tag": "úřad",
-      "sources": ["hzscr.gov.cz"],
+      "sources": [
+        "hzscr.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1115,7 +1477,9 @@
       "title": "Travesti šou Techtle Mechtle přijíždí do letního kina. Speciálním hostem bude Petr Kotvald",
       "lede": "V neděli 28. června vystoupí v Letním kině Ústí nad Labem travesti revue Techtle Mechtle. Speciálním hostem bude zpěvák Petr Kotvald, začátek ve 19:00.",
       "tag": "kultura",
-      "sources": ["ksul.cz"],
+      "sources": [
+        "ksul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1124,7 +1488,9 @@
       "title": "DDM Ústí nad Labem chystá letní tábory. Turistický odjíždí 1. července od Billy v Krásném Březně",
       "lede": "DDM Ústí nad Labem spouští prázdninový program: turistický tábor odjíždí 1. července od Billy v Krásném Březně, příměstský tábor od 13. července, plus muzikálový a lezecké tábory.",
       "tag": "komunita",
-      "sources": ["ddmul.cz"],
+      "sources": [
+        "ddmul.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1133,7 +1499,9 @@
       "title": "Tři tituly Mistrů Evropy pro Ústí. Taneční klub STK Gebert ovládl šampionát v Opatiji",
       "lede": "STK Gebert Ústí nad Labem přivezl z chorvatské Opatije tři tituly Mistrů Evropy. Na šampionátu Best Dance Group 20.–21. června uspěly dětská, juniorská i dospělá formace.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1142,7 +1510,9 @@
       "title": "Šikmá věž poprvé v 3D. Vědci z UJEP mapují dronem kostel Nanebevzetí Panny Marie",
       "lede": "Geoinformatici z UJEP a Metropolnet pořizují dronem první kompletní 3D model kostela se šikmou věží. Model poslouží radnici i informačnímu centru.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1151,7 +1521,9 @@
       "title": "Kraj schválil investici za 9,5 miliardy v zóně Triangle. Panattoni tu postaví závod s 960 pracovními místy",
       "lede": "Zastupitelé Ústeckého kraje schválili 22. června prodej 43 ha v Triangle u Žatce. Developer Panattoni tu postaví výrobní závod pro dosud neveřejného investora s 960 pracovními místy.",
       "tag": "komunita",
-      "sources": ["ceskenoviny.cz"],
+      "sources": [
+        "ceskenoviny.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1160,7 +1532,10 @@
       "title": "Zbraňová amnestie v Ústeckém kraji skončí za týden. Přijato přes 200 zbraní včetně historických rarit",
       "lede": "Amnestie na nelegálně držené zbraně platí jen do 30. června. V Ústeckém kraji bylo dosud odevzdáno 227 zbraní — mezi nimi špagin, panzerfaust i kulomet vz. 26.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz", "ustecko24.cz"],
+      "sources": [
+        "policie.gov.cz",
+        "ustecko24.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1169,7 +1544,10 @@
       "title": "Tisíce lidí přišly na středověké bitvy u jezera Milada. Festival připomněl výročí 1126 a 1426",
       "lede": "Jezero Milada hostilo 6. června festival Návrat sv. Václava. Tisíce návštěvníků viděly dvě bitevní rekonstrukce připomínající 900 let od Chlumce a 600 let od Bitvy u Ústí.",
       "tag": "kultura",
-      "sources": ["irozhlas.cz", "jezeromilada.cz"],
+      "sources": [
+        "irozhlas.cz",
+        "jezeromilada.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1178,7 +1556,9 @@
       "title": "Boxeři z třiatřiceti zemí změřili síly v Ústí nad Labem. Indie ovládla Grand Prix 56. ročníku",
       "lede": "56. ročník World Boxing Challenge Grand Prix se konal v Ústí nad Labem 17.–21. června. Indie vybojovala 12 medailí, zlaté získala i olympijská bronzová medailistka Borgohain.",
       "tag": "sport",
-      "sources": ["worldboxing.org"],
+      "sources": [
+        "worldboxing.org"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1187,7 +1567,9 @@
       "title": "Kraj opraví silnice a mosty za 594 milionů. V Ústí nad Labem jdou peníze na dva labské mosty",
       "lede": "SÚS Ústeckého kraje letos vynaloží 594 milionů na silnice a mosty. Největšími akcemi jsou dva labské mosty v Ústí nad Labem a most v Rtyni nad Bílinou.",
       "tag": "doprava",
-      "sources": ["irozhlas.cz"],
+      "sources": [
+        "irozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1196,7 +1578,10 @@
       "title": "Mistrovství ČR juniorů v plavání hostilo Ústí nad Labem. Foltýn vyhrál šest individuálních závodů",
       "lede": "Šampionát se 670 plavci proběhl v Ústí nad Labem 28.–31. května. Jan Foltýn ze Slavie VŠ Plzeň ovládl šest individuálních disciplín a potvrdil status nejlepšího českého juniorského plavce.",
       "tag": "sport",
-      "sources": ["plaveckyklub.cz", "sgpilsen.cz"],
+      "sources": [
+        "plaveckyklub.cz",
+        "sgpilsen.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1205,7 +1590,9 @@
       "title": "Přes tři tisíce pátracích akcí v Ústeckém kraji za rok. Všechny pohřešované osoby byly nalezeny",
       "lede": "Policie zahájila v Ústeckém kraji v roce 2025 pátrání po 3 109 osobách. Všech 313 pohřešovaných bylo nalezeno, 21 z nich byly děti.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz"],
+      "sources": [
+        "policie.gov.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1214,7 +1601,10 @@
       "title": "U Chlumce roste kruhový objezd. Omezení na I/30 potrvají do konce října",
       "lede": "Stavba kruháče u Chlumce začala 2. června a potrvá do 31. října. Na I/30 platí střídavý provoz, III/25357 je úplně uzavřena.",
       "tag": "doprava",
-      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "e-usti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1223,7 +1613,10 @@
       "title": "Ústečtí zastupitelé schválili sloučení dvou ZŠ s mateřskými školami",
       "lede": "ZŠ Školní náměstí pohltí MŠ Škroupova, ZŠ Vinařská povede dvě školky. Zastupitelé reagují na novelizaci školského zákona i na personální změny.",
       "tag": "úřad",
-      "sources": ["ustecky.denik.cz", "sever.rozhlas.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1232,7 +1625,10 @@
       "title": "Tuleňátko v ústecké zoo po šestnácti letech. Expozice je uzavřena, krmení zrušena",
       "lede": "V Zoo Ústí nad Labem se 8. června narodilo mládě tuleně obecného — první v evropských zoo letos. Expozice je uzavřena kvůli klidu pro matku a mládě.",
       "tag": "příroda",
-      "sources": ["zoousti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "zoousti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1241,7 +1637,10 @@
       "title": "Rondel na Bukově dostane nové značení. Turbo křižovatka změní provoz do roku 2030",
       "lede": "Padesát let stará okružní křižovatka na Bukově se promění v turbo kruhový objezd. Nové vodorovné značení přibude letos, stavba je naplánovaná na rok 2030.",
       "tag": "doprava",
-      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "e-usti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1250,7 +1649,10 @@
       "title": "Konec patnáctiletého sporu. Ústečtí zastupitelé schválili zástavbu proluky na Střekově",
       "lede": "Zastupitelé hlasovali 32–0 pro novou územní studii střekovské proluky. Místo samotného supermarketu vznikne bloková zástavba s byty a obchody.",
       "tag": "úřad",
-      "sources": ["e-usti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "e-usti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1259,7 +1661,10 @@
       "title": "Ústí hledá deset nových strážníků. Nabízí 70 tisíc náborový příspěvek a pět sick days",
       "lede": "Městská policie Ústí nad Labem hledá deset nových kolegů pro posílení centra. Náborový příspěvek je 70 000 Kč, přihlásit se lze e-mailem nebo osobně.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "mpul.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "mpul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1268,7 +1673,10 @@
       "title": "Neštěmice dostane 2,5 milionu na opravy. Peníze půjdou na chodníky v Peškově a stezky Na Výšině",
       "lede": "Rada města rozdělila 10 milionů mezi čtyři obvody. Neštěmice opraví chodníky a dvory v Peškově ulici a stezky na Na Výšině a Žežické.",
       "tag": "úřad",
-      "sources": ["usti.cz", "ustecky.denik.cz"],
+      "sources": [
+        "usti.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1277,7 +1685,9 @@
       "title": "Den s IZS a Armádou na ústeckém letišti. Hasiči předvedli zásah na hořící auto",
       "lede": "Ve Všebořicích se v sobotu konaly ukázky hasičů, policie, záchranářů a vojáků. Na letiště jezdila bezplatná kyvadlová doprava.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz"],
+      "sources": [
+        "hzscr.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1286,7 +1696,9 @@
       "title": "Kraj ocenil nejlepší středoškoláky 2026. Z Ústí bodovaly studentky ze dvou gymnázií",
       "lede": "Ústecký kraj vyhlásil vítěze soutěže Středoškoláci 2026. Z Ústí nad Labem uspěly studentky gymnázií Šmejkala a Jateční.",
       "tag": "lidé",
-      "sources": ["kr-ustecky.cz"],
+      "sources": [
+        "kr-ustecky.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1295,7 +1707,9 @@
       "title": "K jezeru Milada autobusem zdarma. Linka jezdí od 27. června každý víkend a svátek",
       "lede": "Bezplatná turistická linka k Jezeru Milada startuje 27. června. Jezdí každý pátek, sobotu, neděli a svátek, deset spojů denně ze zastávky Divadlo.",
       "tag": "doprava",
-      "sources": ["dpmul.cz"],
+      "sources": [
+        "dpmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1304,7 +1718,9 @@
       "title": "Požár v zahrádkářské kolonii v Neštěmicích. Hořely tři chatky, zasahovaly čtyři jednotky",
       "lede": "V neštěmické zahrádkářské kolonii hořelo 11. června. Jedna chatka lehla popelem, dvě byly zasaženy částečně. Příčinou byla manipulace s ohněm.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz"],
+      "sources": [
+        "hzscr.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1313,7 +1729,10 @@
       "title": "Tchajwanská firma míří do Ústeckého kraje. i-TRANS Global tu postaví hub pro chemikálie do čipů",
       "lede": "Tchajwanská i-TRANS Global oznámila investici přes 400 milionů Kč v Ústeckém kraji. Firma tu postaví evropský logistický hub pro chemikálie do výroby polovodičů.",
       "tag": "komunita",
-      "sources": ["czechinvest.gov.cz", "icuk.cz"],
+      "sources": [
+        "czechinvest.gov.cz",
+        "icuk.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1322,7 +1741,10 @@
       "title": "Pohádkové neděle na hradě Střekov. Zítra hraje Sváťovo divadlo, vstup zdarma",
       "lede": "Hrad Střekov hostí každý měsíc pohádkové neděle se Sváťovým divadlem. Nejbližší termín je 21. června od 15 hodin, vstup zdarma bez nutnosti hradního lístku.",
       "tag": "kultura",
-      "sources": ["kudyznudy.cz", "lobkowicz.cz"],
+      "sources": [
+        "kudyznudy.cz",
+        "lobkowicz.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1331,7 +1753,9 @@
       "title": "Inspekce zavřela večerku v Neštěmicích. Myší trus, zdechliny a zanedbané regály",
       "lede": "SZPI uzavřela 19. května prodejnu v Seifertově ulici v Neštěmicích. Inspektoři nalezli mrtvé hlodavce, trus a hmyz mezi potravinami.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1340,7 +1764,9 @@
       "title": "Neštěmická ulice dostane nový chodník. Druhá etapa opravy nahradí asfalt dlažbou",
       "lede": "Na Neštěmické ulici začne druhá etapa oprav chodníků. Levý chodník od V Oblouku po zastávku Výstupní dostane novou dlažbu za 1,58 milionu korun.",
       "tag": "komunita",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1349,7 +1775,10 @@
       "title": "\"Zapomenutý účet\" připravil seniora z Ústí o 290 tisíc. Zavolali mu ze slovenského čísla",
       "lede": "Osmaosmdesátiletý muž z Ústí nad Labem přišel o téměř 290 000 Kč po telefonátu ze slovenského čísla. Podvodníci mu slíbili peníze ze zapomenutého účtu — ve skutečnosti z něj 18 platbami vybrali vše.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz", "ustecky.denik.cz"],
+      "sources": [
+        "policie.gov.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1358,7 +1787,11 @@
       "title": "Vojta a Jan Nedvěd ml. přijedou do Ústí. Turné Nedvědi u stánků míří 11. července do letního kina",
       "lede": "Letní turné Nedvědi u stánků zavítá 11. července do ústeckého letního kina. Jan Nedvěd ml. a Vojta Nedvěd na jeviště přivedou i Fešáky, Kamelot a kapelu Příbuzní.",
       "tag": "kultura",
-      "sources": ["vojtanedved.cz", "honzanedved.cz", "tickets.nfctron.com"],
+      "sources": [
+        "vojtanedved.cz",
+        "honzanedved.cz",
+        "tickets.nfctron.com"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1367,7 +1800,10 @@
       "title": "Školy v Ústí zavřou 26. června. Letní prázdniny 2026 začínají o týden dříve",
       "lede": "Školní rok 2025/2026 skončí v pátek 26. června, o čtyři dny dříve než původně. Prázdniny potrvají do 31. srpna. Platí i pro ZŠ Neštěmická.",
       "tag": "komunita",
-      "sources": ["msmt.gov.cz", "edu.gov.cz"],
+      "sources": [
+        "msmt.gov.cz",
+        "edu.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1376,7 +1812,9 @@
       "title": "Vedra přišla do Ústeckého kraje. ČHMÚ vydal výstrahu, teploty přesáhnou 31 stupňů",
       "lede": "Žlutá výstraha ČHMÚ platí pro Ústí nad Labem od pátečního poledne. Odpolední teploty přesáhnou 31 °C, na Litoměřicku hrozí až 36 °C.",
       "tag": "příroda",
-      "sources": ["chmi.cz"],
+      "sources": [
+        "chmi.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1385,7 +1823,9 @@
       "title": "Winger vyhrál Grand Prix Ústí. Vrhem 20,76 metru překonal rekord stadionu",
       "lede": "Američan Russel Winger vyhrál 17. ročník Grand Prix Ústí nad Labem hodem 20,76 m a překonal rekord stadionu. Staněk skončil sedmý.",
       "tag": "sport",
-      "sources": ["atletika.cz"],
+      "sources": [
+        "atletika.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1394,7 +1834,10 @@
       "title": "Dvě ústecké základky pohltí čtyři mateřinky. Zastupitelé schválili sloučení",
       "lede": "ZŠ Školní náměstí si připojí MŠ Škroupova, ZŠ Vinařská převezme MŠ Vinařskou a MŠ 5. května. Důvodem jsou odchody ředitelů a novela školského zákona.",
       "tag": "komunita",
-      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1403,7 +1846,9 @@
       "title": "UJEP pomohla doučováním patnácti tisícům dětí z kraje. Studenti jezdí i na opravné zkoušky",
       "lede": "Doučovací platforma UJEP v Ústí nad Labem bezplatně pomohla zhruba 15 000 dětem z kraje — od přípravy na opravné zkoušky po kroužky robotiky pro nadané.",
       "tag": "komunita",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1412,7 +1857,10 @@
       "title": "Koloběžkář jel po chodníku a srazil seniorku. Ústecká policie případ šetří",
       "lede": "Osmnáctiletý rider na Xiaomi koloběžce jel po chodníku v Pařížské ulici a srazil 85letou chodkyni. Seniorka skončila se zraněním pánve v nemocnici.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz", "tydenikpolicie.cz"],
+      "sources": [
+        "policie.gov.cz",
+        "tydenikpolicie.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1421,7 +1869,10 @@
       "title": "Kandidát ANO na primátora přišel o řidičák. Na padesátce jel devětadevadesát",
       "lede": "Tomáš Hrubý, lídr ANO pro říjnové volby a manažer Slunety, přišel o řidičák za jízdu 97 km/h v padesátce. Chybu veřejně uznal.",
       "tag": "úřad",
-      "sources": ["denik.cz", "ustecky.denik.cz"],
+      "sources": [
+        "denik.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1430,7 +1881,9 @@
       "title": "Ústí přebírá protipovodňové zábrany od Povodí Labe. Vláda musí ještě říct ano",
       "lede": "Zastupitelé schválili podmínky převzetí části protipovodňových opatření na Labi. Smlouvu musí ještě potvrdit vláda ČR.",
       "tag": "komunita",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1439,7 +1892,10 @@
       "title": "Benešův most se vrací na pilíře. Od včerejška noční uzavírky silnice pod ním",
       "lede": "Stavbaři Metrostav TBR a Strabag Sis usazují historický oblouk na nové pilíře. Od 19. 6. noční uzavírky silnice I/30, termín otevření 31. 12. 2026.",
       "tag": "doprava",
-      "sources": ["kr-ustecky.cz", "ustecky.denik.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1448,7 +1904,10 @@
       "title": "Národní dům v Ústí čeká rekonstrukce. Architekti soutěží o projekt obnovy",
       "lede": "KSUL připravuje architektonickou soutěž na obnovu Národního domu. Renovace za 37 milionů má snížit provozní náklady a přilákat mladé návštěvníky.",
       "tag": "kultura",
-      "sources": ["sever.rozhlas.cz", "cka.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "cka.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1457,7 +1916,9 @@
       "title": "Pobočka knihovny v Neštěmicích se koncem června zavírá. Vrátí se 19. července",
       "lede": "Pobočka v Neštěmicích zavírá 30. června a otevře až 19. července. V létě zkrácené hodiny: pondělí a čtvrtek od 9 do 18 hodin.",
       "tag": "komunita",
-      "sources": ["knihovnauk.cz"],
+      "sources": [
+        "knihovnauk.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1466,7 +1927,10 @@
       "title": "Noční zákaz pro dodávky rozšiřuje se do Neštěmic a Krásného Března",
       "lede": "Od loňského léta platí v části Ústí zákaz nočního parkování pro velké dodávky. Po pilotu v Dobětici se zóna rozšířila do Neštěmic a Krásného Března.",
       "tag": "doprava",
-      "sources": ["sever.rozhlas.cz", "irozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "irozhlas.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1475,7 +1939,10 @@
       "title": "Metropolnetovy drony poprvé v terénu. Odhalily ubytovnu bezdomovců i černou skládku",
       "lede": "Projekt DRONYÚL za 12 milionů korun je v plném provozu. První výjezd 17. května odhalil v lokalitě Důlčí neoprávněnou ubytovnu i nelegální skládku.",
       "tag": "komunita",
-      "sources": ["cesky.radio.cz", "irozhlas.cz"],
+      "sources": [
+        "cesky.radio.cz",
+        "irozhlas.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1484,7 +1951,9 @@
       "title": "Město dokončilo studii rezidentního parkování pro Neštěmice a Klíše",
       "lede": "Ústí nad Labem má hotové analýzy rezidentního parkování pro Neštěmice a Klíši. Implementace zatím bez potvrzeného termínu.",
       "tag": "doprava",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1493,7 +1962,10 @@
       "title": "Grand Prix Ústí zítra od 16 hodin. Program, závodníci a vstup zdarma",
       "lede": "17. ročník Grand Prix Ústí nad Labem je zítra. Poprvé v seriálu World Athletics Bronze. Špotáková, 13 disciplín, doprovodný program pro děti. Vstup zdarma.",
       "tag": "sport",
-      "sources": ["atletikauk.cz", "kr-ustecky.cz"],
+      "sources": [
+        "atletikauk.cz",
+        "kr-ustecky.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1502,7 +1974,9 @@
       "title": "Žena v centru Ústí bezdůvodně napadala kolemjdoucí. Policie pátrá po svědcích",
       "lede": "V dubnu napadla 32letá žena v ulici Hradiště seniorku s holí i staršího muže. Policie vydala výzvu 1. června: hledá svědky z doby 11:15–11:50.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz"],
+      "sources": [
+        "policie.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1511,7 +1985,10 @@
       "title": "Hasiči u převráceného auta na Žižkové. Ošetřili pět zraněných",
       "lede": "Osobní auto se 13. června v 7:21 převrátilo na bok v ulici Žižkova. Zasahovaly dvě jednotky HZS, pomohly pěti zraněným.",
       "tag": "komunita",
-      "sources": ["hzscr.gov.cz", "ustecky.denik.cz"],
+      "sources": [
+        "hzscr.gov.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1520,7 +1997,9 @@
       "title": "Strážníci z Ústí odebrali majiteli fenu. Do péče ji převzalo centrum při Zoo",
       "lede": "Strážníci z Ústí asistovali při odebrání feny majiteli podezřelému z týrání. Pes skončil v dočasné péči Centra pro zvířata v nouzi při ústecké Zoo.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1529,7 +2008,9 @@
       "title": "Jeřáb u ikonické výškové budovy v centru Ústí. Majitelé sanují střechu a plánují nové patro",
       "lede": "U budovy bývalých Pozemních staveb ve Velké Hradební se objevil jeřáb. Majitelé sanují vršek a plánují přidat patro — datové centrum, soláry nebo byty.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1538,7 +2019,10 @@
       "title": "Centrum Ústí dostalo nové LED tabule na zastávkách MHD. Ústečané si na ně teprve zvykají",
       "lede": "DPMÚL nainstaloval v centru 16 nových LED panelů s odjezdy MHD a DÚK. Nahradily zastaralé LCD obrazovky. Reakce cestujících jsou smíšené.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "dpmul.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "dpmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1547,7 +2031,10 @@
       "title": "Vyhazoval nábytek z okna. Policie z Neštěmic v Mojžíři zadržela mezinárodně hledaného mladistvého",
       "lede": "Hlídka z Neštěmic vyjela 9. června do Mojžíře kvůli muži házejícímu nábytek z okna. Při kontrole se ukázalo, že jde o mezinárodně hledanou osobu ze Slovenska.",
       "tag": "komunita",
-      "sources": ["tydenikpolicie.cz", "ustecky.denik.cz"],
+      "sources": [
+        "tydenikpolicie.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1556,7 +2043,9 @@
       "title": "Vlaky U5 o víkendu 27.–28. června nejedou. Ústí–Úpořiny nahradí autobus z Přístavní",
       "lede": "O víkendu 27.–28. června budou vlaky U5 mezi Ústím a Úpořinami nahrazeny autobusy. Bus odjíždí z Přístavní ulice za hlavním nádražím.",
       "tag": "doprava",
-      "sources": ["kr-ustecky.cz"],
+      "sources": [
+        "kr-ustecky.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1565,7 +2054,9 @@
       "title": "Ke jezeru Milada od 27. června zdarma. DPMÚL spouští kyvadlovou linku každý pátek a svátek",
       "lede": "Od 27. června jezdí ke jezeru Milada každý pátek a svátek kyvadlová linka DPMÚL zdarma. Výchozí zastávka je u Divadla.",
       "tag": "doprava",
-      "sources": ["dpmul.cz"],
+      "sources": [
+        "dpmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1574,7 +2065,10 @@
       "title": "Od neděle platí letní jízdní řád DÚK. Přibyla vazba v Lovosicích, elektrické vozy k Zálezlům",
       "lede": "Od 14. června platí letní jízdní řád DÚK. Přibyly přestupní vazby v Lovosicích a Vraňanech a večerní pár na trase Louny–Žatec.",
       "tag": "doprava",
-      "sources": ["kr-ustecky.cz", "ceskedrahy.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "ceskedrahy.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1583,7 +2077,10 @@
       "title": "Policie v Ústeckém kraji pátrala loni po více než třech tisících lidí. Pohřešované našla všechny",
       "lede": "V roce 2025 pátrala ústecká policie po 3 109 osobách. Všech 313 pohřešovaných bylo nalezeno — včetně 21 dětí. Policie doporučuje aplikaci Echo.",
       "tag": "komunita",
-      "sources": ["policie.gov.cz", "e-usti.cz"],
+      "sources": [
+        "policie.gov.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1592,7 +2089,9 @@
       "title": "Linka 415 nejezdí přes Holedeček do 19. června. Silnici uzavřela rekonstrukce vodovodu",
       "lede": "Meziměstská linka 415 jede od 8. do 19. června v omezení kvůli uzavírce silnice v Holedečku. Rekonstrukce vodovodu potrvá do pátku.",
       "tag": "doprava",
-      "sources": ["kr-ustecky.cz"],
+      "sources": [
+        "kr-ustecky.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1601,7 +2100,10 @@
       "title": "Bělehradská uzavřena do 28. června. SVS obnovuje ocelové potrubí z roku 1972",
       "lede": "Bělehradská ulice v Ústí nad Labem je od 1. do 28. června zcela uzavřena. SVS opravuje potrubí z roku 1972. Objížďka přes Rooseveltovu a Pařížskou.",
       "tag": "doprava",
-      "sources": ["e-usti.cz", "silnicniuzavirky.cz"],
+      "sources": [
+        "e-usti.cz",
+        "silnicniuzavirky.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1610,7 +2112,10 @@
       "title": "Na most v Mojžíři padne přes čtyři tisíce kubíků betonu. Hotovo má být na podzim",
       "lede": "Rekonstrukce estakády v Mojžíři vstoupila do klíčové fáze: nosníky přes koleje osazeny v březnu, nyní probíhá betonáž. Hotovo za 259 milionů má být na podzim 2026.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz", "kraje.rsd.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "kraje.rsd.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1619,7 +2124,10 @@
       "title": "Dvanáct středoškoláků stráví tento týden s vědci na FŽP UJEP. Stáž pořádají DDM a Tilia Krásná Lípa",
       "lede": "Týdenní stáž Za vědou na FŽP UJEP začala dnes. Dvanáct středoškoláků čekají přednášky, laboratoře a výlet do Národního parku České Švýcarsko.",
       "tag": "komunita",
-      "sources": ["ddmul.cz", "fzp.ujep.cz"],
+      "sources": [
+        "ddmul.cz",
+        "fzp.ujep.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1628,7 +2136,10 @@
       "title": "Nejhorší sucho od roku 1991 trápí region. SVS zásoby pitné vody nestihuje",
       "lede": "Duben a květen 2026 přinesly nejhorší podmínky pro hluboké vrty v ČR od roku 1991. Zásoby pitné vody jsou přesto v pořádku — potvrdila vodárna SVS.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz", "svs.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "svs.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1637,7 +2148,11 @@
       "title": "Pohádkové neděle na hradě Střekov. Příští je za týden, vstup zdarma",
       "lede": "Sváťovo Divadlo každý měsíc hraje na hradním nádvoří zdarma. Nejbližší pohádková neděle je 21. června ve 15:00. Zbývají ještě čtyři termíny do září.",
       "tag": "kultura",
-      "sources": ["kudyznudy.cz", "lobkowicz.cz", "stredohori.cz"],
+      "sources": [
+        "kudyznudy.cz",
+        "lobkowicz.cz",
+        "stredohori.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1646,7 +2161,11 @@
       "title": "Tchajwanský gigant míří do Ústeckého kraje. Logistické centrum pro chipové chemikálie stojí 400 milionů",
       "lede": "Firma i-TRANS Global oznámila 20. května záměr vybudovat v Ústeckém kraji evropský hub pro chemikálie do výroby čipů. Za projektem stojí dvouletá práce ICUK a partnerů.",
       "tag": "komunita",
-      "sources": ["icuk.cz", "czechinvest.gov.cz", "businessinfo.cz"],
+      "sources": [
+        "icuk.cz",
+        "czechinvest.gov.cz",
+        "businessinfo.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1655,7 +2174,11 @@
       "title": "Neštěmice hrají dnes o druhé místo. Proboštov titul bere, postup možná ne",
       "lede": "FK Český Lev Neštěmice nastupuje dnes v 10:15 k poslednímu kolu KP proti Srbicím. Jsou druzí, Proboštov odmítá postup — to by Neštěmice dostaly šanci na divizi.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz", "livesport.cz", "teplicky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "livesport.cz",
+        "teplicky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1664,7 +2187,10 @@
       "title": "4 Tenorů přijedou do Ústí v úterý. Letní kino hostí operní hvězdy s orchestrem",
       "lede": "Marian Vojtko, Pavel Vítek, Jan Kříž a Michal Bragagnolo vystoupí 16. června v letním kině s Orchestrem Divadla města. Vstupenky za 790–990 Kč.",
       "tag": "kultura",
-      "sources": ["vstupenkyusti.cz", "operaplus.cz"],
+      "sources": [
+        "vstupenkyusti.cz",
+        "operaplus.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1673,7 +2199,10 @@
       "title": "Přes sedm set školáků si zkusilo atletiku na ústeckém stadionu. Nejpilnější dostali oštěpy",
       "lede": "Druhého června se na Městském stadionu UMT sešlo přes 700 žáků z ústeckých základních škol. Český atletický svaz připravil šest disciplín, nejlepší školy dostaly pěnové oštěpy.",
       "tag": "sport",
-      "sources": ["atletika.cz", "ustecky.denik.cz"],
+      "sources": [
+        "atletika.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1682,7 +2211,10 @@
       "title": "Techtle Mechtle a Petr Kotvald míří do Ústí. Travesti show v letním kině 28. června",
       "lede": "Soubor Techtle Mechtle přiveze 28. června do ústeckého letního kina travesti show se speciálním hostem Petrem Kotvaldem. Začátek v 19:00, sezení číslované.",
       "tag": "kultura",
-      "sources": ["ksul.cz", "vstupenkyusti.cz"],
+      "sources": [
+        "ksul.cz",
+        "vstupenkyusti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1691,7 +2223,10 @@
       "title": "Dnes v noci výluka Ústí–Děčín. EC 258 pojede přes Velké Březno s hodinovým zpožděním",
       "lede": "Od 21:00 dnes do 4:00 zítra uzavře Správa železnic úsek ÚnL–Povrly. EC 258 Berliner pojede odklonem přes Velké Březno, regionální vlaky nahradí autobusy.",
       "tag": "doprava",
-      "sources": ["ceskedrahy.cz", "spravazeleznic.cz"],
+      "sources": [
+        "ceskedrahy.cz",
+        "spravazeleznic.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1700,7 +2235,10 @@
       "title": "Tuleň z ústecké zoo je první mládě narozené v evropské zoo v roce 2026",
       "lede": "Databáze ZIMS potvrdila: mládě tuleně obecného z Krásného Března je první v evropských zoo letos. Matkou je 17letá Ayma. Expozice zůstává uzavřena.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz", "tn.nova.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "tn.nova.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1709,7 +2247,9 @@
       "title": "SPD a Motoristé jdou do říjnových voleb v Ústí společně. Lídrem je náměstek Mohr",
       "lede": "SPD, Motoristé, Trikolora a Přísaha vytvoří v Ústí společnou kandidátku. Lídrem je náměstek primátora Michal Mohr, dvojkou zastupitel Petr Krause.",
       "tag": "úřad",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1718,7 +2258,10 @@
       "title": "Grand Prix Ústí přivítá světové špičky. Vstup na atletický mítink je zdarma",
       "lede": "Ve čtvrtek 18. června přijede do Ústí atletická světová špička. Grand Prix Ústí je poprvé v sérii World Athletics Bronze. Startují Staněk, Enekwechi a Špotáková. Vstup zdarma.",
       "tag": "sport",
-      "sources": ["atletikauk.cz", "online.atletika.cz"],
+      "sources": [
+        "atletikauk.cz",
+        "online.atletika.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1727,7 +2270,9 @@
       "title": "Mojžíř ovládl ústecké El Clásico 4:1. Vitásek se po špalíru hráčů rozloučil s kariérou",
       "lede": "Jarní derby 7. ligy Mojžíř–Neštěmice B skončilo 4:1. Čtyři sta diváků bylo svědkem rozlučky Aleše Vitáska, který fotbal začínal v Neštěmicích a zakončil v Mojžíři.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1736,7 +2281,10 @@
       "title": "Ústí chce do roku 2045 tři tisíce dostupných bytů. V hledáčku je i Krásné Březno",
       "lede": "Rada Ústí schválila bytovou politiku do roku 2045: 3 000 dostupných bytů za 70–90 % tržního nájmu. Nové byty plánuje i v Krásném Březně a na Severní Terase.",
       "tag": "komunita",
-      "sources": ["irozhlas.cz", "ustecky.denik.cz"],
+      "sources": [
+        "irozhlas.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1745,7 +2293,9 @@
       "title": "CRUSH — čtvrtý Ústecký pride vyvrcholí 27. června v Hraničáři",
       "lede": "Čtvrtý ročník Ústeckého pride s názvem CRUSH vyvrcholí 27. června v Hraničáři. Připraven je sekáč, drag show, testování HIV a párty s DJs. Vstup pro všechny.",
       "tag": "kultura",
-      "sources": ["hranicar-usti.cz"],
+      "sources": [
+        "hranicar-usti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1754,7 +2304,10 @@
       "title": "U Neštěmic hořely tři zahradní chatky. Příčinou bylo otevřené ohniště",
       "lede": "Ve čtvrtek odpoledne hořely tři zahradní chatky mezi Neštěmicemi a Mojžířem. Zasahovalo pět jednotek, nikdo se nezranil, příčinou bylo otevřené ohniště.",
       "tag": "komunita",
-      "sources": ["pozary.cz", "hzscr.gov.cz"],
+      "sources": [
+        "pozary.cz",
+        "hzscr.gov.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1763,7 +2316,10 @@
       "title": "Po 17 letech nová trolejbusová trať. Výstupní ulicí jezdí od června bateriové trolejbusy",
       "lede": "DPMÚL spustil 1. června zkušební provoz na nové trati ve Výstupní ulici. Linky 74 a 75 jezdí 18metrovými trolejbusy, z kopce na baterie. Trať stála 70 milionů, 85 % z EU.",
       "tag": "doprava",
-      "sources": ["zdopravy.cz", "ustecky.denik.cz"],
+      "sources": [
+        "zdopravy.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1772,7 +2328,10 @@
       "title": "Žukovova ulice na Střekově se rekonstruuje. Uzavírka potrvá do konce listopadu",
       "lede": "Od 8. června probíhá rozsáhlá rekonstrukce Žukovovy ulice na Střekově za 46,6 milionu. Dvě etapy, práce do 28. listopadu, objízdka přes Kojetickou a Poslední cestu.",
       "tag": "doprava",
-      "sources": ["zdopravy.cz", "usti.cz"],
+      "sources": [
+        "zdopravy.cz",
+        "usti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1781,7 +2340,10 @@
       "title": "V zoo v Krásném Březně se po 16 letech narodil tuleň. Expozice je dočasně uzavřena",
       "lede": "Ústecká zoo hlásí chovatelský úspěch: samice Ayma porodila mládě tuleně obecného. Výběh je uzavřen, první dny jsou kritické.",
       "tag": "příroda",
-      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1790,7 +2352,10 @@
       "title": "Na Severní Terase přibyde přes 200 parkovacích míst. Práce mají skončit v říjnu",
       "lede": "Město vyhlásilo zakázku za 26 milionů na 216 nových stání v ulicích Werichova, Voskovcova, Burianova a dalších. Dokončení do konce října 2026.",
       "tag": "doprava",
-      "sources": ["sever.rozhlas.cz", "e-usti.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1799,7 +2364,9 @@
       "title": "Neštěmická dostane nový chodník i na levé straně. Druhá etapa oprav stojí 1,6 milionu",
       "lede": "Firma INSKY opraví za 1,58 milionu Kč levostranný chodník v Neštěmické ulici od V Oblouku po zastávku Výstupní. Dlažba nahradí asfalt, práce do tří měsíců.",
       "tag": "úřad",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1808,7 +2375,9 @@
       "title": "Dětský den v Krásném Březně se vydařil. Pomohli hasiči, policie i desítky firem",
       "lede": "Městský obvod Neštěmice uspořádal dětský den v Krásném Březně za účasti hasičů, policie a místních firem. Starostka Tomková poděkovala všem, kdo pomohli.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1817,7 +2386,11 @@
       "title": "Rok s uzavřeným mostem v Mojžíři. Neštěmice stále nápor provozu nesou",
       "lede": "Zítra je rok od uzavření mostu na I/62 v Mojžíři. Objízdná trasa přes Neštěmice přinesla 700 aut za hodinu. Nový most za 259 milionů má být hotový na konci 2026.",
       "tag": "doprava",
-      "sources": ["nestemice.eu", "kraje.rsd.cz", "ustecky.denik.cz"],
+      "sources": [
+        "nestemice.eu",
+        "kraje.rsd.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1826,7 +2399,9 @@
       "title": "Inspekce zavřela večerku v Seifertově ulici. Hlodavci, hmyz, kontaminované potraviny",
       "lede": "SZPI 19. května uzavřela prodejnu Phú Chien Tran v Seifertově ulici v Neštěmicích. Důvod: hlodavci, mrtvé myši, hmyz a závažně zanedbaná hygiena.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1835,7 +2410,9 @@
       "title": "Zoo v Krásném Březně sbírá na expozici pro bělozubku. Savec váží dva gramy",
       "lede": "Zoo Ústí nad Labem vyhlásila sbírku 312 000 Kč na novou expozici pro bělozubku nejmenší – jednoho z nejmenších savců světa. Nová klec půjde do pavilonu šelem.",
       "tag": "příroda",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1844,7 +2421,10 @@
       "title": "Ústí povolilo dvě letní akce na Větruši do půlnoci. Oldies festival i open-air mají výjimku z nočního klidu",
       "lede": "Zastupitelé schválili výjimky z nočního klidu na Větruši: 30. května Oldies Větruše a 8. srpna letní open-air. Hudba smí hrát do půlnoci.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "usti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1853,7 +2433,10 @@
       "title": "Yveta Tomková obhajuje Neštěmice. Do říjnových voleb jde jako jednička Vaše Ústí",
       "lede": "Dvakrát po sobě zvolená starostka Neštěmic Yveta Tomková povede kandidátku Vaše Ústí + Za lepší Střekov v říjnových komunálních volbách.",
       "tag": "úřad",
-      "sources": ["vaseusti.cz", "nestemice.eu"],
+      "sources": [
+        "vaseusti.cz",
+        "nestemice.eu"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1862,7 +2445,10 @@
       "title": "Ulice Sociální péče u nemocnice dostává chytré semafory a nové zastávky. Stavba vyjde na 76 milionů",
       "lede": "Rekonstrukce ulice Sociální péče u Masarykovy nemocnice: chytré semafory, nové zálivové zastávky MHD a bezpečnější přechody. Dokončení v listopadu.",
       "tag": "doprava",
-      "sources": ["irozhlas.cz", "usti.cz"],
+      "sources": [
+        "irozhlas.cz",
+        "usti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1871,7 +2457,10 @@
       "title": "Na Vaňově vládli závodníci. Dračí lodě na Labi ovládl tým Bulldog Gym KOVO PB",
       "lede": "17. ročník Den Labe na Vaňově: 29 posádek, 28 školních týmů. Vítěz Bulldog Gym KOVO PB s časem 00:55.330, druhý Cákalové, třetí Sutor Global.",
       "tag": "sport",
-      "sources": ["dragonboat.cz", "ustecky.denik.cz"],
+      "sources": [
+        "dragonboat.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1880,7 +2469,9 @@
       "title": "Sportoviště u ZŠ Neštěmická hlídají 5G kamery napojené na dispečink strážníků",
       "lede": "Kamery za 922 000 Kč na síti 5G propojí areál ZŠ Neštěmická s operačním střediskem Městské policie. Sledování non-stop z Na Nivách v Předlicích.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1889,7 +2480,9 @@
       "title": "Corso v Krásném Březně čeká přes léto demolice. Rekonstrukce nádvoří stojí přes 40 milionů",
       "lede": "Rekonstrukce vnitrobloku Corsa v Krásném Březně vstoupila do demoliční fáze. Firma Klement Construction bourá promenádu za 40+ mil. Kč, dokončení do konce roku.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1898,7 +2491,11 @@
       "title": "Heliport ústecké nemocnice dostal povolení k nočnímu provozu. Záchranáři přistanou i po setmění",
       "lede": "Od 1. června 2026 certifikát VFR/NOC pro heliport Masarykovy nemocnice. Modernizace za 60+ mil. Kč, AI hasicí systém, 85 % z EU fondů.",
       "tag": "komunita",
-      "sources": ["homerlive.cz", "ustecky.denik.cz", "zitusti.cz"],
+      "sources": [
+        "homerlive.cz",
+        "ustecky.denik.cz",
+        "zitusti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1907,7 +2504,10 @@
       "title": "Sedm stran tvoří Jedno Ústí. V říjnových volbách chtějí vyhnat ANO a SPD z radnice",
       "lede": "Historicky nejširší koalice v Ústí: PRO! Ústí, Piráti, Zelení, STAN, TOP 09, UFO a Naše Česko. Lídr Tomáš Vohryzka. Volby 9.–10. října.",
       "tag": "úřad",
-      "sources": ["ustecky.denik.cz", "jednousti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "jednousti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1916,7 +2516,11 @@
       "title": "Ve Všebořicích vyroste atletická hala za 600 milionů. Pojme 2 200 diváků a splní podmínky pro světové mítinky",
       "lede": "Atletická hala ve Všebořicích za 600 mil. Kč. Projekt 2026, stavba 2027, dokončení 2028. Certifikace World Athletics Silver, kapacita 2 200 diváků.",
       "tag": "sport",
-      "sources": ["atletika.cz", "irozhlas.cz", "ustecky.denik.cz"],
+      "sources": [
+        "atletika.cz",
+        "irozhlas.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1925,7 +2529,10 @@
       "title": "Justiční palác na Bukově roste. Tisícovka zaměstnanců se nastěhuje v září 2028",
       "lede": "Stavba justičního paláce na Bukově pokračuje. Náklady 2,5 mld. Kč, dokončení září 2028. 46 síní, 1 000 zaměstnanců, 300+ parkovacích míst.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz", "msp.gov.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "msp.gov.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1934,7 +2541,9 @@
       "title": "Dětský den v depu DPMÚL ve Všebořicích. Nafukovačky, hasiči a prohlídka vozovny",
       "lede": "DPMÚL otevírá 13. června vozovnu ve Všebořicích. Nafukovačky, hasiči, Policie i prohlídka opravny trolejbusů, od 9 do 15 hodin.",
       "tag": "kultura",
-      "sources": ["dpmul.cz"],
+      "sources": [
+        "dpmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1943,7 +2552,10 @@
       "title": "Žukovova na Střekově se zavírá na půl roku. EUROVIA mění povrch, chodníky i osvětlení",
       "lede": "Od 8. června je uzavřena Žukovova ulice na Střekově. EUROVIA CZ rekonstruuje povrch, chodníky, parkoviště a osvětlení. Uzavírka trvá do 29. listopadu.",
       "tag": "doprava",
-      "sources": ["zdopravy.cz", "auto-mania.cz"],
+      "sources": [
+        "zdopravy.cz",
+        "auto-mania.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1952,7 +2564,9 @@
       "title": "ODS a lidovci jdou v říjnu společně. V Neštěmicích povede koalici Nicole Školková",
       "lede": "ODS a KDU-ČSL kandidují jako Spolu pro Ústí. Lídr za město Radim Bzura, v Neštěmicích Nicole Školková. Komunální volby 9.–10. října 2026.",
       "tag": "úřad",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1961,7 +2575,9 @@
       "title": "Neštěmická dostane nový chodník za čtyři miliony. Práce probíhají po etapách",
       "lede": "Město opraví chodník v Neštěmické ulici za čtyři miliony korun. Úsek od AVE po zastávku Krčínova, s bezbariérovými prvky pro nevidomé.",
       "tag": "úřad",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1970,7 +2586,11 @@
       "title": "Filmové léto s UJEP startuje čtvrtkem. Zdarma pod širým nebem každý týden až do srpna",
       "lede": "Čtvrtý ročník Filmového léta s UJEP startuje 4. června v kampusu. Každý čtvrtek od 17:30 zdarma. Červen: Neporazitelní, Stezka života, Postřižiny.",
       "tag": "kultura",
-      "sources": ["naseveru.net", "ujep.cz", "usti.cz"],
+      "sources": [
+        "naseveru.net",
+        "ujep.cz",
+        "usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1979,7 +2599,11 @@
       "title": "Poprvé za 17 let. Ústí spustilo novou trolejbusovou trať a linky 74 a 75 jedou i přes Neštěmice",
       "lede": "Od 1. června testuje Ústí novou trolejbusovou trať ve Výstupní ulici. Linky 74 a 75 jedou kloubovými trolejbusy, linka 75 zastavuje na Neštěmické.",
       "tag": "doprava",
-      "sources": ["zdopravy.cz", "ustecky.denik.cz", "zitusti.cz"],
+      "sources": [
+        "zdopravy.cz",
+        "ustecky.denik.cz",
+        "zitusti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -1988,7 +2612,10 @@
       "title": "Ranní kolaps na Střekově. Špatné značení u Benešáku zastavilo provoz na hodinu",
       "lede": "5. června ráno zablokoval Střekov dopravní kolaps. Příčina: špatné značení od zhotovitele u Benešova mostu. Kolony až 45 minut, MHD hodinu a půl.",
       "tag": "doprava",
-      "sources": ["ceskenoviny.cz", "ustecky.denik.cz"],
+      "sources": [
+        "ceskenoviny.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -1997,7 +2624,9 @@
       "title": "Koupaliště Klíše zahájilo letní sezónu. Přibylo termální jezírko i kavárna FitCaffee",
       "lede": "Venkovní areál koupaliště Klíše je od 21. května otevřený. Novinka letošní sezóny: kavárna FitCaffee. Vstupné 150 / 90 Kč, denně 9–20 hodin.",
       "tag": "příroda",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2006,7 +2635,9 @@
       "title": "DDM Ústí otevírá přihlášky na letní tábory. Cesta kolem světa nebo tanec a tvoření",
       "lede": "DDM Ústí nad Labem nabízí příměstské tábory: Cesta kolem světa 13.–17. července, Kreativní léto 20.–24. července. Přihlášky na ddmul.cz.",
       "tag": "komunita",
-      "sources": ["ddmul.cz"],
+      "sources": [
+        "ddmul.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2015,7 +2646,10 @@
       "title": "Na Mariánské skále přibylo pietní místo. Rodiče sem přinesou jméno svého dítěte",
       "lede": "Na Mariánské skále přibylo vzpomínkové místo pro rodiče po ztrátě miminka. Strom se srdci, levandule, kámen — projekt Masarykovy nemocnice.",
       "tag": "lidé",
-      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2024,7 +2658,10 @@
       "title": "Mánesovy sady v centru Ústí čekají přerod. Park uzavřen od ledna, hotovo do roku 2027",
       "lede": "Mánesovy sady jsou uzavřeny od 26. ledna. Rekonstrukce za 40 milionů přinese hřiště, psí výběh, parkour i bezbariérové cesty.",
       "tag": "komunita",
-      "sources": ["sever.rozhlas.cz", "ustecky.denik.cz"],
+      "sources": [
+        "sever.rozhlas.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2033,7 +2670,10 @@
       "title": "Sto let ZUŠ Evy Randové. Výstava v muzeu mapuje celou historii školy",
       "lede": "Oblastní muzeum v Ústí hostí výstavu ke 100 letům ZUŠ Evy Randové. Potrvá do 2. srpna 2026, přibližuje historii i současnost školy.",
       "tag": "kultura",
-      "sources": ["muzeumusti.cz", "operaplus.cz"],
+      "sources": [
+        "muzeumusti.cz",
+        "operaplus.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2042,7 +2682,10 @@
       "title": "D8 se od pondělí zúží na dva pruhy. Opravy potrvají až do října",
       "lede": "Od 8. června začíná rekonstrukce 30 km D8 mezi Novou Vsí a Lovosicemi. Provoz 2+2, max 80 km/h, zákaz pro vozidla nad 2,2 m šíře. Práce potrvají do října.",
       "tag": "doprava",
-      "sources": ["e-usti.cz", "ceske-novinky.cz"],
+      "sources": [
+        "e-usti.cz",
+        "ceske-novinky.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2051,7 +2694,9 @@
       "title": "Ústecký schod dnes zdolává letní kino. Start od půl desáté, vstupné 50 nebo 150 korun",
       "lede": "Speciální ročník závodu Ústecký schod se koná dnes od 9:30 v kulisách letního kina v Ústí nad Labem. Vstupné 50 nebo 150 korun.",
       "tag": "sport",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2060,7 +2705,10 @@
       "title": "Zoo v Krásném Březně slaví Světový den žiraf. Program pro děti i dospělé od 14 hodin",
       "lede": "Zoo Ústí nad Labem připravila na 21. června od 14 hodin program ke Světovému dni žiraf. Kvíz, dílna, komentované krmení a setkání s ošetřovatelem.",
       "tag": "příroda",
-      "sources": ["enviweb.cz", "zoousti.cz"],
+      "sources": [
+        "enviweb.cz",
+        "zoousti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2069,7 +2717,9 @@
       "title": "Inspekce zavřela večerku v Neštěmicích. Myši, zdechliny a špína na Seifertově ulici",
       "lede": "SZPI uzavřela 19. května prodejnu v Seifertově ulici v Neštěmicích. Kontroloři našli mrtvé hlodavce, jejich stopy, hmyz v potravinách a dlouhodobě zanedbanou hygienu.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2078,7 +2728,10 @@
       "title": "Žáci ZUŠ Neštěmice tančí v neděli na velkém jevišti. Čarovná zahrada v Divadle města",
       "lede": "Žáci tanečního oboru ZUŠ Neštěmice vystoupí 7. června v Divadle města Ústí nad Labem. Pohádkový balet Čarovná zahrada začíná v 17 hodin, vstupné 300 Kč.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz", "vstupenkyusti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "vstupenkyusti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2087,7 +2740,9 @@
       "title": "Zoo v Krásném Březně má nového levharta. Vzácný samec přijel z Itálie, čeká ho samice z Jihlavy",
       "lede": "Ústecká zoo přijala tříletého samce levharta cejlonského z italské Zoo d'Abruzzo. Spolu se samicí z Jihlavy vytvoří chovný pár – ve volné přírodě žije jen 700 až 950 těchto levhartů.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2096,7 +2751,9 @@
       "title": "Zoo v Krásném Březně sbírá na bělozubku. Nejmenší savec dostane vlastní expozici",
       "lede": "Zoologická zahrada v Ústí nad Labem spustila sbírku na novou expozici pro bělozubku nejmenší. Cíl je 312 000 Kč; zvíře váží asi 2 gramy a patří k nejmenším savcům světa.",
       "tag": "příroda",
-      "sources": ["sever.rozhlas.cz"],
+      "sources": [
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2105,7 +2762,10 @@
       "title": "Poříční policie v Brné dostala nové plovoucí garáže. ŘVC za ně zaplatilo 39 milionů",
       "lede": "Ředitelství vodních cest předalo 27. května nové kryté plovoucí garáže poříčnímu oddělení v Brné. Dvě stavby o sto tunách každá nahradily 35 let staré garáže.",
       "tag": "komunita",
-      "sources": ["rvc.gov.cz", "md.gov.cz"],
+      "sources": [
+        "rvc.gov.cz",
+        "md.gov.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2114,7 +2774,10 @@
       "title": "Kruháč u Chlumce rozkopali naplno. Kolony na I/30 potrvají do října",
       "lede": "Od 2. června vstoupila přestavba křižovatky U Šmelce do hlavní fáze. Silnice III/25357 je uzavřena, kamiony mají zákaz tranzitu. Omezení platí do konce října.",
       "tag": "doprava",
-      "sources": ["e-usti.cz", "zdopravy.cz"],
+      "sources": [
+        "e-usti.cz",
+        "zdopravy.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2123,7 +2786,10 @@
       "title": "Ústí má nové okno do EU. Europe Direct otevřelo 3. června v Bedně",
       "lede": "Spolek Bedna v Masarykově ulici hostí nové informační centrum EU. Europe Direct otevřelo 3. června za přítomnosti primátora a zástupkyně Evropské komise.",
       "tag": "komunita",
-      "sources": ["kr-ustecky.cz", "sever.rozhlas.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2132,7 +2798,10 @@
       "title": "Benešák po roce prací: historický oblouk spočinul na nových pilířích",
       "lede": "Po roce od uzavření Benešova mostu usadili stavbaři historický ocelový oblouk na nové pilíře. Betonáž mostovky probíhá, otevření plánováno 19. prosince.",
       "tag": "doprava",
-      "sources": ["zdopravy.cz", "ustecky.denik.cz"],
+      "sources": [
+        "zdopravy.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2141,7 +2810,10 @@
       "title": "Oprava Sociální péče u nemocnice vrcholí. Největší komplikace přijdou v druhé půli června",
       "lede": "Rekonstrukce ulice Sociální péče u Masarykovy nemocnice probíhá od dubna. Zastávka Bukov sanatorium se přesunula, největší omezení přijdou od druhé půle června.",
       "tag": "doprava",
-      "sources": ["irozhlas.cz", "sever.rozhlas.cz"],
+      "sources": [
+        "irozhlas.cz",
+        "sever.rozhlas.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2150,7 +2822,10 @@
       "title": "Elektropřívoz T94 Brná–Vaňov jezdí v létě do osmé. Stačí zavolat",
       "lede": "Nová elektrická loď T94 přepravuje cestující a kola přes Labe mezi Brnou a Vaňovem. Denně do 20 hodin, na zavolání, v tarifu DÚK.",
       "tag": "doprava",
-      "sources": ["kr-ustecky.cz", "zdopravy.cz"],
+      "sources": [
+        "kr-ustecky.cz",
+        "zdopravy.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2159,7 +2834,10 @@
       "title": "Útulek Fest spustil 25. ročník. Tři scény a dvacet kapel v Loděnici Brná",
       "lede": "Benefiční festival v Cyklokempu Loděnice Brná startuje dnes od 16 hodin. Tři scény, 20 kapel, 26 hodin hudby. Vstupné 500 Kč, výtěžek jde útulkům.",
       "tag": "kultura",
-      "sources": ["utulekfest.cz", "bandzone.cz"],
+      "sources": [
+        "utulekfest.cz",
+        "bandzone.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2168,7 +2846,10 @@
       "title": "Jezero Milada ožije v sobotu středověkem. Bitvy roku 1126 a 1426, vstup zdarma",
       "lede": "Oblastní muzeum pořádá na Jezeře Milada středověký festival. Dvě bitevní rekonstrukce, sokolníci, ohňová show. Vstup zdarma, kyvadlová linka z Divadla.",
       "tag": "kultura",
-      "sources": ["muzeumusti.cz", "dpmul.cz"],
+      "sources": [
+        "muzeumusti.cz",
+        "dpmul.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2177,7 +2858,10 @@
       "title": "Děti z DDM uvádí muzikál Dracula. Premiéra 22. a 23. června v Domě kultury",
       "lede": "Děti a mládež z Musical school DDM Ústí nad Labem uvádí muzikál Dracula. Jubilejní 10. sezóna, 22.–23. června, vstupné 250 Kč.",
       "tag": "kultura",
-      "sources": ["ddmul.cz", "vstupenkyusti.cz"],
+      "sources": [
+        "ddmul.cz",
+        "vstupenkyusti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2186,7 +2870,10 @@
       "title": "Koupaliště Brná otevřelo sezónu 2026. Nová terasa, pétanque a automatické zavlažování",
       "lede": "Termální koupaliště v Brné zahájilo sezónu. Nová restaurační terasa, pétanque hřiště a automatické zavlažování. Vstupné 150 / 90 Kč.",
       "tag": "příroda",
-      "sources": ["ustecky.denik.cz", "e-usti.cz"],
+      "sources": [
+        "ustecky.denik.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2195,7 +2882,10 @@
       "title": "Filmové léto v kampusu UJEP startuje dnes. Každý čtvrtek večer pod širým nebem, vstup zdarma",
       "lede": "V amfiteátru kampusu UJEP začíná letní série bezplatných filmových večerů. Každý čtvrtek od 17:30, červen: Neporazitelní, Stezka života, Postřižiny.",
       "tag": "kultura",
-      "sources": ["ujep.cz", "ustecky.denik.cz"],
+      "sources": [
+        "ujep.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2204,7 +2894,10 @@
       "title": "Nová trolejbusová trať po 17 letech. Výstupní spojuje Krásné Březno se Severní Terasou",
       "lede": "DPMÚL spustil 1. června zkušební provoz na nové 2,35km trati v ulici Výstupní. Linky 74 a 75 dostaly 18metrové parciální trolejbusy. Projekt stál 79 milionů Kč.",
       "tag": "doprava",
-      "sources": ["dpmul.cz", "ustecky.denik.cz"],
+      "sources": [
+        "dpmul.cz",
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2213,7 +2906,9 @@
       "title": "Od května vyjíždí cyklobus. Zdarma sveze kolo i cyklistu",
       "lede": "Od prvního května začne v Ústí jezdit bezplatný cyklobus. O víkendech sveze cyklisty i s koly z Labské stezky do kopcovitějších částí města.",
       "tag": "doprava",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2222,7 +2917,9 @@
       "title": "Požár studia u Městského stadionu. Policie stále vyšetřuje příčinu",
       "lede": "Policisté a hasiči pokračují ve vyšetřování únorového požáru v komplexu Městského stadionu. Prověřují kamery, výslechy i znalecký posudek.",
       "tag": "komunita",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2231,7 +2928,9 @@
       "title": "Saunový svět na Klíši slaví půl roku. Areál chystá speciální program",
       "lede": "Plavecký areál Klíše oslavuje šest měsíců Saunového světa slavnostním programem. Od Neštěmic je snadno dostupný trolejbusem.",
       "tag": "kultura",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2250,7 +2949,9 @@
       "title": "Do Neštěmic se vrací ordinace dětského lékaře. Bude ordinovat hned po Velikonocích",
       "lede": "Ve zdravotním středisku v Hluboké začne po Velikonocích ordinovat MUDr. Martin Pánek. Kapacita až 1 200 pacientů, registrace už běží. V dubnu má přijít poradna, v květnu neurolog.",
       "tag": "komunita",
-      "sources": ["nestemice.eu"],
+      "sources": [
+        "nestemice.eu"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2259,7 +2960,10 @@
       "title": "V Orlické na Severní Terase má vzniknout 92 městských bytů. Město představilo plán",
       "lede": "Bytové domy Orlická 1 a 3 projdou kompletní rekonstrukcí — zateplení, fotovoltaika, nové vytápění. Po dokončení tu bude až 92 městských bytů.",
       "tag": "úřad",
-      "sources": ["usti.cz", "e-usti.cz"],
+      "sources": [
+        "usti.cz",
+        "e-usti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2268,7 +2972,9 @@
       "title": "Dlouhonozí skřítci v letním kině. Děti hledaly poklad v papírovém bludišti",
       "lede": "V ústeckém letním kině proběhla rodinná akce Den, který spojuje. Pro děti hry a hledání pokladu, pro rodiče chill zóna. Vstup zdarma.",
       "tag": "kultura",
-      "sources": ["usti.cz"],
+      "sources": [
+        "usti.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2277,7 +2983,10 @@
       "title": "Policie cvičila zásah proti ozbrojenému útočníkovi v trmické škole",
       "lede": "V trmické základce proběhlo ve středu cvičení policie proti ozbrojenému útočníkovi. Žáci měli zkrácenou výuku, budova byla prázdná.",
       "tag": "komunita",
-      "sources": ["Policie ČR", "Ústecký deník"],
+      "sources": [
+        "Policie ČR",
+        "Ústecký deník"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2286,7 +2995,9 @@
       "title": "Víkend v Ústí. Klubové kino, ples Chabakusu a Akva-Tera burza",
       "lede": "Přehled akcí na víkend 24.–26. dubna. Film Gerta Schnirch, ples bigbandu, prohlídky bunkru u Velkého Března a Akva-Tera burza v Domě kultury.",
       "tag": "kultura",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2295,7 +3006,9 @@
       "title": "U Chlumce začala stavba kruháče. Křižovatku smrti nahradí kruhový objezd za 32 milionů",
       "lede": "Na silnici I/30 mezi Ústím a Teplicemi začala přestavba nebezpečné křižovatky U Šmelce. Stavba potrvá pět měsíců, provoz bude střídavě v jednom pruhu.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2304,7 +3017,9 @@
       "title": "Studenti v Ústí vyšli do ulic na podporu veřejnoprávních médií",
       "lede": "Před gymnáziem Jateční se sešlo asi 280 studentů na podporu ČT a Českého rozhlasu. Podobné akce proběhly v dalších sedmi městech.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2313,7 +3028,9 @@
       "title": "Den Země v DDM. Soutěže a hry pro děti i rodiče v Parku republiky",
       "lede": "Dům dětí a mládeže uspořádal odpoledne ke Dni Země. Soutěže a hry venku v Parku republiky, vstup zdarma.",
       "tag": "kultura",
-      "sources": ["ddmul.cz"],
+      "sources": [
+        "ddmul.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2322,7 +3039,9 @@
       "title": "Opravy vodovodu na Severní Terase. Voda může být hnědá, není to nebezpečné",
       "lede": "V Kočkovské ulici opravují potrubí. Voda může být zakalená až do čtvrteční půlnoci. Podle vodáren není zakalení zdraví nebezpečné.",
       "tag": "komunita",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2331,7 +3050,9 @@
       "title": "Základní škola Palachova zkouší umělou inteligenci ve výuce. Je jednou ze šesti v Česku",
       "lede": "ZŠ Palachova se zapojila do dvouletého pilotu AI Akcelerátor. Mění výuku, hodnocení i komunikaci s pomocí umělé inteligence.",
       "tag": "komunita",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "2 min"
     },
     {
@@ -2340,7 +3061,9 @@
       "title": "Ústí opraví chodníky. Největší zakázka míří do Neštěmické ulice",
       "lede": "Radní schválili velkoplošné opravy chodníků. Neštěmická ulice dostane nové povrchy za čtyři miliony. Opraví se i Jizerská, Stavbařů a Novosedlické náměstí.",
       "tag": "doprava",
-      "sources": ["ustecky.denik.cz"],
+      "sources": [
+        "ustecky.denik.cz"
+      ],
       "reading_time": "1 min"
     },
     {
@@ -2349,7 +3072,9 @@
       "title": "Ústecký kraj nabízí začínajícím podnikatelům až 200 tisíc. Přihlášky končí dnes",
       "lede": "Dotační program pro nové podnikatele v Ústeckém kraji: 50–200 tisíc korun, 70 % nákladů. Žádosti jen elektronicky do 20. dubna.",
       "tag": "úřad",
-      "sources": ["e-usti.cz"],
+      "sources": [
+        "e-usti.cz"
+      ],
       "reading_time": "1 min"
     }
   ]
