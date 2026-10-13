@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-13T07:30:00Z",
+  "generated": "2026-10-13T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-13-podzimni-strasidleni-ddm",
+      "date": "2026-10-13",
+      "title": "Podzimní strašidlení v DDM. Halloween po česku s kouzelníkem a maskami",
+      "lede": "DDM zve 27. října na Podzimní strašidlení. Vystoupí kouzelník David Kozlok, hrací karta 100 Kč, předprodej do 23. října.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-13-podzimni-mismas-ddm",
+      "date": "2026-10-13",
+      "title": "Podzimní mišmaš v DDM. Dva dny her a tvoření pro prvňáčky až páťáky",
+      "lede": "Dvoudenní program DDM o podzimních prázdninách 29. a 30. října pro děti 6 až 12 let. Účast 300 Kč včetně oběda.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-13-s-technikou-do-prahy-ddm",
+      "date": "2026-10-13",
+      "title": "S technikou do Prahy. DDM vezme děti zdarma na hvězdárnu a do Království železnic",
+      "lede": "Výlet DDM 26. října pro děti 7 až 12 let: Štefánikova hvězdárna a Království železnic, doprava i vstupy zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-13-cyklobus-zavody",
       "date": "2026-10-13",
