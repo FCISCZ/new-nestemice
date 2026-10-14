@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-13T12:00:00Z",
+  "generated": "2026-10-14T12:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-14-andelka-ddm",
+      "date": "2026-10-14",
+      "title": "Kreativní víkend v DDM. Dřevěná andělka na dveře za 300 korun",
+      "lede": "DDM zve 24. října na malování dřevěné andělky z překližky. Akrylové barvy, šablony, materiál zajištěn, 300 Kč za kus.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-14-ponorka-smysly-ddm",
+      "date": "2026-10-14",
+      "title": "Ponorka.smysly v DDM. Podzimní hrátky pro nejmenší s rodiči",
+      "lede": "Smyslové programy pro děti od 1 roku s rodiči: Podzim v lese 16. a 18. října, Pozor strašidla 23. až 25. října. 120 Kč.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-13-podzimni-strasidleni-ddm",
       "date": "2026-10-13",
