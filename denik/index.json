@@ -1,7 +1,51 @@
 {
-  "generated": "2026-10-14T12:00:00Z",
+  "generated": "2026-10-14T14:12:47Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-14-e-seky-2027",
+      "date": "2026-10-14",
+      "title": "E-šeky na rok 2027 jsou otevřené. Vyplnit je lze do 1. prosince",
+      "lede": "Město otevřelo systém e-šeků pro rok 2027. Vyplňují se online na seky.usti.cz do 1. prosince, nenahrazují žádost o dotaci.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-14-dny-dedictvi-vysledky",
+      "date": "2026-10-14",
+      "title": "Dny evropského dědictví otevřely v Ústí 33 míst. Známe vítěze soutěže s pasy",
+      "lede": "Letos se zapojilo 33 památek. Novinkou Schichtova vila ve Vaňově a Národní dům, město vyhlásilo vítěze soutěže s pasy.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-14-trojboj-mistrovstvi-sveta",
+      "date": "2026-10-14",
+      "title": "Ústečtí silový trojboj: dvě medaile z mistrovství světa v Magdeburku",
+      "lede": "Jan Novotný a Ota Drudík z TJ Sokol Ústí uspěli na MS WUAP v Magdeburku, Novotný je mistrem světa.",
+      "tag": "sport",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-14-beseda-ceske-stredohori",
+      "date": "2026-10-14",
+      "title": "Beseda o nové knize Klenotnice přírody Českého středohoří. Středa 21. října",
+      "lede": "Informační středisko zve 21. října v 17 hodin na besedu s autory nové knihy ke 50. výročí CHKO. Vstup zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-14-andelka-ddm",
       "date": "2026-10-14",
