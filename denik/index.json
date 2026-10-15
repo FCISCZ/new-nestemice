@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-15T07:13:06Z",
+  "generated": "2026-10-15T14:13:02Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-15-brestovce-podsadba",
+      "date": "2026-10-15",
+      "title": "Pod památnými břestovci v Ústí přibyl kryt z dřínovce. Město prosí, aby se po něm nechodilo",
+      "lede": "Po injektáži a mulčování město osázelo půdu pod památnými břestovci dřínovcem kanadským. Žádá, aby se po ní nechodilo.",
+      "tag": "příroda",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-15-ddm-strekov-vikend",
+      "date": "2026-10-15",
+      "title": "DDM Střekov 23. a 24. října. Přespávačka roztleskávaček a sobotní herna pro nejmenší",
+      "lede": "Přespávačka roztleskávaček od pátku 17 h do soboty 13 h zdarma, v sobotu 9–12 herna a tělocvična pro děti 0–4 roky za 50 Kč.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-15-linky-85-86-bozt",
       "date": "2026-10-15",
