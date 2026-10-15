@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-14T14:12:47Z",
+  "generated": "2026-10-15T07:13:06Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-15-linky-85-86-bozt",
+      "date": "2026-10-15",
+      "title": "Oprava Petrovické mění trasu linek 85 a 86 u Božtěšic do konce října",
+      "lede": "Od 16. října do zhruba 30. října jezdí linky 85 a 86 přes Božtěšice obec. Zastávka Božtěšice obec ve směru Strážky se ruší.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-15-vanocni-kreativky",
+      "date": "2026-10-15",
+      "title": "Vánoční kreativky na Střekově. Děti si 28. listopadu vyrobí hvězdu či svícen",
+      "lede": "Pobočka DDM Střekov zve děti 6–18 let na adventní tvoření. Hvězda, svícen, 3D vločka. Přihlášky online.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-15-svatovo-dividlo",
+      "date": "2026-10-15",
+      "title": "Sváťovo dividlo v DDM. Pohádka pro děti i dospělé 14. listopadu",
+      "lede": "Pohádkové představení v divadelním sále DDM v sobotu 14. listopadu v 16 hodin. Vstupné 60 Kč, jen na recepci.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-14-e-seky-2027",
       "date": "2026-10-14",
