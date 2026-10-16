@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-16T07:25:00Z",
+  "generated": "2026-10-16T08:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-16-zezicka-chodniky",
+      "date": "2026-10-16",
+      "title": "Opravy chodníků v Žežické se protáhnou. Hotovo má být do 21. října",
+      "lede": "Úřad rozšířil třetí etapu oprav chodníků u zadních vchodů domů v Žežické, proto se posouvá dokončení na 21. října.",
+      "tag": "úřad",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-16-zitna-uzavirka",
+      "date": "2026-10-16",
+      "title": "Ulice Žitná je do konce listopadu uzavřena kvůli opravě opěrných zdí",
+      "lede": "Od 29. září do 30. listopadu platí v Žitné částečná či úplná uzavírka kvůli opravě opěrných zdí. Chodci projdou.",
+      "tag": "doprava",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-16-linka-88-gagarinova",
+      "date": "2026-10-16",
+      "title": "Pět ranních spojů linky 88 už nezačíná na Gagarinově, ale na Mírové",
+      "lede": "Od 5. října nezačíná na Gagarinově pět časných všedních spojů linky 88 (4:23 až 6:53). Vyjedou z Mírové, víkendy beze změny.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-16-komory-prednaska",
       "date": "2026-10-16",
