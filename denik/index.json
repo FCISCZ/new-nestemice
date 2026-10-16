@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-15T14:13:02Z",
+  "generated": "2026-10-16T07:25:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-16-komory-prednaska",
+      "date": "2026-10-16",
+      "title": "Cesta na Komory v Centru informací. Cestovatel Mart Eslem ukázal krásu i chudobu sopečných ostrovů",
+      "lede": "Místní cestovatel Mart Eslem přednášel v Centru informací o Komorách: hromady odpadků i malebná krajina. Příště beseda o Českém středohoří.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-15-brestovce-podsadba",
       "date": "2026-10-15",
