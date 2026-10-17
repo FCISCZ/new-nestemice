@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-17T07:13:12Z",
+  "generated": "2026-10-17T14:12:46Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-17-podzimni-strasidleni",
+      "date": "2026-10-17",
+      "title": "Podzimní strašidlení v DDM. Hry, masky a kouzelník 27. října",
+      "lede": "DDM zve 27. října na halloween po česku. Hrací karta 100 Kč, v 17:20 vystoupí kouzelník, strašidelné masky vítány.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-17-pozor-strasidla-ponorka",
+      "date": "2026-10-17",
+      "title": "Pozor strašidla! Smyslové hraní pro nejmenší v DDM od 23. října",
+      "lede": "Halloweenské smyslové hraní pro malé děti s rodiči. V pátek 23. října v 9:30, cena 120 Kč.",
+      "tag": "komunita",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-17-podzimni-mismas",
+      "date": "2026-10-17",
+      "title": "Podzimní mišmaš v DDM. Dva dny her a tvoření pro školáky 29. a 30. října",
+      "lede": "Dvoudenní akce pro děti 6–12 let: hry, hudba a tvoření. Cena 300 Kč včetně oběda.",
+      "tag": "komunita",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-17-child-support-21",
       "date": "2026-10-17",
