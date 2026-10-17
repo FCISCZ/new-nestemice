@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-16T08:30:00Z",
+  "generated": "2026-10-17T07:13:12Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-17-child-support-21",
+      "date": "2026-10-17",
+      "title": "Child Support 21 v Národním domě. Školáci debatovali o šikaně, kyberšikaně i drink spikingu",
+      "lede": "Třetí ročník minifestivalu pro deváťáky a středoškoláky nabídl tři filmy s diskusemi o šikaně, kyberšikaně a drink spikingu.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-17-klise-obcerstveni",
+      "date": "2026-10-17",
+      "title": "Plavecký areál Klíše má nové občerstvení. Mokrý bar vznikl v upravených šatnách",
+      "lede": "Město otevřelo mokrý bar v přestavěných šatnách plaveckého areálu. Stavba za 12 milionů má 20 míst u haly a 35 u bazénu.",
+      "tag": "sport",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-17-prochazka-prvni-republika",
+      "date": "2026-10-17",
+      "title": "Komentovaná procházka vrátí Ústí do první republiky. Sobota 24. října od 13 hodin",
+      "lede": "Město zve na komentovanou procházku o Ústí v době první republiky. Začíná v sobotu 24. října ve 13 hodin.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-16-zezicka-chodniky",
       "date": "2026-10-16",
