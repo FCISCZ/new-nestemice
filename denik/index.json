@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-17T14:12:46Z",
+  "generated": "2026-10-18T14:12:39Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-18-nezamestnanost-zari",
+      "date": "2026-10-18",
+      "title": "Nezaměstnanost v Ústeckém kraji v září: 7,3 %, v okrese Ústí mírně klesla",
+      "lede": "Míra nezaměstnanosti v kraji zůstala na 7,3 %. V okrese Ústí nad Labem počet uchazečů za měsíc klesl o 0,8 %.",
+      "tag": "úřad",
+      "sources": [
+        "ustinadlabemdnes.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-18-labe-plavebni-stupen-decin",
+      "date": "2026-10-18",
+      "title": "Labe u Děčína: plánovaný jez s elektrárnou vstoupil do posuzování vlivů na životní prostředí",
+      "lede": "Plavební stupeň Děčín je v první fázi EIA. Počítá se s jezem, komorou a malou elektrárnou, stavba nejdřív v roce 2029.",
+      "tag": "příroda",
+      "sources": [
+        "ustinadlabemdnes.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-17-podzimni-strasidleni",
       "date": "2026-10-17",
