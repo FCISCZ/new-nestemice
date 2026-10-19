@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-18T14:12:39Z",
+  "generated": "2026-10-19T14:25:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-19-podzimni-mismas",
+      "date": "2026-10-19",
+      "title": "Podzimní mišmaš v DDM. Dva prázdninové dny her a tvoření za 300 korun",
+      "lede": "DDM zve 29. a 30. října děti 6–12 let na dvoudenní program her, hudby a tvoření. Cena 300 Kč včetně oběda.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-19-s-technikou-do-prahy",
+      "date": "2026-10-19",
+      "title": "Z Ústí na hvězdárnu a do Království železnic. DDM vyveze děti zdarma do Prahy",
+      "lede": "DDM nabízí 26. října výlet pro děti 7–12 let na Štefánikovu hvězdárnu a do Království železnic. Doprava i vstupy zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-19-kreativni-vikend-andelka",
+      "date": "2026-10-19",
+      "title": "Kreativní víkend v DDM. V sobotu děti i dospělí zdobí dřevěné anděly",
+      "lede": "V sobotu 24. října od 9 do 12 hodin se v DDM zdobí dřevěný anděl akrylem a 3D efekty. Účast s výrobou 300 Kč.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-18-nezamestnanost-zari",
       "date": "2026-10-18",
