@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-20T07:15:43Z",
+  "generated": "2026-10-20T14:19:16Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-20-top-kvetinove-usti",
+      "date": "2026-10-20",
+      "title": "Soutěž TOP květinové Ústí má vítěze. Hlavní cenou byl poukaz na 10 tisíc korun",
+      "lede": "Osmý ročník soutěže skončil. Ceny převzali výherci v Informačním centru, hlavní cenou byl poukaz do BAUHAUSu.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-20-usti-dostihy-most",
+      "date": "2026-10-20",
+      "title": "Ústí poprvé na dostizích v Mostě. Děti si zkusily hobby horsing, město chce v propagaci pokračovat",
+      "lede": "Město mělo poprvé stánek na Hipodromu Most. Děti čekala hobby horsing dráha, dospělé tipy na výlety.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-20-brestovce-pece",
       "date": "2026-10-20",
