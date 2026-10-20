@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-19T14:25:00Z",
+  "generated": "2026-10-20T07:15:43Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-20-brestovce-pece",
+      "date": "2026-10-20",
+      "title": "Pod památnými břestovci přibyl půdokryvný dřín. Město chce chránit kořeny",
+      "lede": "Město vysadilo pod památnými břestovci dřín kanadský, který má chránit půdu před sešlapáním a vysycháním.",
+      "tag": "příroda",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-20-space4talents-usti",
+      "date": "2026-10-20",
+      "title": "Ústí hostilo partnerská města projektu Space4Talents. Řešilo se, jak udržet mladé v regionu",
+      "lede": "Zástupci partnerských měst se v Ústí sešli 15.–16. října. Téma: propojení škol, města a firem a udržení mladých talentů.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-20-zmena-casu-mhd",
+      "date": "2026-10-20",
+      "title": "V neděli končí letní čas. Hodiny se ve 3:00 vrátí na 2:00",
+      "lede": "Letní čas končí v neděli 25. října, ve 3:00 se hodiny vrátí na 2:00. Dopravní podnik žádné změny jízdních řádů neuvádí.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-19-podzimni-mismas",
       "date": "2026-10-19",
