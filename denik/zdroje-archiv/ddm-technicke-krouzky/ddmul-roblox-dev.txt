@@ -1,0 +1,4 @@
+Zdroj: https://www.ddmul.cz/hlavni-udalosti/616-roblox-dev-herni-vyvoj-a-programovani
+Staženo: 2026-10-21
+---
+Roblox Dev – Herní vývoj a programování. Nový kroužek na Technice!! V prostředí Roblox Studio se děti naučí základům 3D modelování, tvorbě herních světů a programování v jazyce Lua. Postupně si vytvářejí vlastní herní mechaniky a interaktivní prvky. Datum zveřejnění: 16.10.2026.
