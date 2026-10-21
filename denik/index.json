@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-21T07:15:29Z",
+  "generated": "2026-10-21T14:17:16Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-21-linka-85-na-spojce",
+      "date": "2026-10-21",
+      "title": "Linka 85 se vrátí na původní trasu po Bělehradské. Od 26. října konec odklonu",
+      "lede": "Rekonstrukce křižovatky Na Spojce má skončit 25. října. Linka 85 pojede opět po Bělehradské, zastávka se znovu otevře.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-21-svatek-28-rijna-mhd",
+      "date": "2026-10-21",
+      "title": "Na státní svátek 28. října pojede MHD podle víkendových jízdních řádů",
+      "lede": "Ve středu 28. října pojede ústecká MHD podle sobotních a nedělních jízdních řádů. Infolinka 800 100 613.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-21-ddm-technicke-krouzky",
       "date": "2026-10-21",
