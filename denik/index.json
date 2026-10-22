@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-21T14:17:16Z",
+  "generated": "2026-10-22T07:17:24Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-22-jedno-usti-nestemice-opozice",
+      "date": "2026-10-22",
+      "title": "Jedno Ústí půjde v Neštěmicích do opozice. Koalice v obvodu zatím není hotová",
+      "lede": "Jedno Ústí nebude usilovat o vedení obvodu Neštěmice. Jednání o koalici zatím skončila bez dohody, rozhovory pokračují.",
+      "tag": "úřad",
+      "sources": [
+        "Ústecký deník"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-21-linka-85-na-spojce",
       "date": "2026-10-21",
