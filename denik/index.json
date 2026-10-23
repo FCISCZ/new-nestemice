@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-23T07:25:00Z",
+  "generated": "2026-10-23T14:18:37Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-23-kekulova-osvetleni",
+      "date": "2026-10-23",
+      "title": "Kekulova ulice zatím svítí jen částečně. Dopravní podnik řeší potíže s osvětlením",
+      "lede": "ČEZ mění vedení v ulici Kekulova za podzemní kabely, při přestavbě osvětlení vznikly technické potíže. Cílem je aspoň provizorní svícení.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-23-svoboda-klenotnice-prirody",
+      "date": "2026-10-23",
+      "title": "Jiří Svoboda v Ústí ukázal přírodní klenoty Českého středohoří. Netopýři, orchideje i hořlavá rostlina",
+      "lede": "Beseda k nové knize Klenotnice přírody Českého středohoří přinesla zajímavosti od netopýrů po Panskou skálu. Další akce 4. listopadu.",
+      "tag": "příroda",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-23-darci-krve-oceneni",
       "date": "2026-10-23",
