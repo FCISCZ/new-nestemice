@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-22T14:25:00Z",
+  "generated": "2026-10-23T07:25:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-23-darci-krve-oceneni",
+      "date": "2026-10-23",
+      "title": "Ústí poděkovalo 147 dárcům krve. Poprvé ocenilo i pečovatele a pěstounku",
+      "lede": "Město ocenilo v Divadle města 147 bezpříspěvkových dárců krve a poprvé také pět pečovatelů a jednu pěstounku přechodné péče.",
+      "tag": "lidé",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-23-podzimni-mismas-ddm",
+      "date": "2026-10-23",
+      "title": "Podzimní prázdniny v DDM. Dvoudenní Mišmaš pro prvňáčky až páťáky",
+      "lede": "DDM nabízí 29. a 30. října Podzimní mišmaš pro děti 6–12 let. Hry, tvoření a hudba, cena 300 Kč včetně oběda.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-23-vylet-praha-ddm",
+      "date": "2026-10-23",
+      "title": "DDM vyveze děti do Prahy. Hvězdárna a Království železnic zdarma",
+      "lede": "Výlet pro děti 7–12 let 26. října: Štefánikova hvězdárna a Království železnic, doprava i vstupy zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-22-pozar-bytu-snp",
       "date": "2026-10-22",
