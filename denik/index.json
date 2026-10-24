@@ -1,7 +1,40 @@
 {
-  "generated": "2026-10-23T14:18:37Z",
+  "generated": "2026-10-24T07:12:51Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-24-eseky-2027",
+      "date": "2026-10-24",
+      "title": "E-šeky na rok 2027 jsou otevřené. Sportovní a zájmové kroužky mohou rodiče přihlásit do 1. prosince",
+      "lede": "Město Ústí otevřelo e-šeky na rok 2027. Vyplnit je lze online na seky.usti.cz do 1. prosince 2026.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-24-linka-85-vikend",
+      "date": "2026-10-24",
+      "title": "Linka 85 jezdí o víkendech objížďkou. Kvůli mostu Dr. E. Beneše a práci v Přístavní",
+      "lede": "Dopravní podnik odklání linku 85 ve směru z Hlavního nádraží do Vaňova. Nejbližší termín 24.–25. října.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-24-zimni-cas-svatek",
+      "date": "2026-10-24",
+      "title": "Víkend se vrací zimní čas, ve středu platí o svátku víkendové jízdní řády MHD",
+      "lede": "Letní čas končí v neděli 25. října. Ve středu 28. října jezdí MHD v Ústí podle sobotních a nedělních jízdních řádů.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-23-kekulova-osvetleni",
       "date": "2026-10-23",
