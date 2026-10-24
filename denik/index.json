@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-24T07:12:51Z",
+  "generated": "2026-10-24T14:11:51Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-24-posledni-cesta-zastavka",
+      "date": "2026-10-24",
+      "title": "Zastávka Poslední cesta se do úterý přesouvá. Kvůli výkopovým pracím jí to ovlivní šest linek",
+      "lede": "Zastávka Poslední cesta ve směru Kamenný Vrch je od 23. do 27. října dočasně přesunuta kvůli výkopovým pracím.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-24-podzimni-soustredeni-ddm",
+      "date": "2026-10-24",
+      "title": "Podzimní soustředění aerobiku a roztleskávaček. DDM vyjede s dětmi do Doks",
+      "lede": "DDM pořádá 28. 10.–1. 11. soustředění pro děti 6–18 let v areálu Poslův Mlýn v Doksech. Plný pobyt 3 600 Kč.",
+      "tag": "sport",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-24-eseky-2027",
       "date": "2026-10-24",
