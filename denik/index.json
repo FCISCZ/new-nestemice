@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-26T07:30:00Z",
+  "generated": "2026-10-26T14:14:22Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-26-podzimni-prazdniny-mhd",
+      "date": "2026-10-26",
+      "title": "Podzimní prázdniny v MHD. Ve čtvrtek a pátek nejede linka 70 do Klíše a mění se jeden spoj linky 85",
+      "lede": "Ve čtvrtek 29. a v pátek 30. října končí linka 70 v zastávce Divadlo, na lince 85 odpadá ranní spoj z Vaňova v 7:07.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-26-podzimni-strasidleni",
+      "date": "2026-10-26",
+      "title": "Podzimní strašidlení v DDM je vyprodané. Děti čeká Halloween po česku a kouzelník",
+      "lede": "V úterý 27. října od 16 do 18 hodin v DDM Velká Hradební, od 17:20 vystoupí kouzelník David Kozlok. Akce je vyprodaná.",
+      "tag": "kultura",
+      "sources": [
+        "DDM Ústí nad Labem"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-26-kameny-zmizelych",
       "date": "2026-10-26",
