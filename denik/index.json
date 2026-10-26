@@ -1,7 +1,18 @@
 {
-  "generated": "2026-10-25T14:13:10Z",
+  "generated": "2026-10-26T07:30:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-26-kameny-zmizelych",
+      "date": "2026-10-26",
+      "title": "Sbírka na Kameny zmizelých v Ústí stále běží. Přispět může každý",
+      "lede": "Město dál vybírá peníze na další Kameny zmizelých, které připomínají zavražděné židovské obyvatele. Sbírka není časově omezená.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-25-zruseni-obvodu",
       "date": "2026-10-25",
