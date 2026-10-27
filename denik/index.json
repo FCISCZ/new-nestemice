@@ -1,7 +1,29 @@
 {
-  "generated": "2026-10-26T14:14:22Z",
+  "generated": "2026-10-27T14:51:45Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-10-27-vetruse-lanovka-odstavka",
+      "date": "2026-10-27",
+      "title": "Lanovka na Větruši bude od 2. do 6. listopadu stát. Servisní odstávka a roční kontroly",
+      "lede": "Lanová dráha na Větruši nepojede od 2. do 6. listopadu. Provozovatel ji odstaví kvůli servisu a ročním kontrolám.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-10-27-novosedlicke-namesti-zastavka",
+      "date": "2026-10-27",
+      "title": "Zastávka Novosedlické náměstí se od soboty přesune. Kvůli výkopovým pracím, linky 42, 73, 79, 80, 82 a 92",
+      "lede": "Dopravní podnik dočasně přesouvá zastávku Novosedlické náměstí směr Kamenný Vrch. Od soboty 31. října kvůli výkopovým pracím.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-10-26-podzimni-prazdniny-mhd",
       "date": "2026-10-26",
