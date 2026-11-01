@@ -1,7 +1,18 @@
 {
-  "generated": "2026-11-01T07:13:04Z",
+  "generated": "2026-11-01T14:25:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-01-nehodovost-ustecky-kraj",
+      "date": "2026-11-01",
+      "title": "Ústecký kraj je druhý v nehodovosti na obyvatele. Nejvíc nehod se dlouhodobě stává na Ústecku",
+      "lede": "V letech 2024–2025 připadlo na 100 tisíc obyvatel kraje 2 151 nehod. Hlavní příčinou je nesprávný způsob jízdy.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-01-svadovska-ulice",
       "date": "2026-11-01",
