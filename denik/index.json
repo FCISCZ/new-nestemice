@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-01T14:25:00Z",
+  "generated": "2026-11-02T07:45:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-02-ddm-listopad",
+      "date": "2026-11-02",
+      "title": "Listopad v DDM. Sváťovo dividlo, korálkové hvězdičky a vánoční tvoření",
+      "lede": "DDM nabízí v listopadu pohádku Sváťovo dividlo, tvoření i smyslové hry pro nejmenší. Na některé akce zbývá málo míst.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-02-autobus-matej",
+      "date": "2026-11-02",
+      "title": "Dopravní podnik získal historický autobus Matěj. Škoda 706 RTO z roku 1960 se vrací na silnici",
+      "lede": "DPmÚL rozšiřuje sbírku historických vozidel o autobus Škoda 706 RTO LUX z roku 1960, známý jako Matěj.",
+      "tag": "doprava",
+      "sources": [
+        "DPmÚL"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-02-kekulova-osvetleni",
+      "date": "2026-11-02",
+      "title": "V ulici Kekulova se zdržuje přestavba osvětlení. Dopravní podnik řeší technické potíže",
+      "lede": "Přestavba veřejného osvětlení při pokládce kabelů ČEZ narazila na technické problémy. Cílem je alespoň provizorní svícení.",
+      "tag": "doprava",
+      "sources": [
+        "DPmÚL"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-01-nehodovost-ustecky-kraj",
       "date": "2026-11-01",
