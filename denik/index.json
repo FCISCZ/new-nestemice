@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-02T14:30:00Z",
+  "generated": "2026-11-03T14:15:47Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-03-hrobka-baselt",
+      "date": "2026-11-03",
+      "title": "V Krásném Březně začala obnova hrobky rodiny Baseltů. Dokončení se plánuje na podzim 2027",
+      "lede": "Město obnovuje hrobku Baseltů na hřbitově v Krásném Březně za 3,36 mil. Kč. Kraj přispěje 1,42 mil. Kč.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-03-mezni-iii",
+      "date": "2026-11-03",
+      "title": "Od 5. listopadu pokračuje rekonstrukce Mezní. Linky 74, 75 a 80 pojedou po objížďce",
+      "lede": "Třetí etapa rekonstrukce Mezní uzavře křižovatku se Sociální péčí. Linky 74, 75 a 80 pojedou po objížďce.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-03-veletrhy-cestovni-ruch",
+      "date": "2026-11-03",
+      "title": "Ústí se představilo na třech veletrzích cestovního ruchu. Společný stánek v Poznani získal ocenění",
+      "lede": "Ústí lákalo turisty v Poznani, Plzni a Erfurtu. Společný stánek CzechTourism získal v Poznani cenu Acanthus Aureus.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-02-vanocni-rolnicka",
       "date": "2026-11-02",
