@@ -1,7 +1,18 @@
 {
-  "generated": "2026-11-03T14:15:47Z",
+  "generated": "2026-11-04T14:12:50Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-04-masarykova-nem-zastavky",
+      "date": "2026-11-04",
+      "title": "Zastávky Masarykova nemocnice a Bukov sanatorium se od 3. listopadu přesouvají",
+      "lede": "Zastávky ve směru Severní Terasa se kvůli rekonstrukci Sociální péče přesouvají na náhradní stanoviště. Platí do odvolání.",
+      "tag": "doprava",
+      "sources": [
+        "DPMÚL"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-03-hrobka-baselt",
       "date": "2026-11-03",
