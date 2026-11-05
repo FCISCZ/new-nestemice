@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-05T07:14:05Z",
+  "generated": "2026-11-05T14:13:42Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-05-strekov-knihovna-centrum",
+      "date": "2026-11-05",
+      "title": "Na Střekově vzniká centrum Čtení mezi stromy. Knihovna Ústeckého kraje přestavuje budovu ve V Zeleni",
+      "lede": "Knihovna Ústeckého kraje přestavuje budovu ve V Zeleni na Střekově. Centrum Čtení mezi stromy se má otevřít v létě 2027.",
+      "tag": "kultura",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-05-vedeni-nestemic-koalice",
+      "date": "2026-11-05",
+      "title": "Vedení Neštěmic zůstává stejné. Starostkou bude opět Yveta Tomková, koalice chce zachovat obvody",
+      "lede": "Vaše Ústí a SPOLU pro Ústí mají v neštěmickém zastupitelstvu 8 z 15 křesel. Starostkou zůstává Yveta Tomková, koalice chce obvody zachovat.",
+      "tag": "úřad",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-05-chlumec-horka-lesy",
+      "date": "2026-11-05",
+      "title": "Chlumec a Lesy ČR se dohodly na nápravě škod po těžbě na Horce",
+      "lede": "Lesy ČR opraví zastávku křížové cesty a cestu ke kapli na Horce. Plán obnovy zeleně předloží městu v lednu 2027.",
+      "tag": "příroda",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-05-zruseni-obvodu-referendum",
       "date": "2026-11-05",
