@@ -1,7 +1,18 @@
 {
-  "generated": "2026-11-04T14:12:50Z",
+  "generated": "2026-11-05T07:14:05Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-05-zruseni-obvodu-referendum",
+      "date": "2026-11-05",
+      "title": "Koalice chce zrušit všechny čtyři ústecké obvody včetně Neštěmic. Starostka sbírá podpisy pro referendum",
+      "lede": "Jedno Ústí chce zrušit obvody Střekov, Neštěmice, Severní Terasu i město. Starostka Neštěmic chce sbírat podpisy pro referendum.",
+      "tag": "úřad",
+      "sources": [
+        "ČT24"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-04-masarykova-nem-zastavky",
       "date": "2026-11-04",
