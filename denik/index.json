@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-07T07:12:00Z",
+  "generated": "2026-11-07T14:25:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-07-prednaska-botswana",
+      "date": "2026-11-07",
+      "title": "Botswana na safari. Cestovatelská přednáška v Ústí 18. listopadu",
+      "lede": "Andrea Kaucká přiblíží ve středu 18. listopadu v přednášce Botswana – romantika na safari africkou divočinu.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-07-chodnik-nestemicka",
+      "date": "2026-11-07",
+      "title": "Chodník v Neštěmické je do 29. listopadu zavřený. Další etapa opravy přijde na jaře",
+      "lede": "Velkoplošná oprava chodníku v Neštěmické: úplná uzavírka do 29. 11., druhá etapa 1. 3.–27. 4. 2027.",
+      "tag": "doprava",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-07-ponorka-smysly-listopad",
       "date": "2026-11-07",
