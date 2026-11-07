@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-06T14:30:00Z",
+  "generated": "2026-11-07T07:12:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-07-ponorka-smysly-listopad",
+      "date": "2026-11-07",
+      "title": "Ponorka.smysly v listopadu. Smyslové hrátky pro nejmenší s dopravou a cirkusem",
+      "lede": "DDM nabízí smyslová dopoledne pro děti 1–6 let s rodiči: 7. a 8. 11. Dopravní šrumec, 20.–22. 11. Bude to cikrkus.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-07-koralkove-hvezdicky-ddm",
+      "date": "2026-11-07",
+      "title": "Korálkové hvězdičky v DDM. Kreativní víkend 14. listopadu pro děti i dospělé",
+      "lede": "DDM na Velké Hradební zve 14. listopadu od 9 do 12 na dílnu korálkových hvězdiček. Od 5 let, 250 Kč, přihlášky online.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-06-pekelny-autobus",
       "date": "2026-11-06",
