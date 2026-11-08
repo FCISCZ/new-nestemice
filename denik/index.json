@@ -1,7 +1,51 @@
 {
-  "generated": "2026-11-08T07:14:08Z",
+  "generated": "2026-11-08T14:12:25Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-08-svetlo-v-oknech-muzikal",
+      "date": "2026-11-08",
+      "title": "Světlo v oknech. Vánoční muzikál dětí z DDM uvidí Dům kultury 20. prosince",
+      "lede": "Děti a mladí lidé z kroužků DDM uvedou 20. prosince v Domě kultury vánoční muzikál o rodině a o tom, co je u stolu důležité.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-08-ustecky-strudl-ddm",
+      "date": "2026-11-08",
+      "title": "Ústecký štrúdl. DDM vyhlásí nejchutnější štrúdl, soutěžit může každý",
+      "lede": "Při Vánoční rolničce 12. prosince se v DDM soutěží o nejchutnější a nejvoňavější ústecký štrúdl. Účast je zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-08-vanocni-rolnicka-ddm",
+      "date": "2026-11-08",
+      "title": "Vánoční rolnička v DDM. Tvoření, detektivka i pohádka O zlatém prasátku",
+      "lede": "DDM na Velké Hradební připravil na 12. prosince odpoledne plné vánočního tvoření, hry a divadla. Předprodej začíná 9. listopadu.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-08-bateriove-vlaky-kraj",
+      "date": "2026-11-08",
+      "title": "Kraj nasadí bateriové vlaky. Středohorská železnice dostane 23 souprav od roku 2031",
+      "lede": "Rada Ústeckého kraje vybrala České dráhy pro provoz pěti linek bateriovými vlaky. První soupravy vyjedou v prosinci 2031.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-08-jazz-xxx-narodni-dum",
       "date": "2026-11-08",
