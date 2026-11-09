@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-08T14:12:25Z",
+  "generated": "2026-11-09T07:20:05Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-09-mikulas-ddm",
+      "date": "2026-11-09",
+      "title": "Mikuláš v DDM. Čerti, anděl a soutěže pro děti od jednoho roku",
+      "lede": "DDM pořádá 4. prosince od 16 do 18 hodin mikulášské odpoledne. Vstupné 100 Kč, vstupenky na recepci, bez rezervací.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-09-svatovo-dividlo",
+      "date": "2026-11-09",
+      "title": "Sváťovo dividlo. Pohádka pro malé i velké v divadelním sále DDM",
+      "lede": "V sobotu 14. listopadu od 16 hodin zahrají v DDM pohádku s Madlenkou a skřítky. Vstupné 60 Kč, prodej na recepci.",
+      "tag": "kultura",
+      "sources": [
+        "ddmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-08-svetlo-v-oknech-muzikal",
       "date": "2026-11-08",
