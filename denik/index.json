@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-09T07:20:05Z",
+  "generated": "2026-11-09T14:19:28Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-09-ustecke-vanoce-2026",
+      "date": "2026-11-09",
+      "title": "Ústecké Vánoce 2026 začnou 29. listopadu. Trhy na Lidickém i Mírovém náměstí a na Větruši",
+      "lede": "Městské Vánoce potrvají do 23. prosince. Zahájení 29. 11. od 17:15 na Lidickém náměstí, koncert Pokáče, novinky pro děti.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-09-krcinova-zastavka",
+      "date": "2026-11-09",
+      "title": "Zastávka Krčínova směr Pivovar bude od středy do soboty mimo provoz",
+      "lede": "DPMÚL přerušuje provoz zastávky Krčínova ve směru Pivovar od 11. do 14. listopadu kvůli zemním pracím.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-09-mikulas-ddm",
       "date": "2026-11-09",
