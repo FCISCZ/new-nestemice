@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-10T07:21:51Z",
+  "generated": "2026-11-10T09:00:00Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-10-ustavujici-zastupitelstvo",
+      "date": "2026-11-10",
+      "title": "Nové zastupitelstvo se poprvé sejde 23. listopadu v Domě kultury",
+      "lede": "Ustavující zasedání od 15:00: slib zastupitelů a volba primátora, náměstků a rady. Soud zamítl návrh na neplatnost voleb.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-10-cesko-saske-setkani",
+      "date": "2026-11-10",
+      "title": "Ústí na česko-saském setkání kulturních a kreativních center v Ostrově",
+      "lede": "Zástupci magistrátu se zúčastnili konference Beyond Borders. Sdílení zkušeností a workshopy s partnery ze Saska.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-10-azory-kudela",
+      "date": "2026-11-10",
+      "title": "Za krásami Azor. Cestovatel Tomáš Kůdela vyprávěl v informačním centru o plavbách po souostroví",
+      "lede": "Přednáška o plavbách na Azory v ústeckém informačním centru. Další v cyklu: 18. listopadu Botswana.",
+      "tag": "lidé",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-10-stromecek-ddm",
       "date": "2026-11-10",
