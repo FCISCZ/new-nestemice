@@ -1,7 +1,51 @@
 {
-  "generated": "2026-11-11T07:15:05Z",
+  "generated": "2026-11-11T14:17:25Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-11-krcinova-asfalt",
+      "date": "2026-11-11",
+      "title": "V sobotu pojedou na linkách 74 a 75 místo trolejbusů autobusy",
+      "lede": "Kvůli pokládce asfaltu v zastávce Krčínova směr Pivovar nasadí dopravní podnik v sobotu 14. listopadu na linky 74 a 75 autobusy.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-11-rozsviceni-stromku-nestemice",
+      "date": "2026-11-11",
+      "title": "Neštěmice zvou na tradiční rozsvícení vánočního stromu s ohňostrojem",
+      "lede": "Městský obvod ohlásil tradiční rozsvícení vánočního stromu. Bude program pro děti i dospělé, stánky s občerstvením a ohňostroj.",
+      "tag": "komunita",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-11-nezmari-narodni-dum",
+      "date": "2026-11-11",
+      "title": "Folková skupina Nezmaři hraje dnes večer v Národním domě",
+      "lede": "Kapela Nezmaři vystoupí ve středu 11. listopadu od 19 hodin v Národním domě. Vstupenky stojí 350 Kč v předprodeji, 400 Kč na místě.",
+      "tag": "kultura",
+      "sources": [
+        "ksul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-11-vystava-jazz-nad-labem",
+      "date": "2026-11-11",
+      "title": "Výstava v muzeu připomíná 30 let ústeckého jazzového festivalu",
+      "lede": "Fotografie, plakáty a tiskoviny z tří dekád festivalu JAZZ nad Labem. Oblastní muzeum, do 29. listopadu, vstup zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ksul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-11-bendovci-70-let",
       "date": "2026-11-11",
