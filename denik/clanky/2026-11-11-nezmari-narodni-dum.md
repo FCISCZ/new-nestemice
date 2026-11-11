@@ -12,7 +12,7 @@ media: []
 
 Do Národního domu v Ústí nad Labem přijede dnes, ve středu 11. listopadu, folková skupina Nezmaři. Koncert začíná v 19 hodin.
 
-Kapela vznikla v roce 1978 jako scénická kapela Divadla dramatických textů při Jihočeském divadle. Typický je pro ni vícehlasý zpěv s akustickými nástroji. Za svou kariéru získala mimo jiné Portu a dva Zlaté klíče.
+Skupina vznikla v roce 1978 jako scénická kapela Divadla dramatických textů při Jihočeském divadle. Typický je pro ni vícehlasý zpěv s akustickými nástroji. Za svou kariéru získala mimo jiné Portu a dva Zlaté klíče.
 
 Na programu jsou starší písně jako Ráno bylo stejný nebo Bodláky ve vlasech i novější tvorba.
 
