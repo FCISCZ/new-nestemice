@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-10T09:00:00Z",
+  "generated": "2026-11-11T07:15:05Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-11-bendovci-70-let",
+      "date": "2026-11-11",
+      "title": "Bendův komorní orchestr slaví 70 let. Výstava v Domě kultury připomíná jeho historii",
+      "lede": "Archivní fotografie a materiály v šatní hale Domu kultury, kde orchestr začínal. Otevřeno do 18. prosince, vstup zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ksul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-11-pavlica-hradistan",
+      "date": "2026-11-11",
+      "title": "Jiří Pavlica a Hradišťan zahrají 19. listopadu v Domě kultury",
+      "lede": "Koncert souboru, který vychází z lidové tradice, začíná v 19 hodin v divadelním sále. Vstupenky za 250 až 750 Kč.",
+      "tag": "kultura",
+      "sources": [
+        "ksul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-10-ustavujici-zastupitelstvo",
       "date": "2026-11-10",
