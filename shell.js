@@ -16,6 +16,7 @@
     { key: 'zub',     href: 'zub-casu.html',     label: 'Zub času' },
     { key: 'o',       href: 'o-projektu.html',   label: 'O projektu' },
     { key: 'archiv',  href: 'archiv-2001.html',  label: 'Archiv 2001' },
+    { key: 'mapa',    href: 'http://mapa.nestemice.cz/', label: 'Mapa', ven: true },
   ];
 
   function formatDate(d) {
@@ -95,6 +96,7 @@
     const svatek = svatekToday(new Date());
 
     const navItems = NAV.map(n => {
+      if (n.ven) return `<a href="${n.href}" target="_blank" rel="noopener">${n.label}</a>`;
       const href = base + n.href;
       const current = page === n.key ? ' class="current"' : '';
       return `<a href="${href}"${current}>${n.label}</a>`;

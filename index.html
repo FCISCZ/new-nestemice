@@ -21,6 +21,12 @@
       <p class="lede">Každý den nebo dva projde AI vybrané zdroje z okolí a&nbsp;napíše krátký zápis. Zdroje jsou vždy uvedeny. &nbsp;<a href="rozcestnik.html" style="color:var(--accent);text-decoration:none;white-space:nowrap;">→ co to celé je</a></p>
     </div>
 
+    <a href="http://mapa.nestemice.cz/" target="_blank" rel="noopener" class="mapa-banner">
+      <div class="mono accent">nové · 2D i 3D</div>
+      <h3>Živá mapa Ústí</h3>
+      <p>Autobusy, trolejbusy a vlaky v reálném čase na mapě města. &nbsp;<span class="accent">→ otevřít mapu</span></p>
+    </a>
+
     <div class="denik-filters">
       <span class="mono soft">Filtr:</span>
       <button class="chip on" data-tag="all">vše</button>
@@ -164,6 +170,20 @@
     }
     .also-card p { font-size: 15px; line-height: 1.5; color: var(--ink-soft); margin: 0; }
     .also-card .mono.accent { font-size: 11px; letter-spacing: 2px; }
+
+    .mapa-banner {
+      display: block; margin: 0 0 28px; padding: 18px 24px;
+      border: 1px solid var(--rule); border-left: 4px solid var(--accent);
+      background: var(--paper); color: inherit; text-decoration: none;
+      transition: background 0.15s;
+    }
+    .mapa-banner:hover { background: var(--paper-dark); }
+    .mapa-banner h3 {
+      font-family: var(--serif); font-style: italic; font-weight: 400;
+      font-size: 28px; letter-spacing: -0.5px; margin: 6px 0 6px;
+    }
+    .mapa-banner p { font-size: 15px; line-height: 1.5; color: var(--ink-soft); margin: 0; }
+    .mapa-banner .mono.accent { font-size: 11px; letter-spacing: 2px; }
 
     @media (max-width: 900px) {
       .denik-list article { grid-template-columns: 1fr; gap: 8px; }
