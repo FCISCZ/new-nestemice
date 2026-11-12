@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-11T14:17:25Z",
+  "generated": "2026-11-12T07:14:09Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-12-altan-vyhlidka-borske",
+      "date": "2026-11-12",
+      "title": "Vyhlídka Heleny Borské u Větruše má nový altán z participativního rozpočtu",
+      "lede": "U Větruše stojí nový dřevěný altán s výhledem na Labské údolí. Vznikl z participativního rozpočtu Ústí změn, stál milion korun.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-12-vanoce-vetruse-rozsviceni",
+      "date": "2026-11-12",
+      "title": "Na Větruši se Vánoce rozsvítí v sobotu 28. listopadu. Otevře se i kluziště",
+      "lede": "Rozsvícení vánočních dekorací na Větruši začne 28. listopadu v 17 hodin. Hudba, koledy, občerstvení a otevření kluziště.",
+      "tag": "kultura",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-11-krcinova-asfalt",
       "date": "2026-11-11",
