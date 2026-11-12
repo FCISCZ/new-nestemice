@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-12T07:14:09Z",
+  "generated": "2026-11-12T14:16:17Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-12-den-veteranu-nestemice",
+      "date": "2026-11-12",
+      "title": "Neštěmice si na Den veteránů připomněly padlé u tří památníků",
+      "lede": "Obvod položil kytice z chryzantém a vlčích máků u Pivovarské zahrady, před úřadem a pod farou v Mojžíři.",
+      "tag": "komunita",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-12-index-kvality-zivota",
+      "date": "2026-11-12",
+      "title": "Index kvality života 2026. Ústí je na 189. místě a nejhorší ze všech krajských měst",
+      "lede": "V žebříčku Obcí v datech Ústí od roku 2018 ztratilo 13 míst. Nejslabší je v oblasti materiálního zabezpečení a vzdělání.",
+      "tag": "lidé",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-12-mint-market-dum-kultury",
+      "date": "2026-11-12",
+      "title": "MINT Market se vrací do Domu kultury. Trh autorských výrobků bude 19. prosince",
+      "lede": "Desítky českých tvůrců nabídnou v Domě kultury módu, šperky a keramiku na Vánoce. Otevřeno od 10 do 17 hodin, vstup zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-12-altan-vyhlidka-borske",
       "date": "2026-11-12",
