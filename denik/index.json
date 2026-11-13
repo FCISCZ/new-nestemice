@@ -1,7 +1,41 @@
 {
-  "generated": "2026-11-13T07:15:33Z",
+  "generated": "2026-11-13T15:17:02Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-13-17-listopad-pieta-mhd",
+      "date": "2026-11-13",
+      "title": "Sedmnáctý listopad v Ústí. Pietní setkání v Městských sadech, MHD pojede jako o víkendu",
+      "lede": "Město zve 17. listopadu v 11 hodin k Památníku obětem komunismu. Trolejbusy a autobusy pojedou ve svátek podle víkendových jízdních řádů.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz",
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-13-rozsviceni-stromu-mojzir",
+      "date": "2026-11-13",
+      "title": "V Mojžíři se vánoční strom rozsvítí 29. listopadu na stadionu Josefa Kolankiewicze",
+      "lede": "Program na hřišti TJ Mojžíř začne v neděli v 16 hodin, strom se rozsvítí v 18 hodin. Akce je nejen pro děti.",
+      "tag": "komunita",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-13-konference-stromy-ve-meste",
+      "date": "2026-11-13",
+      "title": "Jak chránit stromy při stavbách. Odborníci se sešli na konferenci v ústecké knihovně",
+      "lede": "Konference v Knihovně Ústeckého kraje představila novou normu pro ochranu stromů. Arboristé ukázali šetrné technologie na Lidickém náměstí a ve Smetanových sadech.",
+      "tag": "příroda",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-11-13-trolejbusy-33tr-objednavka",
       "date": "2026-11-13",
