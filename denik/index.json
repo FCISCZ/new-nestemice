@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-12T14:16:17Z",
+  "generated": "2026-11-13T07:15:33Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-13-trolejbusy-33tr-objednavka",
+      "date": "2026-11-13",
+      "title": "Dopravní podnik objednal dalších deset trolejbusů. Nové vozy Škoda 33Tr dorazí do konce roku 2027",
+      "lede": "Druhá objednávka z rámcové smlouvy na 30 vozů. Trolejbusy s bateriemi ujedou 12 km bez troleje, polovinu ceny pokryje dotace.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-13-pivovar-krasne-brezno",
+      "date": "2026-11-13",
+      "title": "Bývalý pivovar v Krásném Březně by mohl sloužit k bydlení i kancelářím. Rozhodne územní plán",
+      "lede": "Majitel areálu, kde se vařil Zlatopramen, chce spojit bydlení, kanceláře a služby. Rozhodne nový územní plán Ústí.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-13-workshop-zs-mojzir",
+      "date": "2026-11-13",
+      "title": "Žáci ZŠ Mojžíř debatovali se studenty UJEP o tom, jak zlepšit svou čtvrť",
+      "lede": "Osmáci a deváťáci ze ZŠ Mojžíř hledali se studenty politologie z UJEP nápady, jak zlepšit život ve své čtvrti.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-12-den-veteranu-nestemice",
       "date": "2026-11-12",
