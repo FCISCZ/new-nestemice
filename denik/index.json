@@ -1,7 +1,52 @@
 {
-  "generated": "2026-11-14T07:12:38Z",
+  "generated": "2026-11-14T14:15:28Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-14-kuskus-medvedi-zoo",
+      "date": "2026-11-14",
+      "title": "V ústecké zoo se narodilo mládě kuskusa medvědího. V Evropě žije jen šest těchto vačnatců",
+      "lede": "Ústecká zoo poprvé rozmnožila vzácného kuskusa medvědího. Mládě roste ve vaku jediné samice tohoto druhu v Evropě.",
+      "tag": "příroda",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-14-trolejbus-nehoda-masarykova",
+      "date": "2026-11-14",
+      "title": "Na křižovatce Masarykovy a Pařížské se srazilo auto s trolejbusem. Policie hledá cestující",
+      "lede": "Řidič fordu podle policie nedal přednost trolejbusu linky 87. Řidič MHD se lehce zranil, křižovatka stála dvě hodiny.",
+      "tag": "doprava",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-14-tyden-uchazecu-ujep",
+      "date": "2026-11-14",
+      "title": "Studium nanečisto. UJEP pořádá od 23. listopadu Týden pro uchazeče",
+      "lede": "Šest fakult UJEP otevře 23. až 27. listopadu výuku, workshopy a experimenty pro středoškoláky. Na část akcí je nutná registrace.",
+      "tag": "komunita",
+      "sources": [
+        "ujep.cz",
+        "e-usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-14-hackathon-hack-the-region",
+      "date": "2026-11-14",
+      "title": "Streetartová galerie na zdi Spolchemie vyhrála hackathon. Mladí lidé řešili, jak zlepšit Ústí",
+      "lede": "Hackathon Hack the Region rozdělil 90 tisíc korun. Vyhrál nápad proměnit kilometrovou zeď v Tovární ulici v galerii.",
+      "tag": "komunita",
+      "sources": [
+        "ujep.cz"
+      ],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-11-14-trafostanice-skrivanek",
       "date": "2026-11-14",
