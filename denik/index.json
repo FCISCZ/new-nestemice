@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-13T15:17:02Z",
+  "generated": "2026-11-14T07:12:38Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-14-trafostanice-skrivanek",
+      "date": "2026-11-14",
+      "title": "Trafostanice na Skřivánku má novou malbu. Místo žluté zdi garáž s autem",
+      "lede": "Trafostanici u ZŠ Elišky Krásnohorské pomalovali sprejeři. ČEZ tak zkrášluje veřejný prostor a brání vandalům.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-14-hala-ujep-klise",
+      "date": "2026-11-14",
+      "title": "Velká sportovní hala UJEP na Klíši zůstane zavřená. Univerzita chce postavit novou",
+      "lede": "Nosníky střechy haly na Klíši jsou poškozené a opravit je nejde. UJEP má studii nové haly, financování se řeší.",
+      "tag": "sport",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-14-mere-predlice",
+      "date": "2026-11-14",
+      "title": "Řetězec Mere v Česku končí. Obchod v Předlicích má převzít jiná firma",
+      "lede": "Ruský řetězec Mere v Česku končí. Prodejnu v Předlicích převezme firma podnikatele ukrajinského původu.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-13-17-listopad-pieta-mhd",
       "date": "2026-11-13",
