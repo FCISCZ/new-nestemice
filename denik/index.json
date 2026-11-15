@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-15T07:13:31Z",
+  "generated": "2026-11-15T14:13:32Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-15-dronove-centrum-usti",
+      "date": "2026-11-15",
+      "title": "Městské drony létají sto hodin měsíčně. Pomáhají hledat skládky i místa pro stromy na Drážďanské",
+      "lede": "Dronové centrum Metropolnetu má za sebou půl roku provozu. Drony pomáhají strážníkům i při plánování stromů na Drážďanské.",
+      "tag": "úřad",
+      "sources": [
+        "denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-15-kruhac-chlumec-oteviran",
+      "date": "2026-11-15",
+      "title": "Kruhový objezd u Chlumce na silnici I/30 měl jít do provozu ve čtvrtek 12. listopadu",
+      "lede": "Okružní křižovatka nahradila nebezpečné křížení U Šmelce mezi Ústím a Teplicemi. Stavba se protáhla o měsíc.",
+      "tag": "doprava",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-15-vylov-chabarovice-koleje",
+      "date": "2026-11-15",
+      "title": "Rybáři vylovili nádrž Koleje v Chabařovicích. Většina z 15 tun ryb poputuje do dalších revírů",
+      "lede": "Revitalizovaná nádrž Koleje vydala téměř 15 tun ryb. Přes 12 tun poslouží k zarybnění jiných revírů.",
+      "tag": "příroda",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-15-pivni-index-usti",
       "date": "2026-11-15",
