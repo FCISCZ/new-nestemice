@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-15T14:13:32Z",
+  "generated": "2026-11-16T07:16:20Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-16-odstavky-krasne-brezno",
+      "date": "2026-11-16",
+      "title": "V Krásném Březně se chystají odstávky elektřiny. Týkají se 18., 25. a 27. listopadu",
+      "lede": "ČEZ Distribuce ohlásila plánované odstávky v Krásném Březně. Nejvíc adres zasáhne pátek 27. listopadu ve Vojanově a V Oblouku.",
+      "tag": "úřad",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-16-predlice-vodovod-svs",
+      "date": "2026-11-16",
+      "title": "V Předlicích se mění vodovod a kanalizace. Některé trubky v zemi leží od roku 1935",
+      "lede": "Vodárenská společnost vyměňuje 414 metrů potrubí v ulicích U Vlečky a Sklářská. Hotovo má být v květnu 2027.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-16-robotika-zs-snp",
+      "date": "2026-11-16",
+      "title": "Předškoláci programovali roboty. ZŠ SNP propojila školky s univerzitou",
+      "lede": "Děti ze tří ústeckých školek si v ZŠ SNP 6 vyzkoušely roboty a ScratchJr. Program připravila katedra informatiky UJEP.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-15-dronove-centrum-usti",
       "date": "2026-11-15",
