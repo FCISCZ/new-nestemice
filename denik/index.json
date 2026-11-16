@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-16T07:16:20Z",
+  "generated": "2026-11-16T14:18:21Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-16-vecerni-prohlidky-strekov",
+      "date": "2026-11-16",
+      "title": "Hrad Střekov po setmění. Kostýmované večerní prohlídky přilákaly návštěvníky dva večery",
+      "lede": "Město zopakovalo noční prohlídky Střekova. V pátek a sobotu provázely hradem postavy z pověstí, od skřítků po Richarda Wagnera.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-16-krest-knihy-urednici",
+      "date": "2026-11-16",
+      "title": "Historky z finančního úřadu. V krajské knihovně pokřtili knihu Daně na příští rok",
+      "lede": "Jarka Jendrisková sepsala veselé příhody úředníků finanční správy. Knihu pokřtil kolega konfetami ze starých daňových tiskopisů.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-16-usti-showcase-jolly",
+      "date": "2026-11-16",
+      "title": "Ústí Showcase vyhrála písničkářka Jolly. Cenu diváků získali ústečtí Scarred",
+      "lede": "Finále hudební soutěže v Národním domě: porota ocenila Jolly natočením singlu, diváci poslali Scarred předskakovat známé kapele.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-11-16-odstavky-krasne-brezno",
       "date": "2026-11-16",
