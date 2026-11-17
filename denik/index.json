@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-17T07:16:01Z",
+  "generated": "2026-11-17T14:17:48Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-17-sportoviste-nestemice-cez",
+      "date": "2026-11-17",
+      "title": "Workoutové hřiště ve Sportovní a klec Na Výšině jsou po opravě znovu otevřené",
+      "lede": "Neštěmice opravily dvě sportoviště: nový povrch workoutu ve Sportovní a oplocení hřiště Na Výšině. Nadace ČEZ dala milion korun.",
+      "tag": "sport",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-17-pieta-17-listopadu",
+      "date": "2026-11-17",
+      "title": "Květiny u pomníku a Modlitba pro Martu. Ústí si připomnělo 17. listopad",
+      "lede": "U Pomníku obětem komunismu v Městských sadech se konalo pietní setkání. Večer zazní Modlitba pro Martu, kostel zazáří trikolórou.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-17-mestska-policie-vybaveni",
+      "date": "2026-11-17",
+      "title": "Strážníci dostanou nová pouzdra na zbraně a přes sto čtyřicet lékárniček",
+      "lede": "Městská policie získá z krajské dotace nová pouzdra na služební zbraně, pět zdravotnických batohů a 145 lékárniček.",
+      "tag": "úřad",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-17-uzavirka-chodniku-nestemicka",
       "date": "2026-11-17",
