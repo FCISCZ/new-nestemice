@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-16T14:18:21Z",
+  "generated": "2026-11-17T07:16:01Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-17-uzavirka-chodniku-nestemicka",
+      "date": "2026-11-17",
+      "title": "Chodník na Neštěmické je do 29. listopadu uzavřený. Druhá část opravy pokračuje na jaře",
+      "lede": "Oprava chodníku na Neštěmické: úsek od V Oblouku k parkovišti je zavřený do 29. listopadu, další etapa přijde od března 2027.",
+      "tag": "úřad",
+      "sources": [
+        "nestemice.eu"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-17-linka-85-objizdka",
+      "date": "2026-11-17",
+      "title": "Linka 85 pojede o víkendu objížďkou přes Mírové náměstí. Důvodem jsou práce v Přístavní ulici",
+      "lede": "Od soboty 21. do neděle 22. listopadu jezdí linka 85 směr Vaňov objížďkou přes Mírové náměstí kvůli pracím u mostu Dr. E. Beneše.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-17-pravidlo-usb-utok",
+      "date": "2026-11-17",
+      "title": "Uteč, schovej se, bojuj. Město připomíná, jak se zachovat při ozbrojeném útoku",
+      "lede": "Ústí zveřejnilo pravidlo USB ministerstva vnitra. Jde o prevenci, bezpečnostní situace se podle radnice nezhoršila.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-11-16-vecerni-prohlidky-strekov",
       "date": "2026-11-16",
