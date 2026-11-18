@@ -1,7 +1,51 @@
 {
-  "generated": "2026-11-18T07:13:47Z",
+  "generated": "2026-11-18T14:16:34Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-18-zastavka-socialni-pece",
+      "date": "2026-11-18",
+      "title": "Zastávka Sociální péče směr centrum je dočasně posunutá. Opravuje se",
+      "lede": "Od úterního rána 17. listopadu stojí spoje směr centrum o kus dál než obvykle. Důvodem je rekonstrukce zastávky, posun platí do odvolání.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-18-neurologie-masarykova-nemocnice",
+      "date": "2026-11-18",
+      "title": "Lékaři neurologie v Masarykově nemocnici hrozí výpověďmi. Jde jim o primářku",
+      "lede": "Část lékařů ústecké neurologie je podle Deníku připravena odejít, pokud by oddělení přestala vést primářka Štěpánka Brušáková.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-18-obvody-vohryzka-mares",
+      "date": "2026-11-18",
+      "title": "Neštěmický zastupitel Jednoho Ústí hlasoval pro zachování obvodů. Vohryzka to bere klidně",
+      "lede": "Jaroslav Mareš podpořil v Neštěmicích usnesení k zachování obvodů. Budoucí primátor Tomáš Vohryzka chce nejdřív prověřit rozpočet města.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-18-prochazka-jiri-svoboda",
+      "date": "2026-11-18",
+      "title": "Eskalátory, rybník a nevybuchlá bomba. Jiří Svoboda provedl Ústím po stopách zajímavostí",
+      "lede": "Komentovaná procházka 17. listopadu se konala i přes zamračené počasí. Průvodce připomněl příběhy míst, kolem kterých Ústečané chodí denně.",
+      "tag": "kultura",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-18-krabice-od-bot-sbirka",
       "date": "2026-11-18",
