@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-17T14:17:48Z",
+  "generated": "2026-11-18T07:13:47Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-18-krabice-od-bot-sbirka",
+      "date": "2026-11-18",
+      "title": "Sbírka Krabice od bot začala. Dárky pro děti lze v Ústí odevzdat od 23. listopadu",
+      "lede": "Diakonie spustila rezervace vánoční sbírky. V Ústí berou krabice v Dvořákově ulici a v OC Forum, sběr potrvá do 7. prosince.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-18-minivolejbal-zs-rabasova",
+      "date": "2026-11-18",
+      "title": "Noční turnaj v minivolejbalu na ZŠ Rabasova. Třicet dětí hrálo a pak přespalo v tělocvičně",
+      "lede": "Druhý ročník nočního turnaje přivedl do tělocvičny 14 týmů dětí do deseti let. Nově dorazili i hráči ze ZŠ Vojnovičova.",
+      "tag": "sport",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-17-sportoviste-nestemice-cez",
       "date": "2026-11-17",
