@@ -1,7 +1,51 @@
 {
-  "generated": "2026-11-19T07:13:49Z",
+  "generated": "2026-11-19T14:16:40Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-19-milada-nahanka-divocaci",
+      "date": "2026-11-19",
+      "title": "Na severních svazích Milady bude v sobotu naháňka na divočáky. Lovit se bude i u Chabařovic",
+      "lede": "V sobotu 21. listopadu od 8 do 16 hodin naháňka na severních svazích Milady. Myslivci loví i v lesích kolem Chabařovic.",
+      "tag": "příroda",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-19-festival-fik-sopky",
+      "date": "2026-11-19",
+      "title": "Festival FIK letos o sopkách. O víkendu zaplní Hraničář přednášky, hry a dílny pro děti",
+      "lede": "Od 20. do 22. listopadu se v Hraničáři koná 11. ročník festivalu FIK na téma sopky. Děti do 14 let mají vstup zdarma.",
+      "tag": "kultura",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-19-strekov-rozsviceni-stromu",
+      "date": "2026-11-19",
+      "title": "Na Střekově se 28. listopadu rozsvítí strom. Přijde Mikuláš a pětimetroví andělé",
+      "lede": "V Parku rodiny Schichtů začne program v 16 hodin, strom se rozsvítí v 18. Zazpívá Yvetta Blanarovičová, polévka zdarma.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-19-cnb-konec-sluzeb",
+      "date": "2026-11-19",
+      "title": "Ústecká pobočka ČNB skončila i s platebními službami. Budova patří policii",
+      "lede": "ČNB 19. listopadu ukončila v Ústí platební služby. Budovu v Klášterní ulici letos za 43 milionů koupilo Policejní prezidium.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-19-povodnova-vana-uzavirky",
       "date": "2026-11-19",
