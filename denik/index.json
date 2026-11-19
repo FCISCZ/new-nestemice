@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-18T14:16:34Z",
+  "generated": "2026-11-19T07:13:49Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-19-povodnova-vana-uzavirky",
+      "date": "2026-11-19",
+      "title": "Povodňová vana se o dvou listopadových víkendech zavře. Benešův most se otevře nejpozději v květnu",
+      "lede": "Vana na I/30 bude zavřená o víkendech 21.–22. a 28.–29. listopadu. Oprava Benešova mostu se protahuje do května 2027.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-19-pozar-garaze-bohemka",
+      "date": "2026-11-19",
+      "title": "V garážích za Bohemkou hořel vozík s odpadem. Hasiči garáže odvětrávali",
+      "lede": "Ve čtvrtek brzy ráno hořel v podzemních garážích za hotelem Bohemia odpad na vozíku. Hasiči oheň uhasili a prostor odvětrali.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-19-odmeny-starostu-primator",
+      "date": "2026-11-19",
+      "title": "Odměny starostů od ledna porostou. Ústecký primátor bude mít přes 144 tisíc hrubého",
+      "lede": "Zákonné odměny komunálních politiků rostou od ledna zhruba o 5 procent. Primátor Ústí bude mít 144 100 korun hrubého měsíčně.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-18-zastavka-socialni-pece",
       "date": "2026-11-18",
