@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-19T14:16:40Z",
+  "generated": "2026-11-20T07:13:35Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-20-naklerov-nahanky",
+      "date": "2026-11-20",
+      "title": "Myslivci chystají naháňky u Nakléřova a Adolfova. První už 5. prosince",
+      "lede": "Naháňky na spárkatou zvěř 5. prosince a 16. ledna od 9 do 16 hodin. Lesy zůstanou otevřené, myslivci žádají o opatrnost.",
+      "tag": "příroda",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-20-zdravotni-klauni-vyroci",
+      "date": "2026-11-20",
+      "title": "Zdravotní klauni slaví 25 let. Dětské chirurgii Masarykovy nemocnice věnovali hodiny",
+      "lede": "K 25. výročí rozdali Zdravotní klauni nemocnicím hodiny. Nové visí i na dětské chirurgii Masarykovy nemocnice v Ústí.",
+      "tag": "lidé",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-20-chabarovice-nove-vedeni",
+      "date": "2026-11-20",
+      "title": "Nové vedení Chabařovic prověří smlouvy města. Rozsvícení stromu bude komornější",
+      "lede": "Starosta Miroslav Vacek nechá prověřit smlouvy a závazky Chabařovic. Na vánočním stromu vystoupí místní spolky a ZUŠ.",
+      "tag": "úřad",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-19-milada-nahanka-divocaci",
       "date": "2026-11-19",
