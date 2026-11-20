@@ -1,7 +1,51 @@
 {
-  "generated": "2026-11-20T07:13:35Z",
+  "generated": "2026-11-20T14:15:48Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-20-regiojet-nove-vlaky",
+      "date": "2026-11-20",
+      "title": "RegioJet má všech 23 nových vlaků. Od 13. prosince jezdí na pěti linkách v kraji",
+      "lede": "RegioJet převzal poslední z 23 nových jednotek. Od 13. prosince obslouží v kraji linky U1, U3, U32, U51 a U54.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-20-balet-korzar-premiera",
+      "date": "2026-11-20",
+      "title": "Ústecké divadlo poprvé uvede balet Korzár. Premiéry budou 27. a 28. listopadu",
+      "lede": "Romantický balet o lásce Medory a piráta Conrada uvede ústecké divadlo vůbec poprvé. Režie a choreografie Adam Zvonař.",
+      "tag": "kultura",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-20-veletrh-strednich-skol",
+      "date": "2026-11-20",
+      "title": "Veletrh Kam na střední školu navštívilo přes tisíc žáků z 28 škol",
+      "lede": "Na veletrhu se představilo 25 středních škol a deset zaměstnavatelů včetně armády, policie a hasičů.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-20-za-80-dni-divadlo",
+      "date": "2026-11-20",
+      "title": "Mladá scéna hraje v neděli Cestu kolem světa za 80 dní",
+      "lede": "Adaptaci Verneova románu uvede Mladá scéna v neděli 22. listopadu v 15 hodin v Divadle města Ústí. Děti platí 200 Kč.",
+      "tag": "kultura",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-20-naklerov-nahanky",
       "date": "2026-11-20",
