@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-20T14:15:48Z",
+  "generated": "2026-11-21T07:13:20Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-21-zastavka-masarykova-nemocnice",
+      "date": "2026-11-21",
+      "title": "U Masarykovy nemocnice se v pondělí otevře nová zastávka směr Bukov. Stará končí",
+      "lede": "Od 23. listopadu slouží nová zastávka Masarykova nemocnice směr Bukov. Přesune se do ní i Bukov sanatorium, původní zastávka se ruší.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-21-implantat-hrudni-kost",
+      "date": "2026-11-21",
+      "title": "Masarykova nemocnice chystá vzácnou operaci. Část hrudní kosti nahradí implantát z 3D tiskárny",
+      "lede": "Pacientovi s rychle se šířící cystou nahradí lékaři 26. listopadu část hrudní kosti, žeber a kloubů implantátem na míru. Druhý zákrok v Česku.",
+      "tag": "lidé",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-21-odstrel-kancu-vystupni",
+      "date": "2026-11-21",
+      "title": "Na okraji Ústí myslivci odstřelili šestnáct divočáků. Strážníci hlídali ulici Výstupní",
+      "lede": "Myslivci na okraji Ústí ulovili 16 kusů černé zvěře. Městská policie hlídala honitbu a řídila dopravu ve Výstupní ulici.",
+      "tag": "příroda",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-20-regiojet-nove-vlaky",
       "date": "2026-11-20",
