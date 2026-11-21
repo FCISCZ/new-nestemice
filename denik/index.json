@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-21T07:13:20Z",
+  "generated": "2026-11-21T14:14:29Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-21-hoaxy-kradeze-aut",
+      "date": "2026-11-21",
+      "title": "Páska na klice ani vajíčko na skle. Varování před triky zlodějů aut jsou většinou hoaxy",
+      "lede": "Sítěmi kolují varování před triky zlodějů u ústeckých supermarketů. Páska na klice, bankovka za stěračem ani vajíčko na skle se nepotvrdily.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-21-zachranari-tyrane-deti",
+      "date": "2026-11-21",
+      "title": "Krajští záchranáři mají novou metodiku. Pomáhá jim rozpoznat týrané a zanedbávané dítě",
+      "lede": "Záchranka Ústeckého kraje pracuje podle příručky Syndrom CAN v urgentní medicíně. Posádky si všímají i signálů, které nejsou na první pohled vidět.",
+      "tag": "lidé",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-21-zastavka-masarykova-nemocnice",
       "date": "2026-11-21",
