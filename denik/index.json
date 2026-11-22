@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-22T07:12:40Z",
+  "generated": "2026-11-22T14:13:53Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-22-svati-v-muzeu",
+      "date": "2026-11-22",
+      "title": "Místo strašidel svatí. Oblastní muzeum v Ústí provedlo děti sobotním programem se svatým Václavem",
+      "lede": "Rodinnou akci Strašidla v muzeu letos provázeli čeští svatí. Děti si hrály, vyráběly, luštily hádanky a fotily se se lvem.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-22-vystava-orchideji-teplice",
+      "date": "2026-11-22",
+      "title": "Tisíc orchidejí ve skleníku Tropicana. Teplická botanická zahrada má první velkou výstavu orchidejí",
+      "lede": "Výstava Orchi(dějiství) v Teplicích potrvá do 29. listopadu. Otevřeno je denně 9–17 h, mimořádně i v pondělí 23. listopadu.",
+      "tag": "příroda",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-22-odpocet-trestnych-bodu",
+      "date": "2026-11-22",
+      "title": "Do konce roku a pak znovu v lednu. Řidiči si mohou odečíst až osm trestných bodů",
+      "lede": "Školení bezpečné jízdy v prosinci a další v lednu smaže až osm bodů. Platí to jen pro řidiče, kteří mají nejvýš deset bodů.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
     {
       "slug": "2026-11-22-nehody-sobota-usti",
       "date": "2026-11-22",
