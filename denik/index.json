@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-21T14:14:29Z",
+  "generated": "2026-11-22T07:12:40Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-22-nehody-sobota-usti",
+      "date": "2026-11-22",
+      "title": "Auto na střeše u Všebořické a tři zranění v Klíšské. Sobota v Ústí přinesla dvě vážnější nehody",
+      "lede": "Na křižovatce Všebořické a Lipové skončilo auto na střeše, večer se v Klíšské srazila dvě auta a tři lidé utrpěli zranění.",
+      "tag": "doprava",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-22-fotbal-nestemice-bronz",
+      "date": "2026-11-22",
+      "title": "Neštěmičtí fotbalisté přezimují na třetím místě. Podzim zakončili výhrou 3:0 nad mosteckou juniorkou",
+      "lede": "Neštěmice porazily juniorku Baníku Most-Souš 3:0 a po podzimu jsou v krajském přeboru třetí s 29 body, bod za druhými Louny.",
+      "tag": "sport",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-22-vydejni-boxy-kraj",
+      "date": "2026-11-22",
+      "title": "V Ústeckém kraji stojí přes 1 400 výdejních boxů. Okres Ústí jich má 226",
+      "lede": "Výdejní boxy se šíří na sídliště i do malých obcí. V kraji jich je přes 1 400, různé firmy je často stavějí vedle sebe.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-21-hoaxy-kradeze-aut",
       "date": "2026-11-21",
