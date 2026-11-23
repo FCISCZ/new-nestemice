@@ -1,7 +1,30 @@
 {
-  "generated": "2026-11-23T07:16:02Z",
+  "generated": "2026-11-23T14:20:12Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-23-svihadlo-narodni-dum",
+      "date": "2026-11-23",
+      "title": "Švihadlo zahraje 27. listopadu v Národním domě. Přiveze i letošní album Něco se láme",
+      "lede": "Reggaeová kapela z Mladé Boleslavi vystoupí v pátek od 20 hodin na Velké Hradební. Vstupné 350 Kč v předprodeji, na místě 390 Kč.",
+      "tag": "kultura",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-23-vloupani-duchodce",
+      "date": "2026-11-23",
+      "title": "Sedmdesátičtyřletý muž je obviněn z jedenácti vloupání do domů a chat na Ústecku",
+      "lede": "Bral šperky, hodinky i hotovost, jednou pokladnu s téměř 70 tisíci. Policii pomohla DNA a kamery. Obvinění převzal ve vězení.",
+      "tag": "lidé",
+      "sources": [
+        "ustecky.denik.cz",
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-23-vanocni-trolejbusy",
       "date": "2026-11-23",
