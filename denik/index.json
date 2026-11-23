@@ -1,7 +1,41 @@
 {
-  "generated": "2026-11-22T14:13:53Z",
+  "generated": "2026-11-23T07:16:02Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-23-vanocni-trolejbusy",
+      "date": "2026-11-23",
+      "title": "Do ulic Ústí vyjely vánoční trolejbusy. V aplikaci je najdete podle dárečku",
+      "lede": "Dva vyzdobené trolejbusy jezdí od 23. listopadu, vánoční autobus se přidá 4. prosince. Ve městě zůstanou do Tří králů.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz",
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-23-hvezdarna-libonov",
+      "date": "2026-11-23",
+      "title": "Spolek obnovuje hvězdárnu v Liboňově. Magistrát ji ale vymazal z registru staveb",
+      "lede": "Stavební úřad povolil renovaci observatoře u Telnice, magistrát pak uznal, že stavba už neexistuje. Spolek podal žalobu.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-23-vetrne-elektrarny-kraj",
+      "date": "2026-11-23",
+      "title": "Kraj chce omezit vysoké větrníky v Krušných horách. Zastupitelé rozhodnou v prosinci",
+      "lede": "Nová pravidla mají chránit krajinu a tetřívka na zhruba třech procentech území kraje podél hranice s Německem.",
+      "tag": "příroda",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-22-svati-v-muzeu",
       "date": "2026-11-22",
