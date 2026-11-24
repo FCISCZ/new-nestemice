@@ -1,7 +1,41 @@
 {
-  "generated": "2026-11-24T07:14:09Z",
+  "generated": "2026-11-24T14:17:49Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-24-jizdne-duk-zdrazeni",
+      "date": "2026-11-24",
+      "title": "Jízdné v kraji od ledna podraží zhruba o pět procent. V mobilních aplikacích zůstanou ceny stejné",
+      "lede": "DÚK od ledna zdraží v průměru o 4,9 %. Jízdenky z DÚKapky, IDOS a Můj vlak zůstanou za dnešní ceny. Končí vlaková linka U7.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz",
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-24-snezeni-ustecko",
+      "date": "2026-11-24",
+      "title": "Na Ústecko se ve čtvrtek může vrátit sníh. Do té doby slunečno a noční mrazy",
+      "lede": "V Ústí v noci až minus pět, na horách k minus deseti. Ve čtvrtek se čeká sněžení, nejvíc na Telnici a v Adolfově.",
+      "tag": "příroda",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-24-jarmark-chabarovice",
+      "date": "2026-11-24",
+      "title": "Chabařovice měly dvanáctý vánoční jarmark. Prodávali na něm i senioři z místního domova",
+      "lede": "Téměř čtyřicet prodejců v Kulturním domě Zátiší a na Kostelním náměstí. Výtěžek stánku seniorů jde na jejich volnočasové aktivity.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-24-novy-primator-vohryzka",
       "date": "2026-11-24",
