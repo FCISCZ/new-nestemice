@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-23T14:20:12Z",
+  "generated": "2026-11-24T07:14:09Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-24-novy-primator-vohryzka",
+      "date": "2026-11-24",
+      "title": "Ústí má nového primátora. Zastupitelé zvolili Tomáše Vohryzku z Jednoho Ústí",
+      "lede": "Jedno Ústí sestavilo radu samo, poprvé jednobarevnou. Náměstky jsou Žákovská, Křivan a Černá, gesce zatím zveřejněny nebyly.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-24-klavirni-soutez-virtuosi",
+      "date": "2026-11-24",
+      "title": "Na klavírní soutěž Virtuosi per musica di pianoforte přijely děti ze šesti zemí. Vyhrál Cyril Matyáš",
+      "lede": "Ústí hostilo 59. ročník mezinárodní klavírní soutěže. Mladí pianisté přijeli i z Mongolska, Tchaj-wanu nebo Finska.",
+      "tag": "kultura",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-24-lodni-linky-souteze",
+      "date": "2026-11-24",
+      "title": "Kraj hledá dopravce pro lodě na Labi na dalších pět let. Chce i rezervační systém",
+      "lede": "Soutěž na lodní linky pro roky 2027–2031 počítá se třemi plavidly. V adventu mezitím jezdí parník Labe do Litoměřic.",
+      "tag": "doprava",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-23-svihadlo-narodni-dum",
       "date": "2026-11-23",
