@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-24T14:17:49Z",
+  "generated": "2026-11-25T07:12:15Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-25-parkoviste-mirak",
+      "date": "2026-11-25",
+      "title": "Díra na Míráku má sloužit k parkování. Radní ji svěřili Městským službám",
+      "lede": "Radní schválili zápůjčku Bloku 004 Městským službám. Ty mají areál otevřít pro parkování, vedení města slibuje do půl roku.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-25-remeslne-dny-vojnovicova",
+      "date": "2026-11-25",
+      "title": "Žáky ze Vojnovičovy učili studenti. V dílnách obráběli kov a řídili průmyslového robota",
+      "lede": "Řemeslné dny na průmyslovce: lektory dělali studenti, děti zkusily CNC, robota i CAD a odnesly si kovový svícen.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-25-mere-setro-retail",
+      "date": "2026-11-25",
+      "title": "Obchod v Předlicích po konci Mere funguje dál. Provozuje ho firma Šetro Retail",
+      "lede": "Prodejna v ulici U Skladiště má přeškrtnutý nápis Mere, ale jede dál pod firmou Šetro Retail. Zboží i ceny zůstaly.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-24-jizdne-duk-zdrazeni",
       "date": "2026-11-24",
