@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-25T07:12:15Z",
+  "generated": "2026-11-25T14:15:45Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-25-ksukol-zoo",
+      "date": "2026-11-25",
+      "title": "V ústecké zoo žije ksukol. Vzácného nočního primáta chovají v kontinentální Evropě jen tři zahrady",
+      "lede": "Šestiletý samec Feo přijel z Dublinu a bydlí v bývalém sloninci, kde vzniklo první ústecké nokturnárium. Zoo chce i samici.",
+      "tag": "příroda",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-25-straznici-defibrilace",
+      "date": "2026-11-25",
+      "title": "Přes sto ústeckých strážníků se u záchranářů učilo resuscitovat a používat defibrilátor",
+      "lede": "Strážníci městské policie prošli v říjnu a listopadu školením záchranářů. Učili se resuscitaci a práci s AED.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-25-rada-mestske-spolecnosti",
+      "date": "2026-11-25",
+      "title": "Nová rada obsadila vedení dopravního podniku a Metropolnetu. Město má zástupce i u rychlotratě",
+      "lede": "Radní jmenovali nové představenstvo dopravního podniku i Metropolnetu a vyslali zástupce do skupiny pro trať Drážďany–Praha.",
+      "tag": "úřad",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-25-parkoviste-mirak",
       "date": "2026-11-25",
