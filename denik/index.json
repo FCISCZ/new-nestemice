@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-25T14:15:45Z",
+  "generated": "2026-11-26T07:12:27Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-26-strom-prani-ujep",
+      "date": "2026-11-26",
+      "title": "Univerzitní Strom splněných přání letos obdaruje seniory z domova v Krásném Březně",
+      "lede": "UJEP rozsvítí vánoční strom v pátek 27. listopadu. Přání na větvích patří klientům Domova pro seniory Krásné Březno.",
+      "tag": "komunita",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-26-vanocni-dilny-knihovna",
+      "date": "2026-11-26",
+      "title": "Krajská knihovna chystá v sobotu Vánoční dílny. Vyrábět se budou ozdoby, přáníčka i krmení pro ptáky",
+      "lede": "Vánoční dílny v Knihovně Ústeckého kraje proběhnou v sobotu 28. listopadu od 13 do 18 hodin. Vstupné 50 korun.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-26-chabarovice-domecek-skola",
+      "date": "2026-11-26",
+      "title": "Chabařovice chystají vlastní středisko volného času. Škola v roce 2028 oslaví sto let",
+      "lede": "Při chabařovické škole má vzniknout „Domeček“ pro všechny generace. Město sbírá staré fotografie ke stému výročí školy.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-25-ksukol-zoo",
       "date": "2026-11-25",
