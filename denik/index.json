@@ -1,7 +1,41 @@
 {
-  "generated": "2026-11-27T07:12:32Z",
+  "generated": "2026-11-27T14:13:53Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-27-uzavirka-pristavni-linka-85",
+      "date": "2026-11-27",
+      "title": "Přístavní ulice bude o víkendu znovu zavřená. Linka 85 pojede objížďkou přes Mírové náměstí",
+      "lede": "Kvůli pracím na Benešově mostě se o víkendu zavře I/30 v povodňové vaně. Linka 85 do Vaňova pojede přes Mírové náměstí.",
+      "tag": "doprava",
+      "sources": [
+        "ustecky.denik.cz",
+        "dpmul.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-27-podvod-globus-trmice",
+      "date": "2026-11-27",
+      "title": "Dvojice u Globusu v Trmicích prodala za půjčku falešný iPhone a šperky. Policie ji chytila na stejném parkovišti",
+      "lede": "Dva cizinci vylákali u trmického Globusu 500 eur za padělaný telefon a šperky. Po třech dnech se vrátili a policie je zadržela.",
+      "tag": "lidé",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-27-mentori-reditele-strekov",
+      "date": "2026-11-27",
+      "title": "Noví ředitelé krajských škol dostali mentory. Pomáhat budou i v ústecké průmyslovce a na Střekově",
+      "lede": "Kraj jmenoval pět uvádějících ředitelů. Ředitel ústecké SPŠ povede kolegu z Varnsdorfu, Dětský domov Střekov má mentorku z Duchcova.",
+      "tag": "komunita",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-27-zruseni-obvodu-hlasovani",
       "date": "2026-11-27",
