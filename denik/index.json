@@ -1,7 +1,29 @@
 {
-  "generated": "2026-11-26T14:14:42Z",
+  "generated": "2026-11-27T07:12:32Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-27-zruseni-obvodu-hlasovani",
+      "date": "2026-11-27",
+      "title": "Zastupitelé budou 14. prosince hlasovat o zrušení obvodů. Týká se to i Neštěmic",
+      "lede": "Koalice Jedno Ústí chce správu čtyř obvodů převést pod magistrát. Místo zastupitelstev 27 čtvrťových výborů. Opozice je proti.",
+      "tag": "úřad",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-27-koncert-baby-di-brna",
+      "date": "2026-11-27",
+      "title": "Sbor Baby di Brná zazpívá 4. prosince potřetí na vánočním koncertě",
+      "lede": "Spolek Veselá Brná zve na třetí vánoční koncert sboru Baby di Brná. Pátek 4. prosince od 18 hodin, vstup zdarma, nutná rezervace.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-26-advent-rozsviceni-stromu",
       "date": "2026-11-26",
