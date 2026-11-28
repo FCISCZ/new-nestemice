@@ -1,7 +1,52 @@
 {
-  "generated": "2026-11-28T07:13:08Z",
+  "generated": "2026-11-28T14:14:13Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-28-aplikace-ucko-lanovka",
+      "date": "2026-11-28",
+      "title": "Město spustilo aplikaci Účko. Ústečané v ní mají lanovku na Větruši a od neděle i kluziště zdarma",
+      "lede": "Karta Ústečana je v mobilu. S aplikací Účko jezdí lidé s trvalým pobytem v Ústí lanovkou zdarma, od neděle i bruslí na Větruši.",
+      "tag": "úřad",
+      "sources": [
+        "e-usti.cz",
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "slug": "2026-11-28-vanocni-trhy-omezeni",
+      "date": "2026-11-28",
+      "title": "Vánoční trhy omezí dopravu v centru. Revoluční jen pro MHD, zásobování ráno od 8 do 10",
+      "lede": "Po celý Advent projede Revoluční ulicí jen MHD, v centru platí třicítka a zásobování jen ráno. Trhy se otevřou v neděli ve 12 hodin.",
+      "tag": "doprava",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-28-respiracni-nemoci-pokles",
+      "date": "2026-11-28",
+      "title": "Respiračních nemocí v Ústí ubylo o pětinu. Mezi původci převládá chřipka typu A",
+      "lede": "Nemocnost v Ústí klesla o 19,2 procenta, nejvíc v kraji. Převládá chřipka typu A, covidu v kraji ubylo o 22 procent.",
+      "tag": "lidé",
+      "sources": [
+        "e-usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-28-zastavka-jatecni-linka-83",
+      "date": "2026-11-28",
+      "title": "Zastávka Jateční pro linku 83 se kvůli stavbě přesunula do Textilní ulice",
+      "lede": "Od 25. listopadu až do odvolání staví linka 83 v Krásném Březně ve směru do centra místo v Jateční v ulici Textilní.",
+      "tag": "doprava",
+      "sources": [
+        "dpmul.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-28-stromky-ctvrti",
       "date": "2026-11-28",
