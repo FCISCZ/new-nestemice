@@ -1,7 +1,40 @@
 {
-  "generated": "2026-11-27T14:13:53Z",
+  "generated": "2026-11-28T07:13:08Z",
   "description": "Seznam článků deníku. Aktualizuje AI (Claude Code nebo designér) při přidání článku. Každý článek je markdown v denik/clanky/YYYY-MM-DD-slug.md s frontmatterem. AI NESMÍ měnit nic mimo denik/.",
   "articles": [
+    {
+      "slug": "2026-11-28-stromky-ctvrti",
+      "date": "2026-11-28",
+      "title": "Vánoční stromek může mít každá čtvrť. Město zve sousedy, ať si ho ozdobí společně",
+      "lede": "Do 4. prosince se lze přihlásit na vanocnistromky.usti.cz. Město propojí sousedy, pomůže s termínem a dodá základní ozdoby.",
+      "tag": "komunita",
+      "sources": [
+        "usti.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-28-cesko-zpiva-koledy",
+      "date": "2026-11-28",
+      "title": "Česko zpívá koledy 9. prosince. Na Ústecku se zatím přidaly Chabařovice a dvě místa v Ústí",
+      "lede": "Ve středu 9. prosince v 18 hodin se zpívá po celé zemi. Na Ústecku v Chabařovicích a ve Vinařské a Masarykově ulici v Ústí.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
+    {
+      "slug": "2026-11-28-trmice-vanocni-strom",
+      "date": "2026-11-28",
+      "title": "Trmice rozsvítily vánoční strom mezi prvními na Ústecku. Přišli andělé na chůdách i Olaf",
+      "lede": "V Trmicích v pátek večer rozsvítili strom. Program s DJs, koncertem Pavla Houfka a Patrika Bartka a světelnou show v 18:30.",
+      "tag": "kultura",
+      "sources": [
+        "ustecky.denik.cz"
+      ],
+      "reading_time": "1 min"
+    },
     {
       "slug": "2026-11-27-uzavirka-pristavni-linka-85",
       "date": "2026-11-27",
